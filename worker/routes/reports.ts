@@ -1,1 +1,520 @@
-LyoqCiAqIFJ1dGUgbGFwb3JhbiAoa29udHJhayBHMWIgbW9kdWwgTGFwb3Jhbikg4oCUIGhhbnlhIG93bmVyL21hbmFnZXIuCiAqCiAqIERlZmluaXNpIGFuZ2thIG1lbmdpa3V0aSBNZXRyaWMgRGljdGlvbmFyeSBMZXN0YXJpIChhcnRlZmFrIExpdmluZyBXb3JsZAogKiBpZCA2LCAiRzEg4oCUIE1ldHJpYyBEaWN0aW9uYXJ5ICYgUnVtdXMgUmVrb25zaWxpYXNpIiwgdjEuMCk6CiAqIC0gTS0wMSBQZW5qdWFsYW4gS290b3IgID0gzqMgKHF0eSB4IGhhcmdhIHNuYXBzaG90KSA9IM6jIG9yZGVycy5zdWJ0b3RhbAogKiAgIEhBTllBIHBhZGEgdHJhbnNha3NpIExVTkFTIChwYXltZW50X3N0YXR1cyA9ICdwYWlkJyk7IGRyYWZ0L3BlbmRpbmcvCiAqICAgYmF5YXIgc2ViYWdpYW4vdm9pZCBUSURBSyBwZXJuYWggbWVuamFkaSBwZW5kYXBhdGFuIChwcmluc2lwIDEgJiAyLjIpLgogKiAtIE0tMDIgRGlza29uIFRvdGFsICAgICA9IM6jIG9yZGVycy5kaXNjb3VudF90b3RhbCBwYWRhIHRyYW5zYWtzaSBsdW5hcy4KICogLSBNLTAzIFJlZnVuZCBUb3RhbCAgICAgPSDOoyBhbG9rYXNpIHBlbWJheWFyYW4gYmVyc3RhdHVzICdyZWZ1bmRlZCcgcGFkYQogKiAgIHBlcmlvZGUgcmVmdW5kIHRlcmphZGkgKGJhc2lzIHBlcmlvZGUgcmVmdW5kZWRfYXQ7IHRyYW5zYWtzaSBhc2FsIHRpZGFrCiAqICAgZGllZGl0IG11bmR1ciDigJQgcHJpbnNpcCA1KS4gU2tlbWEgdGlkYWsgcHVueWEgdGFiZWwgcmVmdW5kIHRlcnNlbmRpcmk7CiAqICAgcmVmdW5kZWRfYXQgZGl3YWtpbGkgcGF5bWVudHMudXBkYXRlZF9hdCBzYWF0IHN0YXR1cyBtZW5qYWRpICdyZWZ1bmRlZCcuCiAqIC0gTS0wNCBQZW5qdWFsYW4gQmVyc2loID0gTS0wMSAtIE0tMDIgLSBNLTAzLgogKiAtIE0tMDUgQ2FzaCBDb2xsZWN0ZWQgcGVyIG1ldG9kZSA9IM6jIGFtb3VudCBBUFBMSUVEIChwYXltZW50X2FsbG9jYXRpb25zLAogKiAgIEJVS0FOIGFtb3VudCB5YW5nIGRpdGVuZGVya2FuIOKAlCBrZW1iYWxpYW4gYnVrYW4gcGVuZXJpbWFhbiwgcHJpbnNpcCA2KQogKiAgIGRhcmkgcGVtYmF5YXJhbiBzZXR0bGVkLCBkaWt1cmFuZ2kgcmVmdW5kIHBlciBtZXRvZGU7IHBlbWJheWFyYW4KICogICAncGVuZGluZycgZGlsYXBvcmthbiB0ZXJwaXNhaCBkYW4gdGlkYWsgbWFzdWsgcGVuZXJpbWFhbi4KICogLSBNLTA2IFRyYW5zYWtzaSBMdW5hcyAgPSBDT1VOVCBvcmRlciBwYXltZW50X3N0YXR1cz0ncGFpZCcuCiAqIC0gTS0wNyBBT1YgPSBNLTA0IC8gTS0wNjsgYmlsYSBNLTA2ID0gMCBoYXNpbG55YSBudWxsICgi4oCUIiksIGJ1a2FuIDAuCiAqIC0gTS0wOCBQcm9kdWsgVGVybGFyaXMgID0gcmFua2luZyBwZXIgcHJvZHVrIGRhcmkgb3JkZXIgbHVuYXM6IHF0eSBkYW4KICogICByZXZlbnVlIGtvdG9yIChsaW5lX3RvdGFsICsgbGluZV9kaXNjb3VudCA9IHF0eSB4IGhhcmdhIHNuYXBzaG90KS4KICogLSBNLTEyIFNlbGlzaWggS2FzIFNoaWZ0ID0gY291bnRlZCAtIGV4cGVjdGVkOyBleHBlY3RlZCA9IG9wZW5pbmcKICogICArIHBlbmVyaW1hYW4gdHVuYWkgc2V0dGxlZCAoYXBwbGllZCkgLSByZWZ1bmQgdHVuYWkgKyBtdXRhc2kga2FzLgogKgogKiBQZW55aW1wYW5nYW4geWFuZyBkaXNhZGFyaSBkYXJpIGRpY3Rpb25hcnkgKGRpY2F0YXQsIGJ1a2FuIGRpc2VtYnVueWlrYW4pOgogKiAtIERpY3Rpb25hcnkgbWVtYWthaSBwYWlkX2F0IHNlYmFnYWkgYmFzaXMgcGVyaW9kZSBwZW5qdWFsYW47IHNrZW1hIEcxYQogKiAgIHRpZGFrIHB1bnlhIGtvbG9tIHBhaWRfYXQsIGphZGkgYmFzaXMgcGVyaW9kZSBvcmRlciBsdW5hcyBtZW1ha2FpCiAqICAgb3JkZXJzLmNyZWF0ZWRfYXQgcGFkYSBoYXJpIHlhbmcgc2FtYSAob3JkZXIgZGlidWF0IGRhbiBkaWx1bmFzaSBwYWRhCiAqICAgYWx1ciBrYXNpciBub3JtYWwgbWVtYW5nIGJlcnVydXRhbiBkaSBoYXJpIHlhbmcgc2FtYSkuCiAqIC0gSFBQIChNLTEwKSAmIE1hcmdpbiBLb3RvciBFc3RpbWFzaSAoTS0xMSkgVElEQUsgZGloaXR1bmcgZGkgc2luaToKICogICBvcmRlcl9pdGVtcyB0aWRhayBtZW55aW1wYW4gYmlheWEgcmVzZXAgc25hcHNob3QsIGphZGkgYW5na2EgSFBQIGFwYQogKiAgIHB1biBha2FuIG1lbmdhcmFuZy4gTWVudW5nZ3Uga29sb20gc25hcHNob3QgYmlheWEgZGkgZ2F0ZSBiZXJpa3V0bnlhLgogKiAtIElkZW50aXRhcyBSLTIgZGljdGlvbmFyeSAozqMgY2FzaCBjb2xsZWN0ZWQgPSBwZW5qdWFsYW4gYmVyc2loKSBoYW55YQogKiAgIGJhbGFuY2UgYmlsYSBwYWphayAwLCBrYXJlbmEgTS0wNCB0aWRhayBtZW5ndXJhbmdpIHBhamFrIHNlZGFuZ2thbgogKiAgIGFsb2thc2kgcGVtYmF5YXJhbiBtZW51dHVwIGdyYW5kX3RvdGFsICh0ZXJtYXN1ayBwYWphaykuIHRheF90b3RhbAogKiAgIGRpbGFwb3JrYW4gdGVycGlzYWggYWdhciBzZWxpc2loIGluaSB0cmFuc3BhcmFuLgogKgogKiBTZW11YSB0YW5nZ2FsIGxhcG9yYW4gYWRhbGFoIGhhcmkga2FsZW5kZXIgQXNpYS9KYWthcnRhIChVVEMrNyB0ZXRhcCk7CiAqIHJlbnRhbmcgZWZla3RpZiBkaWtlbWJhbGlrYW4gZGkgZGF0YS5wZXJpb2Qga2FyZW5hIG1ldGEgZW52ZWxvcGUgRzFiCiAqIHRpZGFrIHB1bnlhIHRlbXBhdCB1bnR1a255YS4KICovCmltcG9ydCB7IEhvbm8gfSBmcm9tICJob25vIjsKaW1wb3J0IHsgQXBpRXJyb3IgfSBmcm9tICIuLi9saWIvZXJyb3JzIjsKaW1wb3J0IHsgc3VjY2Vzc0VudmVsb3BlIH0gZnJvbSAiLi4vbGliL2VudmVsb3BlIjsKaW1wb3J0IHsgcmVxdWlyZVJvbGUgfSBmcm9tICIuLi9saWIvYXV0aCI7CmltcG9ydCB7IHBhcnNlUGFnaW5hdGlvbiB9IGZyb20gIi4uL2xpYi92YWxpZGF0ZSI7CmltcG9ydCB7IHNldHRsZWRDYXNoVG90YWwsIGNhc2hNb3ZlbWVudHNUb3RhbCwgdHlwZSBTaGlmdFJvdyB9IGZyb20gIi4vc2hpZnRzIjsKaW1wb3J0IHR5cGUgeyBFbnYsIFZhcmlhYmxlcyB9IGZyb20gIi4uL2xpYi90eXBlcyI7Cgpjb25zdCByZXBvcnRzID0gbmV3IEhvbm88eyBCaW5kaW5nczogRW52OyBWYXJpYWJsZXM6IFZhcmlhYmxlcyB9PigpOwoKY29uc3QgSkFLQVJUQV9PRkZTRVRfTVMgPSA3ICogNjAgKiA2MCAqIDEwMDA7CmNvbnN0IERBWV9NUyA9IDI0ICogNjAgKiA2MCAqIDEwMDA7CmNvbnN0IE1FVEhPRFMgPSBbImNhc2giLCAicXJpcyIsICJlZGMiLCAidHJhbnNmZXIiXSBhcyBjb25zdDsKCi8qKiBBd2FsIGhhcmkgKGVwb2NoIG1zKSB1bnR1ayB0YW5nZ2FsIGthbGVuZGVyIEFzaWEvSmFrYXJ0YSBZWVlZLU1NLURELiAqLwpmdW5jdGlvbiBqYWthcnRhRGF5U3RhcnQoZGF0ZVN0cjogc3RyaW5nKTogbnVtYmVyIHsKICBjb25zdCBtID0gL14oXGR7NH0pLShcZHsyfSktKFxkezJ9KSQvLmV4ZWMoZGF0ZVN0cik7CiAgaWYgKCFtKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoIlZBTElEQVRJT05fRVJST1IiLCAiRm9ybWF0IHRhbmdnYWwgaGFydXMgWVlZWS1NTS1ERCIsIHsKICAgICAgZGF0ZTogZGF0ZVN0ciwKICAgIH0pOwogIH0KICBjb25zdCB5ID0gTnVtYmVyKG1bMV0pOyBjb25zdCBtbyA9IE51bWJlcihtWzJdKTsgY29uc3QgZCA9IE51bWJlcihtWzNdKTsKICBjb25zdCB1dGMgPSBEYXRlLlVUQyh5LCBtbyAtIDEsIGQpOwogIGNvbnN0IGNoZWNrID0gbmV3IERhdGUodXRjKTsKICBpZiAoCiAgICBjaGVjay5nZXRVVENGdWxsWWVhcigpICE9PSB5IHx8IGNoZWNrLmdldFVUQ01vbnRoKCkgIT09IG1vIC0gMSB8fAogICAgY2hlY2suZ2V0VVRDRGF0ZSgpICE9PSBkCiAgKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoIlZBTElEQVRJT05fRVJST1IiLCAiVGFuZ2dhbCB0aWRhayBzYWgiLCB7IGRhdGU6IGRhdGVTdHIgfSk7CiAgfQogIHJldHVybiB1dGMgLSBKQUtBUlRBX09GRlNFVF9NUzsKfQoKZnVuY3Rpb24gamFrYXJ0YVRvZGF5KCk6IHN0cmluZyB7CiAgY29uc3Qgbm93Smt0ID0gbmV3IERhdGUoRGF0ZS5ub3coKSArIEpBS0FSVEFfT0ZGU0VUX01TKTsKICBjb25zdCB5ID0gbm93Smt0LmdldFVUQ0Z1bGxZZWFyKCk7CiAgY29uc3QgbW8gPSBTdHJpbmcobm93Smt0LmdldFVUQ01vbnRoKCkgKyAxKS5wYWRTdGFydCgyLCAiMCIpOwogIGNvbnN0IGQgPSBTdHJpbmcobm93Smt0LmdldFVUQ0RhdGUoKSkucGFkU3RhcnQoMiwgIjAiKTsKICByZXR1cm4gYCR7eX0tJHttb30tJHtkfWA7Cn0KCi8qKiBQYXJhbWV0ZXIgZnJvbS90bzogdGVyaW1hIFlZWVktTU0tREQgKGhhcmkgSmFrYXJ0YSkgYXRhdSBlcG9jaCBtcy4gKi8KZnVuY3Rpb24gcGFyc2VSYW5nZShjOiB7IHJlcTogeyBxdWVyeTogKGs6IHN0cmluZykgPT4gc3RyaW5nIHwgdW5kZWZpbmVkIH0gfSk6IHsKICBmcm9tOiBudW1iZXI7IHRvOiBudW1iZXI7Cn0gewogIGNvbnN0IHJhd0Zyb20gPSBjLnJlcS5xdWVyeSgiZnJvbSIpOwogIGNvbnN0IHJhd1RvID0gYy5yZXEucXVlcnkoInRvIik7CiAgbGV0IGZyb206IG51bWJlcjsKICBsZXQgdG86IG51bWJlcjsKICBpZiAocmF3RnJvbSA9PT0gdW5kZWZpbmVkKSB7CiAgICBmcm9tID0gamFrYXJ0YURheVN0YXJ0KGpha2FydGFUb2RheSgpKTsKICB9IGVsc2UgaWYgKC9eXGR7NH0tXGR7Mn0tXGR7Mn0kLy50ZXN0KHJhd0Zyb20pKSB7CiAgICBmcm9tID0gamFrYXJ0YURheVN0YXJ0KHJhd0Zyb20pOwogIH0gZWxzZSBpZiAoTnVtYmVyLmlzRmluaXRlKE51bWJlcihyYXdGcm9tKSkpIHsKICAgIGZyb20gPSBOdW1iZXIocmF3RnJvbSk7CiAgfSBlbHNlIHsKICAgIHRocm93IG5ldyBBcGlFcnJvcigiVkFMSURBVElPTl9FUlJPUiIsICJQYXJhbWV0ZXIgZnJvbSB0aWRhayBzYWgiLCB7IGZyb206IHJhd0Zyb20gfSk7CiAgfQogIGlmIChyYXdUbyA9PT0gdW5kZWZpbmVkKSB7CiAgICB0byA9IGZyb20gKyBEQVlfTVM7CiAgfSBlbHNlIGlmICgvXlxkezR9LVxkezJ9LVxkezJ9JC8udGVzdChyYXdUbykpIHsKICAgIHRvID0gamFrYXJ0YURheVN0YXJ0KHJhd1RvKSArIERBWV9NUzsgLy8gaW5rbHVzaWYgc2FtcGFpIGFraGlyIGhhcmkgJ3RvJwogIH0gZWxzZSBpZiAoTnVtYmVyLmlzRmluaXRlKE51bWJlcihyYXdUbykpKSB7CiAgICB0byA9IE51bWJlcihyYXdUbyk7CiAgfSBlbHNlIHsKICAgIHRocm93IG5ldyBBcGlFcnJvcigiVkFMSURBVElPTl9FUlJPUiIsICJQYXJhbWV0ZXIgdG8gdGlkYWsgc2FoIiwgeyB0bzogcmF3VG8gfSk7CiAgfQogIGlmICh0byA8PSBmcm9tKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoIlZBTElEQVRJT05fRVJST1IiLCAiUmVudGFuZyB0YW5nZ2FsIGtvc29uZyIsIHsKICAgICAgZnJvbTogcmF3RnJvbSA/PyBudWxsLCB0bzogcmF3VG8gPz8gbnVsbCwKICAgIH0pOwogIH0KICByZXR1cm4geyBmcm9tLCB0byB9Owp9CgovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIGRhaWx5CgpyZXBvcnRzLmdldCgiL3JlcG9ydHMvZGFpbHkiLCBhc3luYyAoYykgPT4gewogIGNvbnN0IHVzZXIgPSByZXF1aXJlUm9sZShjLCAib3duZXIiLCAibWFuYWdlciIpOwogIGNvbnN0IGRiID0gYy5lbnYuREI7CiAgY29uc3QgZGF0ZSA9IGMucmVxLnF1ZXJ5KCJkYXRlIikgPz8gamFrYXJ0YVRvZGF5KCk7CiAgY29uc3QgZnJvbSA9IGpha2FydGFEYXlTdGFydChkYXRlKTsKICBjb25zdCB0byA9IGZyb20gKyBEQVlfTVM7CgogIC8vIE9yZGVyIGx1bmFzIHBhZGEgaGFyaSBsYXBvcmFuIChiYXNpcyBjb2hvcnQgb3JkZXI7IGxpaGF0IGNhdGF0YW4gcGFpZF9hdCkuCiAgY29uc3QgcGFpZEFnZyA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgKICAgICAgYFNFTEVDVCBDT1VOVCgqKSBBUyBuLCBDT0FMRVNDRShTVU0oc3VidG90YWwpLCAwKSBBUyBncm9zcywKICAgICAgICAgICAgICBDT0FMRVNDRShTVU0oZGlzY291bnRfdG90YWwpLCAwKSBBUyBkaXNjb3VudCwKICAgICAgICAgICAgICBDT0FMRVNDRShTVU0odGF4X3RvdGFsKSwgMCkgQVMgdGF4LAogICAgICAgICAgICAgIENPQUxFU0NFKFNVTShncmFuZF90b3RhbCksIDApIEFTIGdyYW5kCiAgICAgICAgIEZST00gb3JkZXJzCiAgICAgICAgV0hFUkUgb3V0bGV0X2lkID0gPyBBTkQgZGVsZXRlZF9hdCBJUyBOVUxMIEFORCBwYXltZW50X3N0YXR1cyA9ICdwYWlkJwogICAgICAgICAgQU5EIGNyZWF0ZWRfYXQgPj0gPyBBTkQgY3JlYXRlZF9hdCA8ID9gLAogICAgKQogICAgLmJpbmQodXNlci5vdXRsZXRfaWQsIGZyb20sIHRvKQogICAgLmZpcnN0PHsgbjogbnVtYmVyOyBncm9zczogbnVtYmVyOyBkaXNjb3VudDogbnVtYmVyOyB0YXg6IG51bWJlcjsgZ3JhbmQ6IG51bWJlciB9PigpOwoKICAvLyBSZWZ1bmQgcGFkYSBwZXJpb2RlIHJlZnVuZCAoTS0wMyk6IGFsb2thc2kgcGVtYmF5YXJhbiAncmVmdW5kZWQnLgogIGNvbnN0IHJlZnVuZEFnZyA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgKICAgICAgYFNFTEVDVCBDT1VOVChESVNUSU5DVCBwLmlkKSBBUyBuLCBDT0FMRVNDRShTVU0ocGEuYW1vdW50KSwgMCkgQVMgdG90YWwKICAgICAgICAgRlJPTSBwYXltZW50cyBwCiAgICAgICAgIEpPSU4gcGF5bWVudF9hbGxvY2F0aW9ucyBwYSBPTiBwYS5wYXltZW50X2lkID0gcC5pZAogICAgICAgIFdIRVJFIHBhLm91dGxldF9pZCA9ID8gQU5EIHAuc3RhdHVzID0gJ3JlZnVuZGVkJwogICAgICAgICAgQU5EIHAuZGVsZXRlZF9hdCBJUyBOVUxMIEFORCBwYS5kZWxldGVkX2F0IElTIE5VTEwKICAgICAgICAgIEFORCBwLnVwZGF0ZWRfYXQgPj0gPyBBTkQgcC51cGRhdGVkX2F0IDwgP2AsCiAgICApCiAgICAuYmluZCh1c2VyLm91dGxldF9pZCwgZnJvbSwgdG8pCiAgICAuZmlyc3Q8eyBuOiBudW1iZXI7IHRvdGFsOiBudW1iZXIgfT4oKTsKCiAgY29uc3QgZ3Jvc3NTYWxlcyA9IHBhaWRBZ2c/Lmdyb3NzID8/IDA7CiAgY29uc3QgZGlzY291bnRUb3RhbCA9IHBhaWRBZ2c/LmRpc2NvdW50ID8/IDA7CiAgY29uc3QgcmVmdW5kVG90YWwgPSByZWZ1bmRBZ2c/LnRvdGFsID8/IDA7CiAgY29uc3QgbmV0U2FsZXMgPSBncm9zc1NhbGVzIC0gZGlzY291bnRUb3RhbCAtIHJlZnVuZFRvdGFsOyAvLyBNLTA0CiAgY29uc3QgcGFpZENvdW50ID0gcGFpZEFnZz8ubiA/PyAwOwogIGNvbnN0IGFvdiA9IHBhaWRDb3VudCA+IDAgPyBNYXRoLnJvdW5kKG5ldFNhbGVzIC8gcGFpZENvdW50KSA6IG51bGw7IC8vIE0tMDcKCiAgLy8gSnVtbGFoIG9yZGVyIHBlciBzdGF0dXMgKHNlbXVhIG9yZGVyIHlhbmcgZGlidWF0IGhhcmkgaXR1KS4KICBjb25zdCB7IHJlc3VsdHM6IGJ5U3RhdHVzIH0gPSBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgIGBTRUxFQ1Qgc3RhdHVzLCBDT1VOVCgqKSBBUyBuIEZST00gb3JkZXJzCiAgICAgICAgV0hFUkUgb3V0bGV0X2lkID0gPyBBTkQgZGVsZXRlZF9hdCBJUyBOVUxMCiAgICAgICAgICBBTkQgY3JlYXRlZF9hdCA+PSA/IEFORCBjcmVhdGVkX2F0IDwgPwogICAgICAgIEdST1VQIEJZIHN0YXR1c2AsCiAgICApCiAgICAuYmluZCh1c2VyLm91dGxldF9pZCwgZnJvbSwgdG8pCiAgICAuYWxsPHsgc3RhdHVzOiBzdHJpbmc7IG46IG51bWJlciB9PigpOwogIGNvbnN0IHsgcmVzdWx0czogYnlQYXlTdGF0dXMgfSA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgKICAgICAgYFNFTEVDVCBwYXltZW50X3N0YXR1cywgQ09VTlQoKikgQVMgbiBGUk9NIG9yZGVycwogICAgICAgIFdIRVJFIG91dGxldF9pZCA9ID8gQU5EIGRlbGV0ZWRfYXQgSVMgTlVMTAogICAgICAgICAgQU5EIGNyZWF0ZWRfYXQgPj0gPyBBTkQgY3JlYXRlZF9hdCA8ID8KICAgICAgICBHUk9VUCBCWSBwYXltZW50X3N0YXR1c2AsCiAgICApCiAgICAuYmluZCh1c2VyLm91dGxldF9pZCwgZnJvbSwgdG8pCiAgICAuYWxsPHsgcGF5bWVudF9zdGF0dXM6IHN0cmluZzsgbjogbnVtYmVyIH0+KCk7CiAgY29uc3Qgb3JkZXJzQnlTdGF0dXM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7CiAgICBvcGVuOiAwLCBwYWlkOiAwLCBjb21wbGV0ZWQ6IDAsIHZvaWQ6IDAsCiAgfTsKICBmb3IgKGNvbnN0IHIgb2YgYnlTdGF0dXMpIG9yZGVyc0J5U3RhdHVzW3Iuc3RhdHVzXSA9IHIubjsKICBjb25zdCBvcmRlcnNCeVBheW1lbnRTdGF0dXM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7CiAgICB1bnBhaWQ6IDAsIHBhcnRpYWw6IDAsIHBhaWQ6IDAsCiAgfTsKICBmb3IgKGNvbnN0IHIgb2YgYnlQYXlTdGF0dXMpIG9yZGVyc0J5UGF5bWVudFN0YXR1c1tyLnBheW1lbnRfc3RhdHVzXSA9IHIubjsKCiAgLy8gUGVyIG1ldG9kZSBwZW1iYXlhcmFuIChNLTA1KTogc2V0dGxlZCAmIHBlbmRpbmcgZGFyaSBjcmVhdGVkX2F0CiAgLy8gcGVtYmF5YXJhbjsgcmVmdW5kIGRhcmkgdXBkYXRlZF9hdCAocGVyaW9kZSByZWZ1bmQpLgogIGNvbnN0IHBheW1lbnRNZXRob2RzOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPltdID0gW107CiAgZm9yIChjb25zdCBtZXRob2Qgb2YgTUVUSE9EUykgewogICAgY29uc3Qgc2V0dGxlZCA9IGF3YWl0IGRiCiAgICAgIC5wcmVwYXJlKAogICAgICAgIGBTRUxFQ1QgQ09VTlQoRElTVElOQ1QgcC5pZCkgQVMgbiwgQ09BTEVTQ0UoU1VNKHBhLmFtb3VudCksIDApIEFTIHRvdGFsCiAgICAgICAgICAgRlJPTSBwYXltZW50cyBwCiAgICAgICAgICAgSk9JTiBwYXltZW50X2FsbG9jYXRpb25zIHBhIE9OIHBhLnBheW1lbnRfaWQgPSBwLmlkCiAgICAgICAgICBXSEVSRSBwYS5vdXRsZXRfaWQgPSA/IEFORCBwLm1ldGhvZCA9ID8gQU5EIHAuc3RhdHVzID0gJ3NldHRsZWQnCiAgICAgICAgICAgIEFORCBwLmRlbGV0ZWRfYXQgSVMgTlVMTCBBTkQgcGEuZGVsZXRlZF9hdCBJUyBOVUxMCiAgICAgICAgICAgIEFORCBwLmNyZWF0ZWRfYXQgPj0gPyBBTkQgcC5jcmVhdGVkX2F0IDwgP2AsCiAgICAgICkKICAgICAgLmJpbmQodXNlci5vdXRsZXRfaWQsIG1ldGhvZCwgZnJvbSwgdG8pCiAgICAgIC5maXJzdDx7IG46IG51bWJlcjsgdG90YWw6IG51bWJlciB9PigpOwogICAgY29uc3QgcGVuZGluZyA9IGF3YWl0IGRiCiAgICAgIC5wcmVwYXJlKAogICAgICAgIGBTRUxFQ1QgQ09VTlQoRElTVElOQ1QgcC5pZCkgQVMgbiwgQ09BTEVTQ0UoU1VNKHBhLmFtb3VudCksIDApIEFTIHRvdGFsCiAgICAgICAgICAgRlJPTSBwYXltZW50cyBwCiAgICAgICAgICAgSk9JTiBwYXltZW50X2FsbG9jYXRpb25zIHBhIE9OIHBhLnBheW1lbnRfaWQgPSBwLmlkCiAgICAgICAgICBXSEVSRSBwYS5vdXRsZXRfaWQgPSA/IEFORCBwLm1ldGhvZCA9ID8gQU5EIHAuc3RhdHVzID0gJ3BlbmRpbmcnCiAgICAgICAgICAgIEFORCBwLmRlbGV0ZWRfYXQgSVMgTlVMTCBBTkQgcGEuZGVsZXRlZF9hdCBJUyBOVUxMCiAgICAgICAgICAgIEFORCBwLmNyZWF0ZWRfYXQgPj0gPyBBTkQgcC5jcmVhdGVkX2F0IDwgP2AsCiAgICAgICkKICAgICAgLmJpbmQodXNlci5vdXRsZXRfaWQsIG1ldGhvZCwgZnJvbSwgdG8pCiAgICAgIC5maXJzdDx7IG46IG51bWJlcjsgdG90YWw6IG51bWJlciB9PigpOwogICAgY29uc3QgcmVmdW5kZWQgPSBhd2FpdCBkYgogICAgICAucHJlcGFyZSgKICAgICAgICBgU0VMRUNUIENPVU5UKERJU1RJTkNUIHAuaWQpIEFTIG4sIENPQUxFU0NFKFNVTShwYS5hbW91bnQpLCAwKSBBUyB0b3RhbAogICAgICAgICAgIEZST00gcGF5bWVudHMgcAogICAgICAgICAgIEpPSU4gcGF5bWVudF9hbGxvY2F0aW9ucyBwYSBPTiBwYS5wYXltZW50X2lkID0gcC5pZAogICAgICAgICAgV0hFUkUgcGEub3V0bGV0X2lkID0gPyBBTkQgcC5tZXRob2QgPSA/IEFORCBwLnN0YXR1cyA9ICdyZWZ1bmRlZCcKICAgICAgICAgICAgQU5EIHAuZGVsZXRlZF9hdCBJUyBOVUxMIEFORCBwYS5kZWxldGVkX2F0IElTIE5VTEwKICAgICAgICAgICAgQU5EIHAudXBkYXRlZF9hdCA+PSA/IEFORCBwLnVwZGF0ZWRfYXQgPCA/YCwKICAgICAgKQogICAgICAuYmluZCh1c2VyLm91dGxldF9pZCwgbWV0aG9kLCBmcm9tLCB0bykKICAgICAgLmZpcnN0PHsgbjogbnVtYmVyOyB0b3RhbDogbnVtYmVyIH0+KCk7CiAgICBwYXltZW50TWV0aG9kcy5wdXNoKHsKICAgICAgbWV0aG9kLAogICAgICBzZXR0bGVkX2NvdW50OiBzZXR0bGVkPy5uID8/IDAsCiAgICAgIHNldHRsZWRfYW1vdW50OiBzZXR0bGVkPy50b3RhbCA/PyAwLAogICAgICBwZW5kaW5nX2NvdW50OiBwZW5kaW5nPy5uID8/IDAsCiAgICAgIHBlbmRpbmdfYW1vdW50OiBwZW5kaW5nPy50b3RhbCA/PyAwLAogICAgICByZWZ1bmRlZF9jb3VudDogcmVmdW5kZWQ/Lm4gPz8gMCwKICAgICAgcmVmdW5kZWRfYW1vdW50OiByZWZ1bmRlZD8udG90YWwgPz8gMCwKICAgICAgbmV0X2NvbGxlY3RlZDogKHNldHRsZWQ/LnRvdGFsID8/IDApIC0gKHJlZnVuZGVkPy50b3RhbCA/PyAwKSwKICAgIH0pOwogIH0KCiAgLy8gUmluZ2thc2FuIHNoaWZ0IHlhbmcgZGlidWthIHBhZGEgaGFyaSBsYXBvcmFuLgogIGNvbnN0IHsgcmVzdWx0czogc2hpZnRSb3dzIH0gPSBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgIGBTRUxFQ1QgKiBGUk9NIGNhc2hfc2hpZnRzCiAgICAgICAgV0hFUkUgb3V0bGV0X2lkID0gPyBBTkQgZGVsZXRlZF9hdCBJUyBOVUxMCiAgICAgICAgICBBTkQgb3BlbmVkX2F0ID49ID8gQU5EIG9wZW5lZF9hdCA8ID8KICAgICAgICBPUkRFUiBCWSBvcGVuZWRfYXQgQVNDYCwKICAgICkKICAgIC5iaW5kKHVzZXIub3V0bGV0X2lkLCBmcm9tLCB0bykKICAgIC5hbGw8U2hpZnRSb3c+KCk7CiAgY29uc3Qgc2hpZnRzID0gW107CiAgZm9yIChjb25zdCBzIG9mIHNoaWZ0Um93cykgewogICAgY29uc3QgY2FzaFNldHRsZWQgPSBhd2FpdCBzZXR0bGVkQ2FzaFRvdGFsKGRiLCB1c2VyLm91dGxldF9pZCwgcy5pZCk7CiAgICBjb25zdCBvcmRlckNvdW50ID0gYXdhaXQgZGIKICAgICAgLnByZXBhcmUoIlNFTEVDVCBDT1VOVCgqKSBBUyBuIEZST00gb3JkZXJzIFdIRVJFIHNoaWZ0X2lkID0gPyBBTkQgb3V0bGV0X2lkID0gPyBBTkQgZGVsZXRlZF9hdCBJUyBOVUxMIikKICAgICAgLmJpbmQocy5pZCwgdXNlci5vdXRsZXRfaWQpCiAgICAgIC5maXJzdDx7IG46IG51bWJlciB9PigpOwogICAgc2hpZnRzLnB1c2goewogICAgICBpZDogcy5pZCwgY2FzaGllcl9pZDogcy5jYXNoaWVyX2lkLCBzdGF0dXM6IHMuc3RhdHVzLAogICAgICBvcGVuZWRfYXQ6IHMub3BlbmVkX2F0LCBjbG9zZWRfYXQ6IHMuY2xvc2VkX2F0LAogICAgICBvcGVuaW5nX2Nhc2g6IHMub3BlbmluZ19jYXNoLCBleHBlY3RlZF9jYXNoOiBzLmV4cGVjdGVkX2Nhc2gsCiAgICAgIGNvdW50ZWRfY2FzaDogcy5jb3VudGVkX2Nhc2gsIGRpZmZlcmVuY2U6IHMuZGlmZmVyZW5jZSwKICAgICAgc2V0dGxlZF9jYXNoX2Ftb3VudDogY2FzaFNldHRsZWQsIG9yZGVyc19jb3VudDogb3JkZXJDb3VudD8ubiA/PyAwLAogICAgfSk7CiAgfQoKICByZXR1cm4gYy5qc29uKAogICAgc3VjY2Vzc0VudmVsb3BlKAogICAgICB7CiAgICAgICAgcGVyaW9kOiB7IGRhdGUsIGZyb20sIHRvLCB0aW1lem9uZTogIkFzaWEvSmFrYXJ0YSIgfSwKICAgICAgICBncm9zc19zYWxlczogZ3Jvc3NTYWxlcywKICAgICAgICBkaXNjb3VudF90b3RhbDogZGlzY291bnRUb3RhbCwKICAgICAgICByZWZ1bmRfdG90YWw6IHJlZnVuZFRvdGFsLAogICAgICAgIHJlZnVuZHNfY291bnQ6IHJlZnVuZEFnZz8ubiA/PyAwLAogICAgICAgIG5ldF9zYWxlczogbmV0U2FsZXMsCiAgICAgICAgdGF4X3RvdGFsOiBwYWlkQWdnPy50YXggPz8gMCwKICAgICAgICBwYWlkX29yZGVyc190b3RhbDogcGFpZEFnZz8uZ3JhbmQgPz8gMCwKICAgICAgICBwYWlkX3RyYW5zYWN0aW9uX2NvdW50OiBwYWlkQ291bnQsCiAgICAgICAgYXZlcmFnZV9vcmRlcl92YWx1ZTogYW92LAogICAgICAgIG9yZGVyc19ieV9zdGF0dXM6IG9yZGVyc0J5U3RhdHVzLAogICAgICAgIG9yZGVyc19ieV9wYXltZW50X3N0YXR1czogb3JkZXJzQnlQYXltZW50U3RhdHVzLAogICAgICAgIHBheW1lbnRfbWV0aG9kczogcGF5bWVudE1ldGhvZHMsCiAgICAgICAgc2hpZnRzLAogICAgICB9LAogICAgICBjLmdldCgicmVxdWVzdElkIiksCiAgICApLAogICAgMjAwLAogICk7Cn0pOwoKLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBwcm9kdWN0cwoKcmVwb3J0cy5nZXQoIi9yZXBvcnRzL3Byb2R1Y3RzIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCB1c2VyID0gcmVxdWlyZVJvbGUoYywgIm93bmVyIiwgIm1hbmFnZXIiKTsKICBjb25zdCBkYiA9IGMuZW52LkRCOwogIGNvbnN0IHsgZnJvbSwgdG8gfSA9IHBhcnNlUmFuZ2UoYyk7CiAgY29uc3QgeyBwYWdlLCBwZXJQYWdlLCBsaW1pdCwgb2Zmc2V0IH0gPSBwYXJzZVBhZ2luYXRpb24oYy5yZXEucXVlcnkoKSk7CgogIGNvbnN0IHRvdGFsID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICBgU0VMRUNUIENPVU5UKERJU1RJTkNUIG9pLnByb2R1Y3RfaWQpIEFTIG4KICAgICAgICAgRlJPTSBvcmRlcl9pdGVtcyBvaQogICAgICAgICBKT0lOIG9yZGVycyBvIE9OIG8uaWQgPSBvaS5vcmRlcl9pZAogICAgICAgIFdIRVJFIG9pLm91dGxldF9pZCA9ID8gQU5EIG9pLmRlbGV0ZWRfYXQgSVMgTlVMTCBBTkQgby5kZWxldGVkX2F0IElTIE5VTEwKICAgICAgICAgIEFORCBvLnBheW1lbnRfc3RhdHVzID0gJ3BhaWQnIEFORCBvLnN0YXR1cyAhPSAndm9pZCcKICAgICAgICAgIEFORCBvLmNyZWF0ZWRfYXQgPj0gPyBBTkQgby5jcmVhdGVkX2F0IDwgP2AsCiAgICApCiAgICAuYmluZCh1c2VyLm91dGxldF9pZCwgZnJvbSwgdG8pCiAgICAuZmlyc3Q8eyBuOiBudW1iZXIgfT4oKTsKCiAgY29uc3QgeyByZXN1bHRzIH0gPSBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgIGBTRUxFQ1Qgb2kucHJvZHVjdF9pZCBBUyBwcm9kdWN0X2lkLCBwLm5hbWUgQVMgcHJvZHVjdF9uYW1lLAogICAgICAgICAgICAgIHAuY2F0ZWdvcnlfaWQgQVMgY2F0ZWdvcnlfaWQsCiAgICAgICAgICAgICAgU1VNKG9pLnF0eSkgQVMgcXR5X3NvbGQsCiAgICAgICAgICAgICAgU1VNKG9pLmxpbmVfdG90YWwgKyBvaS5saW5lX2Rpc2NvdW50KSBBUyBncm9zc19yZXZlbnVlLAogICAgICAgICAgICAgIFNVTShvaS5saW5lX3RvdGFsKSBBUyBuZXRfaXRlbV9yZXZlbnVlLAogICAgICAgICAgICAgIENPVU5UKERJU1RJTkNUIG9pLm9yZGVyX2lkKSBBUyBvcmRlcl9jb3VudAogICAgICAgICBGUk9NIG9yZGVyX2l0ZW1zIG9pCiAgICAgICAgIEpPSU4gb3JkZXJzIG8gT04gby5pZCA9IG9pLm9yZGVyX2lkCiAgICAgICAgIExFRlQgSk9JTiBwcm9kdWN0cyBwIE9OIHAuaWQgPSBvaS5wcm9kdWN0X2lkCiAgICAgICAgV0hFUkUgb2kub3V0bGV0X2lkID0gPyBBTkQgb2kuZGVsZXRlZF9hdCBJUyBOVUxMIEFORCBvLmRlbGV0ZWRfYXQgSVMgTlVMTAogICAgICAgICAgQU5EIG8ucGF5bWVudF9zdGF0dXMgPSAncGFpZCcgQU5EIG8uc3RhdHVzICE9ICd2b2lkJwogICAgICAgICAgQU5EIG8uY3JlYXRlZF9hdCA+PSA/IEFORCBvLmNyZWF0ZWRfYXQgPCA/CiAgICAgICAgR1JPVVAgQlkgb2kucHJvZHVjdF9pZAogICAgICAgIE9SREVSIEJZIGdyb3NzX3JldmVudWUgREVTQywgcXR5X3NvbGQgREVTQwogICAgICAgIExJTUlUID8gT0ZGU0VUID9gLAogICAgKQogICAgLmJpbmQodXNlci5vdXRsZXRfaWQsIGZyb20sIHRvLCBsaW1pdCwgb2Zmc2V0KQogICAgLmFsbDx7CiAgICAgIHByb2R1Y3RfaWQ6IHN0cmluZyB8IG51bGw7IHByb2R1Y3RfbmFtZTogc3RyaW5nIHwgbnVsbDsKICAgICAgY2F0ZWdvcnlfaWQ6IHN0cmluZyB8IG51bGw7IHF0eV9zb2xkOiBudW1iZXI7IGdyb3NzX3JldmVudWU6IG51bWJlcjsKICAgICAgbmV0X2l0ZW1fcmV2ZW51ZTogbnVtYmVyOyBvcmRlcl9jb3VudDogbnVtYmVyOwogICAgfT4oKTsKCiAgcmV0dXJuIGMuanNvbigKICAgIHN1Y2Nlc3NFbnZlbG9wZSgKICAgICAgewogICAgICAgIHBlcmlvZDogeyBmcm9tLCB0bywgdGltZXpvbmU6ICJBc2lhL0pha2FydGEiIH0sCiAgICAgICAgaXRlbXM6IHJlc3VsdHMubWFwKChyKSA9PiAoewogICAgICAgICAgcHJvZHVjdF9pZDogci5wcm9kdWN0X2lkLCBwcm9kdWN0X25hbWU6IHIucHJvZHVjdF9uYW1lLAogICAgICAgICAgY2F0ZWdvcnlfaWQ6IHIuY2F0ZWdvcnlfaWQsIHF0eV9zb2xkOiByLnF0eV9zb2xkLAogICAgICAgICAgZ3Jvc3NfcmV2ZW51ZTogci5ncm9zc19yZXZlbnVlLCBuZXRfaXRlbV9yZXZlbnVlOiByLm5ldF9pdGVtX3JldmVudWUsCiAgICAgICAgICBvcmRlcl9jb3VudDogci5vcmRlcl9jb3VudCwKICAgICAgICB9KSksCiAgICAgIH0sCiAgICAgIGMuZ2V0KCJyZXF1ZXN0SWQiKSwKICAgICAgeyBwYWdlLCBwZXJfcGFnZTogcGVyUGFnZSwgdG90YWw6IHRvdGFsPy5uID8/IDAgfSwKICAgICksCiAgICAyMDAsCiAgKTsKfSk7CgovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gY2F0ZWdvcmllcwoKcmVwb3J0cy5nZXQoIi9yZXBvcnRzL2NhdGVnb3JpZXMiLCBhc3luYyAoYykgPT4gewogIGNvbnN0IHVzZXIgPSByZXF1aXJlUm9sZShjLCAib3duZXIiLCAibWFuYWdlciIpOwogIGNvbnN0IGRiID0gYy5lbnYuREI7CiAgY29uc3QgeyBmcm9tLCB0byB9ID0gcGFyc2VSYW5nZShjKTsKICBjb25zdCB7IHBhZ2UsIHBlclBhZ2UsIGxpbWl0LCBvZmZzZXQgfSA9IHBhcnNlUGFnaW5hdGlvbihjLnJlcS5xdWVyeSgpKTsKCiAgY29uc3QgdG90YWwgPSBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgIGBTRUxFQ1QgQ09VTlQoRElTVElOQ1QgcC5jYXRlZ29yeV9pZCkgQVMgbgogICAgICAgICBGUk9NIG9yZGVyX2l0ZW1zIG9pCiAgICAgICAgIEpPSU4gb3JkZXJzIG8gT04gby5pZCA9IG9pLm9yZGVyX2lkCiAgICAgICAgIExFRlQgSk9JTiBwcm9kdWN0cyBwIE9OIHAuaWQgPSBvaS5wcm9kdWN0X2lkCiAgICAgICAgV0hFUkUgb2kub3V0bGV0X2lkID0gPyBBTkQgb2kuZGVsZXRlZF9hdCBJUyBOVUxMIEFORCBvLmRlbGV0ZWRfYXQgSVMgTlVMTAogICAgICAgICAgQU5EIG8ucGF5bWVudF9zdGF0dXMgPSAncGFpZCcgQU5EIG8uc3RhdHVzICE9ICd2b2lkJwogICAgICAgICAgQU5EIG8uY3JlYXRlZF9hdCA+PSA/IEFORCBvLmNyZWF0ZWRfYXQgPCA/YCwKICAgICkKICAgIC5iaW5kKHVzZXIub3V0bGV0X2lkLCBmcm9tLCB0bykKICAgIC5maXJzdDx7IG46IG51bWJlciB9PigpOwoKICBjb25zdCB7IHJlc3VsdHMgfSA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgKICAgICAgYFNFTEVDVCBwLmNhdGVnb3J5X2lkIEFTIGNhdGVnb3J5X2lkLCBjYXQubmFtZSBBUyBjYXRlZ29yeV9uYW1lLAogICAgICAgICAgICAgIFNVTShvaS5xdHkpIEFTIHF0eV9zb2xkLAogICAgICAgICAgICAgIFNVTShvaS5saW5lX3RvdGFsICsgb2kubGluZV9kaXNjb3VudCkgQVMgZ3Jvc3NfcmV2ZW51ZSwKICAgICAgICAgICAgICBTVU0ob2kubGluZV90b3RhbCkgQVMgbmV0X2l0ZW1fcmV2ZW51ZSwKICAgICAgICAgICAgICBDT1VOVChESVNUSU5DVCBvaS5vcmRlcl9pZCkgQVMgb3JkZXJfY291bnQsCiAgICAgICAgICAgICAgQ09VTlQoRElTVElOQ1Qgb2kucHJvZHVjdF9pZCkgQVMgcHJvZHVjdF9jb3VudAogICAgICAgICBGUk9NIG9yZGVyX2l0ZW1zIG9pCiAgICAgICAgIEpPSU4gb3JkZXJzIG8gT04gby5pZCA9IG9pLm9yZGVyX2lkCiAgICAgICAgIExFRlQgSk9JTiBwcm9kdWN0cyBwIE9OIHAuaWQgPSBvaS5wcm9kdWN0X2lkCiAgICAgICAgIExFRlQgSk9JTiBjYXRlZ29yaWVzIGNhdCBPTiBjYXQuaWQgPSBwLmNhdGVnb3J5X2lkCiAgICAgICAgV0hFUkUgb2kub3V0bGV0X2lkID0gPyBBTkQgb2kuZGVsZXRlZF9hdCBJUyBOVUxMIEFORCBvLmRlbGV0ZWRfYXQgSVMgTlVMTAogICAgICAgICAgQU5EIG8ucGF5bWVudF9zdGF0dXMgPSAncGFpZCcgQU5EIG8uc3RhdHVzICE9ICd2b2lkJwogICAgICAgICAgQU5EIG8uY3JlYXRlZF9hdCA+PSA/IEFORCBvLmNyZWF0ZWRfYXQgPCA/CiAgICAgICAgR1JPVVAgQlkgcC5jYXRlZ29yeV9pZAogICAgICAgIE9SREVSIEJZIGdyb3NzX3JldmVudWUgREVTQywgcXR5X3NvbGQgREVTQwogICAgICAgIExJTUlUID8gT0ZGU0VUID9gLAogICAgKQogICAgLmJpbmQodXNlci5vdXRsZXRfaWQsIGZyb20sIHRvLCBsaW1pdCwgb2Zmc2V0KQogICAgLmFsbDx7CiAgICAgIGNhdGVnb3J5X2lkOiBzdHJpbmcgfCBudWxsOyBjYXRlZ29yeV9uYW1lOiBzdHJpbmcgfCBudWxsOwogICAgICBxdHlfc29sZDogbnVtYmVyOyBncm9zc19yZXZlbnVlOiBudW1iZXI7IG5ldF9pdGVtX3JldmVudWU6IG51bWJlcjsKICAgICAgb3JkZXJfY291bnQ6IG51bWJlcjsgcHJvZHVjdF9jb3VudDogbnVtYmVyOwogICAgfT4oKTsKCiAgcmV0dXJuIGMuanNvbigKICAgIHN1Y2Nlc3NFbnZlbG9wZSgKICAgICAgewogICAgICAgIHBlcmlvZDogeyBmcm9tLCB0bywgdGltZXpvbmU6ICJBc2lhL0pha2FydGEiIH0sCiAgICAgICAgaXRlbXM6IHJlc3VsdHMubWFwKChyKSA9PiAoewogICAgICAgICAgY2F0ZWdvcnlfaWQ6IHIuY2F0ZWdvcnlfaWQsIGNhdGVnb3J5X25hbWU6IHIuY2F0ZWdvcnlfbmFtZSwKICAgICAgICAgIHF0eV9zb2xkOiByLnF0eV9zb2xkLCBncm9zc19yZXZlbnVlOiByLmdyb3NzX3JldmVudWUsCiAgICAgICAgICBuZXRfaXRlbV9yZXZlbnVlOiByLm5ldF9pdGVtX3JldmVudWUsIG9yZGVyX2NvdW50OiByLm9yZGVyX2NvdW50LAogICAgICAgICAgcHJvZHVjdF9jb3VudDogci5wcm9kdWN0X2NvdW50LAogICAgICAgIH0pKSwKICAgICAgfSwKICAgICAgYy5nZXQoInJlcXVlc3RJZCIpLAogICAgICB7IHBhZ2UsIHBlcl9wYWdlOiBwZXJQYWdlLCB0b3RhbDogdG90YWw/Lm4gPz8gMCB9LAogICAgKSwKICAgIDIwMCwKICApOwp9KTsKCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHNoaWZ0IHJlY29uY2lsZQoKcmVwb3J0cy5nZXQoIi9yZXBvcnRzL3NoaWZ0LzppZCIsIGFzeW5jIChjKSA9PiB7CiAgY29uc3QgdXNlciA9IHJlcXVpcmVSb2xlKGMsICJvd25lciIsICJtYW5hZ2VyIik7CiAgY29uc3QgZGIgPSBjLmVudi5EQjsKICBjb25zdCBzaGlmdElkID0gYy5yZXEucGFyYW0oImlkIik7CiAgY29uc3Qgc2hpZnQgPSBhd2FpdCBkYgogICAgLnByZXBhcmUoIlNFTEVDVCAqIEZST00gY2FzaF9zaGlmdHMgV0hFUkUgaWQgPSA/IEFORCBvdXRsZXRfaWQgPSA/IEFORCBkZWxldGVkX2F0IElTIE5VTEwiKQogICAgLmJpbmQoc2hpZnRJZCwgdXNlci5vdXRsZXRfaWQpCiAgICAuZmlyc3Q8U2hpZnRSb3c+KCk7CiAgaWYgKCFzaGlmdCkgdGhyb3cgbmV3IEFwaUVycm9yKCJOT1RfRk9VTkQiLCAiU2hpZnQgdGlkYWsgZGl0ZW11a2FuIik7CgogIGNvbnN0IGNhc2hSZWNlaXB0cyA9IGF3YWl0IHNldHRsZWRDYXNoVG90YWwoZGIsIHVzZXIub3V0bGV0X2lkLCBzaGlmdElkKTsKICBjb25zdCBtb3ZlbWVudHNUb3RhbCA9IGF3YWl0IGNhc2hNb3ZlbWVudHNUb3RhbChkYiwgc2hpZnRJZCk7CiAgY29uc3QgeyByZXN1bHRzOiBtb3ZlbWVudHMgfSA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgiU0VMRUNUIGlkLCB0eXBlLCBhbW91bnQsIHJlYXNvbiwgY3JlYXRlZF9ieSwgY3JlYXRlZF9hdCBGUk9NIGNhc2hfbW92ZW1lbnRzIFdIRVJFIHNoaWZ0X2lkID0gPyBPUkRFUiBCWSBjcmVhdGVkX2F0IEFTQyIpCiAgICAuYmluZChzaGlmdElkKQogICAgLmFsbDx7IGlkOiBzdHJpbmc7IHR5cGU6IHN0cmluZzsgYW1vdW50OiBudW1iZXI7IHJlYXNvbjogc3RyaW5nIHwgbnVsbDsgY3JlYXRlZF9ieTogc3RyaW5nIHwgbnVsbDsgY3JlYXRlZF9hdDogbnVtYmVyIH0+KCk7CgogIC8vIFJlZnVuZCB0dW5haSBwYWRhIHNoaWZ0IChNLTEyOiBtZW5ndXJhbmdpIGthcyBleHBlY3RlZCkuCiAgY29uc3QgcmVmdW5kUm93ID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICBgU0VMRUNUIENPVU5UKERJU1RJTkNUIHAuaWQpIEFTIG4sIENPQUxFU0NFKFNVTShwYS5hbW91bnQpLCAwKSBBUyB0b3RhbAogICAgICAgICBGUk9NIHBheW1lbnRzIHAKICAgICAgICAgSk9JTiBwYXltZW50X2FsbG9jYXRpb25zIHBhIE9OIHBhLnBheW1lbnRfaWQgPSBwLmlkCiAgICAgICAgV0hFUkUgcGEub3V0bGV0X2lkID0gPyBBTkQgcC5zaGlmdF9pZCA9ID8gQU5EIHAubWV0aG9kID0gJ2Nhc2gnCiAgICAgICAgICBBTkQgcC5zdGF0dXMgPSAncmVmdW5kZWQnIEFORCBwLmRlbGV0ZWRfYXQgSVMgTlVMTCBBTkQgcGEuZGVsZXRlZF9hdCBJUyBOVUxMYCwKICAgICkKICAgIC5iaW5kKHVzZXIub3V0bGV0X2lkLCBzaGlmdElkKQogICAgLmZpcnN0PHsgbjogbnVtYmVyOyB0b3RhbDogbnVtYmVyIH0+KCk7CiAgY29uc3QgY2FzaFJlZnVuZHMgPSByZWZ1bmRSb3c/LnRvdGFsID8/IDA7CgogIC8vIEV4cGVjdGVkIHBlciBNLTEyIExlc3RhcmkgKHRlcm1hc3VrIHBlbmd1cmFuZyByZWZ1bmQgdHVuYWkpLiBCaWxhIHNoaWZ0CiAgLy8gc3VkYWggZGl0dXR1cCwgbmlsYWkgdGVyc2ltcGFuIGRhcmkgcGVudXR1cGFuIHNoaWZ0IGlrdXQgZGl0YW1waWxrYW47CiAgLy8ga2VkdWFueWEgc2FtYSBzZWxhbWEgYmVsdW0gYWRhIHBlbWJheWFyYW4gcmVmdW5kZWQgKGZpdHVyIHJlZnVuZAogIC8vIHBlbWJheWFyYW4gYmVsdW0gcHVueWEgZW5kcG9pbnQgcGVudWxpcyBkaSBzaXN0ZW0gaW5pKS4KICBjb25zdCBleHBlY3RlZENvbXB1dGVkID0KICAgIHNoaWZ0Lm9wZW5pbmdfY2FzaCArIG1vdmVtZW50c1RvdGFsICsgY2FzaFJlY2VpcHRzIC0gY2FzaFJlZnVuZHM7CiAgY29uc3QgY291bnRlZCA9IHNoaWZ0LmNvdW50ZWRfY2FzaDsKICBjb25zdCBkaWZmZXJlbmNlQ29tcHV0ZWQgPQogICAgY291bnRlZCAhPSBudWxsID8gY291bnRlZCAtIGV4cGVjdGVkQ29tcHV0ZWQgOiBudWxsOwoKICBjb25zdCB7IHJlc3VsdHM6IG9yZGVycyB9ID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICBgU0VMRUNUIGlkLCBvcmRlcl9ubywgc3RhdHVzLCBwYXltZW50X3N0YXR1cywga2l0Y2hlbl9zdGF0dXMsCiAgICAgICAgICAgICAgc3VidG90YWwsIGRpc2NvdW50X3RvdGFsLCB0YXhfdG90YWwsIGdyYW5kX3RvdGFsLCBjcmVhdGVkX2F0CiAgICAgICAgIEZST00gb3JkZXJzCiAgICAgICAgV0hFUkUgc2hpZnRfaWQgPSA/IEFORCBvdXRsZXRfaWQgPSA/IEFORCBkZWxldGVkX2F0IElTIE5VTEwKICAgICAgICBPUkRFUiBCWSBjcmVhdGVkX2F0IEFTQ2AsCiAgICApCiAgICAuYmluZChzaGlmdElkLCB1c2VyLm91dGxldF9pZCkKICAgIC5hbGw8ewogICAgICBpZDogc3RyaW5nOyBvcmRlcl9ubzogc3RyaW5nOyBzdGF0dXM6IHN0cmluZzsgcGF5bWVudF9zdGF0dXM6IHN0cmluZzsKICAgICAga2l0Y2hlbl9zdGF0dXM6IHN0cmluZzsgc3VidG90YWw6IG51bWJlcjsgZGlzY291bnRfdG90YWw6IG51bWJlcjsKICAgICAgdGF4X3RvdGFsOiBudW1iZXI7IGdyYW5kX3RvdGFsOiBudW1iZXI7IGNyZWF0ZWRfYXQ6IG51bWJlcjsKICAgIH0+KCk7CgogIC8vIFBlbmVyaW1hYW4gc2V0dGxlZCBwZXIgbWV0b2RlIGRpIGRhbGFtIHNoaWZ0LgogIGNvbnN0IHsgcmVzdWx0czogbWV0aG9kUm93cyB9ID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICBgU0VMRUNUIHAubWV0aG9kIEFTIG1ldGhvZCwgQ09VTlQoRElTVElOQ1QgcC5pZCkgQVMgbiwKICAgICAgICAgICAgICBDT0FMRVNDRShTVU0ocGEuYW1vdW50KSwgMCkgQVMgdG90YWwKICAgICAgICAgRlJPTSBwYXltZW50cyBwCiAgICAgICAgIEpPSU4gcGF5bWVudF9hbGxvY2F0aW9ucyBwYSBPTiBwYS5wYXltZW50X2lkID0gcC5pZAogICAgICAgIFdIRVJFIHBhLm91dGxldF9pZCA9ID8gQU5EIHAuc2hpZnRfaWQgPSA/IEFORCBwLnN0YXR1cyA9ICdzZXR0bGVkJwogICAgICAgICAgQU5EIHAuZGVsZXRlZF9hdCBJUyBOVUxMIEFORCBwYS5kZWxldGVkX2F0IElTIE5VTEwKICAgICAgICBHUk9VUCBCWSBwLm1ldGhvZGAsCiAgICApCiAgICAuYmluZCh1c2VyLm91dGxldF9pZCwgc2hpZnRJZCkKICAgIC5hbGw8eyBtZXRob2Q6IHN0cmluZzsgbjogbnVtYmVyOyB0b3RhbDogbnVtYmVyIH0+KCk7CgogIHJldHVybiBjLmpzb24oCiAgICBzdWNjZXNzRW52ZWxvcGUoCiAgICAgIHsKICAgICAgICBzaGlmdDogewogICAgICAgICAgaWQ6IHNoaWZ0LmlkLCBjYXNoaWVyX2lkOiBzaGlmdC5jYXNoaWVyX2lkLCBzdGF0dXM6IHNoaWZ0LnN0YXR1cywKICAgICAgICAgIG9wZW5lZF9hdDogc2hpZnQub3BlbmVkX2F0LCBjbG9zZWRfYXQ6IHNoaWZ0LmNsb3NlZF9hdCwKICAgICAgICAgIG9wZW5pbmdfY2FzaDogc2hpZnQub3BlbmluZ19jYXNoLAogICAgICAgICAgZXhwZWN0ZWRfY2FzaDogc2hpZnQuZXhwZWN0ZWRfY2FzaCwKICAgICAgICAgIGNvdW50ZWRfY2FzaDogc2hpZnQuY291bnRlZF9jYXNoLAogICAgICAgICAgZGlmZmVyZW5jZTogc2hpZnQuZGlmZmVyZW5jZSwKICAgICAgICB9LAogICAgICAgIHJlY29uY2lsaWF0aW9uOiB7CiAgICAgICAgICBvcGVuaW5nX2Nhc2g6IHNoaWZ0Lm9wZW5pbmdfY2FzaCwKICAgICAgICAgIGNhc2hfcmVjZWlwdHNfc2V0dGxlZDogY2FzaFJlY2VpcHRzLAogICAgICAgICAgY2FzaF9yZWZ1bmRzOiBjYXNoUmVmdW5kcywKICAgICAgICAgIGNhc2hfbW92ZW1lbnRzX3RvdGFsOiBtb3ZlbWVudHNUb3RhbCwKICAgICAgICAgIGV4cGVjdGVkX2Nhc2hfY29tcHV0ZWQ6IGV4cGVjdGVkQ29tcHV0ZWQsCiAgICAgICAgICBjb3VudGVkX2Nhc2g6IGNvdW50ZWQsCiAgICAgICAgICBkaWZmZXJlbmNlX2NvbXB1dGVkOiBkaWZmZXJlbmNlQ29tcHV0ZWQsCiAgICAgICAgfSwKICAgICAgICBjYXNoX21vdmVtZW50czogbW92ZW1lbnRzLAogICAgICAgIHBheW1lbnRfbWV0aG9kc19zZXR0bGVkOiBtZXRob2RSb3dzLm1hcCgocikgPT4gKHsKICAgICAgICAgIG1ldGhvZDogci5tZXRob2QsIGNvdW50OiByLm4sIGFtb3VudDogci50b3RhbCwKICAgICAgICB9KSksCiAgICAgICAgb3JkZXJzLAogICAgICB9LAogICAgICBjLmdldCgicmVxdWVzdElkIiksCiAgICApLAogICAgMjAwLAogICk7Cn0pOwoKZXhwb3J0IGRlZmF1bHQgcmVwb3J0czsK
+/**
+ * Rute laporan (kontrak G1b modul Laporan) — hanya owner/manager.
+ *
+ * Definisi angka mengikuti Metric Dictionary Lestari (artefak Living World
+ * id 6, "G1 — Metric Dictionary & Rumus Rekonsiliasi", v1.0):
+ * - M-01 Penjualan Kotor  = Σ (qty x harga snapshot) = Σ orders.subtotal
+ *   HANYA pada transaksi LUNAS (payment_status = 'paid'); draft/pending/
+ *   bayar sebagian/void TIDAK pernah menjadi pendapatan (prinsip 1 & 2.2).
+ * - M-02 Diskon Total     = Σ orders.discount_total pada transaksi lunas.
+ * - M-03 Refund Total     = Σ alokasi pembayaran berstatus 'refunded' pada
+ *   periode refund terjadi (basis periode refunded_at; transaksi asal tidak
+ *   diedit mundur — prinsip 5). Skema tidak punya tabel refund tersendiri;
+ *   refunded_at diwakili payments.updated_at saat status menjadi 'refunded'.
+ * - M-04 Penjualan Bersih = M-01 - M-02 - M-03.
+ * - M-05 Cash Collected per metode = Σ amount APPLIED (payment_allocations,
+ *   BUKAN amount yang ditenderkan — kembalian bukan penerimaan, prinsip 6)
+ *   dari pembayaran settled, dikurangi refund per metode; pembayaran
+ *   'pending' dilaporkan terpisah dan tidak masuk penerimaan.
+ * - M-06 Transaksi Lunas  = COUNT order payment_status='paid'.
+ * - M-07 AOV = M-04 / M-06; bila M-06 = 0 hasilnya null ("—"), bukan 0.
+ * - M-08 Produk Terlaris  = ranking per produk dari order lunas: qty dan
+ *   revenue kotor (line_total + line_discount = qty x harga snapshot).
+ * - M-12 Selisih Kas Shift = counted - expected; expected = opening
+ *   + penerimaan tunai settled (applied) - refund tunai + mutasi kas.
+ *
+ * Penyimpangan yang disadari dari dictionary (dicatat, bukan disembunyikan):
+ * - Dictionary memakai paid_at sebagai basis periode penjualan; skema G1a
+ *   tidak punya kolom paid_at, jadi basis periode order lunas memakai
+ *   orders.created_at pada hari yang sama (order dibuat dan dilunasi pada
+ *   alur kasir normal memang berurutan di hari yang sama).
+ * - HPP (M-10) & Margin Kotor Estimasi (M-11) TIDAK dihitung di sini:
+ *   order_items tidak menyimpan biaya resep snapshot, jadi angka HPP apa
+ *   pun akan mengarang. Menunggu kolom snapshot biaya di gate berikutnya.
+ * - Identitas R-2 dictionary (Σ cash collected = penjualan bersih) hanya
+ *   balance bila pajak 0, karena M-04 tidak mengurangi pajak sedangkan
+ *   alokasi pembayaran menutup grand_total (termasuk pajak). tax_total
+ *   dilaporkan terpisah agar selisih ini transparan.
+ *
+ * Semua tanggal laporan adalah hari kalender Asia/Jakarta (UTC+7 tetap);
+ * rentang efektif dikembalikan di data.period karena meta envelope G1b
+ * tidak punya tempat untuknya.
+ */
+import { Hono } from "hono";
+import { ApiError } from "../lib/errors";
+import { successEnvelope } from "../lib/envelope";
+import { requireRole } from "../lib/auth";
+import { parsePagination } from "../lib/validate";
+import { settledCashTotal, cashMovementsTotal, type ShiftRow } from "./shifts";
+import type { Env, Variables } from "../lib/types";
+
+const reports = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+const JAKARTA_OFFSET_MS = 7 * 60 * 60 * 1000;
+const DAY_MS = 24 * 60 * 60 * 1000;
+const METHODS = ["cash", "qris", "edc", "transfer"] as const;
+
+/** Awal hari (epoch ms) untuk tanggal kalender Asia/Jakarta YYYY-MM-DD. */
+function jakartaDayStart(dateStr: string): number {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr);
+  if (!m) {
+    throw new ApiError("VALIDATION_ERROR", "Format tanggal harus YYYY-MM-DD", {
+      date: dateStr,
+    });
+  }
+  const y = Number(m[1]); const mo = Number(m[2]); const d = Number(m[3]);
+  const utc = Date.UTC(y, mo - 1, d);
+  const check = new Date(utc);
+  if (
+    check.getUTCFullYear() !== y || check.getUTCMonth() !== mo - 1 ||
+    check.getUTCDate() !== d
+  ) {
+    throw new ApiError("VALIDATION_ERROR", "Tanggal tidak sah", { date: dateStr });
+  }
+  return utc - JAKARTA_OFFSET_MS;
+}
+
+function jakartaToday(): string {
+  const nowJkt = new Date(Date.now() + JAKARTA_OFFSET_MS);
+  const y = nowJkt.getUTCFullYear();
+  const mo = String(nowJkt.getUTCMonth() + 1).padStart(2, "0");
+  const d = String(nowJkt.getUTCDate()).padStart(2, "0");
+  return `${y}-${mo}-${d}`;
+}
+
+/** Parameter from/to: terima YYYY-MM-DD (hari Jakarta) atau epoch ms. */
+function parseRange(c: { req: { query: (k: string) => string | undefined } }): {
+  from: number; to: number;
+} {
+  const rawFrom = c.req.query("from");
+  const rawTo = c.req.query("to");
+  let from: number;
+  let to: number;
+  if (rawFrom === undefined) {
+    from = jakartaDayStart(jakartaToday());
+  } else if (/^\d{4}-\d{2}-\d{2}$/.test(rawFrom)) {
+    from = jakartaDayStart(rawFrom);
+  } else if (Number.isFinite(Number(rawFrom))) {
+    from = Number(rawFrom);
+  } else {
+    throw new ApiError("VALIDATION_ERROR", "Parameter from tidak sah", { from: rawFrom });
+  }
+  if (rawTo === undefined) {
+    to = from + DAY_MS;
+  } else if (/^\d{4}-\d{2}-\d{2}$/.test(rawTo)) {
+    to = jakartaDayStart(rawTo) + DAY_MS; // inklusif sampai akhir hari 'to'
+  } else if (Number.isFinite(Number(rawTo))) {
+    to = Number(rawTo);
+  } else {
+    throw new ApiError("VALIDATION_ERROR", "Parameter to tidak sah", { to: rawTo });
+  }
+  if (to <= from) {
+    throw new ApiError("VALIDATION_ERROR", "Rentang tanggal kosong", {
+      from: rawFrom ?? null, to: rawTo ?? null,
+    });
+  }
+  return { from, to };
+}
+
+// ---------------------------------------------------------------- daily
+
+reports.get("/reports/daily", async (c) => {
+  const user = requireRole(c, "owner", "manager");
+  const db = c.env.DB;
+  const date = c.req.query("date") ?? jakartaToday();
+  const from = jakartaDayStart(date);
+  const to = from + DAY_MS;
+
+  // Order lunas pada hari laporan (basis cohort order; lihat catatan paid_at).
+  const paidAgg = await db
+    .prepare(
+      `SELECT COUNT(*) AS n, COALESCE(SUM(subtotal), 0) AS gross,
+              COALESCE(SUM(discount_total), 0) AS discount,
+              COALESCE(SUM(tax_total), 0) AS tax,
+              COALESCE(SUM(grand_total), 0) AS grand
+         FROM orders
+        WHERE outlet_id = ? AND deleted_at IS NULL AND payment_status = 'paid'
+          AND created_at >= ? AND created_at < ?`,
+    )
+    .bind(user.outlet_id, from, to)
+    .first<{ n: number; gross: number; discount: number; tax: number; grand: number }>();
+
+  // Refund pada periode refund (M-03): alokasi pembayaran 'refunded'.
+  const refundAgg = await db
+    .prepare(
+      `SELECT COUNT(DISTINCT p.id) AS n, COALESCE(SUM(pa.amount), 0) AS total
+         FROM payments p
+         JOIN payment_allocations pa ON pa.payment_id = p.id
+        WHERE pa.outlet_id = ? AND p.status = 'refunded'
+          AND p.deleted_at IS NULL AND pa.deleted_at IS NULL
+          AND p.updated_at >= ? AND p.updated_at < ?`,
+    )
+    .bind(user.outlet_id, from, to)
+    .first<{ n: number; total: number }>();
+
+  const grossSales = paidAgg?.gross ?? 0;
+  const discountTotal = paidAgg?.discount ?? 0;
+  const refundTotal = refundAgg?.total ?? 0;
+  const netSales = grossSales - discountTotal - refundTotal; // M-04
+  const paidCount = paidAgg?.n ?? 0;
+  const aov = paidCount > 0 ? Math.round(netSales / paidCount) : null; // M-07
+
+  // Jumlah order per status (semua order yang dibuat hari itu).
+  const { results: byStatus } = await db
+    .prepare(
+      `SELECT status, COUNT(*) AS n FROM orders
+        WHERE outlet_id = ? AND deleted_at IS NULL
+          AND created_at >= ? AND created_at < ?
+        GROUP BY status`,
+    )
+    .bind(user.outlet_id, from, to)
+    .all<{ status: string; n: number }>();
+  const { results: byPayStatus } = await db
+    .prepare(
+      `SELECT payment_status, COUNT(*) AS n FROM orders
+        WHERE outlet_id = ? AND deleted_at IS NULL
+          AND created_at >= ? AND created_at < ?
+        GROUP BY payment_status`,
+    )
+    .bind(user.outlet_id, from, to)
+    .all<{ payment_status: string; n: number }>();
+  const ordersByStatus: Record<string, number> = {
+    open: 0, paid: 0, completed: 0, void: 0,
+  };
+  for (const r of byStatus) ordersByStatus[r.status] = r.n;
+  const ordersByPaymentStatus: Record<string, number> = {
+    unpaid: 0, partial: 0, paid: 0,
+  };
+  for (const r of byPayStatus) ordersByPaymentStatus[r.payment_status] = r.n;
+
+  // Per metode pembayaran (M-05): settled & pending dari created_at
+  // pembayaran; refund dari updated_at (periode refund).
+  const paymentMethods: Record<string, unknown>[] = [];
+  for (const method of METHODS) {
+    const settled = await db
+      .prepare(
+        `SELECT COUNT(DISTINCT p.id) AS n, COALESCE(SUM(pa.amount), 0) AS total
+           FROM payments p
+           JOIN payment_allocations pa ON pa.payment_id = p.id
+          WHERE pa.outlet_id = ? AND p.method = ? AND p.status = 'settled'
+            AND p.deleted_at IS NULL AND pa.deleted_at IS NULL
+            AND p.created_at >= ? AND p.created_at < ?`,
+      )
+      .bind(user.outlet_id, method, from, to)
+      .first<{ n: number; total: number }>();
+    const pending = await db
+      .prepare(
+        `SELECT COUNT(DISTINCT p.id) AS n, COALESCE(SUM(pa.amount), 0) AS total
+           FROM payments p
+           JOIN payment_allocations pa ON pa.payment_id = p.id
+          WHERE pa.outlet_id = ? AND p.method = ? AND p.status = 'pending'
+            AND p.deleted_at IS NULL AND pa.deleted_at IS NULL
+            AND p.created_at >= ? AND p.created_at < ?`,
+      )
+      .bind(user.outlet_id, method, from, to)
+      .first<{ n: number; total: number }>();
+    const refunded = await db
+      .prepare(
+        `SELECT COUNT(DISTINCT p.id) AS n, COALESCE(SUM(pa.amount), 0) AS total
+           FROM payments p
+           JOIN payment_allocations pa ON pa.payment_id = p.id
+          WHERE pa.outlet_id = ? AND p.method = ? AND p.status = 'refunded'
+            AND p.deleted_at IS NULL AND pa.deleted_at IS NULL
+            AND p.updated_at >= ? AND p.updated_at < ?`,
+      )
+      .bind(user.outlet_id, method, from, to)
+      .first<{ n: number; total: number }>();
+    paymentMethods.push({
+      method,
+      settled_count: settled?.n ?? 0,
+      settled_amount: settled?.total ?? 0,
+      pending_count: pending?.n ?? 0,
+      pending_amount: pending?.total ?? 0,
+      refunded_count: refunded?.n ?? 0,
+      refunded_amount: refunded?.total ?? 0,
+      net_collected: (settled?.total ?? 0) - (refunded?.total ?? 0),
+    });
+  }
+
+  // Ringkasan shift yang dibuka pada hari laporan.
+  const { results: shiftRows } = await db
+    .prepare(
+      `SELECT * FROM cash_shifts
+        WHERE outlet_id = ? AND deleted_at IS NULL
+          AND opened_at >= ? AND opened_at < ?
+        ORDER BY opened_at ASC`,
+    )
+    .bind(user.outlet_id, from, to)
+    .all<ShiftRow>();
+  const shifts = [];
+  for (const s of shiftRows) {
+    const cashSettled = await settledCashTotal(db, user.outlet_id, s.id);
+    const orderCount = await db
+      .prepare("SELECT COUNT(*) AS n FROM orders WHERE shift_id = ? AND outlet_id = ? AND deleted_at IS NULL")
+      .bind(s.id, user.outlet_id)
+      .first<{ n: number }>();
+    shifts.push({
+      id: s.id, cashier_id: s.cashier_id, status: s.status,
+      opened_at: s.opened_at, closed_at: s.closed_at,
+      opening_cash: s.opening_cash, expected_cash: s.expected_cash,
+      counted_cash: s.counted_cash, difference: s.difference,
+      settled_cash_amount: cashSettled, orders_count: orderCount?.n ?? 0,
+    });
+  }
+
+  return c.json(
+    successEnvelope(
+      {
+        period: { date, from, to, timezone: "Asia/Jakarta" },
+        gross_sales: grossSales,
+        discount_total: discountTotal,
+        refund_total: refundTotal,
+        refunds_count: refundAgg?.n ?? 0,
+        net_sales: netSales,
+        tax_total: paidAgg?.tax ?? 0,
+        paid_orders_total: paidAgg?.grand ?? 0,
+        paid_transaction_count: paidCount,
+        average_order_value: aov,
+        orders_by_status: ordersByStatus,
+        orders_by_payment_status: ordersByPaymentStatus,
+        payment_methods: paymentMethods,
+        shifts,
+      },
+      c.get("requestId"),
+    ),
+    200,
+  );
+});
+
+// ------------------------------------------------------------- products
+
+reports.get("/reports/products", async (c) => {
+  const user = requireRole(c, "owner", "manager");
+  const db = c.env.DB;
+  const { from, to } = parseRange(c);
+  const { page, perPage, limit, offset } = parsePagination(c.req.query());
+
+  const total = await db
+    .prepare(
+      `SELECT COUNT(DISTINCT oi.product_id) AS n
+         FROM order_items oi
+         JOIN orders o ON o.id = oi.order_id
+        WHERE oi.outlet_id = ? AND oi.deleted_at IS NULL AND o.deleted_at IS NULL
+          AND o.payment_status = 'paid' AND o.status != 'void'
+          AND o.created_at >= ? AND o.created_at < ?`,
+    )
+    .bind(user.outlet_id, from, to)
+    .first<{ n: number }>();
+
+  const { results } = await db
+    .prepare(
+      `SELECT oi.product_id AS product_id, p.name AS product_name,
+              p.category_id AS category_id,
+              SUM(oi.qty) AS qty_sold,
+              SUM(oi.line_total + oi.line_discount) AS gross_revenue,
+              SUM(oi.line_total) AS net_item_revenue,
+              COUNT(DISTINCT oi.order_id) AS order_count
+         FROM order_items oi
+         JOIN orders o ON o.id = oi.order_id
+         LEFT JOIN products p ON p.id = oi.product_id
+        WHERE oi.outlet_id = ? AND oi.deleted_at IS NULL AND o.deleted_at IS NULL
+          AND o.payment_status = 'paid' AND o.status != 'void'
+          AND o.created_at >= ? AND o.created_at < ?
+        GROUP BY oi.product_id
+        ORDER BY gross_revenue DESC, qty_sold DESC
+        LIMIT ? OFFSET ?`,
+    )
+    .bind(user.outlet_id, from, to, limit, offset)
+    .all<{
+      product_id: string | null; product_name: string | null;
+      category_id: string | null; qty_sold: number; gross_revenue: number;
+      net_item_revenue: number; order_count: number;
+    }>();
+
+  return c.json(
+    successEnvelope(
+      {
+        period: { from, to, timezone: "Asia/Jakarta" },
+        items: results.map((r) => ({
+          product_id: r.product_id, product_name: r.product_name,
+          category_id: r.category_id, qty_sold: r.qty_sold,
+          gross_revenue: r.gross_revenue, net_item_revenue: r.net_item_revenue,
+          order_count: r.order_count,
+        })),
+      },
+      c.get("requestId"),
+      { page, per_page: perPage, total: total?.n ?? 0 },
+    ),
+    200,
+  );
+});
+
+// ------------------------------------------------------------ categories
+
+reports.get("/reports/categories", async (c) => {
+  const user = requireRole(c, "owner", "manager");
+  const db = c.env.DB;
+  const { from, to } = parseRange(c);
+  const { page, perPage, limit, offset } = parsePagination(c.req.query());
+
+  const total = await db
+    .prepare(
+      `SELECT COUNT(DISTINCT p.category_id) AS n
+         FROM order_items oi
+         JOIN orders o ON o.id = oi.order_id
+         LEFT JOIN products p ON p.id = oi.product_id
+        WHERE oi.outlet_id = ? AND oi.deleted_at IS NULL AND o.deleted_at IS NULL
+          AND o.payment_status = 'paid' AND o.status != 'void'
+          AND o.created_at >= ? AND o.created_at < ?`,
+    )
+    .bind(user.outlet_id, from, to)
+    .first<{ n: number }>();
+
+  const { results } = await db
+    .prepare(
+      `SELECT p.category_id AS category_id, cat.name AS category_name,
+              SUM(oi.qty) AS qty_sold,
+              SUM(oi.line_total + oi.line_discount) AS gross_revenue,
+              SUM(oi.line_total) AS net_item_revenue,
+              COUNT(DISTINCT oi.order_id) AS order_count,
+              COUNT(DISTINCT oi.product_id) AS product_count
+         FROM order_items oi
+         JOIN orders o ON o.id = oi.order_id
+         LEFT JOIN products p ON p.id = oi.product_id
+         LEFT JOIN categories cat ON cat.id = p.category_id
+        WHERE oi.outlet_id = ? AND oi.deleted_at IS NULL AND o.deleted_at IS NULL
+          AND o.payment_status = 'paid' AND o.status != 'void'
+          AND o.created_at >= ? AND o.created_at < ?
+        GROUP BY p.category_id
+        ORDER BY gross_revenue DESC, qty_sold DESC
+        LIMIT ? OFFSET ?`,
+    )
+    .bind(user.outlet_id, from, to, limit, offset)
+    .all<{
+      category_id: string | null; category_name: string | null;
+      qty_sold: number; gross_revenue: number; net_item_revenue: number;
+      order_count: number; product_count: number;
+    }>();
+
+  return c.json(
+    successEnvelope(
+      {
+        period: { from, to, timezone: "Asia/Jakarta" },
+        items: results.map((r) => ({
+          category_id: r.category_id, category_name: r.category_name,
+          qty_sold: r.qty_sold, gross_revenue: r.gross_revenue,
+          net_item_revenue: r.net_item_revenue, order_count: r.order_count,
+          product_count: r.product_count,
+        })),
+      },
+      c.get("requestId"),
+      { page, per_page: perPage, total: total?.n ?? 0 },
+    ),
+    200,
+  );
+});
+
+// -------------------------------------------------------- shift reconcile
+
+reports.get("/reports/shift/:id", async (c) => {
+  const user = requireRole(c, "owner", "manager");
+  const db = c.env.DB;
+  const shiftId = c.req.param("id");
+  const shift = await db
+    .prepare("SELECT * FROM cash_shifts WHERE id = ? AND outlet_id = ? AND deleted_at IS NULL")
+    .bind(shiftId, user.outlet_id)
+    .first<ShiftRow>();
+  if (!shift) throw new ApiError("NOT_FOUND", "Shift tidak ditemukan");
+
+  const cashReceipts = await settledCashTotal(db, user.outlet_id, shiftId);
+  const movementsTotal = await cashMovementsTotal(db, shiftId);
+  const { results: movements } = await db
+    .prepare("SELECT id, type, amount, reason, created_by, created_at FROM cash_movements WHERE shift_id = ? ORDER BY created_at ASC")
+    .bind(shiftId)
+    .all<{ id: string; type: string; amount: number; reason: string | null; created_by: string | null; created_at: number }>();
+
+  // Refund tunai pada shift (M-12: mengurangi kas expected).
+  const refundRow = await db
+    .prepare(
+      `SELECT COUNT(DISTINCT p.id) AS n, COALESCE(SUM(pa.amount), 0) AS total
+         FROM payments p
+         JOIN payment_allocations pa ON pa.payment_id = p.id
+        WHERE pa.outlet_id = ? AND p.shift_id = ? AND p.method = 'cash'
+          AND p.status = 'refunded' AND p.deleted_at IS NULL AND pa.deleted_at IS NULL`,
+    )
+    .bind(user.outlet_id, shiftId)
+    .first<{ n: number; total: number }>();
+  const cashRefunds = refundRow?.total ?? 0;
+
+  // Expected per M-12 Lestari (termasuk pengurang refund tunai). Bila shift
+  // sudah ditutup, nilai tersimpan dari penutupan shift ikut ditampilkan;
+  // keduanya sama selama belum ada pembayaran refunded (fitur refund
+  // pembayaran belum punya endpoint penulis di sistem ini).
+  const expectedComputed =
+    shift.opening_cash + movementsTotal + cashReceipts - cashRefunds;
+  const counted = shift.counted_cash;
+  const differenceComputed =
+    counted != null ? counted - expectedComputed : null;
+
+  const { results: orders } = await db
+    .prepare(
+      `SELECT id, order_no, status, payment_status, kitchen_status,
+              subtotal, discount_total, tax_total, grand_total, created_at
+         FROM orders
+        WHERE shift_id = ? AND outlet_id = ? AND deleted_at IS NULL
+        ORDER BY created_at ASC`,
+    )
+    .bind(shiftId, user.outlet_id)
+    .all<{
+      id: string; order_no: string; status: string; payment_status: string;
+      kitchen_status: string; subtotal: number; discount_total: number;
+      tax_total: number; grand_total: number; created_at: number;
+    }>();
+
+  // Penerimaan settled per metode di dalam shift.
+  const { results: methodRows } = await db
+    .prepare(
+      `SELECT p.method AS method, COUNT(DISTINCT p.id) AS n,
+              COALESCE(SUM(pa.amount), 0) AS total
+         FROM payments p
+         JOIN payment_allocations pa ON pa.payment_id = p.id
+        WHERE pa.outlet_id = ? AND p.shift_id = ? AND p.status = 'settled'
+          AND p.deleted_at IS NULL AND pa.deleted_at IS NULL
+        GROUP BY p.method`,
+    )
+    .bind(user.outlet_id, shiftId)
+    .all<{ method: string; n: number; total: number }>();
+
+  return c.json(
+    successEnvelope(
+      {
+        shift: {
+          id: shift.id, cashier_id: shift.cashier_id, status: shift.status,
+          opened_at: shift.opened_at, closed_at: shift.closed_at,
+          opening_cash: shift.opening_cash,
+          expected_cash: shift.expected_cash,
+          counted_cash: shift.counted_cash,
+          difference: shift.difference,
+        },
+        reconciliation: {
+          opening_cash: shift.opening_cash,
+          cash_receipts_settled: cashReceipts,
+          cash_refunds: cashRefunds,
+          cash_movements_total: movementsTotal,
+          expected_cash_computed: expectedComputed,
+          counted_cash: counted,
+          difference_computed: differenceComputed,
+        },
+        cash_movements: movements,
+        payment_methods_settled: methodRows.map((r) => ({
+          method: r.method, count: r.n, amount: r.total,
+        })),
+        orders,
+      },
+      c.get("requestId"),
+    ),
+    200,
+  );
+});
+
+export default reports;
