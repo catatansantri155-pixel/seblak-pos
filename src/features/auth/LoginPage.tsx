@@ -1,1 +1,148 @@
-LyoqCiAqIEhhbGFtYW4gbWFzdWsgU2VibGFrIFBPUzogZW1haWwgKyBrYXRhIHNhbmRpICgrIElEIG91dGxldCBiaWxhIGVtYWlsCiAqIHRlcmRhZnRhciBkaSBiZWJlcmFwYSBvdXRsZXQpLiBQZXNhbiBlcnJvciBkYXJpIEFQSSBkaXRhbXBpbGthbiBtYW51c2lhd2kuCiAqLwppbXBvcnQgeyB1c2VTdGF0ZSwgdHlwZSBGb3JtRXZlbnQgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZU5hdmlnYXRlIH0gZnJvbSAicmVhY3Qtcm91dGVyLWRvbSI7CmltcG9ydCB7IENpcmNsZUFsZXJ0LCBFeWUsIEV5ZU9mZiwgU3RvcmUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiLi4vLi4vYXBwL2F1dGgiOwppbXBvcnQgeyBpc0FwaUVycm9yIH0gZnJvbSAiLi4vLi4vbGliL2FwaSI7CmltcG9ydCB7IGZpZWxkRXJyb3IsIGh1bWFuRXJyb3IgfSBmcm9tICIuLi8uLi9saWIvZm9ybWF0IjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIExvZ2luUGFnZSgpIHsKICBjb25zdCB7IGxvZ2luIH0gPSB1c2VBdXRoKCk7CiAgY29uc3QgbmF2aWdhdGUgPSB1c2VOYXZpZ2F0ZSgpOwogIGNvbnN0IFtlbWFpbCwgc2V0RW1haWxdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtwYXNzd29yZCwgc2V0UGFzc3dvcmRdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtvdXRsZXRJZCwgc2V0T3V0bGV0SWRdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtzaG93T3V0bGV0LCBzZXRTaG93T3V0bGV0XSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbc2hvd1Bhc3N3b3JkLCBzZXRTaG93UGFzc3dvcmRdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2J1c3ksIHNldEJ1c3ldID0gdXNlU3RhdGUoZmFsc2UpOwoKICBjb25zdCBvblN1Ym1pdCA9IGFzeW5jIChlOiBGb3JtRXZlbnQpID0+IHsKICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgIHNldEVycm9yKG51bGwpOwogICAgc2V0QnVzeSh0cnVlKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHVzZXIgPSBhd2FpdCBsb2dpbihlbWFpbC50cmltKCksIHBhc3N3b3JkLCBvdXRsZXRJZC50cmltKCkgfHwgdW5kZWZpbmVkKTsKICAgICAgbmF2aWdhdGUodXNlci5yb2xlID09PSAia2l0Y2hlbiIgPyAiL2RhcHVyIiA6ICIva2FzaXIiLCB7IHJlcGxhY2U6IHRydWUgfSk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgLy8gU2VydmVyIG1lbWludGEgb3V0bGV0X2lkIGJpbGEgZW1haWwgYWRhIGRpIGJlYmVyYXBhIG91dGxldC4KICAgICAgaWYgKGlzQXBpRXJyb3IoZXJyKSAmJiBmaWVsZEVycm9yKGVyciwgIm91dGxldF9pZCIpKSB7CiAgICAgICAgc2V0U2hvd091dGxldCh0cnVlKTsKICAgICAgfQogICAgICBzZXRFcnJvcihodW1hbkVycm9yKGVycikpOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0QnVzeShmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgaW5wdXRDbHMgPQogICAgIm1pbi1oLVs0OHB4XSB3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWxpbmUgYmctc3VyZmFjZSBweC0zIHRleHQtYmFzZSB0ZXh0LWluayBwbGFjZWhvbGRlcjp0ZXh0LW11dGVkIGZvY3VzOmJvcmRlci1wcmltYXJ5IjsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IG1pbi1oLWR2aCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYmctY2FudmFzIHB4LTQgcHktMTAiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LW1kIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1saW5lIGJnLXN1cmZhY2UgcC02IHNoYWRvdy1zbSBzbTpwLTgiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi02IGZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBoLTExIHctMTEgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbWQgYmctcHJpbWFyeSB0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgPFN0b3JlIHNpemU9ezI0fSBhcmlhLWhpZGRlbiAvPgogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtaDEgZm9udC1ib2xkIHRleHQtaW5rIj5TZWJsYWsgUE9TPC9oMT4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQiPk1hc3VrIHVudHVrIG11bGFpIGJlcmp1YWxhbjwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7ZXJyb3IgJiYgKAogICAgICAgICAgPGRpdgogICAgICAgICAgICByb2xlPSJhbGVydCIKICAgICAgICAgICAgY2xhc3NOYW1lPSJtYi00IGZsZXggaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC1tZCBiZy1kYW5nZXItYmcgcHgtMyBweS0yLjUgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWRhbmdlciIKICAgICAgICAgID4KICAgICAgICAgICAgPENpcmNsZUFsZXJ0IHNpemU9ezE4fSBhcmlhLWhpZGRlbiBjbGFzc05hbWU9Im10LTAuNSBzaHJpbmstMCIgLz4KICAgICAgICAgICAgPHNwYW4+e2Vycm9yfTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIDxmb3JtIG9uU3VibWl0PXtvblN1Ym1pdH0gY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC00Ij4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxsYWJlbCBodG1sRm9yPSJlbWFpbCIgY2xhc3NOYW1lPSJtYi0xLjUgYmxvY2sgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtaW5rIj4KICAgICAgICAgICAgICBFbWFpbAogICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICBpZD0iZW1haWwiCiAgICAgICAgICAgICAgdHlwZT0iZW1haWwiCiAgICAgICAgICAgICAgYXV0b0NvbXBsZXRlPSJ1c2VybmFtZSIKICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgIHZhbHVlPXtlbWFpbH0KICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldEVtYWlsKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0ibmFtYUB1c2FoYS5pZCIKICAgICAgICAgICAgICBjbGFzc05hbWU9e2lucHV0Q2xzfQogICAgICAgICAgICAvPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9InBhc3N3b3JkIiBjbGFzc05hbWU9Im1iLTEuNSBibG9jayB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICAgIEthdGEgU2FuZGkKICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4KICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgIGlkPSJwYXNzd29yZCIKICAgICAgICAgICAgICAgIHR5cGU9e3Nob3dQYXNzd29yZCA/ICJ0ZXh0IiA6ICJwYXNzd29yZCJ9CiAgICAgICAgICAgICAgICBhdXRvQ29tcGxldGU9ImN1cnJlbnQtcGFzc3dvcmQiCiAgICAgICAgICAgICAgICByZXF1aXJlZAogICAgICAgICAgICAgICAgdmFsdWU9e3Bhc3N3b3JkfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQYXNzd29yZChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iS2F0YSBzYW5kaSBha3VuIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgJHtpbnB1dENsc30gcHItMTJgfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0U2hvd1Bhc3N3b3JkKCh2KSA9PiAhdil9CiAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPXtzaG93UGFzc3dvcmQgPyAiU2VtYnVueWlrYW4ga2F0YSBzYW5kaSIgOiAiVGFtcGlsa2FuIGthdGEgc2FuZGkifQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSByaWdodC0xIHRvcC0xLzIgZmxleCBoLTExIHctMTEgLXRyYW5zbGF0ZS15LTEvMiBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCB0ZXh0LW11dGVkIGhvdmVyOmJnLXN1YnRsZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICB7c2hvd1Bhc3N3b3JkID8gPEV5ZU9mZiBzaXplPXsyMH0gYXJpYS1oaWRkZW4gLz4gOiA8RXllIHNpemU9ezIwfSBhcmlhLWhpZGRlbiAvPn0KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7c2hvd091dGxldCA/ICgKICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj0ib3V0bGV0IiBjbGFzc05hbWU9Im1iLTEuNSBibG9jayB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICAgICAgSUQgT3V0bGV0CiAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgIGlkPSJvdXRsZXQiCiAgICAgICAgICAgICAgICB0eXBlPSJ0ZXh0IgogICAgICAgICAgICAgICAgdmFsdWU9e291dGxldElkfQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRPdXRsZXRJZChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iSUQgb3V0bGV0IHRlbXBhdCBha3VuIHRlcmRhZnRhciIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17aW5wdXRDbHN9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC14cyB0ZXh0LW11dGVkIj4KICAgICAgICAgICAgICAgIEVtYWlsIEFuZGEgdGVyZGFmdGFyIGRpIGxlYmloIGRhcmkgc2F0dSBvdXRsZXQ7IGlzaSBJRCBvdXRsZXQgeWFuZyBiZW5hci4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSA6ICgKICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTaG93T3V0bGV0KHRydWUpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0ic2VsZi1zdGFydCB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1wcmltYXJ5LXRleHQgaG92ZXI6dW5kZXJsaW5lIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgTWFzdWsgZGVuZ2FuIElEIG91dGxldCB0ZXJ0ZW50dQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICl9CgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJzdWJtaXQiCiAgICAgICAgICAgIGRpc2FibGVkPXtidXN5fQogICAgICAgICAgICBjbGFzc05hbWU9Im10LTIgbWluLWgtWzUycHhdIHJvdW5kZWQtbWQgYmctcHJpbWFyeSBweC00IGZvbnQtZGlzcGxheSB0ZXh0LWJhc2UgZm9udC1ib2xkIHRleHQtd2hpdGUgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctcHJpbWFyeS1ob3ZlciBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6b3BhY2l0eS02MCIKICAgICAgICAgID4KICAgICAgICAgICAge2J1c3kgPyAiTWVtZXJpa3Nh4oCmIiA6ICJNYXN1ayJ9CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Zvcm0+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfQo=
+/**
+ * Halaman masuk Seblak POS: email + kata sandi (+ ID outlet bila email
+ * terdaftar di beberapa outlet). Pesan error dari API ditampilkan manusiawi.
+ */
+import { useState, type FormEvent } from "react";
+import { useNavigate } from "react-router-dom";
+import { CircleAlert, Eye, EyeOff, Store } from "lucide-react";
+import { useAuth } from "../../app/auth";
+import { isApiError } from "../../lib/api";
+import { fieldError, humanError } from "../../lib/format";
+
+export default function LoginPage() {
+  const { login } = useAuth();
+  const navigate = useNavigate();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [outletId, setOutletId] = useState("");
+  const [showOutlet, setShowOutlet] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+
+  const onSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    setBusy(true);
+    try {
+      const user = await login(email.trim(), password, outletId.trim() || undefined);
+      navigate(user.role === "kitchen" ? "/dapur" : "/kasir", { replace: true });
+    } catch (err) {
+      // Server meminta outlet_id bila email ada di beberapa outlet.
+      if (isApiError(err) && fieldError(err, "outlet_id")) {
+        setShowOutlet(true);
+      }
+      setError(humanError(err));
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const inputCls =
+    "min-h-[48px] w-full rounded-md border border-line bg-surface px-3 text-base text-ink placeholder:text-muted focus:border-primary";
+
+  return (
+    <div className="flex min-h-dvh items-center justify-center bg-canvas px-4 py-10">
+      <div className="w-full max-w-md rounded-lg border border-line bg-surface p-6 shadow-sm sm:p-8">
+        <div className="mb-6 flex items-center gap-3">
+          <span className="flex h-11 w-11 items-center justify-center rounded-md bg-primary text-white">
+            <Store size={24} aria-hidden />
+          </span>
+          <div>
+            <h1 className="font-display text-h1 font-bold text-ink">Seblak POS</h1>
+            <p className="text-sm text-muted">Masuk untuk mulai berjualan</p>
+          </div>
+        </div>
+
+        {error && (
+          <div
+            role="alert"
+            className="mb-4 flex items-start gap-2 rounded-md bg-danger-bg px-3 py-2.5 text-sm font-medium text-danger"
+          >
+            <CircleAlert size={18} aria-hidden className="mt-0.5 shrink-0" />
+            <span>{error}</span>
+          </div>
+        )}
+
+        <form onSubmit={onSubmit} className="flex flex-col gap-4">
+          <div>
+            <label htmlFor="email" className="mb-1.5 block text-sm font-semibold text-ink">
+              Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              autoComplete="username"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="nama@usaha.id"
+              className={inputCls}
+            />
+          </div>
+
+          <div>
+            <label htmlFor="password" className="mb-1.5 block text-sm font-semibold text-ink">
+              Kata Sandi
+            </label>
+            <div className="relative">
+              <input
+                id="password"
+                type={showPassword ? "text" : "password"}
+                autoComplete="current-password"
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                placeholder="Kata sandi akun"
+                className={`${inputCls} pr-12`}
+              />
+              <button
+                type="button"
+                onClick={() => setShowPassword((v) => !v)}
+                aria-label={showPassword ? "Sembunyikan kata sandi" : "Tampilkan kata sandi"}
+                className="absolute right-1 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-md text-muted hover:bg-subtle"
+              >
+                {showPassword ? <EyeOff size={20} aria-hidden /> : <Eye size={20} aria-hidden />}
+              </button>
+            </div>
+          </div>
+
+          {showOutlet ? (
+            <div>
+              <label htmlFor="outlet" className="mb-1.5 block text-sm font-semibold text-ink">
+                ID Outlet
+              </label>
+              <input
+                id="outlet"
+                type="text"
+                value={outletId}
+                onChange={(e) => setOutletId(e.target.value)}
+                placeholder="ID outlet tempat akun terdaftar"
+                className={inputCls}
+              />
+              <p className="mt-1 text-xs text-muted">
+                Email Anda terdaftar di lebih dari satu outlet; isi ID outlet yang benar.
+              </p>
+            </div>
+          ) : (
+            <button
+              type="button"
+              onClick={() => setShowOutlet(true)}
+              className="self-start text-sm font-semibold text-primary-text hover:underline"
+            >
+              Masuk dengan ID outlet tertentu
+            </button>
+          )}
+
+          <button
+            type="submit"
+            disabled={busy}
+            className="mt-2 min-h-[52px] rounded-md bg-primary px-4 font-display text-base font-bold text-white transition-colors hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-60"
+          >
+            {busy ? "Memeriksa…" : "Masuk"}
+          </button>
+        </form>
+      </div>
+    </div>
+  );
+}
