@@ -1,1 +1,55 @@
-aW1wb3J0IHR5cGUgeyBDb25maWcgfSBmcm9tICJ0YWlsd2luZGNzcyI7CgovLyBQZW1ldGFhbiBkZXNpZ24gdG9rZW4gU2ludGEgKEcxIOKAlCBEZXNpZ24gVG9rZW5zICYgU3RydWt0dXIgQXBwU2hlbGwsCi8vIGRva3VtZW4gYXJ0ZWZhayBMaXZpbmcgV29ybGQgaWQgNykga2UgdGVtYSBUYWlsd2luZDoKLy8gLSB3YXJuYSBpbnRpICYgdHVydW5hbiBwZXJzaXMgwqcyLjEgKGNhbnZhcyAjRkFGQUY4LCBwcmltYXJ5ICNGOTczMTYsIGRzdC4pCi8vIC0gdGlwb2dyYWZpIMKnMi4yOiBQbHVzIEpha2FydGEgU2FucyAoZGlzcGxheSkgKyBJbnRlciAoYm9keSkKLy8gLSByYWRpdXMgwqcyLjQ6IG1kIDEycHgsIGxnIDE2cHgsIHhsIDIwcHgsIGZ1bGwgOTk5cHggKGJhd2FhbiBUYWlsd2luZCkKLy8gLSBzcGFjaW5nOiBza2FsYSBiYXdhYW4gVGFpbHdpbmQgYmVyYmFzaXMgNHB4IHN1ZGFoIHNlc3VhaSDCpzIuMwpleHBvcnQgZGVmYXVsdCB7CiAgY29udGVudDogWyIuL2luZGV4Lmh0bWwiLCAiLi9zcmMvKiovKi57dHMsdHN4fSJdLAogIHRoZW1lOiB7CiAgICBleHRlbmQ6IHsKICAgICAgY29sb3JzOiB7CiAgICAgICAgY2FudmFzOiAiI0ZBRkFGOCIsCiAgICAgICAgc3VyZmFjZTogIiNGRkZGRkYiLAogICAgICAgIHN1YnRsZTogIiNGMUY1RjkiLAogICAgICAgIHByaW1hcnk6IHsKICAgICAgICAgIERFRkFVTFQ6ICIjRjk3MzE2IiwKICAgICAgICAgIGhvdmVyOiAiI0VBNTgwQyIsCiAgICAgICAgICB0ZXh0OiAiI0MyNDEwQyIsCiAgICAgICAgICBzb2Z0OiAiI0ZGRjdFRCIsCiAgICAgICAgfSwKICAgICAgICBpbms6ICIjMEYxNzJBIiwKICAgICAgICBzZWNvbmRhcnk6ICIjNDc1NTY5IiwKICAgICAgICBtdXRlZDogIiM2NDc0OEIiLAogICAgICAgIGxpbmU6IHsKICAgICAgICAgIERFRkFVTFQ6ICIjRTJFOEYwIiwKICAgICAgICAgIHN0cm9uZzogIiNDQkQ1RTEiLAogICAgICAgIH0sCiAgICAgICAgc3VjY2VzczogeyBERUZBVUxUOiAiIzE1ODAzRCIsIGJnOiAiI0YwRkRGNCIgfSwKICAgICAgICB3YXJuaW5nOiB7IERFRkFVTFQ6ICIjQjQ1MzA5IiwgYmc6ICIjRkZGQkVCIiB9LAogICAgICAgIGRhbmdlcjogeyBERUZBVUxUOiAiI0I5MUMxQyIsIGJnOiAiI0ZFRjJGMiIgfSwKICAgICAgICBpbmZvOiB7IERFRkFVTFQ6ICIjMUQ0RUQ4IiwgYmc6ICIjRUZGNkZGIiB9LAogICAgICB9LAogICAgICBmb250RmFtaWx5OiB7CiAgICAgICAgZGlzcGxheTogWyciUGx1cyBKYWthcnRhIFNhbnMiJywgInN5c3RlbS11aSIsICJzYW5zLXNlcmlmIl0sCiAgICAgICAgc2FuczogWyJJbnRlciIsICJzeXN0ZW0tdWkiLCAic2Fucy1zZXJpZiJdLAogICAgICB9LAogICAgICBmb250U2l6ZTogewogICAgICAgIGRpc3BsYXk6IFsiMjhweCIsIHsgbGluZUhlaWdodDogIjM2cHgiLCBmb250V2VpZ2h0OiAiODAwIiB9XSwKICAgICAgICBoMTogWyIyNHB4IiwgeyBsaW5lSGVpZ2h0OiAiMzJweCIsIGZvbnRXZWlnaHQ6ICI3MDAiIH1dLAogICAgICAgIGgyOiBbIjIwcHgiLCB7IGxpbmVIZWlnaHQ6ICIyOHB4IiwgZm9udFdlaWdodDogIjcwMCIgfV0sCiAgICAgICAgaDM6IFsiMTZweCIsIHsgbGluZUhlaWdodDogIjI0cHgiLCBmb250V2VpZ2h0OiAiNjAwIiB9XSwKICAgICAgICAicHJpY2UtbGciOiBbIjIwcHgiLCB7IGxpbmVIZWlnaHQ6ICIyOHB4IiwgZm9udFdlaWdodDogIjgwMCIgfV0sCiAgICAgICAgcHJpY2U6IFsiMTZweCIsIHsgbGluZUhlaWdodDogIjI0cHgiLCBmb250V2VpZ2h0OiAiNzAwIiB9XSwKICAgICAgfSwKICAgICAgYm9yZGVyUmFkaXVzOiB7CiAgICAgICAgbWQ6ICIxMnB4IiwKICAgICAgICBsZzogIjE2cHgiLAogICAgICAgIHhsOiAiMjBweCIsCiAgICAgIH0sCiAgICB9LAogIH0sCiAgcGx1Z2luczogW10sCn0gc2F0aXNmaWVzIENvbmZpZzsK
+import type { Config } from "tailwindcss";
+
+// Pemetaan design token Sinta (G1 — Design Tokens & Struktur AppShell,
+// dokumen artefak Living World id 7) ke tema Tailwind:
+// - warna inti & turunan persis §2.1 (canvas #FAFAF8, primary #F97316, dst.)
+// - tipografi §2.2: Plus Jakarta Sans (display) + Inter (body)
+// - radius §2.4: md 12px, lg 16px, xl 20px, full 999px (bawaan Tailwind)
+// - spacing: skala bawaan Tailwind berbasis 4px sudah sesuai §2.3
+export default {
+  content: ["./index.html", "./src/**/*.{ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        canvas: "#FAFAF8",
+        surface: "#FFFFFF",
+        subtle: "#F1F5F9",
+        primary: {
+          DEFAULT: "#F97316",
+          hover: "#EA580C",
+          text: "#C2410C",
+          soft: "#FFF7ED",
+        },
+        ink: "#0F172A",
+        secondary: "#475569",
+        muted: "#64748B",
+        line: {
+          DEFAULT: "#E2E8F0",
+          strong: "#CBD5E1",
+        },
+        success: { DEFAULT: "#15803D", bg: "#F0FDF4" },
+        warning: { DEFAULT: "#B45309", bg: "#FFFBEB" },
+        danger: { DEFAULT: "#B91C1C", bg: "#FEF2F2" },
+        info: { DEFAULT: "#1D4ED8", bg: "#EFF6FF" },
+      },
+      fontFamily: {
+        display: ['"Plus Jakarta Sans"', "system-ui", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
+      fontSize: {
+        display: ["28px", { lineHeight: "36px", fontWeight: "800" }],
+        h1: ["24px", { lineHeight: "32px", fontWeight: "700" }],
+        h2: ["20px", { lineHeight: "28px", fontWeight: "700" }],
+        h3: ["16px", { lineHeight: "24px", fontWeight: "600" }],
+        "price-lg": ["20px", { lineHeight: "28px", fontWeight: "800" }],
+        price: ["16px", { lineHeight: "24px", fontWeight: "700" }],
+      },
+      borderRadius: {
+        md: "12px",
+        lg: "16px",
+        xl: "20px",
+      },
+    },
+  },
+  plugins: [],
+} satisfies Config;
