@@ -1,1 +1,488 @@
-LyoqCiAqIEhhbGFtYW4gTGFwb3JhbiDigJQgYW5na2EgbWVuZ2lrdXRpIE1ldHJpYyBEaWN0aW9uYXJ5IExlc3RhcmkgKEc0YSk6CiAqIGhhbnlhIHRyYW5zYWtzaSBMVU5BUyB5YW5nIG1lbmphZGkgcGVuZGFwYXRhbjsgcGVtYmF5YXJhbiBwZW5kaW5nCiAqIGRpbGFwb3JrYW4gdGVycGlzYWggZGFuIHRpZGFrIG1hc3VrIHBlbmVyaW1hYW4uIFNlbXVhIGFuZ2thIGRpIGhhbGFtYW4KICogaW5pIGJlcmFzYWwgZGFyaSByZXNwb25zIHNlcnZlciAoL3JlcG9ydHMvKiksIHRpZGFrIGRpaGl0dW5nIGxva2FsLgogKi8KaW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENpcmNsZUFsZXJ0LCBSZWNlaXB0VGV4dCwgWCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7CiAgY2F0ZWdvcnlSZXBvcnQsCiAgZGFpbHlSZXBvcnQsCiAgcHJvZHVjdFJlcG9ydCwKICBzaGlmdFJlcG9ydCwKICB0eXBlIENhdGVnb3J5UmVwb3J0SXRlbSwKICB0eXBlIERhaWx5UmVwb3J0LAogIHR5cGUgUHJvZHVjdFJlcG9ydEl0ZW0sCiAgdHlwZSBTaGlmdFJlcG9ydCwKfSBmcm9tICIuLi8uLi9saWIvYXBpIjsKaW1wb3J0IHsKICBmb3JtYXREYXRlVGltZSwKICBmb3JtYXRScCwKICBmb3JtYXRUaW1lLAogIGh1bWFuRXJyb3IsCiAgcGF5bWVudE1ldGhvZExhYmVsLAogIHNoaWZ0U3RhdHVzTGFiZWwsCn0gZnJvbSAiLi4vLi4vbGliL2Zvcm1hdCI7CgpmdW5jdGlvbiB0b2RheUxvY2FsKCk6IHN0cmluZyB7CiAgY29uc3QgZCA9IG5ldyBEYXRlKCk7CiAgY29uc3QgcGFkID0gKG46IG51bWJlcikgPT4gU3RyaW5nKG4pLnBhZFN0YXJ0KDIsICIwIik7CiAgcmV0dXJuIGAke2QuZ2V0RnVsbFllYXIoKX0tJHtwYWQoZC5nZXRNb250aCgpICsgMSl9LSR7cGFkKGQuZ2V0RGF0ZSgpKX1gOwp9CgpmdW5jdGlvbiBTdW1tYXJ5Q2FyZCh7CiAgbGFiZWwsCiAgdmFsdWUsCiAgYWNjZW50LAp9OiB7CiAgbGFiZWw6IHN0cmluZzsKICB2YWx1ZTogc3RyaW5nOwogIGFjY2VudD86IGJvb2xlYW47Cn0pIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1saW5lIGJnLXN1cmZhY2UgcC00Ij4KICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2Vjb25kYXJ5Ij57bGFiZWx9PC9wPgogICAgICA8cAogICAgICAgIGNsYXNzTmFtZT17YG51bWVyaWMgbXQtMSBmb250LWRpc3BsYXkgdGV4dC1wcmljZS1sZyBmb250LWV4dHJhYm9sZCAkewogICAgICAgICAgYWNjZW50ID8gInRleHQtcHJpbWFyeS10ZXh0IiA6ICJ0ZXh0LWluayIKICAgICAgICB9YH0KICAgICAgPgogICAgICAgIHt2YWx1ZX0KICAgICAgPC9wPgogICAgPC9kaXY+CiAgKTsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTGFwb3JhblBhZ2UoKSB7CiAgY29uc3QgW2RhdGUsIHNldERhdGVdID0gdXNlU3RhdGUodG9kYXlMb2NhbCgpKTsKICBjb25zdCBbZGFpbHksIHNldERhaWx5XSA9IHVzZVN0YXRlPERhaWx5UmVwb3J0IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3Byb2R1Y3RzLCBzZXRQcm9kdWN0c10gPSB1c2VTdGF0ZTxQcm9kdWN0UmVwb3J0SXRlbVtdPihbXSk7CiAgY29uc3QgW2NhdGVnb3JpZXMsIHNldENhdGVnb3JpZXNdID0gdXNlU3RhdGU8Q2F0ZWdvcnlSZXBvcnRJdGVtW10+KFtdKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZSh0cnVlKTsKICBjb25zdCBbZXJyb3IsIHNldEVycm9yXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwoKICBjb25zdCBbc2hpZnREZXRhaWwsIHNldFNoaWZ0RGV0YWlsXSA9IHVzZVN0YXRlPFNoaWZ0UmVwb3J0IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3NoaWZ0TG9hZGluZ0lkLCBzZXRTaGlmdExvYWRpbmdJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbc2hpZnRFcnJvciwgc2V0U2hpZnRFcnJvcl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKCiAgY29uc3QgbG9hZCA9IHVzZUNhbGxiYWNrKGFzeW5jIChmb3JEYXRlOiBzdHJpbmcpID0+IHsKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICBzZXRFcnJvcihudWxsKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IFtkLCBwLCBjXSA9IGF3YWl0IFByb21pc2UuYWxsKFsKICAgICAgICBkYWlseVJlcG9ydChmb3JEYXRlKSwKICAgICAgICBwcm9kdWN0UmVwb3J0KGZvckRhdGUsIGZvckRhdGUpLAogICAgICAgIGNhdGVnb3J5UmVwb3J0KGZvckRhdGUsIGZvckRhdGUpLAogICAgICBdKTsKICAgICAgc2V0RGFpbHkoZCk7CiAgICAgIHNldFByb2R1Y3RzKHAuaXRlbXMpOwogICAgICBzZXRDYXRlZ29yaWVzKGMuaXRlbXMpOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIHNldEVycm9yKGh1bWFuRXJyb3IoZXJyKSk7CiAgICAgIHNldERhaWx5KG51bGwpOwogICAgICBzZXRQcm9kdWN0cyhbXSk7CiAgICAgIHNldENhdGVnb3JpZXMoW10pOwogICAgfSBmaW5hbGx5IHsKICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICB9CiAgfSwgW10pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgdm9pZCBsb2FkKGRhdGUpOwogIH0sIFtsb2FkLCBkYXRlXSk7CgogIGNvbnN0IG9wZW5TaGlmdERldGFpbCA9IGFzeW5jIChpZDogc3RyaW5nKSA9PiB7CiAgICBzZXRTaGlmdExvYWRpbmdJZChpZCk7CiAgICBzZXRTaGlmdEVycm9yKG51bGwpOwogICAgdHJ5IHsKICAgICAgY29uc3QgZGV0YWlsID0gYXdhaXQgc2hpZnRSZXBvcnQoaWQpOwogICAgICBzZXRTaGlmdERldGFpbChkZXRhaWwpOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIHNldFNoaWZ0RXJyb3IoaHVtYW5FcnJvcihlcnIpKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldFNoaWZ0TG9hZGluZ0lkKG51bGwpOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byB3LWZ1bGwgbWF4LXctNnhsIHB4LTQgcHktNiBzbTpweC02Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWVuZCBnYXAtMyI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxsYWJlbCBodG1sRm9yPSJyZXBvcnQtZGF0ZSIgY2xhc3NOYW1lPSJtYi0xLjUgYmxvY2sgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtaW5rIj4KICAgICAgICAgICAgVGFuZ2dhbCBsYXBvcmFuCiAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgPGlucHV0CiAgICAgICAgICAgIGlkPSJyZXBvcnQtZGF0ZSIKICAgICAgICAgICAgdHlwZT0iZGF0ZSIKICAgICAgICAgICAgdmFsdWU9e2RhdGV9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0RGF0ZShlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgIGNsYXNzTmFtZT0ibWluLWgtWzQ4cHhdIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1saW5lIGJnLXN1cmZhY2UgcHgtMyB0ZXh0LWJhc2UgdGV4dC1pbmsgZm9jdXM6Ym9yZGVyLXByaW1hcnkiCiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldERhdGUodG9kYXlMb2NhbCgpKX0KICAgICAgICAgIGNsYXNzTmFtZT0ibWluLWgtWzQ4cHhdIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1saW5lIHB4LTQgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtcHJpbWFyeS10ZXh0IGhvdmVyOmJnLXN1YnRsZSIKICAgICAgICA+CiAgICAgICAgICBIYXJpIEluaQogICAgICAgIDwvYnV0dG9uPgogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHZvaWQgbG9hZChkYXRlKX0KICAgICAgICAgIGRpc2FibGVkPXtsb2FkaW5nfQogICAgICAgICAgY2xhc3NOYW1lPSJtaW4taC1bNDhweF0gcm91bmRlZC1tZCBiZy1wcmltYXJ5IHB4LTQgdGV4dC1zbSBmb250LWJvbGQgdGV4dC13aGl0ZSBob3ZlcjpiZy1wcmltYXJ5LWhvdmVyIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTYwIgogICAgICAgID4KICAgICAgICAgIHtsb2FkaW5nID8gIk1lbXVhdOKApiIgOiAiTXVhdCBVbGFuZyJ9CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvZGl2PgoKICAgICAge2Vycm9yICYmICgKICAgICAgICA8ZGl2IHJvbGU9ImFsZXJ0IiBjbGFzc05hbWU9Im10LTQgZmxleCBpdGVtcy1zdGFydCBnYXAtMiByb3VuZGVkLW1kIGJnLWRhbmdlci1iZyBweC0zIHB5LTIuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZGFuZ2VyIj4KICAgICAgICAgIDxDaXJjbGVBbGVydCBzaXplPXsxOH0gYXJpYS1oaWRkZW4gY2xhc3NOYW1lPSJtdC0wLjUgc2hyaW5rLTAiIC8+CiAgICAgICAgICA8c3Bhbj5CZWx1bSBiaXNhIG1lbXVhdCBsYXBvcmFuOiB7ZXJyb3J9PC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgICB7c2hpZnRFcnJvciAmJiAoCiAgICAgICAgPGRpdiByb2xlPSJhbGVydCIgY2xhc3NOYW1lPSJtdC00IGZsZXggaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC1tZCBiZy1kYW5nZXItYmcgcHgtMyBweS0yLjUgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWRhbmdlciI+CiAgICAgICAgICA8Q2lyY2xlQWxlcnQgc2l6ZT17MTh9IGFyaWEtaGlkZGVuIGNsYXNzTmFtZT0ibXQtMC41IHNocmluay0wIiAvPgogICAgICAgICAgPHNwYW4+QmVsdW0gYmlzYSBtZW11YXQgcmVrb25zaWxpYXNpIHNoaWZ0OiB7c2hpZnRFcnJvcn08L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICl9CgogICAgICB7bG9hZGluZyAmJiAhZGFpbHkgPyAoCiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC04IHRleHQtc20gdGV4dC1tdXRlZCI+TWVtdWF0IGxhcG9yYW7igKY8L3A+CiAgICAgICkgOiBkYWlseSA/ICgKICAgICAgICA8PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZ3JpZCBncmlkLWNvbHMtMiBnYXAtMyBsZzpncmlkLWNvbHMtNSI+CiAgICAgICAgICAgIDxTdW1tYXJ5Q2FyZCBsYWJlbD0iUGVuanVhbGFuIEtvdG9yIiB2YWx1ZT17Zm9ybWF0UnAoZGFpbHkuZ3Jvc3Nfc2FsZXMpfSAvPgogICAgICAgICAgICA8U3VtbWFyeUNhcmQgbGFiZWw9IkRpc2tvbiIgdmFsdWU9e2Zvcm1hdFJwKGRhaWx5LmRpc2NvdW50X3RvdGFsKX0gLz4KICAgICAgICAgICAgPFN1bW1hcnlDYXJkIGxhYmVsPSJQZW5qdWFsYW4gQmVyc2loIiB2YWx1ZT17Zm9ybWF0UnAoZGFpbHkubmV0X3NhbGVzKX0gYWNjZW50IC8+CiAgICAgICAgICAgIDxTdW1tYXJ5Q2FyZAogICAgICAgICAgICAgIGxhYmVsPSJUcmFuc2Frc2kgTHVuYXMiCiAgICAgICAgICAgICAgdmFsdWU9e1N0cmluZyhkYWlseS5wYWlkX3RyYW5zYWN0aW9uX2NvdW50KX0KICAgICAgICAgICAgLz4KICAgICAgICAgICAgPFN1bW1hcnlDYXJkCiAgICAgICAgICAgICAgbGFiZWw9IlJhdGEtcmF0YSBUcmFuc2Frc2kiCiAgICAgICAgICAgICAgdmFsdWU9ewogICAgICAgICAgICAgICAgZGFpbHkuYXZlcmFnZV9vcmRlcl92YWx1ZSA9PT0gbnVsbAogICAgICAgICAgICAgICAgICA/ICLigJQiCiAgICAgICAgICAgICAgICAgIDogZm9ybWF0UnAoZGFpbHkuYXZlcmFnZV9vcmRlcl92YWx1ZSkKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7KGRhaWx5LnJlZnVuZF90b3RhbCA+IDAgfHwgZGFpbHkudGF4X3RvdGFsID4gMCkgJiYgKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC1zbSB0ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAge2RhaWx5LnJlZnVuZF90b3RhbCA+IDAgJiYgKAogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgUmVmdW5kIGhhcmkgaW5pOnsiICJ9CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibnVtZXJpYyBmb250LXNlbWlib2xkIHRleHQtaW5rIj4KICAgICAgICAgICAgICAgICAgICB7Zm9ybWF0UnAoZGFpbHkucmVmdW5kX3RvdGFsKX0KICAgICAgICAgICAgICAgICAgPC9zcGFuPnsiICJ9CiAgICAgICAgICAgICAgICAgICh7ZGFpbHkucmVmdW5kc19jb3VudH0gcGVtYmF5YXJhbikueyIgIn0KICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAge2RhaWx5LnRheF90b3RhbCA+IDAgJiYgKAogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgUGFqYWsgcGFkYSB0cmFuc2Frc2kgbHVuYXM6eyIgIn0KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJudW1lcmljIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICAgICAgICAgIHtmb3JtYXRScChkYWlseS50YXhfdG90YWwpfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIC4KICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICl9CgogICAgICAgICAge2RhaWx5LnBhaWRfdHJhbnNhY3Rpb25fY291bnQgPT09IDAgJiYgZGFpbHkuc2hpZnRzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRhc2hlZCBib3JkZXItbGluZS1zdHJvbmcgYmctc3VyZmFjZSBweC02IHB5LTEyIHRleHQtY2VudGVyIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXggaC0xNiB3LTE2IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWZ1bGwgYmctc3VidGxlIHRleHQtbXV0ZWQiPgogICAgICAgICAgICAgICAgPFJlY2VpcHRUZXh0IHNpemU9ezMyfSBhcmlhLWhpZGRlbiAvPgogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTQgZm9udC1kaXNwbGF5IHRleHQtaDIgZm9udC1ib2xkIHRleHQtaW5rIj4KICAgICAgICAgICAgICAgIEJlbHVtIGFkYSB0cmFuc2Frc2kgcGFkYSB0YW5nZ2FsIGluaQogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgbWF4LXctc20gdGV4dC1zbSB0ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICBMYXBvcmFuIGhhbnlhIG1lbmdoaXR1bmcgdHJhbnNha3NpIHlhbmcgc3VkYWggbHVuYXMuIENvYmEgdGFuZ2dhbCBsYWluIGF0YXUKICAgICAgICAgICAgICAgIHR1bmdndSB0cmFuc2Frc2kgcGVydGFtYSBzZWxlc2FpIGRpYmF5YXIuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgPHNlY3Rpb24gYXJpYS1sYWJlbD0iUGVyIG1ldG9kZSBwZW1iYXlhcmFuIiBjbGFzc05hbWU9Im10LTgiPgogICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtaDIgZm9udC1ib2xkIHRleHQtaW5rIj5QZXIgTWV0b2RlIFBlbWJheWFyYW48L2gyPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTMgb3ZlcmZsb3cteC1hdXRvIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1saW5lIGJnLXN1cmZhY2UiPgogICAgICAgICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgbWluLXctWzY0MHB4XSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICA8dGhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICA8dHIgY2xhc3NOYW1lPSJib3JkZXItYiBib3JkZXItbGluZSBiZy1zdWJ0bGUgdGV4dC1sZWZ0IHRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtNCBweS0yLjUgZm9udC1zZW1pYm9sZCI+TWV0b2RlPC90aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtNCBweS0yLjUgdGV4dC1yaWdodCBmb250LXNlbWlib2xkIj5UZXJrb25maXJtYXNpPC90aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtNCBweS0yLjUgdGV4dC1yaWdodCBmb250LXNlbWlib2xkIj5NZW51bmdndTwvdGg+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0aCBzY29wZT0iY29sIiBjbGFzc05hbWU9InB4LTQgcHktMi41IHRleHQtcmlnaHQgZm9udC1zZW1pYm9sZCI+UmVmdW5kPC90aD4KICAgICAgICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtNCBweS0yLjUgdGV4dC1yaWdodCBmb250LXNlbWlib2xkIj5EaXRlcmltYSBCZXJzaWg8L3RoPgogICAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgICA8L3RoZWFkPgogICAgICAgICAgICAgICAgICAgIDx0Ym9keSBjbGFzc05hbWU9ImRpdmlkZS15IGRpdmlkZS1saW5lIj4KICAgICAgICAgICAgICAgICAgICAgIHtkYWlseS5wYXltZW50X21ldGhvZHMubWFwKChtKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICAgIDx0ciBrZXk9e20ubWV0aG9kfT4KICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJweC00IHB5LTIuNSBmb250LXNlbWlib2xkIHRleHQtaW5rIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwYXltZW50TWV0aG9kTGFiZWwobS5tZXRob2QpfQogICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0ibnVtZXJpYyBweC00IHB5LTIuNSB0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtmb3JtYXRScChtLnNldHRsZWRfYW1vdW50KX17IiAifQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkIj4oe20uc2V0dGxlZF9jb3VudH3Dlyk8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJudW1lcmljIHB4LTQgcHktMi41IHRleHQtcmlnaHQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge2Zvcm1hdFJwKG0ucGVuZGluZ19hbW91bnQpfXsiICJ9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtbXV0ZWQiPih7bS5wZW5kaW5nX2NvdW50fcOXKTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9Im51bWVyaWMgcHgtNCBweS0yLjUgdGV4dC1yaWdodCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Zm9ybWF0UnAobS5yZWZ1bmRlZF9hbW91bnQpfQogICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0ibnVtZXJpYyBweC00IHB5LTIuNSB0ZXh0LXJpZ2h0IGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAge2Zvcm1hdFJwKG0ubmV0X2NvbGxlY3RlZCl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgIDwvdGJvZHk+CiAgICAgICAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXhzIHRleHQtbXV0ZWQiPgogICAgICAgICAgICAgICAgICBQZW1iYXlhcmFuIG1lbnVuZ2d1IGtvbmZpcm1hc2kgYmVsdW0gbWFzdWsgcGVuZXJpbWFhbiBzYW1wYWkgZGlrb25maXJtYXNpCiAgICAgICAgICAgICAgICAgIHBlbWlsaWsvbWFuYWdlci4KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8L3NlY3Rpb24+CgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC04IGdyaWQgZ2FwLTggbGc6Z3JpZC1jb2xzLTIiPgogICAgICAgICAgICAgICAgPHNlY3Rpb24gYXJpYS1sYWJlbD0iUHJvZHVrIHRlcmxhcmlzIj4KICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtaDIgZm9udC1ib2xkIHRleHQtaW5rIj5Qcm9kdWsgVGVybGFyaXM8L2gyPgogICAgICAgICAgICAgICAgICB7cHJvZHVjdHMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItbGluZSBiZy1zdXJmYWNlIHB4LTQgcHktNiB0ZXh0LXNtIHRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICAgICAgICAgIEJlbHVtIGFkYSBwcm9kdWsgdGVyanVhbCBwYWRhIHRhbmdnYWwgaW5pLgogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBvdmVyZmxvdy14LWF1dG8gcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWxpbmUgYmctc3VyZmFjZSI+CiAgICAgICAgICAgICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgbWluLXctWzQyMHB4XSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHRoZWFkPgogICAgICAgICAgICAgICAgICAgICAgICAgIDx0ciBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1saW5lIGJnLXN1YnRsZSB0ZXh0LWxlZnQgdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtNCBweS0yLjUgZm9udC1zZW1pYm9sZCI+UHJvZHVrPC90aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0aCBzY29wZT0iY29sIiBjbGFzc05hbWU9InB4LTQgcHktMi41IHRleHQtcmlnaHQgZm9udC1zZW1pYm9sZCI+VGVyanVhbDwvdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGggc2NvcGU9ImNvbCIgY2xhc3NOYW1lPSJweC00IHB5LTIuNSB0ZXh0LXJpZ2h0IGZvbnQtc2VtaWJvbGQiPk9temV0PC90aD4KICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgICA8L3RoZWFkPgogICAgICAgICAgICAgICAgICAgICAgICA8dGJvZHkgY2xhc3NOYW1lPSJkaXZpZGUteSBkaXZpZGUtbGluZSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAge3Byb2R1Y3RzLm1hcCgocCkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRyIGtleT17cC5wcm9kdWN0X2lkID8/IHAucHJvZHVjdF9uYW1lID8/ICI/In0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMi41IGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtwLnByb2R1Y3RfbmFtZSA/PyAiUHJvZHVrIHRlcmhhcHVzIn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJsb2NrIHRleHQteHMgZm9udC1ub3JtYWwgdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cC5vcmRlcl9jb3VudH0gcGVzYW5hbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0ibnVtZXJpYyBweC00IHB5LTIuNSB0ZXh0LXJpZ2h0Ij57cC5xdHlfc29sZH08L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJudW1lcmljIHB4LTQgcHktMi41IHRleHQtcmlnaHQgZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge2Zvcm1hdFJwKHAuZ3Jvc3NfcmV2ZW51ZSl9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RyPgogICAgICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgICAgICAgICAgICAgPC90YWJsZT4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgICAgICAgICA8c2VjdGlvbiBhcmlhLWxhYmVsPSJQZXIga2F0ZWdvcmkiPgogICAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1oMiBmb250LWJvbGQgdGV4dC1pbmsiPlBlciBLYXRlZ29yaTwvaDI+CiAgICAgICAgICAgICAgICAgIHtjYXRlZ29yaWVzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWxpbmUgYmctc3VyZmFjZSBweC00IHB5LTYgdGV4dC1zbSB0ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICAgICAgICBCZWx1bSBhZGEgcGVuanVhbGFuIHBlciBrYXRlZ29yaSBwYWRhIHRhbmdnYWwgaW5pLgogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBvdmVyZmxvdy14LWF1dG8gcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWxpbmUgYmctc3VyZmFjZSI+CiAgICAgICAgICAgICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgbWluLXctWzQyMHB4XSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHRoZWFkPgogICAgICAgICAgICAgICAgICAgICAgICAgIDx0ciBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1saW5lIGJnLXN1YnRsZSB0ZXh0LWxlZnQgdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtNCBweS0yLjUgZm9udC1zZW1pYm9sZCI+S2F0ZWdvcmk8L3RoPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRoIHNjb3BlPSJjb2wiIGNsYXNzTmFtZT0icHgtNCBweS0yLjUgdGV4dC1yaWdodCBmb250LXNlbWlib2xkIj5UZXJqdWFsPC90aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0aCBzY29wZT0iY29sIiBjbGFzc05hbWU9InB4LTQgcHktMi41IHRleHQtcmlnaHQgZm9udC1zZW1pYm9sZCI+T216ZXQ8L3RoPgogICAgICAgICAgICAgICAgICAgICAgICAgIDwvdHI+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvdGhlYWQ+CiAgICAgICAgICAgICAgICAgICAgICAgIDx0Ym9keSBjbGFzc05hbWU9ImRpdmlkZS15IGRpdmlkZS1saW5lIj4KICAgICAgICAgICAgICAgICAgICAgICAgICB7Y2F0ZWdvcmllcy5tYXAoKGMpID0+ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ciBrZXk9e2MuY2F0ZWdvcnlfaWQgPz8gYy5jYXRlZ29yeV9uYW1lID8/ICI/In0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9InB4LTQgcHktMi41IGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtjLmNhdGVnb3J5X25hbWUgPz8gIlRhbnBhIGthdGVnb3JpIn0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJsb2NrIHRleHQteHMgZm9udC1ub3JtYWwgdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Yy5wcm9kdWN0X2NvdW50fSBwcm9kdWsgwrcge2Mub3JkZXJfY291bnR9IHBlc2FuYW4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZCBjbGFzc05hbWU9Im51bWVyaWMgcHgtNCBweS0yLjUgdGV4dC1yaWdodCI+e2MucXR5X3NvbGR9PC90ZD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHRkIGNsYXNzTmFtZT0ibnVtZXJpYyBweC00IHB5LTIuNSB0ZXh0LXJpZ2h0IGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtmb3JtYXRScChjLmdyb3NzX3JldmVudWUpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC90cj4KICAgICAgICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxzZWN0aW9uIGFyaWEtbGFiZWw9IlNoaWZ0IGhhcmkgaW5pIiBjbGFzc05hbWU9Im10LTgiPgogICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtaDIgZm9udC1ib2xkIHRleHQtaW5rIj5TaGlmdCBIYXJpIEluaTwvaDI+CiAgICAgICAgICAgICAgICB7ZGFpbHkuc2hpZnRzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1saW5lIGJnLXN1cmZhY2UgcHgtNCBweS02IHRleHQtc20gdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICAgICAgICAgIFRpZGFrIGFkYSBzaGlmdCB5YW5nIGRpYnVrYSBwYWRhIHRhbmdnYWwgaW5pLgogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC0zIGRpdmlkZS15IGRpdmlkZS1saW5lIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1saW5lIGJnLXN1cmZhY2UiPgogICAgICAgICAgICAgICAgICAgIHtkYWlseS5zaGlmdHMubWFwKChzKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICA8bGkga2V5PXtzLmlkfSBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMyBweC00IHB5LTMiPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCBmbGV4LTEiPgogICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtaW5rIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNoaWZ0IHtzaGlmdFN0YXR1c0xhYmVsKHMuc3RhdHVzKX0gwrcgZGlidWthIHtmb3JtYXRUaW1lKHMub3BlbmVkX2F0KX0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtzLmNsb3NlZF9hdCA/IGAgwrcgZGl0dXR1cCAke2Zvcm1hdFRpbWUocy5jbG9zZWRfYXQpfWAgOiAiIn0KICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJudW1lcmljIHRleHQteHMgdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7cy5vcmRlcnNfY291bnR9IHBlc2FuYW4gwrcgdHVuYWkgdGVya29uZmlybWFzaXsiICJ9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Zm9ybWF0UnAocy5zZXR0bGVkX2Nhc2hfYW1vdW50KX0gwrcgbW9kYWwgYXdhbHsiICJ9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7Zm9ybWF0UnAocy5vcGVuaW5nX2Nhc2gpfQogICAgICAgICAgICAgICAgICAgICAgICAgICAge3MuZGlmZmVyZW5jZSAhPT0gbnVsbCAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICBgIMK3IHNlbGlzaWggJHtmb3JtYXRScChzLmRpZmZlcmVuY2UpfWB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB2b2lkIG9wZW5TaGlmdERldGFpbChzLmlkKX0KICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17c2hpZnRMb2FkaW5nSWQgPT09IHMuaWR9CiAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtaW4taC1bNDRweF0gcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWxpbmUgcHgtMyB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1wcmltYXJ5LXRleHQgaG92ZXI6Ymctc3VidGxlIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZCBkaXNhYmxlZDpvcGFjaXR5LTYwIgogICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAge3NoaWZ0TG9hZGluZ0lkID09PSBzLmlkID8gIk1lbXVhdOKApiIgOiAiUmVrb25zaWxpYXNpIn0KICAgICAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8L3NlY3Rpb24+CiAgICAgICAgICAgIDwvPgogICAgICAgICAgKX0KICAgICAgICA8Lz4KICAgICAgKSA6IG51bGx9CgogICAgICB7c2hpZnREZXRhaWwgJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmaXhlZCBpbnNldC0wIHotNTAgZmxleCBpdGVtcy1lbmQganVzdGlmeS1jZW50ZXIgc206aXRlbXMtY2VudGVyIiByb2xlPSJkaWFsb2ciIGFyaWEtbW9kYWw9InRydWUiIGFyaWEtbGFiZWw9IlJla29uc2lsaWFzaSBzaGlmdCI+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgYXJpYS1sYWJlbD0iVHV0dXAgcmVrb25zaWxpYXNpIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTaGlmdERldGFpbChudWxsKX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGgtZnVsbCB3LWZ1bGwgYmctc2xhdGUtOTAwLzUwIgogICAgICAgICAgLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IG1heC1oLVs5MGR2aF0gdy1mdWxsIG1heC13LWxnIGZsZXgtY29sIHJvdW5kZWQtdC14bCBiZy1zdXJmYWNlIHNtOnJvdW5kZWQtbGciPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgYm9yZGVyLWIgYm9yZGVyLWxpbmUgcHgtNSBweS00Ij4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtaDIgZm9udC1ib2xkIHRleHQtaW5rIj5SZWtvbnNpbGlhc2kgU2hpZnQ8L2gyPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2Vjb25kYXJ5Ij4KICAgICAgICAgICAgICAgICAge3NoaWZ0U3RhdHVzTGFiZWwoc2hpZnREZXRhaWwuc2hpZnQuc3RhdHVzKX0gwrcgZGlidWtheyIgIn0KICAgICAgICAgICAgICAgICAge2Zvcm1hdERhdGVUaW1lKHNoaWZ0RGV0YWlsLnNoaWZ0Lm9wZW5lZF9hdCl9CiAgICAgICAgICAgICAgICAgIHtzaGlmdERldGFpbC5zaGlmdC5jbG9zZWRfYXQKICAgICAgICAgICAgICAgICAgICA/IGAgwrcgZGl0dXR1cCAke2Zvcm1hdERhdGVUaW1lKHNoaWZ0RGV0YWlsLnNoaWZ0LmNsb3NlZF9hdCl9YAogICAgICAgICAgICAgICAgICAgIDogIiJ9CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0U2hpZnREZXRhaWwobnVsbCl9CiAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSJUdXR1cCByZWtvbnNpbGlhc2kiCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaC0xMSB3LTExIHNocmluay0wIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLW1kIHRleHQtc2Vjb25kYXJ5IGhvdmVyOmJnLXN1YnRsZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8WCBzaXplPXsyMH0gYXJpYS1oaWRkZW4gLz4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtaW4taC0wIGZsZXgtMSBvdmVyZmxvdy15LWF1dG8gcHgtNSBweS00Ij4KICAgICAgICAgICAgICA8ZGwgY2xhc3NOYW1lPSJudW1lcmljIHNwYWNlLXktMS41IHRleHQtc20iPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIj48ZHQgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+TW9kYWwgYXdhbDwvZHQ+PGRkIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCI+e2Zvcm1hdFJwKHNoaWZ0RGV0YWlsLnJlY29uY2lsaWF0aW9uLm9wZW5pbmdfY2FzaCl9PC9kZD48L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiI+PGR0IGNsYXNzTmFtZT0idGV4dC1zZWNvbmRhcnkiPlR1bmFpIHRlcmtvbmZpcm1hc2k8L2R0PjxkZCBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPntmb3JtYXRScChzaGlmdERldGFpbC5yZWNvbmNpbGlhdGlvbi5jYXNoX3JlY2VpcHRzX3NldHRsZWQpfTwvZGQ+PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4iPjxkdCBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij5NdXRhc2kga2FzIG1hbnVhbDwvZHQ+PGRkIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCI+e2Zvcm1hdFJwKHNoaWZ0RGV0YWlsLnJlY29uY2lsaWF0aW9uLmNhc2hfbW92ZW1lbnRzX3RvdGFsKX08L2RkPjwvZGl2PgogICAgICAgICAgICAgICAge3NoaWZ0RGV0YWlsLnJlY29uY2lsaWF0aW9uLmNhc2hfcmVmdW5kcyA+IDAgJiYgKAogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4iPjxkdCBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij5SZWZ1bmQgdHVuYWk8L2R0PjxkZCBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPuKIkntmb3JtYXRScChzaGlmdERldGFpbC5yZWNvbmNpbGlhdGlvbi5jYXNoX3JlZnVuZHMpfTwvZGQ+PC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtYmFzZWxpbmUganVzdGlmeS1iZXR3ZWVuIGJvcmRlci10IGJvcmRlci1saW5lIHB0LTIiPgogICAgICAgICAgICAgICAgICA8ZHQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj5UdW5haSBzZWhhcnVzbnlhIChleHBlY3RlZCk8L2R0PgogICAgICAgICAgICAgICAgICA8ZGQgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1wcmljZSBmb250LWJvbGQiPntmb3JtYXRScChzaGlmdERldGFpbC5yZWNvbmNpbGlhdGlvbi5leHBlY3RlZF9jYXNoX2NvbXB1dGVkKX08L2RkPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgICAgICAgICA8ZHQgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+VHVuYWkgdGVyaGl0dW5nIHNhYXQgdHV0dXA8L2R0PgogICAgICAgICAgICAgICAgICA8ZGQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj4KICAgICAgICAgICAgICAgICAgICB7c2hpZnREZXRhaWwucmVjb25jaWxpYXRpb24uY291bnRlZF9jYXNoID09PSBudWxsCiAgICAgICAgICAgICAgICAgICAgICA/ICLigJQgKHNoaWZ0IGJlbHVtIGRpdHV0dXApIgogICAgICAgICAgICAgICAgICAgICAgOiBmb3JtYXRScChzaGlmdERldGFpbC5yZWNvbmNpbGlhdGlvbi5jb3VudGVkX2Nhc2gpfQogICAgICAgICAgICAgICAgICA8L2RkPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgICAgICAgICA8ZHQgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+U2VsaXNpaDwvZHQ+CiAgICAgICAgICAgICAgICAgIDxkZCBjbGFzc05hbWU9e2Bmb250LXNlbWlib2xkICR7c2hpZnREZXRhaWwucmVjb25jaWxpYXRpb24uZGlmZmVyZW5jZV9jb21wdXRlZCAhPT0gbnVsbCAmJiBzaGlmdERldGFpbC5yZWNvbmNpbGlhdGlvbi5kaWZmZXJlbmNlX2NvbXB1dGVkICE9PSAwID8gInRleHQtZGFuZ2VyIiA6ICIifWB9PgogICAgICAgICAgICAgICAgICAgIHtzaGlmdERldGFpbC5yZWNvbmNpbGlhdGlvbi5kaWZmZXJlbmNlX2NvbXB1dGVkID09PSBudWxsCiAgICAgICAgICAgICAgICAgICAgICA/ICLigJQiCiAgICAgICAgICAgICAgICAgICAgICA6IGZvcm1hdFJwKHNoaWZ0RGV0YWlsLnJlY29uY2lsaWF0aW9uLmRpZmZlcmVuY2VfY29tcHV0ZWQpfQogICAgICAgICAgICAgICAgICA8L2RkPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kbD4KCiAgICAgICAgICAgICAge3NoaWZ0RGV0YWlsLnBheW1lbnRfbWV0aG9kc19zZXR0bGVkLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibXQtNSBmb250LWRpc3BsYXkgdGV4dC1oMyBmb250LXNlbWlib2xkIHRleHQtaW5rIj5QZW5lcmltYWFuIHBlciBtZXRvZGU8L2gzPgogICAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC0yIHNwYWNlLXktMSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAgICB7c2hpZnREZXRhaWwucGF5bWVudF9tZXRob2RzX3NldHRsZWQubWFwKChtKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICA8bGkga2V5PXttLm1ldGhvZH0gY2xhc3NOYW1lPSJudW1lcmljIGZsZXgganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+e3BheW1lbnRNZXRob2RMYWJlbChtLm1ldGhvZCl9ICh7bS5jb3VudH3Dlyk8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCI+e2Zvcm1hdFJwKG0uYW1vdW50KX08L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAge3NoaWZ0RGV0YWlsLmNhc2hfbW92ZW1lbnRzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibXQtNSBmb250LWRpc3BsYXkgdGV4dC1oMyBmb250LXNlbWlib2xkIHRleHQtaW5rIj5NdXRhc2kga2FzPC9oMz4KICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ibXQtMiBzcGFjZS15LTEgdGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgICAge3NoaWZ0RGV0YWlsLmNhc2hfbW92ZW1lbnRzLm1hcCgobXYpID0+ICgKICAgICAgICAgICAgICAgICAgICAgIDxsaSBrZXk9e212LmlkfSBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAge2Zvcm1hdFRpbWUobXYuY3JlYXRlZF9hdCl9IMK3IHttdi50eXBlfQogICAgICAgICAgICAgICAgICAgICAgICAgIHttdi5yZWFzb24gPyBgIOKAlCAke212LnJlYXNvbn1gIDogIiJ9CiAgICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJudW1lcmljIGZvbnQtc2VtaWJvbGQiPntmb3JtYXRScChtdi5hbW91bnQpfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICApfQoKICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJtdC01IGZvbnQtZGlzcGxheSB0ZXh0LWgzIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgICAgICAgUGVzYW5hbiBzaGlmdCBpbmkgKHtzaGlmdERldGFpbC5vcmRlcnMubGVuZ3RofSkKICAgICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAgIHtzaGlmdERldGFpbC5vcmRlcnMubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc20gdGV4dC1zZWNvbmRhcnkiPkJlbHVtIGFkYSBwZXNhbmFuIHBhZGEgc2hpZnQgaW5pLjwvcD4KICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ibXQtMiBkaXZpZGUteSBkaXZpZGUtbGluZSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgICAge3NoaWZ0RGV0YWlsLm9yZGVycy5tYXAoKG8pID0+ICgKICAgICAgICAgICAgICAgICAgICA8bGkga2V5PXtvLmlkfSBjbGFzc05hbWU9Im51bWVyaWMgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0zIHB5LTEuNSI+CiAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPntvLm9yZGVyX25vfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkIj4KICAgICAgICAgICAgICAgICAgICAgICAge28ucGF5bWVudF9zdGF0dXMgPT09ICJwYWlkIiA/ICJMdW5hcyIgOiBvLnBheW1lbnRfc3RhdHVzfQogICAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj57Zm9ybWF0UnAoby5ncmFuZF90b3RhbCl9PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQo=
+/**
+ * Halaman Laporan — angka mengikuti Metric Dictionary Lestari (G4a):
+ * hanya transaksi LUNAS yang menjadi pendapatan; pembayaran pending
+ * dilaporkan terpisah dan tidak masuk penerimaan. Semua angka di halaman
+ * ini berasal dari respons server (/reports/*), tidak dihitung lokal.
+ */
+import { useCallback, useEffect, useState } from "react";
+import { CircleAlert, ReceiptText, X } from "lucide-react";
+import {
+  categoryReport,
+  dailyReport,
+  productReport,
+  shiftReport,
+  type CategoryReportItem,
+  type DailyReport,
+  type ProductReportItem,
+  type ShiftReport,
+} from "../../lib/api";
+import {
+  formatDateTime,
+  formatRp,
+  formatTime,
+  humanError,
+  paymentMethodLabel,
+  shiftStatusLabel,
+} from "../../lib/format";
+
+function todayLocal(): string {
+  const d = new Date();
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+function SummaryCard({
+  label,
+  value,
+  accent,
+}: {
+  label: string;
+  value: string;
+  accent?: boolean;
+}) {
+  return (
+    <div className="rounded-lg border border-line bg-surface p-4">
+      <p className="text-sm text-secondary">{label}</p>
+      <p
+        className={`numeric mt-1 font-display text-price-lg font-extrabold ${
+          accent ? "text-primary-text" : "text-ink"
+        }`}
+      >
+        {value}
+      </p>
+    </div>
+  );
+}
+
+export default function LaporanPage() {
+  const [date, setDate] = useState(todayLocal());
+  const [daily, setDaily] = useState<DailyReport | null>(null);
+  const [products, setProducts] = useState<ProductReportItem[]>([]);
+  const [categories, setCategories] = useState<CategoryReportItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const [shiftDetail, setShiftDetail] = useState<ShiftReport | null>(null);
+  const [shiftLoadingId, setShiftLoadingId] = useState<string | null>(null);
+  const [shiftError, setShiftError] = useState<string | null>(null);
+
+  const load = useCallback(async (forDate: string) => {
+    setLoading(true);
+    setError(null);
+    try {
+      const [d, p, c] = await Promise.all([
+        dailyReport(forDate),
+        productReport(forDate, forDate),
+        categoryReport(forDate, forDate),
+      ]);
+      setDaily(d);
+      setProducts(p.items);
+      setCategories(c.items);
+    } catch (err) {
+      setError(humanError(err));
+      setDaily(null);
+      setProducts([]);
+      setCategories([]);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    void load(date);
+  }, [load, date]);
+
+  const openShiftDetail = async (id: string) => {
+    setShiftLoadingId(id);
+    setShiftError(null);
+    try {
+      const detail = await shiftReport(id);
+      setShiftDetail(detail);
+    } catch (err) {
+      setShiftError(humanError(err));
+    } finally {
+      setShiftLoadingId(null);
+    }
+  };
+
+  return (
+    <div className="mx-auto w-full max-w-6xl px-4 py-6 sm:px-6">
+      <div className="flex flex-wrap items-end gap-3">
+        <div>
+          <label htmlFor="report-date" className="mb-1.5 block text-sm font-semibold text-ink">
+            Tanggal laporan
+          </label>
+          <input
+            id="report-date"
+            type="date"
+            value={date}
+            onChange={(e) => setDate(e.target.value)}
+            className="min-h-[48px] rounded-md border border-line bg-surface px-3 text-base text-ink focus:border-primary"
+          />
+        </div>
+        <button
+          type="button"
+          onClick={() => setDate(todayLocal())}
+          className="min-h-[48px] rounded-md border border-line px-4 text-sm font-semibold text-primary-text hover:bg-subtle"
+        >
+          Hari Ini
+        </button>
+        <button
+          type="button"
+          onClick={() => void load(date)}
+          disabled={loading}
+          className="min-h-[48px] rounded-md bg-primary px-4 text-sm font-bold text-white hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-60"
+        >
+          {loading ? "Memuat…" : "Muat Ulang"}
+        </button>
+      </div>
+
+      {error && (
+        <div role="alert" className="mt-4 flex items-start gap-2 rounded-md bg-danger-bg px-3 py-2.5 text-sm font-medium text-danger">
+          <CircleAlert size={18} aria-hidden className="mt-0.5 shrink-0" />
+          <span>Belum bisa memuat laporan: {error}</span>
+        </div>
+      )}
+      {shiftError && (
+        <div role="alert" className="mt-4 flex items-start gap-2 rounded-md bg-danger-bg px-3 py-2.5 text-sm font-medium text-danger">
+          <CircleAlert size={18} aria-hidden className="mt-0.5 shrink-0" />
+          <span>Belum bisa memuat rekonsiliasi shift: {shiftError}</span>
+        </div>
+      )}
+
+      {loading && !daily ? (
+        <p className="mt-8 text-sm text-muted">Memuat laporan…</p>
+      ) : daily ? (
+        <>
+          <div className="mt-6 grid grid-cols-2 gap-3 lg:grid-cols-5">
+            <SummaryCard label="Penjualan Kotor" value={formatRp(daily.gross_sales)} />
+            <SummaryCard label="Diskon" value={formatRp(daily.discount_total)} />
+            <SummaryCard label="Penjualan Bersih" value={formatRp(daily.net_sales)} accent />
+            <SummaryCard
+              label="Transaksi Lunas"
+              value={String(daily.paid_transaction_count)}
+            />
+            <SummaryCard
+              label="Rata-rata Transaksi"
+              value={
+                daily.average_order_value === null
+                  ? "—"
+                  : formatRp(daily.average_order_value)
+              }
+            />
+          </div>
+
+          {(daily.refund_total > 0 || daily.tax_total > 0) && (
+            <p className="mt-3 text-sm text-secondary">
+              {daily.refund_total > 0 && (
+                <>
+                  Refund hari ini:{" "}
+                  <span className="numeric font-semibold text-ink">
+                    {formatRp(daily.refund_total)}
+                  </span>{" "}
+                  ({daily.refunds_count} pembayaran).{" "}
+                </>
+              )}
+              {daily.tax_total > 0 && (
+                <>
+                  Pajak pada transaksi lunas:{" "}
+                  <span className="numeric font-semibold text-ink">
+                    {formatRp(daily.tax_total)}
+                  </span>
+                  .
+                </>
+              )}
+            </p>
+          )}
+
+          {daily.paid_transaction_count === 0 && daily.shifts.length === 0 ? (
+            <div className="mt-6 flex flex-col items-center rounded-lg border border-dashed border-line-strong bg-surface px-6 py-12 text-center">
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-subtle text-muted">
+                <ReceiptText size={32} aria-hidden />
+              </span>
+              <p className="mt-4 font-display text-h2 font-bold text-ink">
+                Belum ada transaksi pada tanggal ini
+              </p>
+              <p className="mt-1 max-w-sm text-sm text-secondary">
+                Laporan hanya menghitung transaksi yang sudah lunas. Coba tanggal lain atau
+                tunggu transaksi pertama selesai dibayar.
+              </p>
+            </div>
+          ) : (
+            <>
+              <section aria-label="Per metode pembayaran" className="mt-8">
+                <h2 className="font-display text-h2 font-bold text-ink">Per Metode Pembayaran</h2>
+                <div className="mt-3 overflow-x-auto rounded-lg border border-line bg-surface">
+                  <table className="w-full min-w-[640px] text-sm">
+                    <thead>
+                      <tr className="border-b border-line bg-subtle text-left text-secondary">
+                        <th scope="col" className="px-4 py-2.5 font-semibold">Metode</th>
+                        <th scope="col" className="px-4 py-2.5 text-right font-semibold">Terkonfirmasi</th>
+                        <th scope="col" className="px-4 py-2.5 text-right font-semibold">Menunggu</th>
+                        <th scope="col" className="px-4 py-2.5 text-right font-semibold">Refund</th>
+                        <th scope="col" className="px-4 py-2.5 text-right font-semibold">Diterima Bersih</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-line">
+                      {daily.payment_methods.map((m) => (
+                        <tr key={m.method}>
+                          <td className="px-4 py-2.5 font-semibold text-ink">
+                            {paymentMethodLabel(m.method)}
+                          </td>
+                          <td className="numeric px-4 py-2.5 text-right">
+                            {formatRp(m.settled_amount)}{" "}
+                            <span className="text-muted">({m.settled_count}×)</span>
+                          </td>
+                          <td className="numeric px-4 py-2.5 text-right">
+                            {formatRp(m.pending_amount)}{" "}
+                            <span className="text-muted">({m.pending_count}×)</span>
+                          </td>
+                          <td className="numeric px-4 py-2.5 text-right">
+                            {formatRp(m.refunded_amount)}
+                          </td>
+                          <td className="numeric px-4 py-2.5 text-right font-semibold text-ink">
+                            {formatRp(m.net_collected)}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                <p className="mt-2 text-xs text-muted">
+                  Pembayaran menunggu konfirmasi belum masuk penerimaan sampai dikonfirmasi
+                  pemilik/manager.
+                </p>
+              </section>
+
+              <div className="mt-8 grid gap-8 lg:grid-cols-2">
+                <section aria-label="Produk terlaris">
+                  <h2 className="font-display text-h2 font-bold text-ink">Produk Terlaris</h2>
+                  {products.length === 0 ? (
+                    <p className="mt-3 rounded-lg border border-line bg-surface px-4 py-6 text-sm text-secondary">
+                      Belum ada produk terjual pada tanggal ini.
+                    </p>
+                  ) : (
+                    <div className="mt-3 overflow-x-auto rounded-lg border border-line bg-surface">
+                      <table className="w-full min-w-[420px] text-sm">
+                        <thead>
+                          <tr className="border-b border-line bg-subtle text-left text-secondary">
+                            <th scope="col" className="px-4 py-2.5 font-semibold">Produk</th>
+                            <th scope="col" className="px-4 py-2.5 text-right font-semibold">Terjual</th>
+                            <th scope="col" className="px-4 py-2.5 text-right font-semibold">Omzet</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-line">
+                          {products.map((p) => (
+                            <tr key={p.product_id ?? p.product_name ?? "?"}>
+                              <td className="px-4 py-2.5 font-semibold text-ink">
+                                {p.product_name ?? "Produk terhapus"}
+                                <span className="block text-xs font-normal text-muted">
+                                  {p.order_count} pesanan
+                                </span>
+                              </td>
+                              <td className="numeric px-4 py-2.5 text-right">{p.qty_sold}</td>
+                              <td className="numeric px-4 py-2.5 text-right font-semibold text-ink">
+                                {formatRp(p.gross_revenue)}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                </section>
+
+                <section aria-label="Per kategori">
+                  <h2 className="font-display text-h2 font-bold text-ink">Per Kategori</h2>
+                  {categories.length === 0 ? (
+                    <p className="mt-3 rounded-lg border border-line bg-surface px-4 py-6 text-sm text-secondary">
+                      Belum ada penjualan per kategori pada tanggal ini.
+                    </p>
+                  ) : (
+                    <div className="mt-3 overflow-x-auto rounded-lg border border-line bg-surface">
+                      <table className="w-full min-w-[420px] text-sm">
+                        <thead>
+                          <tr className="border-b border-line bg-subtle text-left text-secondary">
+                            <th scope="col" className="px-4 py-2.5 font-semibold">Kategori</th>
+                            <th scope="col" className="px-4 py-2.5 text-right font-semibold">Terjual</th>
+                            <th scope="col" className="px-4 py-2.5 text-right font-semibold">Omzet</th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-line">
+                          {categories.map((c) => (
+                            <tr key={c.category_id ?? c.category_name ?? "?"}>
+                              <td className="px-4 py-2.5 font-semibold text-ink">
+                                {c.category_name ?? "Tanpa kategori"}
+                                <span className="block text-xs font-normal text-muted">
+                                  {c.product_count} produk · {c.order_count} pesanan
+                                </span>
+                              </td>
+                              <td className="numeric px-4 py-2.5 text-right">{c.qty_sold}</td>
+                              <td className="numeric px-4 py-2.5 text-right font-semibold text-ink">
+                                {formatRp(c.gross_revenue)}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  )}
+                </section>
+              </div>
+
+              <section aria-label="Shift hari ini" className="mt-8">
+                <h2 className="font-display text-h2 font-bold text-ink">Shift Hari Ini</h2>
+                {daily.shifts.length === 0 ? (
+                  <p className="mt-3 rounded-lg border border-line bg-surface px-4 py-6 text-sm text-secondary">
+                    Tidak ada shift yang dibuka pada tanggal ini.
+                  </p>
+                ) : (
+                  <ul className="mt-3 divide-y divide-line rounded-lg border border-line bg-surface">
+                    {daily.shifts.map((s) => (
+                      <li key={s.id} className="flex flex-wrap items-center gap-3 px-4 py-3">
+                        <div className="min-w-0 flex-1">
+                          <p className="text-sm font-semibold text-ink">
+                            Shift {shiftStatusLabel(s.status)} · dibuka {formatTime(s.opened_at)}
+                            {s.closed_at ? ` · ditutup ${formatTime(s.closed_at)}` : ""}
+                          </p>
+                          <p className="numeric text-xs text-muted">
+                            {s.orders_count} pesanan · tunai terkonfirmasi{" "}
+                            {formatRp(s.settled_cash_amount)} · modal awal{" "}
+                            {formatRp(s.opening_cash)}
+                            {s.difference !== null &&
+                              ` · selisih ${formatRp(s.difference)}`}
+                          </p>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={() => void openShiftDetail(s.id)}
+                          disabled={shiftLoadingId === s.id}
+                          className="min-h-[44px] rounded-md border border-line px-3 text-sm font-semibold text-primary-text hover:bg-subtle disabled:cursor-not-allowed disabled:opacity-60"
+                        >
+                          {shiftLoadingId === s.id ? "Memuat…" : "Rekonsiliasi"}
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </section>
+            </>
+          )}
+        </>
+      ) : null}
+
+      {shiftDetail && (
+        <div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center" role="dialog" aria-modal="true" aria-label="Rekonsiliasi shift">
+          <button
+            type="button"
+            aria-label="Tutup rekonsiliasi"
+            onClick={() => setShiftDetail(null)}
+            className="absolute inset-0 h-full w-full bg-slate-900/50"
+          />
+          <div className="relative flex max-h-[90dvh] w-full max-w-lg flex-col rounded-t-xl bg-surface sm:rounded-lg">
+            <div className="flex items-start justify-between gap-3 border-b border-line px-5 py-4">
+              <div>
+                <h2 className="font-display text-h2 font-bold text-ink">Rekonsiliasi Shift</h2>
+                <p className="text-sm text-secondary">
+                  {shiftStatusLabel(shiftDetail.shift.status)} · dibuka{" "}
+                  {formatDateTime(shiftDetail.shift.opened_at)}
+                  {shiftDetail.shift.closed_at
+                    ? ` · ditutup ${formatDateTime(shiftDetail.shift.closed_at)}`
+                    : ""}
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setShiftDetail(null)}
+                aria-label="Tutup rekonsiliasi"
+                className="flex h-11 w-11 shrink-0 items-center justify-center rounded-md text-secondary hover:bg-subtle"
+              >
+                <X size={20} aria-hidden />
+              </button>
+            </div>
+            <div className="min-h-0 flex-1 overflow-y-auto px-5 py-4">
+              <dl className="numeric space-y-1.5 text-sm">
+                <div className="flex justify-between"><dt className="text-secondary">Modal awal</dt><dd className="font-semibold">{formatRp(shiftDetail.reconciliation.opening_cash)}</dd></div>
+                <div className="flex justify-between"><dt className="text-secondary">Tunai terkonfirmasi</dt><dd className="font-semibold">{formatRp(shiftDetail.reconciliation.cash_receipts_settled)}</dd></div>
+                <div className="flex justify-between"><dt className="text-secondary">Mutasi kas manual</dt><dd className="font-semibold">{formatRp(shiftDetail.reconciliation.cash_movements_total)}</dd></div>
+                {shiftDetail.reconciliation.cash_refunds > 0 && (
+                  <div className="flex justify-between"><dt className="text-secondary">Refund tunai</dt><dd className="font-semibold">−{formatRp(shiftDetail.reconciliation.cash_refunds)}</dd></div>
+                )}
+                <div className="flex items-baseline justify-between border-t border-line pt-2">
+                  <dt className="font-semibold">Tunai seharusnya (expected)</dt>
+                  <dd className="font-display text-price font-bold">{formatRp(shiftDetail.reconciliation.expected_cash_computed)}</dd>
+                </div>
+                <div className="flex justify-between">
+                  <dt className="text-secondary">Tunai terhitung saat tutup</dt>
+                  <dd className="font-semibold">
+                    {shiftDetail.reconciliation.counted_cash === null
+                      ? "— (shift belum ditutup)"
+                      : formatRp(shiftDetail.reconciliation.counted_cash)}
+                  </dd>
+                </div>
+                <div className="flex justify-between">
+                  <dt className="text-secondary">Selisih</dt>
+                  <dd className={`font-semibold ${shiftDetail.reconciliation.difference_computed !== null && shiftDetail.reconciliation.difference_computed !== 0 ? "text-danger" : ""}`}>
+                    {shiftDetail.reconciliation.difference_computed === null
+                      ? "—"
+                      : formatRp(shiftDetail.reconciliation.difference_computed)}
+                  </dd>
+                </div>
+              </dl>
+
+              {shiftDetail.payment_methods_settled.length > 0 && (
+                <>
+                  <h3 className="mt-5 font-display text-h3 font-semibold text-ink">Penerimaan per metode</h3>
+                  <ul className="mt-2 space-y-1 text-sm">
+                    {shiftDetail.payment_methods_settled.map((m) => (
+                      <li key={m.method} className="numeric flex justify-between">
+                        <span className="text-secondary">{paymentMethodLabel(m.method)} ({m.count}×)</span>
+                        <span className="font-semibold">{formatRp(m.amount)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {shiftDetail.cash_movements.length > 0 && (
+                <>
+                  <h3 className="mt-5 font-display text-h3 font-semibold text-ink">Mutasi kas</h3>
+                  <ul className="mt-2 space-y-1 text-sm">
+                    {shiftDetail.cash_movements.map((mv) => (
+                      <li key={mv.id} className="flex justify-between gap-3">
+                        <span className="text-secondary">
+                          {formatTime(mv.created_at)} · {mv.type}
+                          {mv.reason ? ` — ${mv.reason}` : ""}
+                        </span>
+                        <span className="numeric font-semibold">{formatRp(mv.amount)}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              <h3 className="mt-5 font-display text-h3 font-semibold text-ink">
+                Pesanan shift ini ({shiftDetail.orders.length})
+              </h3>
+              {shiftDetail.orders.length === 0 ? (
+                <p className="mt-2 text-sm text-secondary">Belum ada pesanan pada shift ini.</p>
+              ) : (
+                <ul className="mt-2 divide-y divide-line text-sm">
+                  {shiftDetail.orders.map((o) => (
+                    <li key={o.id} className="numeric flex items-center justify-between gap-3 py-1.5">
+                      <span className="font-semibold text-ink">{o.order_no}</span>
+                      <span className="text-xs text-muted">
+                        {o.payment_status === "paid" ? "Lunas" : o.payment_status}
+                      </span>
+                      <span className="font-semibold">{formatRp(o.grand_total)}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
