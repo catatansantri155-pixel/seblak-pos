@@ -1,1 +1,145 @@
-LyoqCiAqIFNlc2kgJiBhdXRlbnRpa2FzaSBTZWJsYWsgUE9TLgogKgogKiAtIFRva2VuIHNlc2k6IDMyIGJ5dGUgYWNhaywgZGlraXJpbSBrZSBrbGllbiBzZWJhZ2FpIGJhc2U2NHVybC4KICogLSBZYW5nIGRpc2ltcGFuIGRpIHRhYmVsIHNlc3Npb25zIGhhbnlhIEhBU0ggU0hBLTI1NiB0b2tlbiAodG9rZW5faGFzaCksCiAqICAgamFkaSBrZWJvY29yYW4gZGF0YWJhc2UgdGlkYWsgbWVtYm9jb3JrYW4gdG9rZW4geWFuZyBiZXJsYWt1LgogKiAtIE1pZGRsZXdhcmUgYXV0aCBtZW1hc2FuZyBrb250ZWtzIHBlbmdndW5hIChpZCwgb3V0bGV0X2lkLCByb2xlKSBrZQogKiAgIHZhcmlhYmVsIEhvbm8gInVzZXIiOyBzZW11YSBxdWVyeSBydXRlIHRlcnByb3Rla3NpIHRlci1zY29wZSBvdXRsZXRfaWQKICogICBkYXJpIGtvbnRla3MgaW5pLCB0aWRhayBwZXJuYWggZGFyaSBpbnB1dCBrbGllbi4KICovCmltcG9ydCB0eXBlIHsgQ29udGV4dCwgTWlkZGxld2FyZUhhbmRsZXIgfSBmcm9tICJob25vIjsKaW1wb3J0IHsgQXBpRXJyb3IgfSBmcm9tICIuL2Vycm9ycyI7CmltcG9ydCB0eXBlIHsgQXV0aFVzZXIsIEVudiwgUm9sZSwgVmFyaWFibGVzIH0gZnJvbSAiLi90eXBlcyI7CgovKiogTWFzYSBiZXJsYWt1IHNlc2k6IDI0IGphbSAoZXBvY2ggbXMpLiAqLwpleHBvcnQgY29uc3QgU0VTU0lPTl9UVExfTVMgPSAyNCAqIDYwICogNjAgKiAxMDAwOwoKZnVuY3Rpb24gYnl0ZXNUb0Jhc2U2NFVybChieXRlczogVWludDhBcnJheSk6IHN0cmluZyB7CiAgbGV0IGJpbiA9ICIiOwogIGZvciAoY29uc3QgYiBvZiBieXRlcykgYmluICs9IFN0cmluZy5mcm9tQ2hhckNvZGUoYik7CiAgcmV0dXJuIGJ0b2EoYmluKS5yZXBsYWNlKC9cKy9nLCAiLSIpLnJlcGxhY2UoL1wvL2csICJfIikucmVwbGFjZSgvPSskLywgIiIpOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc2hhMjU2SGV4KHRleHQ6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nPiB7CiAgY29uc3QgZGlnZXN0ID0gYXdhaXQgY3J5cHRvLnN1YnRsZS5kaWdlc3QoCiAgICAiU0hBLTI1NiIsCiAgICBuZXcgVGV4dEVuY29kZXIoKS5lbmNvZGUodGV4dCksCiAgKTsKICByZXR1cm4gWy4uLm5ldyBVaW50OEFycmF5KGRpZ2VzdCldCiAgICAubWFwKChiKSA9PiBiLnRvU3RyaW5nKDE2KS5wYWRTdGFydCgyLCAiMCIpKQogICAgLmpvaW4oIiIpOwp9CgovKiogQnVhdCB0b2tlbiBzZXNpIGJhcnUgZGFuIHNpbXBhbiBoYXNoLW55YTsgbWVuZ2VtYmFsaWthbiB0b2tlbiBtZW50YWguICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjcmVhdGVTZXNzaW9uKAogIGRiOiBEMURhdGFiYXNlLAogIHVzZXI6IHsgaWQ6IHN0cmluZzsgb3V0bGV0X2lkOiBzdHJpbmcgfSwKICBub3c6IG51bWJlciA9IERhdGUubm93KCksCik6IFByb21pc2U8eyB0b2tlbjogc3RyaW5nOyBzZXNzaW9uSWQ6IHN0cmluZzsgZXhwaXJlc0F0OiBudW1iZXIgfT4gewogIGNvbnN0IHRva2VuID0gYnl0ZXNUb0Jhc2U2NFVybChjcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKG5ldyBVaW50OEFycmF5KDMyKSkpOwogIGNvbnN0IHRva2VuSGFzaCA9IGF3YWl0IHNoYTI1NkhleCh0b2tlbik7CiAgY29uc3Qgc2Vzc2lvbklkID0gY3J5cHRvLnJhbmRvbVVVSUQoKTsKICBjb25zdCBleHBpcmVzQXQgPSBub3cgKyBTRVNTSU9OX1RUTF9NUzsKICBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgICJJTlNFUlQgSU5UTyBzZXNzaW9ucyAoaWQsIG91dGxldF9pZCwgdXNlcl9pZCwgdG9rZW5faGFzaCwgY3JlYXRlZF9hdCwgZXhwaXJlc19hdCwgcmV2b2tlZF9hdCwgbGFzdF9zZWVuX2F0KSBWQUxVRVMgKD8sID8sID8sID8sID8sID8sIE5VTEwsID8pIiwKICAgICkKICAgIC5iaW5kKHNlc3Npb25JZCwgdXNlci5vdXRsZXRfaWQsIHVzZXIuaWQsIHRva2VuSGFzaCwgbm93LCBleHBpcmVzQXQsIG5vdykKICAgIC5ydW4oKTsKICByZXR1cm4geyB0b2tlbiwgc2Vzc2lvbklkLCBleHBpcmVzQXQgfTsKfQoKLyoqIENhYnV0IHNlc2kgKGxvZ291dCkuIElkZW1wb3Rlbjogc2VzaSB5YW5nIHN1ZGFoIGRpY2FidXQgdGV0YXAgZGljYWJ1dC4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJldm9rZVNlc3Npb24oCiAgZGI6IEQxRGF0YWJhc2UsCiAgc2Vzc2lvbklkOiBzdHJpbmcsCik6IFByb21pc2U8dm9pZD4gewogIGF3YWl0IGRiCiAgICAucHJlcGFyZSgKICAgICAgIlVQREFURSBzZXNzaW9ucyBTRVQgcmV2b2tlZF9hdCA9ID8gV0hFUkUgaWQgPSA/IEFORCByZXZva2VkX2F0IElTIE5VTEwiLAogICAgKQogICAgLmJpbmQoRGF0ZS5ub3coKSwgc2Vzc2lvbklkKQogICAgLnJ1bigpOwp9CgppbnRlcmZhY2UgU2Vzc2lvblVzZXJSb3cgewogIHNlc3Npb25faWQ6IHN0cmluZzsKICBleHBpcmVzX2F0OiBudW1iZXI7CiAgcmV2b2tlZF9hdDogbnVtYmVyIHwgbnVsbDsKICB1c2VyX2lkOiBzdHJpbmc7CiAgb3V0bGV0X2lkOiBzdHJpbmc7CiAgcm9sZTogUm9sZTsKICBuYW1lOiBzdHJpbmc7CiAgZW1haWw6IHN0cmluZzsKICB1c2VyX2FjdGl2ZTogbnVtYmVyOwogIHVzZXJfZGVsZXRlZF9hdDogbnVtYmVyIHwgbnVsbDsKfQoKLyoqIFJlc29sdXNpIHRva2VuIEJlYXJlciAtPiBwZW5nZ3VuYTsgbnVsbCBiaWxhIHRpZGFrIHNhaC9rZWRhbHV3YXJzYS9kaWNhYnV0LiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZVNlc3Npb25Vc2VyKAogIGRiOiBEMURhdGFiYXNlLAogIHRva2VuOiBzdHJpbmcsCiAgbm93OiBudW1iZXIgPSBEYXRlLm5vdygpLAopOiBQcm9taXNlPEF1dGhVc2VyIHwgbnVsbD4gewogIGNvbnN0IHRva2VuSGFzaCA9IGF3YWl0IHNoYTI1NkhleCh0b2tlbik7CiAgY29uc3Qgcm93ID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICBgU0VMRUNUIHMuaWQgQVMgc2Vzc2lvbl9pZCwgcy5leHBpcmVzX2F0LCBzLnJldm9rZWRfYXQsCiAgICAgICAgICAgICAgdS5pZCBBUyB1c2VyX2lkLCB1Lm91dGxldF9pZCwgdS5yb2xlLCB1Lm5hbWUsIHUuZW1haWwsCiAgICAgICAgICAgICAgdS5pc19hY3RpdmUgQVMgdXNlcl9hY3RpdmUsIHUuZGVsZXRlZF9hdCBBUyB1c2VyX2RlbGV0ZWRfYXQKICAgICAgICAgRlJPTSBzZXNzaW9ucyBzCiAgICAgICAgIEpPSU4gdXNlcnMgdSBPTiB1LmlkID0gcy51c2VyX2lkCiAgICAgICAgV0hFUkUgcy50b2tlbl9oYXNoID0gP2AsCiAgICApCiAgICAuYmluZCh0b2tlbkhhc2gpCiAgICAuZmlyc3Q8U2Vzc2lvblVzZXJSb3c+KCk7CiAgaWYgKCFyb3cpIHJldHVybiBudWxsOwogIGlmIChyb3cucmV2b2tlZF9hdCAhPSBudWxsKSByZXR1cm4gbnVsbDsKICBpZiAocm93LmV4cGlyZXNfYXQgPD0gbm93KSByZXR1cm4gbnVsbDsKICBpZiAocm93LnVzZXJfYWN0aXZlICE9PSAxIHx8IHJvdy51c2VyX2RlbGV0ZWRfYXQgIT0gbnVsbCkgcmV0dXJuIG51bGw7CiAgcmV0dXJuIHsKICAgIGlkOiByb3cudXNlcl9pZCwKICAgIG91dGxldF9pZDogcm93Lm91dGxldF9pZCwKICAgIHJvbGU6IHJvdy5yb2xlLAogICAgbmFtZTogcm93Lm5hbWUsCiAgICBlbWFpbDogcm93LmVtYWlsLAogICAgc2Vzc2lvbl9pZDogcm93LnNlc3Npb25faWQsCiAgfTsKfQoKLyoqIE1pZGRsZXdhcmU6IHdhamliIEF1dGhvcml6YXRpb246IEJlYXJlciA8dG9rZW4gc2VzaT4geWFuZyBzYWguICovCmV4cG9ydCBjb25zdCBhdXRoTWlkZGxld2FyZTogTWlkZGxld2FyZUhhbmRsZXI8ewogIEJpbmRpbmdzOiBFbnY7CiAgVmFyaWFibGVzOiBWYXJpYWJsZXM7Cn0+ID0gYXN5bmMgKGMsIG5leHQpID0+IHsKICBjb25zdCBoZWFkZXIgPSBjLnJlcS5oZWFkZXIoIkF1dGhvcml6YXRpb24iKSA/PyAiIjsKICBjb25zdCBtYXRjaCA9IC9eQmVhcmVyXHMrKC4rKSQvaS5leGVjKGhlYWRlci50cmltKCkpOwogIGlmICghbWF0Y2ggfHwgIW1hdGNoWzFdKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoIlVOQVVUSE9SSVpFRCIsICJUb2tlbiBzZXNpIHRpZGFrIGFkYSBhdGF1IHRpZGFrIHNhaCIpOwogIH0KICBjb25zdCB1c2VyID0gYXdhaXQgcmVzb2x2ZVNlc3Npb25Vc2VyKGMuZW52LkRCLCBtYXRjaFsxXSk7CiAgaWYgKCF1c2VyKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoCiAgICAgICJVTkFVVEhPUklaRUQiLAogICAgICAiU2VzaSB0aWRhayBzYWgsIHN1ZGFoIGRpY2FidXQsIGF0YXUga2VkYWx1d2Fyc2EiLAogICAgKTsKICB9CiAgYy5zZXQoInVzZXIiLCB1c2VyKTsKICBhd2FpdCBuZXh0KCk7Cn07CgovKiogR3VhcmQgcGVyYW46IGxlbXBhciBGT1JCSURERU4gYmlsYSBwZXJhbiBwZW5nZ3VuYSB0aWRhayB0ZXJtYXN1ayBkYWZ0YXIuICovCmV4cG9ydCBmdW5jdGlvbiByZXF1aXJlUm9sZSgKICBjOiBDb250ZXh0PHsgQmluZGluZ3M6IEVudjsgVmFyaWFibGVzOiBWYXJpYWJsZXMgfT4sCiAgLi4ucm9sZXM6IFJvbGVbXQopOiBBdXRoVXNlciB7CiAgY29uc3QgdXNlciA9IGMuZ2V0KCJ1c2VyIik7CiAgaWYgKCFyb2xlcy5pbmNsdWRlcyh1c2VyLnJvbGUpKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoCiAgICAgICJGT1JCSURERU4iLAogICAgICBgUGVyYW4gJHt1c2VyLnJvbGV9IHRpZGFrIGJlcmhhayBtZWxha3VrYW4gYWtzaSBpbmlgLAogICAgKTsKICB9CiAgcmV0dXJuIHVzZXI7Cn0K
+/**
+ * Sesi & autentikasi Seblak POS.
+ *
+ * - Token sesi: 32 byte acak, dikirim ke klien sebagai base64url.
+ * - Yang disimpan di tabel sessions hanya HASH SHA-256 token (token_hash),
+ *   jadi kebocoran database tidak membocorkan token yang berlaku.
+ * - Middleware auth memasang konteks pengguna (id, outlet_id, role) ke
+ *   variabel Hono "user"; semua query rute terproteksi ter-scope outlet_id
+ *   dari konteks ini, tidak pernah dari input klien.
+ */
+import type { Context, MiddlewareHandler } from "hono";
+import { ApiError } from "./errors";
+import type { AuthUser, Env, Role, Variables } from "./types";
+
+/** Masa berlaku sesi: 24 jam (epoch ms). */
+export const SESSION_TTL_MS = 24 * 60 * 60 * 1000;
+
+function bytesToBase64Url(bytes: Uint8Array): string {
+  let bin = "";
+  for (const b of bytes) bin += String.fromCharCode(b);
+  return btoa(bin).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+}
+
+export async function sha256Hex(text: string): Promise<string> {
+  const digest = await crypto.subtle.digest(
+    "SHA-256",
+    new TextEncoder().encode(text),
+  );
+  return [...new Uint8Array(digest)]
+    .map((b) => b.toString(16).padStart(2, "0"))
+    .join("");
+}
+
+/** Buat token sesi baru dan simpan hash-nya; mengembalikan token mentah. */
+export async function createSession(
+  db: D1Database,
+  user: { id: string; outlet_id: string },
+  now: number = Date.now(),
+): Promise<{ token: string; sessionId: string; expiresAt: number }> {
+  const token = bytesToBase64Url(crypto.getRandomValues(new Uint8Array(32)));
+  const tokenHash = await sha256Hex(token);
+  const sessionId = crypto.randomUUID();
+  const expiresAt = now + SESSION_TTL_MS;
+  await db
+    .prepare(
+      "INSERT INTO sessions (id, outlet_id, user_id, token_hash, created_at, expires_at, revoked_at, last_seen_at) VALUES (?, ?, ?, ?, ?, ?, NULL, ?)",
+    )
+    .bind(sessionId, user.outlet_id, user.id, tokenHash, now, expiresAt, now)
+    .run();
+  return { token, sessionId, expiresAt };
+}
+
+/** Cabut sesi (logout). Idempoten: sesi yang sudah dicabut tetap dicabut. */
+export async function revokeSession(
+  db: D1Database,
+  sessionId: string,
+): Promise<void> {
+  await db
+    .prepare(
+      "UPDATE sessions SET revoked_at = ? WHERE id = ? AND revoked_at IS NULL",
+    )
+    .bind(Date.now(), sessionId)
+    .run();
+}
+
+interface SessionUserRow {
+  session_id: string;
+  expires_at: number;
+  revoked_at: number | null;
+  user_id: string;
+  outlet_id: string;
+  role: Role;
+  name: string;
+  email: string;
+  user_active: number;
+  user_deleted_at: number | null;
+}
+
+/** Resolusi token Bearer -> pengguna; null bila tidak sah/kedaluwarsa/dicabut. */
+export async function resolveSessionUser(
+  db: D1Database,
+  token: string,
+  now: number = Date.now(),
+): Promise<AuthUser | null> {
+  const tokenHash = await sha256Hex(token);
+  const row = await db
+    .prepare(
+      `SELECT s.id AS session_id, s.expires_at, s.revoked_at,
+              u.id AS user_id, u.outlet_id, u.role, u.name, u.email,
+              u.is_active AS user_active, u.deleted_at AS user_deleted_at
+         FROM sessions s
+         JOIN users u ON u.id = s.user_id
+        WHERE s.token_hash = ?`,
+    )
+    .bind(tokenHash)
+    .first<SessionUserRow>();
+  if (!row) return null;
+  if (row.revoked_at != null) return null;
+  if (row.expires_at <= now) return null;
+  if (row.user_active !== 1 || row.user_deleted_at != null) return null;
+  return {
+    id: row.user_id,
+    outlet_id: row.outlet_id,
+    role: row.role,
+    name: row.name,
+    email: row.email,
+    session_id: row.session_id,
+  };
+}
+
+/** Middleware: wajib Authorization: Bearer <token sesi> yang sah. */
+export const authMiddleware: MiddlewareHandler<{
+  Bindings: Env;
+  Variables: Variables;
+}> = async (c, next) => {
+  const header = c.req.header("Authorization") ?? "";
+  const match = /^Bearer\s+(.+)$/i.exec(header.trim());
+  if (!match || !match[1]) {
+    throw new ApiError("UNAUTHORIZED", "Token sesi tidak ada atau tidak sah");
+  }
+  const user = await resolveSessionUser(c.env.DB, match[1]);
+  if (!user) {
+    throw new ApiError(
+      "UNAUTHORIZED",
+      "Sesi tidak sah, sudah dicabut, atau kedaluwarsa",
+    );
+  }
+  c.set("user", user);
+  await next();
+};
+
+/** Guard peran: lempar FORBIDDEN bila peran pengguna tidak termasuk daftar. */
+export function requireRole(
+  c: Context<{ Bindings: Env; Variables: Variables }>,
+  ...roles: Role[]
+): AuthUser {
+  const user = c.get("user");
+  if (!roles.includes(user.role)) {
+    throw new ApiError(
+      "FORBIDDEN",
+      `Peran ${user.role} tidak berhak melakukan aksi ini`,
+    );
+  }
+  return user;
+}
