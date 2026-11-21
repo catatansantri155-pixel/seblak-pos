@@ -1,1 +1,239 @@
-LyoqCiAqIFJ1dGUgc3RvayBsYW5qdXRhbiAoa29udHJhayBHMWIgbW9kdWwgSW52ZW50YXJpcyk6CiAqIC0gR0VUICAvYXBpL3YxL3N0b2NrL2JhbGFuY2VzICDigJQgc2FsZG8ga2luaSBzZW11YSBwcm9kdWsgaXNfc3RvY2tfdHJhY2tlZAogKiAgIChzYWxkbyBTRUxBTFUgYWdyZWdhdCBzdG9ja19tb3ZlbWVudHM7IHRpZGFrIGFkYSBrb2xvbSBzYWxkbyB5YW5nCiAqICAgZGl1YmFoIGxhbmdzdW5nIOKAlCBwcmluc2lwIHNrZW1hIEcxYSAjNykuIGxvd19zdG9jayBkaXRhbmRhaSBiaWxhCiAqICAgcHJvZHVrIHB1bnlhIGFtYmFuZyBtaW5fc3RvY2sgPiAwIChtaWdyYXNpIDAwMDkpIGRhbiBzYWxkbyA8PSBhbWJhbmcuCiAqIC0gR0VUICAvYXBpL3YxL3N0b2NrL21vdmVtZW50cyDigJQgcml3YXlhdCBnZXJha2FuOyBmaWx0ZXIgcHJvZHVjdF9pZCwKICogICB0eXBlLCBmcm9tLCB0byAoZXBvY2ggbXMpOyBwYWdpbmF0aW9uIGtvbnRyYWsgRzFiLgogKiAtIFBPU1QgL2FwaS92MS9zdG9jay9tb3ZlbWVudHMg4oCUIGdlcmFrYW4gbWFudWFsOyBJZGVtcG90ZW5jeS1LZXkgd2FqaWIuCiAqICAgdHlwZSBtZW5naWt1dGkgQ0hFQ0sgc2tlbWE6IHB1cmNoYXNlIHwgYWRqdXN0bWVudCB8IHdhc3RlIHwgcmV0dXJuLgogKiAgIHF0eV9kZWx0YSBiZXJ0YW5kYTogcHVyY2hhc2UvcmV0dXJuIGhhcnVzIHBvc2l0aWYsIHdhc3RlIGhhcnVzIG5lZ2F0aWYsCiAqICAgYWRqdXN0bWVudCBib2xlaCBkdWEgYXJhaCB0YXBpIHRpZGFrIG5vbC4gbm90ZSBXQUpJQiB1bnR1ayBhZGp1c3RtZW50CiAqICAgJiB3YXN0ZSAoa29udHJhayBHMWIpLiBQZXJhbjogcHVyY2hhc2UgYm9sZWggb3duZXIvbWFuYWdlci9jYXNoaWVyOwogKiAgIGFkanVzdG1lbnQsIHdhc3RlLCByZXR1cm4gaGFueWEgb3duZXIvbWFuYWdlci4gR2VyYWthbiBrZWx1YXIgeWFuZwogKiAgIG1lbWJ1YXQgc2FsZG8gbmVnYXRpZiBkaXRvbGFrIElOU1VGRklDSUVOVF9TVE9DSy4KICovCmltcG9ydCB7IEhvbm8gfSBmcm9tICJob25vIjsKaW1wb3J0IHsgeiB9IGZyb20gInpvZCI7CmltcG9ydCB7IEFwaUVycm9yIH0gZnJvbSAiLi4vbGliL2Vycm9ycyI7CmltcG9ydCB7IHN1Y2Nlc3NFbnZlbG9wZSB9IGZyb20gIi4uL2xpYi9lbnZlbG9wZSI7CmltcG9ydCB7IHJlcXVpcmVSb2xlIH0gZnJvbSAiLi4vbGliL2F1dGgiOwppbXBvcnQgeyBwYXJzZVBhZ2luYXRpb24sIHBhcnNlV2l0aCwgcmVhZEpzb25Cb2R5IH0gZnJvbSAiLi4vbGliL3ZhbGlkYXRlIjsKaW1wb3J0IHsKICBmaW5kU3RvcmVkUmVzcG9uc2UsCiAgaGFzaFJlcXVlc3RCb2R5LAogIHJlcXVpcmVJZGVtcG90ZW5jeUtleSwKICBzdG9yZVJlc3BvbnNlLAp9IGZyb20gIi4uL2xpYi9pZGVtcG90ZW5jeSI7CmltcG9ydCB0eXBlIHsgRW52LCBWYXJpYWJsZXMgfSBmcm9tICIuLi9saWIvdHlwZXMiOwoKY29uc3Qgc3RvY2sgPSBuZXcgSG9ubzx7IEJpbmRpbmdzOiBFbnY7IFZhcmlhYmxlczogVmFyaWFibGVzIH0+KCk7CgppbnRlcmZhY2UgTW92ZW1lbnRSb3cgewogIGlkOiBzdHJpbmc7IG91dGxldF9pZDogc3RyaW5nOyBwcm9kdWN0X2lkOiBzdHJpbmc7IGJhdGNoX2lkOiBzdHJpbmcgfCBudWxsOwogIHR5cGU6IHN0cmluZzsgcXR5X2RlbHRhOiBudW1iZXI7IHJlZl90eXBlOiBzdHJpbmcgfCBudWxsOyByZWZfaWQ6IHN0cmluZyB8IG51bGw7CiAgbm90ZTogc3RyaW5nIHwgbnVsbDsgY3JlYXRlZF9ieTogc3RyaW5nIHwgbnVsbDsgY3JlYXRlZF9hdDogbnVtYmVyOwp9Cgpjb25zdCBtb3ZlbWVudE91dCA9IChyOiBNb3ZlbWVudFJvdykgPT4gKHsKICBpZDogci5pZCwgb3V0bGV0X2lkOiByLm91dGxldF9pZCwgcHJvZHVjdF9pZDogci5wcm9kdWN0X2lkLAogIGJhdGNoX2lkOiByLmJhdGNoX2lkLCB0eXBlOiByLnR5cGUsIHF0eV9kZWx0YTogci5xdHlfZGVsdGEsCiAgcmVmX3R5cGU6IHIucmVmX3R5cGUsIHJlZl9pZDogci5yZWZfaWQsIG5vdGU6IHIubm90ZSwKICBjcmVhdGVkX2J5OiByLmNyZWF0ZWRfYnksIGNyZWF0ZWRfYXQ6IHIuY3JlYXRlZF9hdCwKfSk7CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcHJvZHVjdEJhbGFuY2UoCiAgZGI6IEQxRGF0YWJhc2UsIG91dGxldElkOiBzdHJpbmcsIHByb2R1Y3RJZDogc3RyaW5nLAopOiBQcm9taXNlPG51bWJlcj4gewogIGNvbnN0IHJvdyA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgiU0VMRUNUIENPQUxFU0NFKFNVTShxdHlfZGVsdGEpLCAwKSBBUyBiYWwgRlJPTSBzdG9ja19tb3ZlbWVudHMgV0hFUkUgb3V0bGV0X2lkID0gPyBBTkQgcHJvZHVjdF9pZCA9ID8iKQogICAgLmJpbmQob3V0bGV0SWQsIHByb2R1Y3RJZCkKICAgIC5maXJzdDx7IGJhbDogbnVtYmVyIH0+KCk7CiAgcmV0dXJuIHJvdz8uYmFsID8/IDA7Cn0KCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBiYWxhbmNlcwoKc3RvY2suZ2V0KCIvc3RvY2svYmFsYW5jZXMiLCBhc3luYyAoYykgPT4gewogIGNvbnN0IHVzZXIgPSBjLmdldCgidXNlciIpOwogIGNvbnN0IHsgcGFnZSwgcGVyUGFnZSwgbGltaXQsIG9mZnNldCB9ID0gcGFyc2VQYWdpbmF0aW9uKGMucmVxLnF1ZXJ5KCkpOwogIGNvbnN0IGRiID0gYy5lbnYuREI7CgogIGNvbnN0IHRvdGFsID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKCJTRUxFQ1QgQ09VTlQoKikgQVMgbiBGUk9NIHByb2R1Y3RzIFdIRVJFIG91dGxldF9pZCA9ID8gQU5EIGlzX3N0b2NrX3RyYWNrZWQgPSAxIEFORCBkZWxldGVkX2F0IElTIE5VTEwiKQogICAgLmJpbmQodXNlci5vdXRsZXRfaWQpCiAgICAuZmlyc3Q8eyBuOiBudW1iZXIgfT4oKTsKCiAgY29uc3QgeyByZXN1bHRzIH0gPSBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgIGBTRUxFQ1QgcC5pZCBBUyBwcm9kdWN0X2lkLCBwLm5hbWUsIHAuc2t1LCBwLmNhdGVnb3J5X2lkLCBwLm1pbl9zdG9jaywKICAgICAgICAgICAgICBDT0FMRVNDRShTVU0oc20ucXR5X2RlbHRhKSwgMCkgQVMgYmFsYW5jZQogICAgICAgICBGUk9NIHByb2R1Y3RzIHAKICAgICAgICAgTEVGVCBKT0lOIHN0b2NrX21vdmVtZW50cyBzbQogICAgICAgICAgIE9OIHNtLnByb2R1Y3RfaWQgPSBwLmlkIEFORCBzbS5vdXRsZXRfaWQgPSBwLm91dGxldF9pZAogICAgICAgIFdIRVJFIHAub3V0bGV0X2lkID0gPyBBTkQgcC5pc19zdG9ja190cmFja2VkID0gMSBBTkQgcC5kZWxldGVkX2F0IElTIE5VTEwKICAgICAgICBHUk9VUCBCWSBwLmlkCiAgICAgICAgT1JERVIgQlkgcC5uYW1lIEFTQwogICAgICAgIExJTUlUID8gT0ZGU0VUID9gLAogICAgKQogICAgLmJpbmQodXNlci5vdXRsZXRfaWQsIGxpbWl0LCBvZmZzZXQpCiAgICAuYWxsPHsKICAgICAgcHJvZHVjdF9pZDogc3RyaW5nOyBuYW1lOiBzdHJpbmc7IHNrdTogc3RyaW5nIHwgbnVsbDsKICAgICAgY2F0ZWdvcnlfaWQ6IHN0cmluZyB8IG51bGw7IG1pbl9zdG9jazogbnVtYmVyOyBiYWxhbmNlOiBudW1iZXI7CiAgICB9PigpOwoKICByZXR1cm4gYy5qc29uKAogICAgc3VjY2Vzc0VudmVsb3BlKAogICAgICByZXN1bHRzLm1hcCgocikgPT4gKHsKICAgICAgICBwcm9kdWN0X2lkOiByLnByb2R1Y3RfaWQsCiAgICAgICAgbmFtZTogci5uYW1lLAogICAgICAgIHNrdTogci5za3UsCiAgICAgICAgY2F0ZWdvcnlfaWQ6IHIuY2F0ZWdvcnlfaWQsCiAgICAgICAgYmFsYW5jZTogci5iYWxhbmNlLAogICAgICAgIG1pbl9zdG9jazogci5taW5fc3RvY2ssCiAgICAgICAgbG93X3N0b2NrOiByLm1pbl9zdG9jayA+IDAgJiYgci5iYWxhbmNlIDw9IHIubWluX3N0b2NrLAogICAgICB9KSksCiAgICAgIGMuZ2V0KCJyZXF1ZXN0SWQiKSwKICAgICAgeyBwYWdlLCBwZXJfcGFnZTogcGVyUGFnZSwgdG90YWw6IHRvdGFsPy5uID8/IDAgfSwKICAgICksCiAgICAyMDAsCiAgKTsKfSk7CgovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSBtb3ZlbWVudHMKCnN0b2NrLmdldCgiL3N0b2NrL21vdmVtZW50cyIsIGFzeW5jIChjKSA9PiB7CiAgY29uc3QgdXNlciA9IGMuZ2V0KCJ1c2VyIik7CiAgY29uc3QgeyBwYWdlLCBwZXJQYWdlLCBsaW1pdCwgb2Zmc2V0IH0gPSBwYXJzZVBhZ2luYXRpb24oYy5yZXEucXVlcnkoKSk7CiAgY29uc3QgY29uZHM6IHN0cmluZ1tdID0gWyJvdXRsZXRfaWQgPSA/Il07CiAgY29uc3QgYmluZHM6IHVua25vd25bXSA9IFt1c2VyLm91dGxldF9pZF07CiAgY29uc3QgcHJvZHVjdElkID0gYy5yZXEucXVlcnkoInByb2R1Y3RfaWQiKTsKICBpZiAocHJvZHVjdElkKSB7IGNvbmRzLnB1c2goInByb2R1Y3RfaWQgPSA/Iik7IGJpbmRzLnB1c2gocHJvZHVjdElkKTsgfQogIGNvbnN0IHR5cGUgPSBjLnJlcS5xdWVyeSgidHlwZSIpOwogIGlmICh0eXBlKSB7IGNvbmRzLnB1c2goInR5cGUgPSA/Iik7IGJpbmRzLnB1c2godHlwZSk7IH0KICBjb25zdCBmcm9tID0gYy5yZXEucXVlcnkoImZyb20iKTsKICBpZiAoZnJvbSAmJiBOdW1iZXIuaXNGaW5pdGUoTnVtYmVyKGZyb20pKSkgeyBjb25kcy5wdXNoKCJjcmVhdGVkX2F0ID49ID8iKTsgYmluZHMucHVzaChOdW1iZXIoZnJvbSkpOyB9CiAgY29uc3QgdG8gPSBjLnJlcS5xdWVyeSgidG8iKTsKICBpZiAodG8gJiYgTnVtYmVyLmlzRmluaXRlKE51bWJlcih0bykpKSB7IGNvbmRzLnB1c2goImNyZWF0ZWRfYXQgPD0gPyIpOyBiaW5kcy5wdXNoKE51bWJlcih0bykpOyB9CiAgY29uc3Qgd2hlcmVTcWwgPSBjb25kcy5qb2luKCIgQU5EICIpOwogIGNvbnN0IGRiID0gYy5lbnYuREI7CiAgY29uc3QgdG90YWwgPSBhd2FpdCBkYgogICAgLnByZXBhcmUoYFNFTEVDVCBDT1VOVCgqKSBBUyBuIEZST00gc3RvY2tfbW92ZW1lbnRzIFdIRVJFICR7d2hlcmVTcWx9YCkKICAgIC5iaW5kKC4uLmJpbmRzKQogICAgLmZpcnN0PHsgbjogbnVtYmVyIH0+KCk7CiAgY29uc3QgeyByZXN1bHRzIH0gPSBhd2FpdCBkYgogICAgLnByZXBhcmUoYFNFTEVDVCAqIEZST00gc3RvY2tfbW92ZW1lbnRzIFdIRVJFICR7d2hlcmVTcWx9IE9SREVSIEJZIGNyZWF0ZWRfYXQgREVTQywgaWQgREVTQyBMSU1JVCA/IE9GRlNFVCA/YCkKICAgIC5iaW5kKC4uLmJpbmRzLCBsaW1pdCwgb2Zmc2V0KQogICAgLmFsbDxNb3ZlbWVudFJvdz4oKTsKICByZXR1cm4gYy5qc29uKAogICAgc3VjY2Vzc0VudmVsb3BlKHJlc3VsdHMubWFwKG1vdmVtZW50T3V0KSwgYy5nZXQoInJlcXVlc3RJZCIpLCB7CiAgICAgIHBhZ2UsIHBlcl9wYWdlOiBwZXJQYWdlLCB0b3RhbDogdG90YWw/Lm4gPz8gMCwKICAgIH0pLAogICAgMjAwLAogICk7Cn0pOwoKY29uc3QgY3JlYXRlTW92ZW1lbnRTY2hlbWEgPSB6Lm9iamVjdCh7CiAgcHJvZHVjdF9pZDogei5zdHJpbmcoKS5taW4oMSwgIlByb2R1ayB3YWppYiBkaWlzaSIpLAogIHR5cGU6IHouZW51bShbInB1cmNoYXNlIiwgImFkanVzdG1lbnQiLCAid2FzdGUiLCAicmV0dXJuIl0pLAogIHF0eV9kZWx0YTogei5udW1iZXIoKS5pbnQoInF0eV9kZWx0YSBoYXJ1cyBiaWxhbmdhbiBidWxhdCIpLAogIG5vdGU6IHouc3RyaW5nKCkubnVsbGFibGUoKS5vcHRpb25hbCgpLAogIGJhdGNoX2lkOiB6LnN0cmluZygpLm1pbigxKS5udWxsYWJsZSgpLm9wdGlvbmFsKCksCn0pOwoKc3RvY2sucG9zdCgiL3N0b2NrL21vdmVtZW50cyIsIGFzeW5jIChjKSA9PiB7CiAgY29uc3QgdXNlciA9IGMuZ2V0KCJ1c2VyIik7CiAgY29uc3QgZGIgPSBjLmVudi5EQjsKICBjb25zdCByYXdCb2R5ID0gYXdhaXQgcmVhZEpzb25Cb2R5KGMucmVxKTsKICBjb25zdCBib2R5ID0gcGFyc2VXaXRoKGNyZWF0ZU1vdmVtZW50U2NoZW1hLCByYXdCb2R5KTsKCiAgLy8gUGVyYW4gcGVyIHRpcGUgZ2VyYWthbiAoYXR1cmFuIGJyaWVmIEc0YSkuCiAgaWYgKGJvZHkudHlwZSA9PT0gInB1cmNoYXNlIikgewogICAgcmVxdWlyZVJvbGUoYywgIm93bmVyIiwgIm1hbmFnZXIiLCAiY2FzaGllciIpOwogIH0gZWxzZSB7CiAgICByZXF1aXJlUm9sZShjLCAib3duZXIiLCAibWFuYWdlciIpOwogIH0KCiAgLy8gQXR1cmFuIHRhbmRhICYgbm90ZS4KICBjb25zdCBkZXRhaWxzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307CiAgaWYgKGJvZHkucXR5X2RlbHRhID09PSAwKSB7CiAgICBkZXRhaWxzLnF0eV9kZWx0YSA9ICJxdHlfZGVsdGEgdGlkYWsgYm9sZWggbm9sIjsKICB9CiAgaWYgKChib2R5LnR5cGUgPT09ICJwdXJjaGFzZSIgfHwgYm9keS50eXBlID09PSAicmV0dXJuIikgJiYgYm9keS5xdHlfZGVsdGEgPCAwKSB7CiAgICBkZXRhaWxzLnF0eV9kZWx0YSA9IGBHZXJha2FuICR7Ym9keS50eXBlfSBoYXJ1cyBiZXJuaWxhaSBwb3NpdGlmYDsKICB9CiAgaWYgKGJvZHkudHlwZSA9PT0gIndhc3RlIiAmJiBib2R5LnF0eV9kZWx0YSA+IDApIHsKICAgIGRldGFpbHMucXR5X2RlbHRhID0gIkdlcmFrYW4gd2FzdGUgaGFydXMgYmVybmlsYWkgbmVnYXRpZiAoc3RvayBrZWx1YXIpIjsKICB9CiAgaWYgKAogICAgKGJvZHkudHlwZSA9PT0gImFkanVzdG1lbnQiIHx8IGJvZHkudHlwZSA9PT0gIndhc3RlIikgJiYKICAgICghYm9keS5ub3RlIHx8IGJvZHkubm90ZS50cmltKCkgPT09ICIiKQogICkgewogICAgZGV0YWlscy5ub3RlID0gYENhdGF0YW4gd2FqaWIgZGlpc2kgdW50dWsgZ2VyYWthbiAke2JvZHkudHlwZX1gOwogIH0KICBpZiAoT2JqZWN0LmtleXMoZGV0YWlscykubGVuZ3RoID4gMCkgewogICAgdGhyb3cgbmV3IEFwaUVycm9yKCJWQUxJREFUSU9OX0VSUk9SIiwgIkdlcmFrYW4gc3RvayB0aWRhayB2YWxpZCIsIGRldGFpbHMpOwogIH0KCiAgY29uc3QgcHJvZHVjdCA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgiU0VMRUNUIGlkLCBuYW1lIEZST00gcHJvZHVjdHMgV0hFUkUgaWQgPSA/IEFORCBvdXRsZXRfaWQgPSA/IEFORCBkZWxldGVkX2F0IElTIE5VTEwiKQogICAgLmJpbmQoYm9keS5wcm9kdWN0X2lkLCB1c2VyLm91dGxldF9pZCkKICAgIC5maXJzdDx7IGlkOiBzdHJpbmc7IG5hbWU6IHN0cmluZyB9PigpOwogIGlmICghcHJvZHVjdCkgewogICAgdGhyb3cgbmV3IEFwaUVycm9yKCJWQUxJREFUSU9OX0VSUk9SIiwgIlByb2R1ayB0aWRhayBkaXRlbXVrYW4iLCB7CiAgICAgIHByb2R1Y3RfaWQ6ICJQcm9kdWsgdGlkYWsgZGl0ZW11a2FuIGRpIG91dGxldCBpbmkiLAogICAgfSk7CiAgfQoKICBjb25zdCBpZGVtS2V5ID0gcmVxdWlyZUlkZW1wb3RlbmN5S2V5KGMucmVxLmhlYWRlcigiSWRlbXBvdGVuY3ktS2V5IikpOwogIGNvbnN0IHNjb3BlZEtleSA9IGBzdG9jazoke2lkZW1LZXl9YDsKICBjb25zdCByZXF1ZXN0SGFzaCA9IGF3YWl0IGhhc2hSZXF1ZXN0Qm9keShyYXdCb2R5KTsKICBjb25zdCBzdG9yZWQgPSBhd2FpdCBmaW5kU3RvcmVkUmVzcG9uc2UoZGIsIHVzZXIub3V0bGV0X2lkLCBzY29wZWRLZXksIHJlcXVlc3RIYXNoKTsKICBpZiAoc3RvcmVkKSB7CiAgICByZXR1cm4gYy5qc29uKAogICAgICBzdWNjZXNzRW52ZWxvcGUoSlNPTi5wYXJzZShzdG9yZWQucmVzcG9uc2VfanNvbiksIGMuZ2V0KCJyZXF1ZXN0SWQiKSksCiAgICAgIHN0b3JlZC5zdGF0dXNfY29kZSBhcyAyMDEsCiAgICApOwogIH0KCiAgLy8gU2FsZG8gdGlkYWsgYm9sZWggbWVuamFkaSBuZWdhdGlmIGthcmVuYSBnZXJha2FuIGtlbHVhciBtYW51YWwuCiAgY29uc3QgYmFsYW5jZUJlZm9yZSA9IGF3YWl0IHByb2R1Y3RCYWxhbmNlKGRiLCB1c2VyLm91dGxldF9pZCwgYm9keS5wcm9kdWN0X2lkKTsKICBjb25zdCBiYWxhbmNlQWZ0ZXIgPSBiYWxhbmNlQmVmb3JlICsgYm9keS5xdHlfZGVsdGE7CiAgaWYgKGJhbGFuY2VBZnRlciA8IDApIHsKICAgIHRocm93IG5ldyBBcGlFcnJvcigiSU5TVUZGSUNJRU5UX1NUT0NLIiwgIlNhbGRvIHN0b2sgdGlkYWsgY3VrdXAgdW50dWsgZ2VyYWthbiBrZWx1YXIgaW5pIiwgewogICAgICBwcm9kdWN0X2lkOiBib2R5LnByb2R1Y3RfaWQsCiAgICAgIHByb2R1Y3RfbmFtZTogcHJvZHVjdC5uYW1lLAogICAgICBhdmFpbGFibGU6IGJhbGFuY2VCZWZvcmUsCiAgICAgIHJlcXVlc3RlZF9vdXQ6IC1ib2R5LnF0eV9kZWx0YSwKICAgIH0pOwogIH0KCiAgY29uc3QgdCA9IERhdGUubm93KCk7CiAgY29uc3QgaWQgPSBjcnlwdG8ucmFuZG9tVVVJRCgpOwogIGF3YWl0IGRiCiAgICAucHJlcGFyZSgKICAgICAgYElOU0VSVCBJTlRPIHN0b2NrX21vdmVtZW50cyAoaWQsIG91dGxldF9pZCwgcHJvZHVjdF9pZCwgYmF0Y2hfaWQsIHR5cGUsIHF0eV9kZWx0YSwKICAgICAgICAgICAgICByZWZfdHlwZSwgcmVmX2lkLCBub3RlLCBjcmVhdGVkX2J5LCBjcmVhdGVkX2F0KQogICAgICAgVkFMVUVTICg/LCA/LCA/LCA/LCA/LCA/LCAnbWFudWFsJywgTlVMTCwgPywgPywgPylgLAogICAgKQogICAgLmJpbmQoCiAgICAgIGlkLCB1c2VyLm91dGxldF9pZCwgYm9keS5wcm9kdWN0X2lkLCBib2R5LmJhdGNoX2lkID8/IG51bGwsIGJvZHkudHlwZSwKICAgICAgYm9keS5xdHlfZGVsdGEsIGJvZHkubm90ZSA/PyBudWxsLCB1c2VyLmlkLCB0LAogICAgKQogICAgLnJ1bigpOwoKICBjb25zdCByb3cgPSBhd2FpdCBkYgogICAgLnByZXBhcmUoIlNFTEVDVCAqIEZST00gc3RvY2tfbW92ZW1lbnRzIFdIRVJFIGlkID0gPyIpCiAgICAuYmluZChpZCkKICAgIC5maXJzdDxNb3ZlbWVudFJvdz4oKTsKICBjb25zdCBkYXRhID0gewogICAgbW92ZW1lbnQ6IG1vdmVtZW50T3V0KHJvdyBhcyBNb3ZlbWVudFJvdyksCiAgICBiYWxhbmNlX2JlZm9yZTogYmFsYW5jZUJlZm9yZSwKICAgIGJhbGFuY2VfYWZ0ZXI6IGJhbGFuY2VBZnRlciwKICB9OwogIGF3YWl0IHN0b3JlUmVzcG9uc2UoZGIsIHVzZXIub3V0bGV0X2lkLCBzY29wZWRLZXksIHJlcXVlc3RIYXNoLCAyMDEsIGRhdGEpOwogIHJldHVybiBjLmpzb24oc3VjY2Vzc0VudmVsb3BlKGRhdGEsIGMuZ2V0KCJyZXF1ZXN0SWQiKSksIDIwMSk7Cn0pOwoKZXhwb3J0IGRlZmF1bHQgc3RvY2s7Cg==
+/**
+ * Rute stok lanjutan (kontrak G1b modul Inventaris):
+ * - GET  /api/v1/stock/balances  — saldo kini semua produk is_stock_tracked
+ *   (saldo SELALU agregat stock_movements; tidak ada kolom saldo yang
+ *   diubah langsung — prinsip skema G1a #7). low_stock ditandai bila
+ *   produk punya ambang min_stock > 0 (migrasi 0009) dan saldo <= ambang.
+ * - GET  /api/v1/stock/movements — riwayat gerakan; filter product_id,
+ *   type, from, to (epoch ms); pagination kontrak G1b.
+ * - POST /api/v1/stock/movements — gerakan manual; Idempotency-Key wajib.
+ *   type mengikuti CHECK skema: purchase | adjustment | waste | return.
+ *   qty_delta bertanda: purchase/return harus positif, waste harus negatif,
+ *   adjustment boleh dua arah tapi tidak nol. note WAJIB untuk adjustment
+ *   & waste (kontrak G1b). Peran: purchase boleh owner/manager/cashier;
+ *   adjustment, waste, return hanya owner/manager. Gerakan keluar yang
+ *   membuat saldo negatif ditolak INSUFFICIENT_STOCK.
+ */
+import { Hono } from "hono";
+import { z } from "zod";
+import { ApiError } from "../lib/errors";
+import { successEnvelope } from "../lib/envelope";
+import { requireRole } from "../lib/auth";
+import { parsePagination, parseWith, readJsonBody } from "../lib/validate";
+import {
+  findStoredResponse,
+  hashRequestBody,
+  requireIdempotencyKey,
+  storeResponse,
+} from "../lib/idempotency";
+import type { Env, Variables } from "../lib/types";
+
+const stock = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+interface MovementRow {
+  id: string; outlet_id: string; product_id: string; batch_id: string | null;
+  type: string; qty_delta: number; ref_type: string | null; ref_id: string | null;
+  note: string | null; created_by: string | null; created_at: number;
+}
+
+const movementOut = (r: MovementRow) => ({
+  id: r.id, outlet_id: r.outlet_id, product_id: r.product_id,
+  batch_id: r.batch_id, type: r.type, qty_delta: r.qty_delta,
+  ref_type: r.ref_type, ref_id: r.ref_id, note: r.note,
+  created_by: r.created_by, created_at: r.created_at,
+});
+
+export async function productBalance(
+  db: D1Database, outletId: string, productId: string,
+): Promise<number> {
+  const row = await db
+    .prepare("SELECT COALESCE(SUM(qty_delta), 0) AS bal FROM stock_movements WHERE outlet_id = ? AND product_id = ?")
+    .bind(outletId, productId)
+    .first<{ bal: number }>();
+  return row?.bal ?? 0;
+}
+
+// --------------------------------------------------------------- balances
+
+stock.get("/stock/balances", async (c) => {
+  const user = c.get("user");
+  const { page, perPage, limit, offset } = parsePagination(c.req.query());
+  const db = c.env.DB;
+
+  const total = await db
+    .prepare("SELECT COUNT(*) AS n FROM products WHERE outlet_id = ? AND is_stock_tracked = 1 AND deleted_at IS NULL")
+    .bind(user.outlet_id)
+    .first<{ n: number }>();
+
+  const { results } = await db
+    .prepare(
+      `SELECT p.id AS product_id, p.name, p.sku, p.category_id, p.min_stock,
+              COALESCE(SUM(sm.qty_delta), 0) AS balance
+         FROM products p
+         LEFT JOIN stock_movements sm
+           ON sm.product_id = p.id AND sm.outlet_id = p.outlet_id
+        WHERE p.outlet_id = ? AND p.is_stock_tracked = 1 AND p.deleted_at IS NULL
+        GROUP BY p.id
+        ORDER BY p.name ASC
+        LIMIT ? OFFSET ?`,
+    )
+    .bind(user.outlet_id, limit, offset)
+    .all<{
+      product_id: string; name: string; sku: string | null;
+      category_id: string | null; min_stock: number; balance: number;
+    }>();
+
+  return c.json(
+    successEnvelope(
+      results.map((r) => ({
+        product_id: r.product_id,
+        name: r.name,
+        sku: r.sku,
+        category_id: r.category_id,
+        balance: r.balance,
+        min_stock: r.min_stock,
+        low_stock: r.min_stock > 0 && r.balance <= r.min_stock,
+      })),
+      c.get("requestId"),
+      { page, per_page: perPage, total: total?.n ?? 0 },
+    ),
+    200,
+  );
+});
+
+// -------------------------------------------------------------- movements
+
+stock.get("/stock/movements", async (c) => {
+  const user = c.get("user");
+  const { page, perPage, limit, offset } = parsePagination(c.req.query());
+  const conds: string[] = ["outlet_id = ?"];
+  const binds: unknown[] = [user.outlet_id];
+  const productId = c.req.query("product_id");
+  if (productId) { conds.push("product_id = ?"); binds.push(productId); }
+  const type = c.req.query("type");
+  if (type) { conds.push("type = ?"); binds.push(type); }
+  const from = c.req.query("from");
+  if (from && Number.isFinite(Number(from))) { conds.push("created_at >= ?"); binds.push(Number(from)); }
+  const to = c.req.query("to");
+  if (to && Number.isFinite(Number(to))) { conds.push("created_at <= ?"); binds.push(Number(to)); }
+  const whereSql = conds.join(" AND ");
+  const db = c.env.DB;
+  const total = await db
+    .prepare(`SELECT COUNT(*) AS n FROM stock_movements WHERE ${whereSql}`)
+    .bind(...binds)
+    .first<{ n: number }>();
+  const { results } = await db
+    .prepare(`SELECT * FROM stock_movements WHERE ${whereSql} ORDER BY created_at DESC, id DESC LIMIT ? OFFSET ?`)
+    .bind(...binds, limit, offset)
+    .all<MovementRow>();
+  return c.json(
+    successEnvelope(results.map(movementOut), c.get("requestId"), {
+      page, per_page: perPage, total: total?.n ?? 0,
+    }),
+    200,
+  );
+});
+
+const createMovementSchema = z.object({
+  product_id: z.string().min(1, "Produk wajib diisi"),
+  type: z.enum(["purchase", "adjustment", "waste", "return"]),
+  qty_delta: z.number().int("qty_delta harus bilangan bulat"),
+  note: z.string().nullable().optional(),
+  batch_id: z.string().min(1).nullable().optional(),
+});
+
+stock.post("/stock/movements", async (c) => {
+  const user = c.get("user");
+  const db = c.env.DB;
+  const rawBody = await readJsonBody(c.req);
+  const body = parseWith(createMovementSchema, rawBody);
+
+  // Peran per tipe gerakan (aturan brief G4a).
+  if (body.type === "purchase") {
+    requireRole(c, "owner", "manager", "cashier");
+  } else {
+    requireRole(c, "owner", "manager");
+  }
+
+  // Aturan tanda & note.
+  const details: Record<string, string> = {};
+  if (body.qty_delta === 0) {
+    details.qty_delta = "qty_delta tidak boleh nol";
+  }
+  if ((body.type === "purchase" || body.type === "return") && body.qty_delta < 0) {
+    details.qty_delta = `Gerakan ${body.type} harus bernilai positif`;
+  }
+  if (body.type === "waste" && body.qty_delta > 0) {
+    details.qty_delta = "Gerakan waste harus bernilai negatif (stok keluar)";
+  }
+  if (
+    (body.type === "adjustment" || body.type === "waste") &&
+    (!body.note || body.note.trim() === "")
+  ) {
+    details.note = `Catatan wajib diisi untuk gerakan ${body.type}`;
+  }
+  if (Object.keys(details).length > 0) {
+    throw new ApiError("VALIDATION_ERROR", "Gerakan stok tidak valid", details);
+  }
+
+  const product = await db
+    .prepare("SELECT id, name FROM products WHERE id = ? AND outlet_id = ? AND deleted_at IS NULL")
+    .bind(body.product_id, user.outlet_id)
+    .first<{ id: string; name: string }>();
+  if (!product) {
+    throw new ApiError("VALIDATION_ERROR", "Produk tidak ditemukan", {
+      product_id: "Produk tidak ditemukan di outlet ini",
+    });
+  }
+
+  const idemKey = requireIdempotencyKey(c.req.header("Idempotency-Key"));
+  const scopedKey = `stock:${idemKey}`;
+  const requestHash = await hashRequestBody(rawBody);
+  const stored = await findStoredResponse(db, user.outlet_id, scopedKey, requestHash);
+  if (stored) {
+    return c.json(
+      successEnvelope(JSON.parse(stored.response_json), c.get("requestId")),
+      stored.status_code as 201,
+    );
+  }
+
+  // Saldo tidak boleh menjadi negatif karena gerakan keluar manual.
+  const balanceBefore = await productBalance(db, user.outlet_id, body.product_id);
+  const balanceAfter = balanceBefore + body.qty_delta;
+  if (balanceAfter < 0) {
+    throw new ApiError("INSUFFICIENT_STOCK", "Saldo stok tidak cukup untuk gerakan keluar ini", {
+      product_id: body.product_id,
+      product_name: product.name,
+      available: balanceBefore,
+      requested_out: -body.qty_delta,
+    });
+  }
+
+  const t = Date.now();
+  const id = crypto.randomUUID();
+  await db
+    .prepare(
+      `INSERT INTO stock_movements (id, outlet_id, product_id, batch_id, type, qty_delta,
+              ref_type, ref_id, note, created_by, created_at)
+       VALUES (?, ?, ?, ?, ?, ?, 'manual', NULL, ?, ?, ?)`,
+    )
+    .bind(
+      id, user.outlet_id, body.product_id, body.batch_id ?? null, body.type,
+      body.qty_delta, body.note ?? null, user.id, t,
+    )
+    .run();
+
+  const row = await db
+    .prepare("SELECT * FROM stock_movements WHERE id = ?")
+    .bind(id)
+    .first<MovementRow>();
+  const data = {
+    movement: movementOut(row as MovementRow),
+    balance_before: balanceBefore,
+    balance_after: balanceAfter,
+  };
+  await storeResponse(db, user.outlet_id, scopedKey, requestHash, 201, data);
+  return c.json(successEnvelope(data, c.get("requestId")), 201);
+});
+
+export default stock;
