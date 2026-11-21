@@ -1,1 +1,102 @@
-LyoqCiAqIFNlYmxhayBQT1Mg4oCUIGVudHJ5cG9pbnQgQ2xvdWRmbGFyZSBXb3JrZXIgKEhvbm8pLgogKgogKiBDYWt1cGFuIHNhbXBhaSBHM2EgKGJhY2tlbmQgaW50aSk6CiAqIC0gbWlkZGxld2FyZSByZXF1ZXN0X2lkIHVudHVrIHNlbXVhIHJlc3BvbnNlIChkaXBha2FpIGVudmVsb3BlIEcxYiksCiAqIC0gZXJyb3IgaGFuZGxlciBnbG9iYWw6IEFwaUVycm9yIC0+IGVudmVsb3BlIGVycm9yIGtvZGUgRzFiOyBlcnJvciB0YWsKICogICBkaWtlbmFsIC0+IElOVEVSTkFMX0VSUk9SIDUwMCB0YW5wYSByaW5jaWFuIGludGVybmFsLAogKiAtIEdFVCAvYXBpL3YxL2hlYWx0aCAocHVibGlrKSwKICogLSBhdXRoIG55YXRhOiBQT1NUIC9hcGkvdjEvYXV0aC9sb2dpbiAocHVibGlrKSwgbG9nb3V0ICYgbWUgKHRlcnByb3Rla3NpKSwKICogLSBydXRlIHRlcnByb3Rla3NpIChtaWRkbGV3YXJlIHNlc2kpIGRpIC9hcGkvdjE6IG1hc3RlciBkYXRhIChjYXRlZ29yaWVzLAogKiAgIHByb2R1Y3RzLCB2YXJpYW50cywgbW9kaWZpZXJzKSwgc2hpZnRzLCBvcmRlcnMsIHBheW1lbnRzLCBraXRjaGVuLAogKiAtIEc0YSAoYmFja2VuZCBvcGVyYXNpKTogcmVwb3J0cyAob3duZXIvbWFuYWdlciksIHN0b2NrLCBzeW5jIG9mZmxpbmUsCiAqICAgdXNlcnMsIG91dGxldHMsIHByb21vdGlvbnMgQ1JVRCArIGtvZGUgcHJvbW8gKG1pZ3Jhc2kgMDAwOSksCiAqIC0gcGF0aCAvYXBpL3YxLyogbGFpbiAtPiA0MDQgZW52ZWxvcGUgTk9UX0ZPVU5EICh0aWRhayBhZGEgZW5kcG9pbnQgcGFsc3UpLgogKgogKiBNb2R1bCBrb250cmFrIEcxYiB5YW5nIEJFTFVNIGRpYmFuZ3VuIChtZW55dXN1bCBwZXIgZ2F0ZSk6CiAqIHB1cmNoYXNlLW9yZGVycyAmIHN0b2NrX2JhdGNoZXMuCiAqLwppbXBvcnQgeyBIb25vIH0gZnJvbSAiaG9ubyI7CmltcG9ydCB7IEFwaUVycm9yIH0gZnJvbSAiLi9saWIvZXJyb3JzIjsKaW1wb3J0IHsgZXJyb3JFbnZlbG9wZSwgc3VjY2Vzc0VudmVsb3BlIH0gZnJvbSAiLi9saWIvZW52ZWxvcGUiOwppbXBvcnQgeyBhdXRoTWlkZGxld2FyZSB9IGZyb20gIi4vbGliL2F1dGgiOwppbXBvcnQgdHlwZSB7IEVudiwgVmFyaWFibGVzIH0gZnJvbSAiLi9saWIvdHlwZXMiOwppbXBvcnQgYXV0aFJvdXRlcyBmcm9tICIuL3JvdXRlcy9hdXRoIjsKaW1wb3J0IG1hc3RlclJvdXRlcyBmcm9tICIuL3JvdXRlcy9tYXN0ZXIiOwppbXBvcnQgc2hpZnRSb3V0ZXMgZnJvbSAiLi9yb3V0ZXMvc2hpZnRzIjsKaW1wb3J0IG9yZGVyUm91dGVzIGZyb20gIi4vcm91dGVzL29yZGVycyI7CmltcG9ydCBwYXltZW50Um91dGVzIGZyb20gIi4vcm91dGVzL3BheW1lbnRzIjsKaW1wb3J0IGtpdGNoZW5Sb3V0ZXMgZnJvbSAiLi9yb3V0ZXMva2l0Y2hlbiI7CmltcG9ydCByZXBvcnRSb3V0ZXMgZnJvbSAiLi9yb3V0ZXMvcmVwb3J0cyI7CmltcG9ydCBzdG9ja1JvdXRlcyBmcm9tICIuL3JvdXRlcy9zdG9jayI7CmltcG9ydCBzeW5jUm91dGVzIGZyb20gIi4vcm91dGVzL3N5bmMiOwppbXBvcnQgdXNlclJvdXRlcyBmcm9tICIuL3JvdXRlcy91c2VycyI7CmltcG9ydCBvdXRsZXRSb3V0ZXMgZnJvbSAiLi9yb3V0ZXMvb3V0bGV0cyI7CmltcG9ydCBwcm9tb3Rpb25Sb3V0ZXMgZnJvbSAiLi9yb3V0ZXMvcHJvbW90aW9ucyI7CgpleHBvcnQgdHlwZSB7IEVudiB9OwoKY29uc3QgYXBwID0gbmV3IEhvbm88eyBCaW5kaW5nczogRW52OyBWYXJpYWJsZXM6IFZhcmlhYmxlcyB9PigpOwoKLy8gLS0tIHJlcXVlc3RfaWQgbWlkZGxld2FyZSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmFwcC51c2UoIioiLCBhc3luYyAoYywgbmV4dCkgPT4gewogIGNvbnN0IHJlcXVlc3RJZCA9IGMucmVxLmhlYWRlcigiWC1SZXF1ZXN0LUlkIikgPz8gY3J5cHRvLnJhbmRvbVVVSUQoKTsKICBjLnNldCgicmVxdWVzdElkIiwgcmVxdWVzdElkKTsKICBhd2FpdCBuZXh0KCk7CiAgYy5oZWFkZXIoIlgtUmVxdWVzdC1JZCIsIHJlcXVlc3RJZCk7Cn0pOwoKLy8gLS0tIGhlYWx0aCAocHVibGlrKSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KYXBwLmdldCgiL2FwaS92MS9oZWFsdGgiLCAoYykgPT4gewogIHJldHVybiBjLmpzb24oCiAgICBzdWNjZXNzRW52ZWxvcGUoeyBzdGF0dXM6ICJvayIgfSwgYy5nZXQoInJlcXVlc3RJZCIpKSwKICAgIDIwMCwKICApOwp9KTsKCi8vIC0tLSBhdXRoIChsb2dpbiBwdWJsaWs7IGxvZ291dCAmIG1lIG1lbWFzYW5nIG1pZGRsZXdhcmUgZGkgZGFsYW0gcm91dGVyKSAtLS0tCmFwcC5yb3V0ZSgiL2FwaS92MSIsIGF1dGhSb3V0ZXMpOwoKLy8gLS0tIHJ1dGUgdGVycHJvdGVrc2k6IHNlbXVhIHdhamliIHNlc2kgc2FoIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KY29uc3QgcHJvdGVjdGVkQXBpID0gbmV3IEhvbm88eyBCaW5kaW5nczogRW52OyBWYXJpYWJsZXM6IFZhcmlhYmxlcyB9PigpOwpwcm90ZWN0ZWRBcGkudXNlKCIqIiwgYXV0aE1pZGRsZXdhcmUpOwpwcm90ZWN0ZWRBcGkucm91dGUoIi8iLCBtYXN0ZXJSb3V0ZXMpOwpwcm90ZWN0ZWRBcGkucm91dGUoIi8iLCBzaGlmdFJvdXRlcyk7CnByb3RlY3RlZEFwaS5yb3V0ZSgiLyIsIG9yZGVyUm91dGVzKTsKcHJvdGVjdGVkQXBpLnJvdXRlKCIvIiwgcGF5bWVudFJvdXRlcyk7CnByb3RlY3RlZEFwaS5yb3V0ZSgiLyIsIGtpdGNoZW5Sb3V0ZXMpOwpwcm90ZWN0ZWRBcGkucm91dGUoIi8iLCByZXBvcnRSb3V0ZXMpOwpwcm90ZWN0ZWRBcGkucm91dGUoIi8iLCBzdG9ja1JvdXRlcyk7CnByb3RlY3RlZEFwaS5yb3V0ZSgiLyIsIHN5bmNSb3V0ZXMpOwpwcm90ZWN0ZWRBcGkucm91dGUoIi8iLCB1c2VyUm91dGVzKTsKcHJvdGVjdGVkQXBpLnJvdXRlKCIvIiwgb3V0bGV0Um91dGVzKTsKcHJvdGVjdGVkQXBpLnJvdXRlKCIvIiwgcHJvbW90aW9uUm91dGVzKTsKYXBwLnJvdXRlKCIvYXBpL3YxIiwgcHJvdGVjdGVkQXBpKTsKCi8vIC0tLSA0MDQgdW50dWsgcGF0aCBBUEkgeWFuZyBiZWx1bSBhZGEgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQphcHAubm90Rm91bmQoKGMpID0+IHsKICBjb25zdCByZXF1ZXN0SWQgPSBjLmdldCgicmVxdWVzdElkIikgPz8gY3J5cHRvLnJhbmRvbVVVSUQoKTsKICByZXR1cm4gYy5qc29uKAogICAgZXJyb3JFbnZlbG9wZSgiTk9UX0ZPVU5EIiwgIkRhdGEgdGlkYWsgZGl0ZW11a2FuIiwgcmVxdWVzdElkKSwKICAgIDQwNCwKICApOwp9KTsKCi8vIC0tLSBlcnJvciBoYW5kbGVyIGdsb2JhbCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQphcHAub25FcnJvcigoZXJyLCBjKSA9PiB7CiAgY29uc3QgcmVxdWVzdElkID0gYy5nZXQoInJlcXVlc3RJZCIpID8/IGNyeXB0by5yYW5kb21VVUlEKCk7CiAgaWYgKGVyciBpbnN0YW5jZW9mIEFwaUVycm9yKSB7CiAgICByZXR1cm4gYy5qc29uKAogICAgICBlcnJvckVudmVsb3BlKGVyci5jb2RlLCBlcnIubWVzc2FnZSwgcmVxdWVzdElkLCBlcnIuZGV0YWlscyksCiAgICAgIGVyci5zdGF0dXMgYXMgNDIyLAogICAgKTsKICB9CiAgLy8gRXJyb3IgdGFrIGRpa2VuYWw6IGphbmdhbiBib2NvcmthbiByaW5jaWFuIGludGVybmFsIChrb250cmFrIEcxYikuCiAgY29uc29sZS5lcnJvcigiSU5URVJOQUxfRVJST1IiLCByZXF1ZXN0SWQsIGVycik7CiAgcmV0dXJuIGMuanNvbigKICAgIGVycm9yRW52ZWxvcGUoIklOVEVSTkFMX0VSUk9SIiwgIktlc2FsYWhhbiBpbnRlcm5hbCBzZXJ2ZXIiLCByZXF1ZXN0SWQpLAogICAgNTAwLAogICk7Cn0pOwoKZXhwb3J0IGRlZmF1bHQgYXBwOwo=
+/**
+ * Seblak POS — entrypoint Cloudflare Worker (Hono).
+ *
+ * Cakupan sampai G3a (backend inti):
+ * - middleware request_id untuk semua response (dipakai envelope G1b),
+ * - error handler global: ApiError -> envelope error kode G1b; error tak
+ *   dikenal -> INTERNAL_ERROR 500 tanpa rincian internal,
+ * - GET /api/v1/health (publik),
+ * - auth nyata: POST /api/v1/auth/login (publik), logout & me (terproteksi),
+ * - rute terproteksi (middleware sesi) di /api/v1: master data (categories,
+ *   products, variants, modifiers), shifts, orders, payments, kitchen,
+ * - G4a (backend operasi): reports (owner/manager), stock, sync offline,
+ *   users, outlets, promotions CRUD + kode promo (migrasi 0009),
+ * - path /api/v1/* lain -> 404 envelope NOT_FOUND (tidak ada endpoint palsu).
+ *
+ * Modul kontrak G1b yang BELUM dibangun (menyusul per gate):
+ * purchase-orders & stock_batches.
+ */
+import { Hono } from "hono";
+import { ApiError } from "./lib/errors";
+import { errorEnvelope, successEnvelope } from "./lib/envelope";
+import { authMiddleware } from "./lib/auth";
+import type { Env, Variables } from "./lib/types";
+import authRoutes from "./routes/auth";
+import masterRoutes from "./routes/master";
+import shiftRoutes from "./routes/shifts";
+import orderRoutes from "./routes/orders";
+import paymentRoutes from "./routes/payments";
+import kitchenRoutes from "./routes/kitchen";
+import reportRoutes from "./routes/reports";
+import stockRoutes from "./routes/stock";
+import syncRoutes from "./routes/sync";
+import userRoutes from "./routes/users";
+import outletRoutes from "./routes/outlets";
+import promotionRoutes from "./routes/promotions";
+
+export type { Env };
+
+const app = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+// --- request_id middleware -------------------------------------------------
+app.use("*", async (c, next) => {
+  const requestId = c.req.header("X-Request-Id") ?? crypto.randomUUID();
+  c.set("requestId", requestId);
+  await next();
+  c.header("X-Request-Id", requestId);
+});
+
+// --- health (publik) ---------------------------------------------------------
+app.get("/api/v1/health", (c) => {
+  return c.json(
+    successEnvelope({ status: "ok" }, c.get("requestId")),
+    200,
+  );
+});
+
+// --- auth (login publik; logout & me memasang middleware di dalam router) ----
+app.route("/api/v1", authRoutes);
+
+// --- rute terproteksi: semua wajib sesi sah ----------------------------------
+const protectedApi = new Hono<{ Bindings: Env; Variables: Variables }>();
+protectedApi.use("*", authMiddleware);
+protectedApi.route("/", masterRoutes);
+protectedApi.route("/", shiftRoutes);
+protectedApi.route("/", orderRoutes);
+protectedApi.route("/", paymentRoutes);
+protectedApi.route("/", kitchenRoutes);
+protectedApi.route("/", reportRoutes);
+protectedApi.route("/", stockRoutes);
+protectedApi.route("/", syncRoutes);
+protectedApi.route("/", userRoutes);
+protectedApi.route("/", outletRoutes);
+protectedApi.route("/", promotionRoutes);
+app.route("/api/v1", protectedApi);
+
+// --- 404 untuk path API yang belum ada ----------------------------------------
+app.notFound((c) => {
+  const requestId = c.get("requestId") ?? crypto.randomUUID();
+  return c.json(
+    errorEnvelope("NOT_FOUND", "Data tidak ditemukan", requestId),
+    404,
+  );
+});
+
+// --- error handler global --------------------------------------------------------
+app.onError((err, c) => {
+  const requestId = c.get("requestId") ?? crypto.randomUUID();
+  if (err instanceof ApiError) {
+    return c.json(
+      errorEnvelope(err.code, err.message, requestId, err.details),
+      err.status as 422,
+    );
+  }
+  // Error tak dikenal: jangan bocorkan rincian internal (kontrak G1b).
+  console.error("INTERNAL_ERROR", requestId, err);
+  return c.json(
+    errorEnvelope("INTERNAL_ERROR", "Kesalahan internal server", requestId),
+    500,
+  );
+});
+
+export default app;
