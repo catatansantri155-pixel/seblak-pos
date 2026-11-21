@@ -1,1 +1,57 @@
-IyBTZWJsYWsgUE9TCgpBcGxpa2FzaSBrYXNpciAoUG9pbnQgb2YgU2FsZSkgdW50dWsgdXNhaGEgc2VibGFrIGRhbiBrdWxpbmVyIFVNS00gSW5kb25lc2lhOiBjZXBhdCBkaXBha2FpIGthc2lyLCBhbWFuIHNlY2FyYSBmaW5hbnNpYWwsIHRldGFwIGJlcmphbGFuIHNhYXQgaW50ZXJuZXQgbWF0aSAob2ZmbGluZS1maXJzdCksIGRhbiBkYXRhbnlhIGJpc2EgZGlsYWNhayBwZW51aC4KClJlcG8gaW5pIGRpa2VtYmFuZ2thbiBvbGVoIHRpbSBBSSBBZ2VudCBMaXZpbmcgV29ybGQgKEFya2EsIE5hZGlhLCBCaW1hLCBTaW50YSwgUmFyYSwgRGltYXMsIExlc3RhcmksIEZhamFyLCBQdXRyaSwgUml6a3kpIHVudHVrIENhdGF0YW4gU2FudHJpLiBPcGVyYXNpIEdpdEh1YiBueWF0YSBkaWVrc2VrdXNpIG9sZWggTmFpbG9uZyAoYXNpc3RlbiBwZW1pbGlrKSBiZXJkYXNhcmthbiBzcGVzaWZpa2FzaSB0ZXJ0dWxpcyB0aW0uCgojIyBTdGFjawoKLSBDbG91ZGZsYXJlIFdvcmtlcnMgKyBIb25vIChBUEksIHByZWZpeCAvYXBpL3YxKQotIENsb3VkZmxhcmUgRDEgKFNRTGl0ZSkgKyBEcml6emxlIE9STSAmIG1pZ3JhdGlvbnMKLSBSZWFjdCArIFZpdGUgKyBUeXBlU2NyaXB0ICsgVGFpbHdpbmQgQ1NTIChmcm9udGVuZCAmIFBXQSkKLSBab2QgdW50dWsgdmFsaWRhc2kgYmVyc2FtYSwgVml0ZXN0ICsgUGxheXdyaWdodCB1bnR1ayBwZW5ndWppYW4KCiMjIFN0YXR1cwoKLSBHMCAoZGlzY292ZXJ5KSBzZWxlc2FpOiBjaGFydGVyIHByb3llaywgYmFja2xvZyBQT1MtMDAxIHMuZC4gUE9TLTAyMCwgYXVkaXQgYWtzZXMsIHJpc2V0IG9wZXJhc2kuCi0gRzEgKGtvbnRyYWspIFNFTEVTQUkgZGFuIGRpa3VuY2k6IHNrZW1hIEQxLCBrb250cmFrIEFQSSB2MSwgZGVzaWduIHRva2VucywgZ2xvc3NhcnksIG1ldHJpYyBkaWN0aW9uYXJ5LCBicmFuZCAmIGF0dXJhbiBwcm9tbywgZGFuIHRlc3QgcGxhbiBnZXJiYW5nIFFBIChkb2t1bWVuIHRpbSBkaSBhcGxpa2FzaTsgZW1wYXQgZG9rdW1lbiBrb250cmFrIHRlcnNpbXBhbiBkaSBmb2xkZXIgZG9jcy8gcmVwbyBpbmkpLgotIEcyIChmb25kYXNpKSBTRUxFU0FJOiBza2VsZXRvbiBXb3JrZXIgKyBIb25vIGRlbmdhbiBlbnZlbG9wZSAmIGtvZGUgZXJyb3Igc2VzdWFpIGtvbnRyYWsgQVBJLCBtaWdyYXNpIEQxIDAwMDEtMDAwNyAoMjYgdGFiZWwpLCBza2VtYSBEcml6emxlLCB3b3JrZmxvdyBDSSwgZGFuIHRlc3QgZGFzYXIgLSAxOCBiZXJrYXMgZm9uZGFzaSB0ZXItY29tbWl0IGRpIG1haW4uCi0gRzMgKFBPUyBpbnRpKSBTRUxFU0FJOiBiYWNrZW5kIGF1dGggbnlhdGEgKHNlc2kgJiBwZXJhbiksIG1hc3RlciBkYXRhLCBzaGlmdCBrYXNpciwgb3JkZXIgZGVuZ2FuIGhhcmdhIHNlcnZlciArIHByb21vICsgaWRlbXBvdGVuY3kgKyBzdG9rIGxld2F0IHN0b2NrX21vdmVtZW50cywgcGVtYmF5YXJhbiB0dW5haSAmIG5vbi10dW5haSAoa29uZmlybWFzaSBvd25lci9tYW5hZ2VyKSwgZGFuIGFudHJlYW4gZGFwdXIgKG1pZ3Jhc2kgMDAwMS0wMDA4LCAyNyB0YWJlbCwgc2VlZCBkZW1vIDQgcGVyYW4pOyBmcm9udGVuZCBBcHBTaGVsbCBwZXIgcGVyYW4sIGxvZ2luLCBrYXNpciwgZGFwdXIsIGRhZnRhciBvcmRlciwgZGFuIHNoaWZ0IG1lbmdpa3V0aSBkZXNpZ24gdG9rZW5zIEcxLiBUZXJ2ZXJpZmlrYXNpOiB0eXBlY2hlY2sgYmVyc2loLCAzNy8zNyB0ZXN0IGx1bHVzLCBidWlsZCBmcm9udGVuZCBiZXJoYXNpbC4KLSBCZWx1bSBkZXBsb3k6IGRhdGFiYXNlIEQxIENsb3VkZmxhcmUgYmVsdW0gZGlidWF0IChJRCBkaSB3cmFuZ2xlci50b21sIG1hc2loIHBsYWNlaG9sZGVyKSBrYXJlbmEgYWtzZXMgQ2xvdWRmbGFyZSBiZWx1bSB0ZXJzZWRpYS4KLSBCZXJpa3V0bnlhOiBHNCAob3BlcmFzaSkgLSBsYXBvcmFuICYgcmVrb25zaWxpYXNpLCBzdG9rIGxhbmp1dGFuLCBtb2RlIG9mZmxpbmUgJiBzaW5rcm9uaXNhc2ksIHNlc3VhaSBiYWNrbG9nLgoKIyMgU3RydWt0dXIgZm9sZGVyIChrb250cmFrIGJlcnNhbWEpCgotIHdvcmtlci8gLSBCaW1hOiBlbnRyeSBXb3JrZXIsIHJvdXRlciBIb25vLCBtaWRkbGV3YXJlLgotIG1pZ3JhdGlvbnMvIC0gQmltYTogbWlncmFzaSBEMSBiZXJ1cnV0YW4sIHRpZGFrIHBlcm5haCBtZW5nZWRpdCBtaWdyYXNpIHlhbmcgc3VkYWggcmlsaXMuCi0gc3JjL2ZlYXR1cmVzLyAtIG1vZHVsIGZpdHVyIHBlciBkb21haW4gKGthc2lyLCBwcm9kdWssIHN0b2ssIGxhcG9yYW4sIGRhbiBzZWJhZ2FpbnlhKS4KLSBzcmMvY29tcG9uZW50cy8gLSBTaW50YTogZGVzaWduIHN5c3RlbSAmIGtvbXBvbmVuIGJlcnNhbWEuCi0gZG9jcy8gLSBkb2t1bWVudGFzaTogY2hhcnRlciwgYmFja2xvZywga29udHJhayBBUEksIGdsb3NzYXJ5LCBtZXRyaWMgZGljdGlvbmFyeS4KLSB0ZXN0cy8gLSBQdXRyaTogdW5pdCwgaW50ZWdyYXNpLCBkYW4gRTJFLgotIC5naXRodWIvIC0gUml6a3k6IHRlbXBsYXRlIFBSIGRhbiB3b3JrZmxvdyBDSS4KCiMjIEF0dXJhbiBtYWluCgotIFVhbmcgc2VsYWx1IGludGVnZXIgbWlub3IgdW5pdCAoUnVwaWFoKSwgdGlkYWsgcGVybmFoIGZsb2F0LgotIFNlbXVhIG11dGFzaSBvcmRlciAmIHBlbWJheWFyYW4gbWVtYWthaSBJZGVtcG90ZW5jeS1LZXk7IHN0b2sgaGFueWEgYmVydWJhaCBsZXdhdCBzdG9ja19tb3ZlbWVudHMuCi0gQnJhbmNoOiBmZWF0dXJlLzxhZ2VudD4tPHNsdWc+OyB0aWRhayBhZGEgcHVzaCBsYW5nc3VuZyBrZSBtYWluLgotIFNldGlhcCBQUiB3YWppYiBsb2xvcyBnZXJiYW5nIFFBIChQdXRyaSkgZGFuIG1lbmdpa3V0aSB0ZW1wbGF0ZSBQUiBkaSAuZ2l0aHViL3B1bGxfcmVxdWVzdF90ZW1wbGF0ZS5tZC4KLSBUaWRhayBhZGEgc2VjcmV0L2NyZWRlbnRpYWwgZGkgcmVwbzsgZ3VuYWthbiAuZW52IGxva2FsIGRhbiBzZWNyZXQgbWFuYWdlciBDbG91ZGZsYXJlLgo=
+# Seblak POS
+
+Aplikasi kasir (Point of Sale) untuk usaha seblak dan kuliner UMKM Indonesia: cepat dipakai kasir, aman secara finansial, tetap berjalan saat internet mati (offline-first), dan datanya bisa dilacak penuh.
+
+Repo ini dikembangkan oleh tim AI Agent Living World (Arka, Nadia, Bima, Sinta, Rara, Dimas, Lestari, Fajar, Putri, Rizky) untuk Catatan Santri. Operasi GitHub nyata dieksekusi oleh Nailong (asisten pemilik) berdasarkan spesifikasi tertulis tim.
+
+## Stack
+
+- Cloudflare Workers + Hono (API, prefix /api/v1)
+- Cloudflare D1 (SQLite) + Drizzle ORM & migrations
+- React + Vite + TypeScript + Tailwind CSS (frontend & PWA)
+- Zod untuk validasi bersama, Vitest + Playwright untuk pengujian
+
+## Status
+
+- G0 (discovery) selesai: charter proyek, backlog POS-001 s.d. POS-020, audit akses, riset operasi.
+- G1 (kontrak) SELESAI dan dikunci: skema D1, kontrak API v1, design tokens, glossary, metric dictionary, brand & aturan promo, dan test plan gerbang QA (dokumen tim di aplikasi; empat dokumen kontrak tersimpan di folder docs/ repo ini).
+- G2 (fondasi) SELESAI: skeleton Worker + Hono dengan envelope & kode error sesuai kontrak API, migrasi D1 0001-0007 (26 tabel), skema Drizzle, workflow CI, dan test dasar - 18 berkas fondasi ter-commit di main.
+- G3 (POS inti) SELESAI: backend auth nyata (sesi & peran), master data, shift kasir, order dengan harga server + promo + idempotency + stok lewat stock_movements, pembayaran tunai & non-tunai (konfirmasi owner/manager), dan antrean dapur (migrasi 0001-0008, 27 tabel, seed demo 4 peran); frontend AppShell per peran, login, kasir, dapur, daftar order, dan shift mengikuti design tokens G1. Terverifikasi: typecheck bersih, 37/37 test lulus, build frontend berhasil.
+- G4 (operasi) SELESAI: backend laporan sesuai metric dictionary (ringkasan harian, per metode pembayaran, produk terlaris, rekonsiliasi shift), stok & gerakan stok, sinkronisasi offline (sync push/pull dengan dedupe client_tx_id), manajemen pengguna & outlet, dan CRUD promo dengan kode promo (migrasi 0009); frontend halaman Laporan, Stok, Pengguna, Pengaturan, dan Promo, plus outbox offline di kasir (checkout yang gagal jaringan tersimpan di perangkat lalu tersinkron otomatis). Terverifikasi: typecheck bersih, 65/65 test lulus, build produksi berhasil.
+- Berikutnya: G5 (hardening) lalu G6 (rilis), sesuai backlog dan gerbang QA.
+
+## Deploy
+
+- Aplikasi di-deploy lewat Cloudflare Workers Builds yang terhubung ke repo ini; push ke main memicu build & deploy otomatis.
+- Build command: `npm run build`. Deploy command: `npx wrangler d1 migrations apply seblak-pos-db --remote && npx wrangler deploy` (migrasi D1 diterapkan sebagai bagian dari deploy).
+- Database: Cloudflare D1 bernama `seblak-pos-db`.
+- URL live: https://seblak-pos.catatansantri155.workers.dev (status: sedang proses go-live). Cek kesehatan di `/api/v1/health`.
+
+## Akun demo
+
+Seed demo (`seeds/0001_demo.sql`) membuat outlet contoh beserta empat akun berikut; kata sandi semuanya `seblak123`:
+
+- owner@demo.seblakpos.id
+- admin@demo.seblakpos.id
+- kasir@demo.seblakpos.id
+- dapur@demo.seblakpos.id
+
+Akun demo hanya untuk mencoba aplikasi dengan data contoh; jangan dipakai untuk jualan beneran.
+
+## Struktur folder (kontrak bersama)
+
+- worker/ - Bima: entry Worker, router Hono, middleware.
+- migrations/ - Bima: migrasi D1 berurutan, tidak pernah mengedit migrasi yang sudah rilis.
+- src/features/ - modul fitur per domain (kasir dengan outbox offline, dapur, order, shift, laporan, stok, promo, pengguna, pengaturan).
+- src/components/ - Sinta: design system & komponen bersama.
+- docs/ - dokumentasi: charter, backlog, kontrak API, glossary, metric dictionary.
+- tests/ - Putri: unit, integrasi, dan E2E.
+- .github/ - Rizky: template PR dan workflow CI.
+
+## Aturan main
+
+- Uang selalu integer minor unit (Rupiah), tidak pernah float.
+- Semua mutasi order & pembayaran memakai Idempotency-Key; stok hanya berubah lewat stock_movements.
+- Branch: feature/<agent>-<slug>; tidak ada push langsung ke main.
+- Setiap PR wajib lolos gerbang QA (Putri) dan mengikuti template PR di .github/pull_request_template.md.
+- Tidak ada secret/credential di repo; gunakan .env lokal dan secret manager Cloudflare.
