@@ -1,1 +1,187 @@
-LyoqCiAqIFJ1dGUgbWFuYWplbWVuIHBlbmdndW5hIChnYXRlIEc0KToKICogLSBHRVQgIC9hcGkvdjEvdXNlcnMgICAgICAgICAgICAgICAgICAgIOKAlCBvd25lciAmIG1hbmFnZXIgKHRhbnBhIGhhc2gpLgogKiAtIFBPU1QgL2FwaS92MS91c2VycyAgICAgICAgICAgICAgICAgICAg4oCUIG93bmVyIHNhamEuIEVtYWlsIHVuaWsgcGVyIG91dGxldAogKiAgIChkdXBsaWthdCAtPiBDT05GTElDVCk7IGthdGEgc2FuZGkgZGktaGFzaCBQQktERjIgKHdvcmtlci9saWIvcGFzc3dvcmQpLgogKiAtIFBBVENIIC9hcGkvdjEvdXNlcnMvOmlkICAgICAgICAgICAgICAg4oCUIG93bmVyIHNhamE6IHViYWggbmFtYS9wZXJhbiBkYW4KICogICBub25ha3RpZmthbiAoaXNfYWN0aXZlID0gMCkuIE1lbm9uYWt0aWZrYW4gcGVuZ2d1bmEgTUVOQ0FCVVQgc2VtdWEKICogICBzZXNpbnlhIHlhbmcgbWFzaWggYWt0aWYuCiAqIC0gUE9TVCAvYXBpL3YxL3VzZXJzLzppZC9yZXNldC1wYXNzd29yZCDigJQgb3duZXIgc2FqYTogcGFzYW5nIGthdGEgc2FuZGkKICogICBiYXJ1IChoYXNoIFBCS0RGMikgZGFuIGNhYnV0IHNlbXVhIHNlc2kgcGVuZ2d1bmEgaXR1LgogKgogKiByZXNvbHZlU2Vzc2lvblVzZXIganVnYSBtZW5vbGFrIHBlbmdndW5hIG5vbmFrdGlmL3RlcmhhcHVzLCBqYWRpIHBlbmNhYnV0YW4KICogc2VzaSArIGlzX2FjdGl2ZSA9IDAgbWVudXR1cCBha3NlcyBkYXJpIGR1YSBzaXNpLiBPd25lciB0aWRhayBiaXNhCiAqIG1lbm9uYWt0aWZrYW4gYWt1bm55YSBzZW5kaXJpIChtZW5jZWdhaCBvdXRsZXQgdGVya3VuY2kgdGFucGEgb3duZXIpLgogKi8KaW1wb3J0IHsgSG9ubyB9IGZyb20gImhvbm8iOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgQXBpRXJyb3IgfSBmcm9tICIuLi9saWIvZXJyb3JzIjsKaW1wb3J0IHsgc3VjY2Vzc0VudmVsb3BlIH0gZnJvbSAiLi4vbGliL2VudmVsb3BlIjsKaW1wb3J0IHsgcmVxdWlyZVJvbGUgfSBmcm9tICIuLi9saWIvYXV0aCI7CmltcG9ydCB7IGhhc2hQYXNzd29yZCB9IGZyb20gIi4uL2xpYi9wYXNzd29yZCI7CmltcG9ydCB7IHBhcnNlUGFnaW5hdGlvbiwgcGFyc2VXaXRoLCByZWFkSnNvbkJvZHkgfSBmcm9tICIuLi9saWIvdmFsaWRhdGUiOwppbXBvcnQgdHlwZSB7IEVudiwgUm9sZSwgVmFyaWFibGVzIH0gZnJvbSAiLi4vbGliL3R5cGVzIjsKCmNvbnN0IHVzZXJzID0gbmV3IEhvbm88eyBCaW5kaW5nczogRW52OyBWYXJpYWJsZXM6IFZhcmlhYmxlcyB9PigpOwoKaW50ZXJmYWNlIFVzZXJSb3cgewogIGlkOiBzdHJpbmc7IG91dGxldF9pZDogc3RyaW5nOyBuYW1lOiBzdHJpbmc7IGVtYWlsOiBzdHJpbmc7IHJvbGU6IFJvbGU7CiAgaXNfYWN0aXZlOiBudW1iZXI7IGNyZWF0ZWRfYXQ6IG51bWJlcjsgdXBkYXRlZF9hdDogbnVtYmVyOyB2ZXJzaW9uOiBudW1iZXI7Cn0KCmNvbnN0IHVzZXJPdXQgPSAocjogVXNlclJvdykgPT4gKHsKICBpZDogci5pZCwgb3V0bGV0X2lkOiByLm91dGxldF9pZCwgbmFtZTogci5uYW1lLCBlbWFpbDogci5lbWFpbCwKICByb2xlOiByLnJvbGUsIGlzX2FjdGl2ZTogci5pc19hY3RpdmUgPT09IDEsCiAgY3JlYXRlZF9hdDogci5jcmVhdGVkX2F0LCB1cGRhdGVkX2F0OiByLnVwZGF0ZWRfYXQsIHZlcnNpb246IHIudmVyc2lvbiwKfSk7Cgphc3luYyBmdW5jdGlvbiBmZXRjaFVzZXIoCiAgZGI6IEQxRGF0YWJhc2UsIG91dGxldElkOiBzdHJpbmcsIGlkOiBzdHJpbmcsCik6IFByb21pc2U8VXNlclJvdz4gewogIGNvbnN0IHJvdyA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgiU0VMRUNUICogRlJPTSB1c2VycyBXSEVSRSBpZCA9ID8gQU5EIG91dGxldF9pZCA9ID8gQU5EIGRlbGV0ZWRfYXQgSVMgTlVMTCIpCiAgICAuYmluZChpZCwgb3V0bGV0SWQpCiAgICAuZmlyc3Q8VXNlclJvdz4oKTsKICBpZiAoIXJvdykgdGhyb3cgbmV3IEFwaUVycm9yKCJOT1RfRk9VTkQiLCAiUGVuZ2d1bmEgdGlkYWsgZGl0ZW11a2FuIik7CiAgcmV0dXJuIHJvdzsKfQoKYXN5bmMgZnVuY3Rpb24gcmV2b2tlQWxsU2Vzc2lvbnMoCiAgZGI6IEQxRGF0YWJhc2UsIHVzZXJJZDogc3RyaW5nLAopOiBQcm9taXNlPHZvaWQ+IHsKICBhd2FpdCBkYgogICAgLnByZXBhcmUoIlVQREFURSBzZXNzaW9ucyBTRVQgcmV2b2tlZF9hdCA9ID8gV0hFUkUgdXNlcl9pZCA9ID8gQU5EIHJldm9rZWRfYXQgSVMgTlVMTCIpCiAgICAuYmluZChEYXRlLm5vdygpLCB1c2VySWQpCiAgICAucnVuKCk7Cn0KCnVzZXJzLmdldCgiL3VzZXJzIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCB1c2VyID0gcmVxdWlyZVJvbGUoYywgIm93bmVyIiwgIm1hbmFnZXIiKTsKICBjb25zdCB7IHBhZ2UsIHBlclBhZ2UsIGxpbWl0LCBvZmZzZXQgfSA9IHBhcnNlUGFnaW5hdGlvbihjLnJlcS5xdWVyeSgpKTsKICBjb25zdCBkYiA9IGMuZW52LkRCOwogIGNvbnN0IHRvdGFsID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKCJTRUxFQ1QgQ09VTlQoKikgQVMgbiBGUk9NIHVzZXJzIFdIRVJFIG91dGxldF9pZCA9ID8gQU5EIGRlbGV0ZWRfYXQgSVMgTlVMTCIpCiAgICAuYmluZCh1c2VyLm91dGxldF9pZCkKICAgIC5maXJzdDx7IG46IG51bWJlciB9PigpOwogIGNvbnN0IHsgcmVzdWx0cyB9ID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICBgU0VMRUNUICogRlJPTSB1c2VycyBXSEVSRSBvdXRsZXRfaWQgPSA/IEFORCBkZWxldGVkX2F0IElTIE5VTEwKICAgICAgICBPUkRFUiBCWSBjcmVhdGVkX2F0IEFTQyBMSU1JVCA/IE9GRlNFVCA/YCwKICAgICkKICAgIC5iaW5kKHVzZXIub3V0bGV0X2lkLCBsaW1pdCwgb2Zmc2V0KQogICAgLmFsbDxVc2VyUm93PigpOwogIHJldHVybiBjLmpzb24oCiAgICBzdWNjZXNzRW52ZWxvcGUocmVzdWx0cy5tYXAodXNlck91dCksIGMuZ2V0KCJyZXF1ZXN0SWQiKSwgewogICAgICBwYWdlLCBwZXJfcGFnZTogcGVyUGFnZSwgdG90YWw6IHRvdGFsPy5uID8/IDAsCiAgICB9KSwKICAgIDIwMCwKICApOwp9KTsKCmNvbnN0IGNyZWF0ZVVzZXJTY2hlbWEgPSB6Lm9iamVjdCh7CiAgbmFtZTogei5zdHJpbmcoKS5taW4oMSwgIk5hbWEgd2FqaWIgZGlpc2kiKSwKICBlbWFpbDogei5zdHJpbmcoKS5lbWFpbCgiRm9ybWF0IGVtYWlsIHRpZGFrIHZhbGlkIiksCiAgcGFzc3dvcmQ6IHouc3RyaW5nKCkubWluKDYsICJLYXRhIHNhbmRpIG1pbmltYWwgNiBrYXJha3RlciIpLAogIHJvbGU6IHouZW51bShbIm93bmVyIiwgIm1hbmFnZXIiLCAiY2FzaGllciIsICJraXRjaGVuIl0pLAp9KTsKCnVzZXJzLnBvc3QoIi91c2VycyIsIGFzeW5jIChjKSA9PiB7CiAgY29uc3QgdXNlciA9IHJlcXVpcmVSb2xlKGMsICJvd25lciIpOwogIGNvbnN0IGRiID0gYy5lbnYuREI7CiAgY29uc3QgYm9keSA9IHBhcnNlV2l0aChjcmVhdGVVc2VyU2NoZW1hLCBhd2FpdCByZWFkSnNvbkJvZHkoYy5yZXEpKTsKCiAgY29uc3QgZHVwID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKCJTRUxFQ1QgaWQgRlJPTSB1c2VycyBXSEVSRSBvdXRsZXRfaWQgPSA/IEFORCBlbWFpbCA9ID8iKQogICAgLmJpbmQodXNlci5vdXRsZXRfaWQsIGJvZHkuZW1haWwpCiAgICAuZmlyc3Q8eyBpZDogc3RyaW5nIH0+KCk7CiAgaWYgKGR1cCkgewogICAgdGhyb3cgbmV3IEFwaUVycm9yKCJDT05GTElDVCIsICJFbWFpbCBzdWRhaCB0ZXJkYWZ0YXIgZGkgb3V0bGV0IGluaSIsIHsKICAgICAgZW1haWw6IGJvZHkuZW1haWwsCiAgICB9KTsKICB9CgogIGNvbnN0IHQgPSBEYXRlLm5vdygpOwogIGNvbnN0IGlkID0gY3J5cHRvLnJhbmRvbVVVSUQoKTsKICBjb25zdCBwYXNzd29yZEhhc2ggPSBhd2FpdCBoYXNoUGFzc3dvcmQoYm9keS5wYXNzd29yZCk7CiAgYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICBgSU5TRVJUIElOVE8gdXNlcnMgKGlkLCBvdXRsZXRfaWQsIG5hbWUsIGVtYWlsLCBwYXNzd29yZF9oYXNoLCByb2xlLCBwaW5faGFzaCwKICAgICAgICAgICAgICBpc19hY3RpdmUsIGNyZWF0ZWRfYXQsIHVwZGF0ZWRfYXQsIGRlbGV0ZWRfYXQsIHZlcnNpb24pCiAgICAgICBWQUxVRVMgKD8sID8sID8sID8sID8sID8sIE5VTEwsIDEsID8sID8sIE5VTEwsIDEpYCwKICAgICkKICAgIC5iaW5kKGlkLCB1c2VyLm91dGxldF9pZCwgYm9keS5uYW1lLCBib2R5LmVtYWlsLCBwYXNzd29yZEhhc2gsIGJvZHkucm9sZSwgdCwgdCkKICAgIC5ydW4oKTsKICBjb25zdCByb3cgPSBhd2FpdCBmZXRjaFVzZXIoZGIsIHVzZXIub3V0bGV0X2lkLCBpZCk7CiAgcmV0dXJuIGMuanNvbihzdWNjZXNzRW52ZWxvcGUodXNlck91dChyb3cpLCBjLmdldCgicmVxdWVzdElkIikpLCAyMDEpOwp9KTsKCmNvbnN0IHBhdGNoVXNlclNjaGVtYSA9IHoub2JqZWN0KHsKICBuYW1lOiB6LnN0cmluZygpLm1pbigxKS5vcHRpb25hbCgpLAogIHJvbGU6IHouZW51bShbIm93bmVyIiwgIm1hbmFnZXIiLCAiY2FzaGllciIsICJraXRjaGVuIl0pLm9wdGlvbmFsKCksCiAgaXNfYWN0aXZlOiB6LmJvb2xlYW4oKS5vcHRpb25hbCgpLAp9KTsKCnVzZXJzLnBhdGNoKCIvdXNlcnMvOmlkIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCB1c2VyID0gcmVxdWlyZVJvbGUoYywgIm93bmVyIik7CiAgY29uc3QgZGIgPSBjLmVudi5EQjsKICBjb25zdCBib2R5ID0gcGFyc2VXaXRoKHBhdGNoVXNlclNjaGVtYSwgYXdhaXQgcmVhZEpzb25Cb2R5KGMucmVxKSk7CiAgY29uc3QgdGFyZ2V0ID0gYXdhaXQgZmV0Y2hVc2VyKGRiLCB1c2VyLm91dGxldF9pZCwgYy5yZXEucGFyYW0oImlkIikpOwoKICBpZiAoYm9keS5pc19hY3RpdmUgPT09IGZhbHNlICYmIHRhcmdldC5pZCA9PT0gdXNlci5pZCkgewogICAgdGhyb3cgbmV3IEFwaUVycm9yKAogICAgICAiVkFMSURBVElPTl9FUlJPUiIsCiAgICAgICJUaWRhayBkYXBhdCBtZW5vbmFrdGlma2FuIGFrdW4gc2VuZGlyaSIsCiAgICAgIHsgaXNfYWN0aXZlOiAiT3duZXIgdGlkYWsgYmlzYSBtZW5vbmFrdGlma2FuIGFrdW5ueWEgc2VuZGlyaSIgfSwKICAgICk7CiAgfQoKICBjb25zdCB0ID0gRGF0ZS5ub3coKTsKICBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgIGBVUERBVEUgdXNlcnMgU0VUIG5hbWUgPSA/LCByb2xlID0gPywgaXNfYWN0aXZlID0gPywgdXBkYXRlZF9hdCA9ID8sCiAgICAgICAgICAgICAgdmVyc2lvbiA9IHZlcnNpb24gKyAxIFdIRVJFIGlkID0gP2AsCiAgICApCiAgICAuYmluZCgKICAgICAgYm9keS5uYW1lID8/IHRhcmdldC5uYW1lLAogICAgICBib2R5LnJvbGUgPz8gdGFyZ2V0LnJvbGUsCiAgICAgIGJvZHkuaXNfYWN0aXZlID09PSB1bmRlZmluZWQgPyB0YXJnZXQuaXNfYWN0aXZlIDogYm9keS5pc19hY3RpdmUgPyAxIDogMCwKICAgICAgdCwKICAgICAgdGFyZ2V0LmlkLAogICAgKQogICAgLnJ1bigpOwoKICBpZiAoYm9keS5pc19hY3RpdmUgPT09IGZhbHNlKSB7CiAgICBhd2FpdCByZXZva2VBbGxTZXNzaW9ucyhkYiwgdGFyZ2V0LmlkKTsKICB9CiAgY29uc3QgdXBkYXRlZCA9IGF3YWl0IGZldGNoVXNlcihkYiwgdXNlci5vdXRsZXRfaWQsIHRhcmdldC5pZCk7CiAgcmV0dXJuIGMuanNvbihzdWNjZXNzRW52ZWxvcGUodXNlck91dCh1cGRhdGVkKSwgYy5nZXQoInJlcXVlc3RJZCIpKSwgMjAwKTsKfSk7Cgpjb25zdCByZXNldFBhc3N3b3JkU2NoZW1hID0gei5vYmplY3QoewogIHBhc3N3b3JkOiB6LnN0cmluZygpLm1pbig2LCAiS2F0YSBzYW5kaSBtaW5pbWFsIDYga2FyYWt0ZXIiKSwKfSk7Cgp1c2Vycy5wb3N0KCIvdXNlcnMvOmlkL3Jlc2V0LXBhc3N3b3JkIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCB1c2VyID0gcmVxdWlyZVJvbGUoYywgIm93bmVyIik7CiAgY29uc3QgZGIgPSBjLmVudi5EQjsKICBjb25zdCBib2R5ID0gcGFyc2VXaXRoKHJlc2V0UGFzc3dvcmRTY2hlbWEsIGF3YWl0IHJlYWRKc29uQm9keShjLnJlcSkpOwogIGNvbnN0IHRhcmdldCA9IGF3YWl0IGZldGNoVXNlcihkYiwgdXNlci5vdXRsZXRfaWQsIGMucmVxLnBhcmFtKCJpZCIpKTsKICBjb25zdCBwYXNzd29yZEhhc2ggPSBhd2FpdCBoYXNoUGFzc3dvcmQoYm9keS5wYXNzd29yZCk7CiAgY29uc3QgdCA9IERhdGUubm93KCk7CiAgYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICAiVVBEQVRFIHVzZXJzIFNFVCBwYXNzd29yZF9oYXNoID0gPywgdXBkYXRlZF9hdCA9ID8sIHZlcnNpb24gPSB2ZXJzaW9uICsgMSBXSEVSRSBpZCA9ID8iLAogICAgKQogICAgLmJpbmQocGFzc3dvcmRIYXNoLCB0LCB0YXJnZXQuaWQpCiAgICAucnVuKCk7CiAgYXdhaXQgcmV2b2tlQWxsU2Vzc2lvbnMoZGIsIHRhcmdldC5pZCk7CiAgcmV0dXJuIGMuanNvbigKICAgIHN1Y2Nlc3NFbnZlbG9wZSgKICAgICAgeyBpZDogdGFyZ2V0LmlkLCBwYXNzd29yZF9yZXNldDogdHJ1ZSwgc2Vzc2lvbnNfcmV2b2tlZDogdHJ1ZSB9LAogICAgICBjLmdldCgicmVxdWVzdElkIiksCiAgICApLAogICAgMjAwLAogICk7Cn0pOwoKZXhwb3J0IGRlZmF1bHQgdXNlcnM7Cg==
+/**
+ * Rute manajemen pengguna (gate G4):
+ * - GET  /api/v1/users                    — owner & manager (tanpa hash).
+ * - POST /api/v1/users                    — owner saja. Email unik per outlet
+ *   (duplikat -> CONFLICT); kata sandi di-hash PBKDF2 (worker/lib/password).
+ * - PATCH /api/v1/users/:id               — owner saja: ubah nama/peran dan
+ *   nonaktifkan (is_active = 0). Menonaktifkan pengguna MENCABUT semua
+ *   sesinya yang masih aktif.
+ * - POST /api/v1/users/:id/reset-password — owner saja: pasang kata sandi
+ *   baru (hash PBKDF2) dan cabut semua sesi pengguna itu.
+ *
+ * resolveSessionUser juga menolak pengguna nonaktif/terhapus, jadi pencabutan
+ * sesi + is_active = 0 menutup akses dari dua sisi. Owner tidak bisa
+ * menonaktifkan akunnya sendiri (mencegah outlet terkunci tanpa owner).
+ */
+import { Hono } from "hono";
+import { z } from "zod";
+import { ApiError } from "../lib/errors";
+import { successEnvelope } from "../lib/envelope";
+import { requireRole } from "../lib/auth";
+import { hashPassword } from "../lib/password";
+import { parsePagination, parseWith, readJsonBody } from "../lib/validate";
+import type { Env, Role, Variables } from "../lib/types";
+
+const users = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+interface UserRow {
+  id: string; outlet_id: string; name: string; email: string; role: Role;
+  is_active: number; created_at: number; updated_at: number; version: number;
+}
+
+const userOut = (r: UserRow) => ({
+  id: r.id, outlet_id: r.outlet_id, name: r.name, email: r.email,
+  role: r.role, is_active: r.is_active === 1,
+  created_at: r.created_at, updated_at: r.updated_at, version: r.version,
+});
+
+async function fetchUser(
+  db: D1Database, outletId: string, id: string,
+): Promise<UserRow> {
+  const row = await db
+    .prepare("SELECT * FROM users WHERE id = ? AND outlet_id = ? AND deleted_at IS NULL")
+    .bind(id, outletId)
+    .first<UserRow>();
+  if (!row) throw new ApiError("NOT_FOUND", "Pengguna tidak ditemukan");
+  return row;
+}
+
+async function revokeAllSessions(
+  db: D1Database, userId: string,
+): Promise<void> {
+  await db
+    .prepare("UPDATE sessions SET revoked_at = ? WHERE user_id = ? AND revoked_at IS NULL")
+    .bind(Date.now(), userId)
+    .run();
+}
+
+users.get("/users", async (c) => {
+  const user = requireRole(c, "owner", "manager");
+  const { page, perPage, limit, offset } = parsePagination(c.req.query());
+  const db = c.env.DB;
+  const total = await db
+    .prepare("SELECT COUNT(*) AS n FROM users WHERE outlet_id = ? AND deleted_at IS NULL")
+    .bind(user.outlet_id)
+    .first<{ n: number }>();
+  const { results } = await db
+    .prepare(
+      `SELECT * FROM users WHERE outlet_id = ? AND deleted_at IS NULL
+        ORDER BY created_at ASC LIMIT ? OFFSET ?`,
+    )
+    .bind(user.outlet_id, limit, offset)
+    .all<UserRow>();
+  return c.json(
+    successEnvelope(results.map(userOut), c.get("requestId"), {
+      page, per_page: perPage, total: total?.n ?? 0,
+    }),
+    200,
+  );
+});
+
+const createUserSchema = z.object({
+  name: z.string().min(1, "Nama wajib diisi"),
+  email: z.string().email("Format email tidak valid"),
+  password: z.string().min(6, "Kata sandi minimal 6 karakter"),
+  role: z.enum(["owner", "manager", "cashier", "kitchen"]),
+});
+
+users.post("/users", async (c) => {
+  const user = requireRole(c, "owner");
+  const db = c.env.DB;
+  const body = parseWith(createUserSchema, await readJsonBody(c.req));
+
+  const dup = await db
+    .prepare("SELECT id FROM users WHERE outlet_id = ? AND email = ?")
+    .bind(user.outlet_id, body.email)
+    .first<{ id: string }>();
+  if (dup) {
+    throw new ApiError("CONFLICT", "Email sudah terdaftar di outlet ini", {
+      email: body.email,
+    });
+  }
+
+  const t = Date.now();
+  const id = crypto.randomUUID();
+  const passwordHash = await hashPassword(body.password);
+  await db
+    .prepare(
+      `INSERT INTO users (id, outlet_id, name, email, password_hash, role, pin_hash,
+              is_active, created_at, updated_at, deleted_at, version)
+       VALUES (?, ?, ?, ?, ?, ?, NULL, 1, ?, ?, NULL, 1)`,
+    )
+    .bind(id, user.outlet_id, body.name, body.email, passwordHash, body.role, t, t)
+    .run();
+  const row = await fetchUser(db, user.outlet_id, id);
+  return c.json(successEnvelope(userOut(row), c.get("requestId")), 201);
+});
+
+const patchUserSchema = z.object({
+  name: z.string().min(1).optional(),
+  role: z.enum(["owner", "manager", "cashier", "kitchen"]).optional(),
+  is_active: z.boolean().optional(),
+});
+
+users.patch("/users/:id", async (c) => {
+  const user = requireRole(c, "owner");
+  const db = c.env.DB;
+  const body = parseWith(patchUserSchema, await readJsonBody(c.req));
+  const target = await fetchUser(db, user.outlet_id, c.req.param("id"));
+
+  if (body.is_active === false && target.id === user.id) {
+    throw new ApiError(
+      "VALIDATION_ERROR",
+      "Tidak dapat menonaktifkan akun sendiri",
+      { is_active: "Owner tidak bisa menonaktifkan akunnya sendiri" },
+    );
+  }
+
+  const t = Date.now();
+  await db
+    .prepare(
+      `UPDATE users SET name = ?, role = ?, is_active = ?, updated_at = ?,
+              version = version + 1 WHERE id = ?`,
+    )
+    .bind(
+      body.name ?? target.name,
+      body.role ?? target.role,
+      body.is_active === undefined ? target.is_active : body.is_active ? 1 : 0,
+      t,
+      target.id,
+    )
+    .run();
+
+  if (body.is_active === false) {
+    await revokeAllSessions(db, target.id);
+  }
+  const updated = await fetchUser(db, user.outlet_id, target.id);
+  return c.json(successEnvelope(userOut(updated), c.get("requestId")), 200);
+});
+
+const resetPasswordSchema = z.object({
+  password: z.string().min(6, "Kata sandi minimal 6 karakter"),
+});
+
+users.post("/users/:id/reset-password", async (c) => {
+  const user = requireRole(c, "owner");
+  const db = c.env.DB;
+  const body = parseWith(resetPasswordSchema, await readJsonBody(c.req));
+  const target = await fetchUser(db, user.outlet_id, c.req.param("id"));
+  const passwordHash = await hashPassword(body.password);
+  const t = Date.now();
+  await db
+    .prepare(
+      "UPDATE users SET password_hash = ?, updated_at = ?, version = version + 1 WHERE id = ?",
+    )
+    .bind(passwordHash, t, target.id)
+    .run();
+  await revokeAllSessions(db, target.id);
+  return c.json(
+    successEnvelope(
+      { id: target.id, password_reset: true, sessions_revoked: true },
+      c.get("requestId"),
+    ),
+    200,
+  );
+});
+
+export default users;
