@@ -1,1 +1,212 @@
-LyoqCiAqIFJ1dGUgcGVtYmF5YXJhbjoKICogLSBQT1NUIC9hcGkvdjEvb3JkZXJzLzppZC9wYXltZW50cyDigJQgSWRlbXBvdGVuY3ktS2V5IHdhamliLgogKiAgIE1ldG9kZSBtZW5naWt1dGkgc2tlbWEgRzFhOiAnY2FzaCcgfCAncXJpcycgfCAnZWRjJyB8ICd0cmFuc2ZlcicKICogICAodGlnYSB0ZXJha2hpciA9IHBlbWJheWFyYW4gbm9uLXR1bmFpIG1hbnVhbCkuCiAqICAgSnVtbGFoIGhhcnVzIG1lbnV0dXAgc2lzYSB0YWdpaGFuOiBrdXJhbmcgLT4gUEFZTUVOVF9NSVNNQVRDSC4KICogICBUdW5haSBib2xlaCBsZWJpaDsga2VtYmFsaWFuIGRpaGl0dW5nIHNlcnZlciBkYW4gdGVyY2F0YXQgZGkKICogICBwYXltZW50cy5jaGFuZ2VfYW1vdW50LiBOb24tdHVuYWkgdGlkYWsgYm9sZWggbGViaWggKFBBWU1FTlRfTUlTTUFUQ0gpLgogKiAgIFR1bmFpIGxhbmdzdW5nICdzZXR0bGVkJzsgbm9uLXR1bmFpIGJlcnN0YXR1cyAncGVuZGluZycgc2FtcGFpIGRpa29uZmlybWFzaS4KICogICBPcmRlciB5YW5nIHN1ZGFoIGx1bmFzIHRpZGFrIGJpc2EgZGliYXlhciBsYWdpIChDT05GTElDVCkuCiAqIC0gUE9TVCAvYXBpL3YxL3BheW1lbnRzLzppZC9jb25maXJtIOKAlCBoYW55YSBvd25lci9tYW5hZ2VyIChrYXNpciBwZW1idWF0CiAqICAgdGlkYWsgYmlzYSBtZW5nb25maXJtYXNpIHBlbWJheWFyYW4gbm9uLXR1bmFpbnlhIHNlbmRpcmkpLiBNZW5ndWJhaAogKiAgIHBlbWJheWFyYW4gcGVuZGluZyBtZW5qYWRpIHNldHRsZWQgZGFuIG1lbXBlcmJhcnVpIHBheW1lbnRfc3RhdHVzIG9yZGVyLgogKgogKiBBbG9rYXNpOiBzYXR1IGJhcmlzIHBheW1lbnRfYWxsb2NhdGlvbnMgc2ViZXNhciBwb3JzaSB5YW5nIG1lbnV0dXAgb3JkZXIKICogKHVudHVrIHR1bmFpIGJlcmxlYmloLCBhbG9rYXNpID0gc2lzYSB0YWdpaGFuLCBidWthbiB1YW5nIHlhbmcgZGlzZXJhaGthbikuCiAqLwppbXBvcnQgeyBIb25vIH0gZnJvbSAiaG9ubyI7CmltcG9ydCB7IHogfSBmcm9tICJ6b2QiOwppbXBvcnQgeyBBcGlFcnJvciB9IGZyb20gIi4uL2xpYi9lcnJvcnMiOwppbXBvcnQgeyBzdWNjZXNzRW52ZWxvcGUgfSBmcm9tICIuLi9saWIvZW52ZWxvcGUiOwppbXBvcnQgeyBwYXJzZVdpdGgsIHJlYWRKc29uQm9keSB9IGZyb20gIi4uL2xpYi92YWxpZGF0ZSI7CmltcG9ydCB7IHJlcXVpcmVSb2xlIH0gZnJvbSAiLi4vbGliL2F1dGgiOwppbXBvcnQgewogIGZpbmRTdG9yZWRSZXNwb25zZSwKICBoYXNoUmVxdWVzdEJvZHksCiAgcmVxdWlyZUlkZW1wb3RlbmN5S2V5LAogIHN0b3JlUmVzcG9uc2UsCn0gZnJvbSAiLi4vbGliL2lkZW1wb3RlbmN5IjsKaW1wb3J0IHsgZmV0Y2hPcmRlciwgcmVmcmVzaFBheW1lbnRTdGF0dXMsIHNldHRsZWRQYWlkVG90YWwgfSBmcm9tICIuL29yZGVycyI7CmltcG9ydCB0eXBlIHsgQXV0aFVzZXIsIEVudiwgVmFyaWFibGVzIH0gZnJvbSAiLi4vbGliL3R5cGVzIjsKCmNvbnN0IHBheW1lbnRzID0gbmV3IEhvbm88eyBCaW5kaW5nczogRW52OyBWYXJpYWJsZXM6IFZhcmlhYmxlcyB9PigpOwoKY29uc3QgY3JlYXRlUGF5bWVudFNjaGVtYSA9IHoub2JqZWN0KHsKICBtZXRob2Q6IHouZW51bShbImNhc2giLCAicXJpcyIsICJlZGMiLCAidHJhbnNmZXIiXSksCiAgYW1vdW50OiB6Lm51bWJlcigpLmludCgpLm1pbigxLCAiSnVtbGFoIHBlbWJheWFyYW4gbWluaW1hbCAxIiksCiAgcmVmZXJlbmNlX25vOiB6LnN0cmluZygpLm51bGxhYmxlKCkub3B0aW9uYWwoKSwKICBjbGllbnRfdHhfaWQ6IHouc3RyaW5nKCkubWluKDEpLm51bGxhYmxlKCkub3B0aW9uYWwoKSwKfSk7CgppbnRlcmZhY2UgUGF5bWVudFJvdyB7CiAgaWQ6IHN0cmluZzsgb3V0bGV0X2lkOiBzdHJpbmc7IG9yZGVyX2lkOiBzdHJpbmcgfCBudWxsOyBzaGlmdF9pZDogc3RyaW5nIHwgbnVsbDsKICBtZXRob2Q6IHN0cmluZzsgYW1vdW50OiBudW1iZXI7IGNoYW5nZV9hbW91bnQ6IG51bWJlcjsgc3RhdHVzOiBzdHJpbmc7CiAgcmVmZXJlbmNlX25vOiBzdHJpbmcgfCBudWxsOyBjbGllbnRfdHhfaWQ6IHN0cmluZyB8IG51bGw7CiAgY3JlYXRlZF9hdDogbnVtYmVyOyB1cGRhdGVkX2F0OiBudW1iZXI7IHZlcnNpb246IG51bWJlcjsKfQoKY29uc3QgcGF5bWVudE91dCA9IChyOiBQYXltZW50Um93KSA9PiAoewogIGlkOiByLmlkLCBvdXRsZXRfaWQ6IHIub3V0bGV0X2lkLCBvcmRlcl9pZDogci5vcmRlcl9pZCwgc2hpZnRfaWQ6IHIuc2hpZnRfaWQsCiAgbWV0aG9kOiByLm1ldGhvZCwgYW1vdW50OiByLmFtb3VudCwgY2hhbmdlX2Ftb3VudDogci5jaGFuZ2VfYW1vdW50LAogIHN0YXR1czogci5zdGF0dXMsIHJlZmVyZW5jZV9ubzogci5yZWZlcmVuY2Vfbm8sIGNsaWVudF90eF9pZDogci5jbGllbnRfdHhfaWQsCiAgY3JlYXRlZF9hdDogci5jcmVhdGVkX2F0LCB1cGRhdGVkX2F0OiByLnVwZGF0ZWRfYXQsIHZlcnNpb246IHIudmVyc2lvbiwKfSk7Cgphc3luYyBmdW5jdGlvbiBmZXRjaFBheW1lbnQoCiAgZGI6IEQxRGF0YWJhc2UsIG91dGxldElkOiBzdHJpbmcsIGlkOiBzdHJpbmcsCik6IFByb21pc2U8UGF5bWVudFJvdz4gewogIGNvbnN0IHJvdyA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgiU0VMRUNUICogRlJPTSBwYXltZW50cyBXSEVSRSBpZCA9ID8gQU5EIG91dGxldF9pZCA9ID8gQU5EIGRlbGV0ZWRfYXQgSVMgTlVMTCIpCiAgICAuYmluZChpZCwgb3V0bGV0SWQpCiAgICAuZmlyc3Q8UGF5bWVudFJvdz4oKTsKICBpZiAoIXJvdykgdGhyb3cgbmV3IEFwaUVycm9yKCJOT1RfRk9VTkQiLCAiUGVtYmF5YXJhbiB0aWRhayBkaXRlbXVrYW4iKTsKICByZXR1cm4gcm93Owp9CgovKioKICogSW50aSBwZW1idWF0YW4gcGVtYmF5YXJhbiDigJQgZGlwYWthaSBydXRlIFBPU1QgL29yZGVycy86aWQvcGF5bWVudHMgREFOCiAqIHNpbmtyb25pc2FzaSBvZmZsaW5lICh3b3JrZXIvcm91dGVzL3N5bmMudHMpIGFnYXIgYXR1cmFuIFBBWU1FTlRfTUlTTUFUQ0gsCiAqIGtlbWJhbGlhbiwgZGFuIHN0YXR1cyBwZW5kaW5nIG5vbi10dW5haSBwZXJzaXMgc2FtYS4gaWRlbUtleSBudWxsIGJlcmFydGkKICogdGFucGEgbGFwaXNhbiBJZGVtcG90ZW5jeS1LZXkgKGphbHVyIHN5bmMgbWVtYWthaSBjbGllbnRfdHhfaWQgcGVtYmF5YXJhbgogKiArIHN5bmNfZXZlbnRzIHNlYmFnYWkgaWRlbXBvdGVuc2lueWEpLgogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNyZWF0ZVBheW1lbnRDb3JlKAogIGRiOiBEMURhdGFiYXNlLAogIHVzZXI6IEF1dGhVc2VyLAogIG9yZGVySWQ6IHN0cmluZywKICByYXdCb2R5OiB1bmtub3duLAogIGlkZW1LZXk6IHN0cmluZyB8IG51bGwsCik6IFByb21pc2U8eyBzdGF0dXM6IG51bWJlcjsgZGF0YTogdW5rbm93biB9PiB7CiAgY29uc3QgYm9keSA9IHBhcnNlV2l0aChjcmVhdGVQYXltZW50U2NoZW1hLCByYXdCb2R5KTsKCiAgbGV0IHNjb3BlZEtleSA9ICIiOwogIGxldCByZXF1ZXN0SGFzaCA9ICIiOwogIGlmIChpZGVtS2V5KSB7CiAgICBzY29wZWRLZXkgPSBgcGF5OiR7b3JkZXJJZH06JHtpZGVtS2V5fWA7CiAgICByZXF1ZXN0SGFzaCA9IGF3YWl0IGhhc2hSZXF1ZXN0Qm9keShyYXdCb2R5KTsKICAgIGNvbnN0IHN0b3JlZCA9IGF3YWl0IGZpbmRTdG9yZWRSZXNwb25zZShkYiwgdXNlci5vdXRsZXRfaWQsIHNjb3BlZEtleSwgcmVxdWVzdEhhc2gpOwogICAgaWYgKHN0b3JlZCkgewogICAgICByZXR1cm4geyBzdGF0dXM6IHN0b3JlZC5zdGF0dXNfY29kZSwgZGF0YTogSlNPTi5wYXJzZShzdG9yZWQucmVzcG9uc2VfanNvbikgfTsKICAgIH0KICB9CgogIGNvbnN0IG9yZGVyID0gYXdhaXQgZmV0Y2hPcmRlcihkYiwgdXNlci5vdXRsZXRfaWQsIG9yZGVySWQpOwogIGlmIChvcmRlci5zdGF0dXMgPT09ICJ2b2lkIikgewogICAgdGhyb3cgbmV3IEFwaUVycm9yKCJDT05GTElDVCIsICJPcmRlciBzdWRhaCBkaWJhdGFsa2FuIGRhbiB0aWRhayBiaXNhIGRpYmF5YXIiKTsKICB9CiAgY29uc3QgYWxyZWFkeVBhaWQgPSBhd2FpdCBzZXR0bGVkUGFpZFRvdGFsKGRiLCB1c2VyLm91dGxldF9pZCwgb3JkZXIuaWQpOwogIGNvbnN0IHJlbWFpbmluZyA9IG9yZGVyLmdyYW5kX3RvdGFsIC0gYWxyZWFkeVBhaWQ7CiAgaWYgKHJlbWFpbmluZyA8PSAwKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoIkNPTkZMSUNUIiwgIk9yZGVyIHN1ZGFoIGx1bmFzOyBwZW1iYXlhcmFuIGdhbmRhIGRpdG9sYWsiKTsKICB9CiAgaWYgKGJvZHkuYW1vdW50IDwgcmVtYWluaW5nKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoIlBBWU1FTlRfTUlTTUFUQ0giLCAiSnVtbGFoIHBlbWJheWFyYW4ga3VyYW5nIGRhcmkgc2lzYSB0YWdpaGFuIiwgewogICAgICByZW1haW5pbmcsIGFtb3VudDogYm9keS5hbW91bnQsCiAgICB9KTsKICB9CiAgY29uc3QgaXNDYXNoID0gYm9keS5tZXRob2QgPT09ICJjYXNoIjsKICBpZiAoIWlzQ2FzaCAmJiBib2R5LmFtb3VudCA+IHJlbWFpbmluZykgewogICAgdGhyb3cgbmV3IEFwaUVycm9yKCJQQVlNRU5UX01JU01BVENIIiwgIlBlbWJheWFyYW4gbm9uLXR1bmFpIGhhcnVzIHBhcyBkZW5nYW4gc2lzYSB0YWdpaGFuIiwgewogICAgICByZW1haW5pbmcsIGFtb3VudDogYm9keS5hbW91bnQsCiAgICB9KTsKICB9CiAgY29uc3QgY2hhbmdlID0gaXNDYXNoID8gYm9keS5hbW91bnQgLSByZW1haW5pbmcgOiAwOwogIGNvbnN0IGFwcGxpZWQgPSByZW1haW5pbmc7CiAgY29uc3Qgc3RhdHVzID0gaXNDYXNoID8gInNldHRsZWQiIDogInBlbmRpbmciOwoKICBpZiAoYm9keS5jbGllbnRfdHhfaWQpIHsKICAgIGNvbnN0IGR1cCA9IGF3YWl0IGRiCiAgICAgIC5wcmVwYXJlKCJTRUxFQ1QgaWQgRlJPTSBwYXltZW50cyBXSEVSRSBvdXRsZXRfaWQgPSA/IEFORCBjbGllbnRfdHhfaWQgPSA/IikKICAgICAgLmJpbmQodXNlci5vdXRsZXRfaWQsIGJvZHkuY2xpZW50X3R4X2lkKQogICAgICAuZmlyc3Q8eyBpZDogc3RyaW5nIH0+KCk7CiAgICBpZiAoZHVwKSB7CiAgICAgIHRocm93IG5ldyBBcGlFcnJvcigiQ09ORkxJQ1QiLCAiY2xpZW50X3R4X2lkIHBlbWJheWFyYW4gc3VkYWggZGlwYWthaSIsIHsKICAgICAgICBjbGllbnRfdHhfaWQ6IGJvZHkuY2xpZW50X3R4X2lkLAogICAgICB9KTsKICAgIH0KICB9CgogIGNvbnN0IHQgPSBEYXRlLm5vdygpOwogIGNvbnN0IHBheW1lbnRJZCA9IGNyeXB0by5yYW5kb21VVUlEKCk7CiAgYXdhaXQgZGIuYmF0Y2goWwogICAgZGIKICAgICAgLnByZXBhcmUoCiAgICAgICAgYElOU0VSVCBJTlRPIHBheW1lbnRzIChpZCwgb3V0bGV0X2lkLCBvcmRlcl9pZCwgc2hpZnRfaWQsIG1ldGhvZCwgYW1vdW50LCBjaGFuZ2VfYW1vdW50LAogICAgICAgICAgICAgICAgc3RhdHVzLCByZWZlcmVuY2Vfbm8sIGNsaWVudF90eF9pZCwgY3JlYXRlZF9hdCwgdXBkYXRlZF9hdCwgZGVsZXRlZF9hdCwgdmVyc2lvbikKICAgICAgICAgVkFMVUVTICg/LCA/LCA/LCA/LCA/LCA/LCA/LCA/LCA/LCA/LCA/LCA/LCBOVUxMLCAxKWAsCiAgICAgICkKICAgICAgLmJpbmQoCiAgICAgICAgcGF5bWVudElkLCB1c2VyLm91dGxldF9pZCwgb3JkZXIuaWQsIG9yZGVyLnNoaWZ0X2lkLCBib2R5Lm1ldGhvZCwKICAgICAgICBib2R5LmFtb3VudCwgY2hhbmdlLCBzdGF0dXMsIGJvZHkucmVmZXJlbmNlX25vID8/IG51bGwsCiAgICAgICAgYm9keS5jbGllbnRfdHhfaWQgPz8gbnVsbCwgdCwgdCwKICAgICAgKSwKICAgIGRiCiAgICAgIC5wcmVwYXJlKAogICAgICAgIGBJTlNFUlQgSU5UTyBwYXltZW50X2FsbG9jYXRpb25zIChpZCwgb3V0bGV0X2lkLCBwYXltZW50X2lkLCBvcmRlcl9pZCwgYW1vdW50LAogICAgICAgICAgICAgICAgY3JlYXRlZF9hdCwgdXBkYXRlZF9hdCwgZGVsZXRlZF9hdCwgdmVyc2lvbikKICAgICAgICAgVkFMVUVTICg/LCA/LCA/LCA/LCA/LCA/LCA/LCBOVUxMLCAxKWAsCiAgICAgICkKICAgICAgLmJpbmQoY3J5cHRvLnJhbmRvbVVVSUQoKSwgdXNlci5vdXRsZXRfaWQsIHBheW1lbnRJZCwgb3JkZXIuaWQsIGFwcGxpZWQsIHQsIHQpLAogIF0pOwoKICBjb25zdCBwYXltZW50ID0gYXdhaXQgZmV0Y2hQYXltZW50KGRiLCB1c2VyLm91dGxldF9pZCwgcGF5bWVudElkKTsKICBsZXQgcmVmcmVzaGVkID0gb3JkZXI7CiAgaWYgKHN0YXR1cyA9PT0gInNldHRsZWQiKSB7CiAgICByZWZyZXNoZWQgPSBhd2FpdCByZWZyZXNoUGF5bWVudFN0YXR1cyhkYiwgdXNlci5vdXRsZXRfaWQsIG9yZGVyKTsKICB9CiAgY29uc3QgZGF0YSA9IHsKICAgIHBheW1lbnQ6IHBheW1lbnRPdXQocGF5bWVudCksCiAgICBvcmRlcl9pZDogb3JkZXIuaWQsCiAgICBhcHBsaWVkX2Ftb3VudDogYXBwbGllZCwKICAgIGNoYW5nZV9hbW91bnQ6IGNoYW5nZSwKICAgIHBheW1lbnRfc3RhdHVzOiByZWZyZXNoZWQucGF5bWVudF9zdGF0dXMsCiAgICBvcmRlcl9zdGF0dXM6IHJlZnJlc2hlZC5zdGF0dXMsCiAgfTsKICBpZiAoaWRlbUtleSkgewogICAgYXdhaXQgc3RvcmVSZXNwb25zZShkYiwgdXNlci5vdXRsZXRfaWQsIHNjb3BlZEtleSwgcmVxdWVzdEhhc2gsIDIwMSwgZGF0YSk7CiAgfQogIHJldHVybiB7IHN0YXR1czogMjAxLCBkYXRhIH07Cn0KCnBheW1lbnRzLnBvc3QoIi9vcmRlcnMvOmlkL3BheW1lbnRzIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCB1c2VyID0gYy5nZXQoInVzZXIiKTsKICBjb25zdCByYXdCb2R5ID0gYXdhaXQgcmVhZEpzb25Cb2R5KGMucmVxKTsKICBjb25zdCBpZGVtS2V5ID0gcmVxdWlyZUlkZW1wb3RlbmN5S2V5KGMucmVxLmhlYWRlcigiSWRlbXBvdGVuY3ktS2V5IikpOwogIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGNyZWF0ZVBheW1lbnRDb3JlKAogICAgYy5lbnYuREIsIHVzZXIsIGMucmVxLnBhcmFtKCJpZCIpLCByYXdCb2R5LCBpZGVtS2V5LAogICk7CiAgcmV0dXJuIGMuanNvbigKICAgIHN1Y2Nlc3NFbnZlbG9wZShyZXN1bHQuZGF0YSwgYy5nZXQoInJlcXVlc3RJZCIpKSwKICAgIHJlc3VsdC5zdGF0dXMgYXMgMjAxLAogICk7Cn0pOwoKcGF5bWVudHMucG9zdCgiL3BheW1lbnRzLzppZC9jb25maXJtIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCB1c2VyID0gcmVxdWlyZVJvbGUoYywgIm93bmVyIiwgIm1hbmFnZXIiKTsKICBjb25zdCBkYiA9IGMuZW52LkRCOwogIGNvbnN0IHBheW1lbnQgPSBhd2FpdCBmZXRjaFBheW1lbnQoZGIsIHVzZXIub3V0bGV0X2lkLCBjLnJlcS5wYXJhbSgiaWQiKSk7CiAgaWYgKHBheW1lbnQuc3RhdHVzICE9PSAicGVuZGluZyIpIHsKICAgIHRocm93IG5ldyBBcGlFcnJvcigiQ09ORkxJQ1QiLCAiSGFueWEgcGVtYmF5YXJhbiBwZW5kaW5nIHlhbmcgYmlzYSBkaWtvbmZpcm1hc2kiLCB7CiAgICAgIHN0YXR1czogcGF5bWVudC5zdGF0dXMsCiAgICB9KTsKICB9CiAgY29uc3QgdCA9IERhdGUubm93KCk7CiAgYXdhaXQgZGIKICAgIC5wcmVwYXJlKCJVUERBVEUgcGF5bWVudHMgU0VUIHN0YXR1cyA9ICdzZXR0bGVkJywgdXBkYXRlZF9hdCA9ID8sIHZlcnNpb24gPSB2ZXJzaW9uICsgMSBXSEVSRSBpZCA9ID8iKQogICAgLmJpbmQodCwgcGF5bWVudC5pZCkKICAgIC5ydW4oKTsKICBsZXQgb3JkZXJJbmZvOiB7IHBheW1lbnRfc3RhdHVzOiBzdHJpbmc7IHN0YXR1czogc3RyaW5nIH0gfCBudWxsID0gbnVsbDsKICBpZiAocGF5bWVudC5vcmRlcl9pZCkgewogICAgY29uc3Qgb3JkZXIgPSBhd2FpdCBmZXRjaE9yZGVyKGRiLCB1c2VyLm91dGxldF9pZCwgcGF5bWVudC5vcmRlcl9pZCk7CiAgICBjb25zdCByZWZyZXNoZWQgPSBhd2FpdCByZWZyZXNoUGF5bWVudFN0YXR1cyhkYiwgdXNlci5vdXRsZXRfaWQsIG9yZGVyKTsKICAgIG9yZGVySW5mbyA9IHsgcGF5bWVudF9zdGF0dXM6IHJlZnJlc2hlZC5wYXltZW50X3N0YXR1cywgc3RhdHVzOiByZWZyZXNoZWQuc3RhdHVzIH07CiAgfQogIGNvbnN0IHVwZGF0ZWQgPSBhd2FpdCBmZXRjaFBheW1lbnQoZGIsIHVzZXIub3V0bGV0X2lkLCBwYXltZW50LmlkKTsKICByZXR1cm4gYy5qc29uKAogICAgc3VjY2Vzc0VudmVsb3BlKHsgcGF5bWVudDogcGF5bWVudE91dCh1cGRhdGVkKSwgb3JkZXI6IG9yZGVySW5mbyB9LCBjLmdldCgicmVxdWVzdElkIikpLAogICAgMjAwLAogICk7Cn0pOwoKZXhwb3J0IGRlZmF1bHQgcGF5bWVudHM7Cg==
+/**
+ * Rute pembayaran:
+ * - POST /api/v1/orders/:id/payments — Idempotency-Key wajib.
+ *   Metode mengikuti skema G1a: 'cash' | 'qris' | 'edc' | 'transfer'
+ *   (tiga terakhir = pembayaran non-tunai manual).
+ *   Jumlah harus menutup sisa tagihan: kurang -> PAYMENT_MISMATCH.
+ *   Tunai boleh lebih; kembalian dihitung server dan tercatat di
+ *   payments.change_amount. Non-tunai tidak boleh lebih (PAYMENT_MISMATCH).
+ *   Tunai langsung 'settled'; non-tunai berstatus 'pending' sampai dikonfirmasi.
+ *   Order yang sudah lunas tidak bisa dibayar lagi (CONFLICT).
+ * - POST /api/v1/payments/:id/confirm — hanya owner/manager (kasir pembuat
+ *   tidak bisa mengonfirmasi pembayaran non-tunainya sendiri). Mengubah
+ *   pembayaran pending menjadi settled dan memperbarui payment_status order.
+ *
+ * Alokasi: satu baris payment_allocations sebesar porsi yang menutup order
+ * (untuk tunai berlebih, alokasi = sisa tagihan, bukan uang yang diserahkan).
+ */
+import { Hono } from "hono";
+import { z } from "zod";
+import { ApiError } from "../lib/errors";
+import { successEnvelope } from "../lib/envelope";
+import { parseWith, readJsonBody } from "../lib/validate";
+import { requireRole } from "../lib/auth";
+import {
+  findStoredResponse,
+  hashRequestBody,
+  requireIdempotencyKey,
+  storeResponse,
+} from "../lib/idempotency";
+import { fetchOrder, refreshPaymentStatus, settledPaidTotal } from "./orders";
+import type { AuthUser, Env, Variables } from "../lib/types";
+
+const payments = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+const createPaymentSchema = z.object({
+  method: z.enum(["cash", "qris", "edc", "transfer"]),
+  amount: z.number().int().min(1, "Jumlah pembayaran minimal 1"),
+  reference_no: z.string().nullable().optional(),
+  client_tx_id: z.string().min(1).nullable().optional(),
+});
+
+interface PaymentRow {
+  id: string; outlet_id: string; order_id: string | null; shift_id: string | null;
+  method: string; amount: number; change_amount: number; status: string;
+  reference_no: string | null; client_tx_id: string | null;
+  created_at: number; updated_at: number; version: number;
+}
+
+const paymentOut = (r: PaymentRow) => ({
+  id: r.id, outlet_id: r.outlet_id, order_id: r.order_id, shift_id: r.shift_id,
+  method: r.method, amount: r.amount, change_amount: r.change_amount,
+  status: r.status, reference_no: r.reference_no, client_tx_id: r.client_tx_id,
+  created_at: r.created_at, updated_at: r.updated_at, version: r.version,
+});
+
+async function fetchPayment(
+  db: D1Database, outletId: string, id: string,
+): Promise<PaymentRow> {
+  const row = await db
+    .prepare("SELECT * FROM payments WHERE id = ? AND outlet_id = ? AND deleted_at IS NULL")
+    .bind(id, outletId)
+    .first<PaymentRow>();
+  if (!row) throw new ApiError("NOT_FOUND", "Pembayaran tidak ditemukan");
+  return row;
+}
+
+/**
+ * Inti pembuatan pembayaran — dipakai rute POST /orders/:id/payments DAN
+ * sinkronisasi offline (worker/routes/sync.ts) agar aturan PAYMENT_MISMATCH,
+ * kembalian, dan status pending non-tunai persis sama. idemKey null berarti
+ * tanpa lapisan Idempotency-Key (jalur sync memakai client_tx_id pembayaran
+ * + sync_events sebagai idempotensinya).
+ */
+export async function createPaymentCore(
+  db: D1Database,
+  user: AuthUser,
+  orderId: string,
+  rawBody: unknown,
+  idemKey: string | null,
+): Promise<{ status: number; data: unknown }> {
+  const body = parseWith(createPaymentSchema, rawBody);
+
+  let scopedKey = "";
+  let requestHash = "";
+  if (idemKey) {
+    scopedKey = `pay:${orderId}:${idemKey}`;
+    requestHash = await hashRequestBody(rawBody);
+    const stored = await findStoredResponse(db, user.outlet_id, scopedKey, requestHash);
+    if (stored) {
+      return { status: stored.status_code, data: JSON.parse(stored.response_json) };
+    }
+  }
+
+  const order = await fetchOrder(db, user.outlet_id, orderId);
+  if (order.status === "void") {
+    throw new ApiError("CONFLICT", "Order sudah dibatalkan dan tidak bisa dibayar");
+  }
+  const alreadyPaid = await settledPaidTotal(db, user.outlet_id, order.id);
+  const remaining = order.grand_total - alreadyPaid;
+  if (remaining <= 0) {
+    throw new ApiError("CONFLICT", "Order sudah lunas; pembayaran ganda ditolak");
+  }
+  if (body.amount < remaining) {
+    throw new ApiError("PAYMENT_MISMATCH", "Jumlah pembayaran kurang dari sisa tagihan", {
+      remaining, amount: body.amount,
+    });
+  }
+  const isCash = body.method === "cash";
+  if (!isCash && body.amount > remaining) {
+    throw new ApiError("PAYMENT_MISMATCH", "Pembayaran non-tunai harus pas dengan sisa tagihan", {
+      remaining, amount: body.amount,
+    });
+  }
+  const change = isCash ? body.amount - remaining : 0;
+  const applied = remaining;
+  const status = isCash ? "settled" : "pending";
+
+  if (body.client_tx_id) {
+    const dup = await db
+      .prepare("SELECT id FROM payments WHERE outlet_id = ? AND client_tx_id = ?")
+      .bind(user.outlet_id, body.client_tx_id)
+      .first<{ id: string }>();
+    if (dup) {
+      throw new ApiError("CONFLICT", "client_tx_id pembayaran sudah dipakai", {
+        client_tx_id: body.client_tx_id,
+      });
+    }
+  }
+
+  const t = Date.now();
+  const paymentId = crypto.randomUUID();
+  await db.batch([
+    db
+      .prepare(
+        `INSERT INTO payments (id, outlet_id, order_id, shift_id, method, amount, change_amount,
+                status, reference_no, client_tx_id, created_at, updated_at, deleted_at, version)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NULL, 1)`,
+      )
+      .bind(
+        paymentId, user.outlet_id, order.id, order.shift_id, body.method,
+        body.amount, change, status, body.reference_no ?? null,
+        body.client_tx_id ?? null, t, t,
+      ),
+    db
+      .prepare(
+        `INSERT INTO payment_allocations (id, outlet_id, payment_id, order_id, amount,
+                created_at, updated_at, deleted_at, version)
+         VALUES (?, ?, ?, ?, ?, ?, ?, NULL, 1)`,
+      )
+      .bind(crypto.randomUUID(), user.outlet_id, paymentId, order.id, applied, t, t),
+  ]);
+
+  const payment = await fetchPayment(db, user.outlet_id, paymentId);
+  let refreshed = order;
+  if (status === "settled") {
+    refreshed = await refreshPaymentStatus(db, user.outlet_id, order);
+  }
+  const data = {
+    payment: paymentOut(payment),
+    order_id: order.id,
+    applied_amount: applied,
+    change_amount: change,
+    payment_status: refreshed.payment_status,
+    order_status: refreshed.status,
+  };
+  if (idemKey) {
+    await storeResponse(db, user.outlet_id, scopedKey, requestHash, 201, data);
+  }
+  return { status: 201, data };
+}
+
+payments.post("/orders/:id/payments", async (c) => {
+  const user = c.get("user");
+  const rawBody = await readJsonBody(c.req);
+  const idemKey = requireIdempotencyKey(c.req.header("Idempotency-Key"));
+  const result = await createPaymentCore(
+    c.env.DB, user, c.req.param("id"), rawBody, idemKey,
+  );
+  return c.json(
+    successEnvelope(result.data, c.get("requestId")),
+    result.status as 201,
+  );
+});
+
+payments.post("/payments/:id/confirm", async (c) => {
+  const user = requireRole(c, "owner", "manager");
+  const db = c.env.DB;
+  const payment = await fetchPayment(db, user.outlet_id, c.req.param("id"));
+  if (payment.status !== "pending") {
+    throw new ApiError("CONFLICT", "Hanya pembayaran pending yang bisa dikonfirmasi", {
+      status: payment.status,
+    });
+  }
+  const t = Date.now();
+  await db
+    .prepare("UPDATE payments SET status = 'settled', updated_at = ?, version = version + 1 WHERE id = ?")
+    .bind(t, payment.id)
+    .run();
+  let orderInfo: { payment_status: string; status: string } | null = null;
+  if (payment.order_id) {
+    const order = await fetchOrder(db, user.outlet_id, payment.order_id);
+    const refreshed = await refreshPaymentStatus(db, user.outlet_id, order);
+    orderInfo = { payment_status: refreshed.payment_status, status: refreshed.status };
+  }
+  const updated = await fetchPayment(db, user.outlet_id, payment.id);
+  return c.json(
+    successEnvelope({ payment: paymentOut(updated), order: orderInfo }, c.get("requestId")),
+    200,
+  );
+});
+
+export default payments;
