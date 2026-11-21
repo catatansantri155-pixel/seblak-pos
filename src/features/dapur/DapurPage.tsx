@@ -1,1 +1,231 @@
-LyoqCiAqIExheWFyIERhcHVyOiBhbnRyZWFuIG9yZGVyIGRhcmkgQVBJIChraXRjaGVuL3F1ZXVlKSwgZGlrZWxvbXBva2thbiBBbnRyZQogKiBkYW4gU2VkYW5nIERpbWFzYWsuIFRyYW5zaXNpIHNhaDogcXVldWVkIC0+IGNvb2tpbmcgLT4gZG9uZS4gRGF0YQogKiBkaXNlZ2Fya2FuIG90b21hdGlzIHRpYXAgMTAgZGV0aWsgKyB0b21ib2wgU2VnYXJrYW4gbWFudWFsLgogKi8KaW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsKICBCZWxsLAogIEJlbGxSaW5nLAogIENpcmNsZUFsZXJ0LAogIENpcmNsZUNoZWNrLAogIENvb2tpbmdQb3QsCiAgUmVmcmVzaEN3LAogIFNob3BwaW5nQmFza2V0LAp9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7CiAgaXNBcGlFcnJvciwKICBraXRjaGVuUXVldWUsCiAga2l0Y2hlblNldFN0YXR1cywKICB0eXBlIEtpdGNoZW5PcmRlciwKfSBmcm9tICIuLi8uLi9saWIvYXBpIjsKaW1wb3J0IHsKICBmb3JtYXRFbGFwc2VkLAogIGZvcm1hdFRpbWUsCiAgaHVtYW5FcnJvciwKICBraXRjaGVuU3RhdHVzTGFiZWwsCiAgb3JkZXJUeXBlTGFiZWwsCiAgcGF5bWVudFN0YXR1c0xhYmVsLAp9IGZyb20gIi4uLy4uL2xpYi9mb3JtYXQiOwoKZnVuY3Rpb24gS2l0Y2hlbkNhcmQoewogIG9yZGVyLAogIGJ1c3ksCiAgb25BZHZhbmNlLAp9OiB7CiAgb3JkZXI6IEtpdGNoZW5PcmRlcjsKICBidXN5OiBib29sZWFuOwogIG9uQWR2YW5jZTogKG9yZGVyOiBLaXRjaGVuT3JkZXIpID0+IHZvaWQ7Cn0pIHsKICBjb25zdCBpc1F1ZXVlZCA9IG9yZGVyLmtpdGNoZW5fc3RhdHVzID09PSAicXVldWVkIjsKICByZXR1cm4gKAogICAgPGFydGljbGUgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItbGluZSBiZy1zdXJmYWNlIHAtNCBzaGFkb3ctc20iPgogICAgICA8aGVhZGVyIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im51bWVyaWMgZm9udC1kaXNwbGF5IHRleHQtaDIgZm9udC1ib2xkIHRleHQtaW5rIj57b3JkZXIub3JkZXJfbm99PC9wPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtbXV0ZWQiPgogICAgICAgICAgICB7Zm9ybWF0VGltZShvcmRlci5jcmVhdGVkX2F0KX0gwrcge2Zvcm1hdEVsYXBzZWQob3JkZXIuY3JlYXRlZF9hdCl9IHlhbmcgbGFsdSDCt3siICJ9CiAgICAgICAgICAgIHtvcmRlclR5cGVMYWJlbChvcmRlci50eXBlKX0KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8c3BhbgogICAgICAgICAgY2xhc3NOYW1lPXtgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgcm91bmRlZC1mdWxsIHB4LTIuNSBweS0xIHRleHQteHMgZm9udC1zZW1pYm9sZCAkewogICAgICAgICAgICBpc1F1ZXVlZCA/ICJiZy1pbmZvLWJnIHRleHQtaW5mbyIgOiAiYmctd2FybmluZy1iZyB0ZXh0LXdhcm5pbmciCiAgICAgICAgICB9YH0KICAgICAgICA+CiAgICAgICAgICB7aXNRdWV1ZWQgPyA8QmVsbCBzaXplPXsxNH0gYXJpYS1oaWRkZW4gLz4gOiA8Q29va2luZ1BvdCBzaXplPXsxNH0gYXJpYS1oaWRkZW4gLz59CiAgICAgICAgICB7a2l0Y2hlblN0YXR1c0xhYmVsKG9yZGVyLmtpdGNoZW5fc3RhdHVzKX0KICAgICAgICA8L3NwYW4+CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1zZWNvbmRhcnkiPgogICAgICAgIFBlbWJheWFyYW46IHtwYXltZW50U3RhdHVzTGFiZWwob3JkZXIucGF5bWVudF9zdGF0dXMpfQogICAgICA8L3A+CgogICAgICA8dWwgY2xhc3NOYW1lPSJtdC0zIHNwYWNlLXktMiBib3JkZXItdCBib3JkZXItbGluZSBwdC0zIj4KICAgICAgICB7b3JkZXIuaXRlbXMubWFwKChpdGVtKSA9PiAoCiAgICAgICAgICA8bGkga2V5PXtpdGVtLmlkfSBjbGFzc05hbWU9InRleHQtc20iPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im51bWVyaWMgZm9udC1kaXNwbGF5IGZvbnQtYm9sZCB0ZXh0LWluayI+e2l0ZW0ucXR5fcOXPC9zcGFuPnsiICJ9CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+e2l0ZW0ucHJvZHVjdF9uYW1lID8/ICJQcm9kdWsifTwvc3Bhbj4KICAgICAgICAgICAge2l0ZW0ubW9kaWZpZXJzLmxlbmd0aCA+IDAgJiYgKAogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iYmxvY2sgcGwtNiB0ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICB7aXRlbS5tb2RpZmllcnMubWFwKChtKSA9PiBtLm5hbWUgPz8gIiIpLmZpbHRlcihCb29sZWFuKS5qb2luKCIsICIpfQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAge2l0ZW0ubm90ZSAmJiAoCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJibG9jayBwbC02IGl0YWxpYyB0ZXh0LW11dGVkIj5DYXRhdGFuOiB7aXRlbS5ub3RlfTwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvbGk+CiAgICAgICAgKSl9CiAgICAgIDwvdWw+CgogICAgICB7b3JkZXIubm90ZSAmJiAoCiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHJvdW5kZWQtbWQgYmctc3VidGxlIHB4LTIuNSBweS0xLjUgdGV4dC14cyBpdGFsaWMgdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgQ2F0YXRhbiBwZXNhbmFuOiB7b3JkZXIubm90ZX0KICAgICAgICA8L3A+CiAgICAgICl9CgogICAgICA8YnV0dG9uCiAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgIGRpc2FibGVkPXtidXN5fQogICAgICAgIG9uQ2xpY2s9eygpID0+IG9uQWR2YW5jZShvcmRlcil9CiAgICAgICAgY2xhc3NOYW1lPXtgbXQtNCBmbGV4IG1pbi1oLVs0OHB4XSB3LWZ1bGwgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgZm9udC1kaXNwbGF5IHRleHQtYmFzZSBmb250LWJvbGQgdGV4dC13aGl0ZSBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6b3BhY2l0eS02MCAkewogICAgICAgICAgaXNRdWV1ZWQgPyAiYmctcHJpbWFyeSBob3ZlcjpiZy1wcmltYXJ5LWhvdmVyIiA6ICJiZy1zdWNjZXNzIGhvdmVyOm9wYWNpdHktOTAiCiAgICAgICAgfWB9CiAgICAgID4KICAgICAgICB7aXNRdWV1ZWQgPyAoCiAgICAgICAgICA8PgogICAgICAgICAgICA8Q29va2luZ1BvdCBzaXplPXsyMH0gYXJpYS1oaWRkZW4gLz4gTXVsYWkgTWFzYWsKICAgICAgICAgIDwvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8PgogICAgICAgICAgICA8Q2lyY2xlQ2hlY2sgc2l6ZT17MjB9IGFyaWEtaGlkZGVuIC8+IFNlbGVzYWkKICAgICAgICAgIDwvPgogICAgICAgICl9CiAgICAgIDwvYnV0dG9uPgogICAgPC9hcnRpY2xlPgogICk7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIERhcHVyUGFnZSgpIHsKICBjb25zdCBbb3JkZXJzLCBzZXRPcmRlcnNdID0gdXNlU3RhdGU8S2l0Y2hlbk9yZGVyW10+KFtdKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZSh0cnVlKTsKICBjb25zdCBbZXJyb3IsIHNldEVycm9yXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtidXN5SWQsIHNldEJ1c3lJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbLCBzZXRUaWNrXSA9IHVzZVN0YXRlKDApOwogIGNvbnN0IGxvYWRpbmdSZWYgPSB1c2VSZWYoZmFsc2UpOwoKICBjb25zdCBsb2FkID0gdXNlQ2FsbGJhY2soYXN5bmMgKGluaXRpYWwgPSBmYWxzZSkgPT4gewogICAgaWYgKGxvYWRpbmdSZWYuY3VycmVudCkgcmV0dXJuOwogICAgbG9hZGluZ1JlZi5jdXJyZW50ID0gdHJ1ZTsKICAgIGlmIChpbml0aWFsKSBzZXRMb2FkaW5nKHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3QgZGF0YSA9IGF3YWl0IGtpdGNoZW5RdWV1ZSgpOwogICAgICBzZXRPcmRlcnMoZGF0YSk7CiAgICAgIHNldEVycm9yKG51bGwpOwogICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgIHNldEVycm9yKGh1bWFuRXJyb3IoZXJyKSk7CiAgICB9IGZpbmFsbHkgewogICAgICBsb2FkaW5nUmVmLmN1cnJlbnQgPSBmYWxzZTsKICAgICAgaWYgKGluaXRpYWwpIHNldExvYWRpbmcoZmFsc2UpOwogICAgfQogIH0sIFtdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHZvaWQgbG9hZCh0cnVlKTsKICAgIGNvbnN0IHBvbGwgPSBzZXRJbnRlcnZhbCgoKSA9PiB2b2lkIGxvYWQoKSwgMTBfMDAwKTsKICAgIGNvbnN0IHRpY2sgPSBzZXRJbnRlcnZhbCgoKSA9PiBzZXRUaWNrKCh0KSA9PiB0ICsgMSksIDMwXzAwMCk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBjbGVhckludGVydmFsKHBvbGwpOwogICAgICBjbGVhckludGVydmFsKHRpY2spOwogICAgfTsKICB9LCBbbG9hZF0pOwoKICBjb25zdCBvbkFkdmFuY2UgPSBhc3luYyAob3JkZXI6IEtpdGNoZW5PcmRlcikgPT4gewogICAgY29uc3QgbmV4dCA9IG9yZGVyLmtpdGNoZW5fc3RhdHVzID09PSAicXVldWVkIiA/ICJjb29raW5nIiA6ICJkb25lIjsKICAgIHNldEJ1c3lJZChvcmRlci5pZCk7CiAgICBzZXRFcnJvcihudWxsKTsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGtpdGNoZW5TZXRTdGF0dXMob3JkZXIuaWQsIG5leHQpOwogICAgICBhd2FpdCBsb2FkKCk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgLy8gS2VtdW5na2luYW4gZGF0YSBzdWRhaCBiZXJ1YmFoIChDT05GTElDVCk6IHNlZ2Fya2FuIGFudHJlYW4uCiAgICAgIHNldEVycm9yKGh1bWFuRXJyb3IoZXJyKSk7CiAgICAgIGlmIChpc0FwaUVycm9yKGVycikgJiYgZXJyLmNvZGUgPT09ICJDT05GTElDVCIpIGF3YWl0IGxvYWQoKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldEJ1c3lJZChudWxsKTsKICAgIH0KICB9OwoKICBjb25zdCBxdWV1ZWQgPSBvcmRlcnMuZmlsdGVyKChvKSA9PiBvLmtpdGNoZW5fc3RhdHVzID09PSAicXVldWVkIik7CiAgY29uc3QgY29va2luZyA9IG9yZGVycy5maWx0ZXIoKG8pID0+IG8ua2l0Y2hlbl9zdGF0dXMgPT09ICJjb29raW5nIik7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byB3LWZ1bGwgbWF4LXctN3hsIHB4LTQgcHktNiBzbTpweC02Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1oMiBmb250LWJvbGQgdGV4dC1pbmsiPgogICAgICAgICAgQW50cmVhbiBEYXB1cnsiICJ9CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im51bWVyaWMgdGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgdGV4dC1tdXRlZCI+CiAgICAgICAgICAgICh7b3JkZXJzLmxlbmd0aH0gcGVzYW5hbiBha3RpZikKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICA8L2gyPgogICAgICAgIDxidXR0b24KICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHZvaWQgbG9hZCgpfQogICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IG1pbi1oLVs0NHB4XSBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWxpbmUgYmctc3VyZmFjZSBweC0zIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXNlY29uZGFyeSBob3ZlcjpiZy1zdWJ0bGUiCiAgICAgICAgPgogICAgICAgICAgPFJlZnJlc2hDdyBzaXplPXsxNn0gYXJpYS1oaWRkZW4gLz4KICAgICAgICAgIFNlZ2Fya2FuCiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvZGl2PgoKICAgICAge2Vycm9yICYmICgKICAgICAgICA8ZGl2IHJvbGU9ImFsZXJ0IiBjbGFzc05hbWU9Im1iLTQgZmxleCBpdGVtcy1zdGFydCBnYXAtMiByb3VuZGVkLW1kIGJnLWRhbmdlci1iZyBweC0zIHB5LTIuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZGFuZ2VyIj4KICAgICAgICAgIDxDaXJjbGVBbGVydCBzaXplPXsxOH0gYXJpYS1oaWRkZW4gY2xhc3NOYW1lPSJtdC0wLjUgc2hyaW5rLTAiIC8+CiAgICAgICAgICA8c3Bhbj57ZXJyb3J9PC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAge2xvYWRpbmcgPyAoCiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQiPk1lbXVhdCBhbnRyZWFuIGRhcHVy4oCmPC9wPgogICAgICApIDogb3JkZXJzLmxlbmd0aCA9PT0gMCA/ICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWRhc2hlZCBib3JkZXItbGluZS1zdHJvbmcgYmctc3VyZmFjZSBweC02IHB5LTEyIHRleHQtY2VudGVyIj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBoLTE2IHctMTYgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtZnVsbCBiZy1zdWJ0bGUgdGV4dC1tdXRlZCI+CiAgICAgICAgICAgIDxTaG9wcGluZ0Jhc2tldCBzaXplPXszMn0gYXJpYS1oaWRkZW4gLz4KICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNCBmb250LWRpc3BsYXkgdGV4dC1oMiBmb250LWJvbGQgdGV4dC1pbmsiPlRpZGFrIGFkYSBhbnRyZWFuIGRhcHVyPC9wPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0xIG1heC13LXNtIHRleHQtc20gdGV4dC1zZWNvbmRhcnkiPgogICAgICAgICAgICBQZXNhbmFuIGJhcnUgeWFuZyBtYXN1ayBkYXJpIGthc2lyIGFrYW4gdGFtcGlsIGRpIHNpbmkgc2VjYXJhIG90b21hdGlzLgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICApIDogKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdhcC02IGxnOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxzZWN0aW9uIGFyaWEtbGFiZWw9IkFudHJlIj4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibWItMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBmb250LWRpc3BsYXkgdGV4dC1oMyBmb250LXNlbWlib2xkIHRleHQtaW5mbyI+CiAgICAgICAgICAgICAgPEJlbGxSaW5nIHNpemU9ezE4fSBhcmlhLWhpZGRlbiAvPiBBbnRyZSAoe3F1ZXVlZC5sZW5ndGh9KQogICAgICAgICAgICA8L2gzPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMyI+CiAgICAgICAgICAgICAge3F1ZXVlZC5tYXAoKG8pID0+ICgKICAgICAgICAgICAgICAgIDxLaXRjaGVuQ2FyZCBrZXk9e28uaWR9IG9yZGVyPXtvfSBidXN5PXtidXN5SWQgPT09IG8uaWR9IG9uQWR2YW5jZT17b25BZHZhbmNlfSAvPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIHtxdWV1ZWQubGVuZ3RoID09PSAwICYmIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkIj5UaWRhayBhZGEgcGVzYW5hbiBhbnRyZS48L3A+fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICAgIDxzZWN0aW9uIGFyaWEtbGFiZWw9IlNlZGFuZyBkaW1hc2FrIj4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0ibWItMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBmb250LWRpc3BsYXkgdGV4dC1oMyBmb250LXNlbWlib2xkIHRleHQtd2FybmluZyI+CiAgICAgICAgICAgICAgPENvb2tpbmdQb3Qgc2l6ZT17MTh9IGFyaWEtaGlkZGVuIC8+IFNlZGFuZyBEaW1hc2FrICh7Y29va2luZy5sZW5ndGh9KQogICAgICAgICAgICA8L2gzPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMyI+CiAgICAgICAgICAgICAge2Nvb2tpbmcubWFwKChvKSA9PiAoCiAgICAgICAgICAgICAgICA8S2l0Y2hlbkNhcmQga2V5PXtvLmlkfSBvcmRlcj17b30gYnVzeT17YnVzeUlkID09PSBvLmlkfSBvbkFkdmFuY2U9e29uQWR2YW5jZX0gLz4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICB7Y29va2luZy5sZW5ndGggPT09IDAgJiYgKAogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQiPkJlbHVtIGFkYSBwZXNhbmFuIHlhbmcgc2VkYW5nIGRpbWFzYWsuPC9wPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9zZWN0aW9uPgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQo=
+/**
+ * Layar Dapur: antrean order dari API (kitchen/queue), dikelompokkan Antre
+ * dan Sedang Dimasak. Transisi sah: queued -> cooking -> done. Data
+ * disegarkan otomatis tiap 10 detik + tombol Segarkan manual.
+ */
+import { useCallback, useEffect, useRef, useState } from "react";
+import {
+  Bell,
+  BellRing,
+  CircleAlert,
+  CircleCheck,
+  CookingPot,
+  RefreshCw,
+  ShoppingBasket,
+} from "lucide-react";
+import {
+  isApiError,
+  kitchenQueue,
+  kitchenSetStatus,
+  type KitchenOrder,
+} from "../../lib/api";
+import {
+  formatElapsed,
+  formatTime,
+  humanError,
+  kitchenStatusLabel,
+  orderTypeLabel,
+  paymentStatusLabel,
+} from "../../lib/format";
+
+function KitchenCard({
+  order,
+  busy,
+  onAdvance,
+}: {
+  order: KitchenOrder;
+  busy: boolean;
+  onAdvance: (order: KitchenOrder) => void;
+}) {
+  const isQueued = order.kitchen_status === "queued";
+  return (
+    <article className="rounded-lg border border-line bg-surface p-4 shadow-sm">
+      <header className="flex items-start justify-between gap-2">
+        <div>
+          <p className="numeric font-display text-h2 font-bold text-ink">{order.order_no}</p>
+          <p className="text-xs text-muted">
+            {formatTime(order.created_at)} · {formatElapsed(order.created_at)} yang lalu ·{" "}
+            {orderTypeLabel(order.type)}
+          </p>
+        </div>
+        <span
+          className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold ${
+            isQueued ? "bg-info-bg text-info" : "bg-warning-bg text-warning"
+          }`}
+        >
+          {isQueued ? <Bell size={14} aria-hidden /> : <CookingPot size={14} aria-hidden />}
+          {kitchenStatusLabel(order.kitchen_status)}
+        </span>
+      </header>
+
+      <p className="mt-1 text-xs font-medium text-secondary">
+        Pembayaran: {paymentStatusLabel(order.payment_status)}
+      </p>
+
+      <ul className="mt-3 space-y-2 border-t border-line pt-3">
+        {order.items.map((item) => (
+          <li key={item.id} className="text-sm">
+            <span className="numeric font-display font-bold text-ink">{item.qty}×</span>{" "}
+            <span className="font-semibold text-ink">{item.product_name ?? "Produk"}</span>
+            {item.modifiers.length > 0 && (
+              <span className="block pl-6 text-secondary">
+                {item.modifiers.map((m) => m.name ?? "").filter(Boolean).join(", ")}
+              </span>
+            )}
+            {item.note && (
+              <span className="block pl-6 italic text-muted">Catatan: {item.note}</span>
+            )}
+          </li>
+        ))}
+      </ul>
+
+      {order.note && (
+        <p className="mt-2 rounded-md bg-subtle px-2.5 py-1.5 text-xs italic text-secondary">
+          Catatan pesanan: {order.note}
+        </p>
+      )}
+
+      <button
+        type="button"
+        disabled={busy}
+        onClick={() => onAdvance(order)}
+        className={`mt-4 flex min-h-[48px] w-full items-center justify-center gap-2 rounded-md font-display text-base font-bold text-white disabled:cursor-not-allowed disabled:opacity-60 ${
+          isQueued ? "bg-primary hover:bg-primary-hover" : "bg-success hover:opacity-90"
+        }`}
+      >
+        {isQueued ? (
+          <>
+            <CookingPot size={20} aria-hidden /> Mulai Masak
+          </>
+        ) : (
+          <>
+            <CircleCheck size={20} aria-hidden /> Selesai
+          </>
+        )}
+      </button>
+    </article>
+  );
+}
+
+export default function DapurPage() {
+  const [orders, setOrders] = useState<KitchenOrder[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [busyId, setBusyId] = useState<string | null>(null);
+  const [, setTick] = useState(0);
+  const loadingRef = useRef(false);
+
+  const load = useCallback(async (initial = false) => {
+    if (loadingRef.current) return;
+    loadingRef.current = true;
+    if (initial) setLoading(true);
+    try {
+      const data = await kitchenQueue();
+      setOrders(data);
+      setError(null);
+    } catch (err) {
+      setError(humanError(err));
+    } finally {
+      loadingRef.current = false;
+      if (initial) setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    void load(true);
+    const poll = setInterval(() => void load(), 10_000);
+    const tick = setInterval(() => setTick((t) => t + 1), 30_000);
+    return () => {
+      clearInterval(poll);
+      clearInterval(tick);
+    };
+  }, [load]);
+
+  const onAdvance = async (order: KitchenOrder) => {
+    const next = order.kitchen_status === "queued" ? "cooking" : "done";
+    setBusyId(order.id);
+    setError(null);
+    try {
+      await kitchenSetStatus(order.id, next);
+      await load();
+    } catch (err) {
+      // Kemungkinan data sudah berubah (CONFLICT): segarkan antrean.
+      setError(humanError(err));
+      if (isApiError(err) && err.code === "CONFLICT") await load();
+    } finally {
+      setBusyId(null);
+    }
+  };
+
+  const queued = orders.filter((o) => o.kitchen_status === "queued");
+  const cooking = orders.filter((o) => o.kitchen_status === "cooking");
+
+  return (
+    <div className="mx-auto w-full max-w-7xl px-4 py-6 sm:px-6">
+      <div className="mb-4 flex items-center justify-between">
+        <h2 className="font-display text-h2 font-bold text-ink">
+          Antrean Dapur{" "}
+          <span className="numeric text-base font-semibold text-muted">
+            ({orders.length} pesanan aktif)
+          </span>
+        </h2>
+        <button
+          type="button"
+          onClick={() => void load()}
+          className="flex min-h-[44px] items-center gap-2 rounded-md border border-line bg-surface px-3 text-sm font-semibold text-secondary hover:bg-subtle"
+        >
+          <RefreshCw size={16} aria-hidden />
+          Segarkan
+        </button>
+      </div>
+
+      {error && (
+        <div role="alert" className="mb-4 flex items-start gap-2 rounded-md bg-danger-bg px-3 py-2.5 text-sm font-medium text-danger">
+          <CircleAlert size={18} aria-hidden className="mt-0.5 shrink-0" />
+          <span>{error}</span>
+        </div>
+      )}
+
+      {loading ? (
+        <p className="text-sm text-muted">Memuat antrean dapur…</p>
+      ) : orders.length === 0 ? (
+        <div className="flex flex-col items-center rounded-lg border border-dashed border-line-strong bg-surface px-6 py-12 text-center">
+          <span className="flex h-16 w-16 items-center justify-center rounded-full bg-subtle text-muted">
+            <ShoppingBasket size={32} aria-hidden />
+          </span>
+          <p className="mt-4 font-display text-h2 font-bold text-ink">Tidak ada antrean dapur</p>
+          <p className="mt-1 max-w-sm text-sm text-secondary">
+            Pesanan baru yang masuk dari kasir akan tampil di sini secara otomatis.
+          </p>
+        </div>
+      ) : (
+        <div className="grid gap-6 lg:grid-cols-2">
+          <section aria-label="Antre">
+            <h3 className="mb-3 flex items-center gap-2 font-display text-h3 font-semibold text-info">
+              <BellRing size={18} aria-hidden /> Antre ({queued.length})
+            </h3>
+            <div className="flex flex-col gap-3">
+              {queued.map((o) => (
+                <KitchenCard key={o.id} order={o} busy={busyId === o.id} onAdvance={onAdvance} />
+              ))}
+              {queued.length === 0 && <p className="text-sm text-muted">Tidak ada pesanan antre.</p>}
+            </div>
+          </section>
+          <section aria-label="Sedang dimasak">
+            <h3 className="mb-3 flex items-center gap-2 font-display text-h3 font-semibold text-warning">
+              <CookingPot size={18} aria-hidden /> Sedang Dimasak ({cooking.length})
+            </h3>
+            <div className="flex flex-col gap-3">
+              {cooking.map((o) => (
+                <KitchenCard key={o.id} order={o} busy={busyId === o.id} onAdvance={onAdvance} />
+              ))}
+              {cooking.length === 0 && (
+                <p className="text-sm text-muted">Belum ada pesanan yang sedang dimasak.</p>
+              )}
+            </div>
+          </section>
+        </div>
+      )}
+    </div>
+  );
+}
