@@ -1,1 +1,125 @@
-LyoqCiAqIFJ1dGUgYXV0aCAoa29udHJhayBHMWIpOgogKiAtIFBPU1QgL2FwaS92MS9hdXRoL2xvZ2luICDigJQgdmVyaWZpa2FzaSBueWF0YSBrZSB0YWJlbCB1c2VycyAoUEJLREYyKSwKICogICBtZW5lcmJpdGthbiB0b2tlbiBzZXNpOyBoYXNoIHRva2VuIGRpc2ltcGFuIGRpIHRhYmVsIHNlc3Npb25zLgogKiAtIFBPU1QgL2FwaS92MS9hdXRoL2xvZ291dCDigJQgbWVuY2FidXQgc2VzaSBha3RpZi4KICogLSBHRVQgIC9hcGkvdjEvYXV0aC9tZSAgICAg4oCUIHByb2ZpbCBwZW5nZ3VuYSBha3RpZiAodGFucGEgaGFzaCkuCiAqCiAqIEVtYWlsIHVuaWsgcGVyIG91dGxldCAoVU5JUVVFKG91dGxldF9pZCwgZW1haWwpKTsgYmlsYSBlbWFpbCB5YW5nIHNhbWEgYWRhCiAqIGRpIGJlYmVyYXBhIG91dGxldCwga2xpZW4gZGFwYXQgbWVueWVydGFrYW4gb3V0bGV0X2lkLiBCaWxhIGthdGEgc2FuZGkgY29jb2sKICogZGkgbGViaWggZGFyaSBzYXR1IG91dGxldCBkYW4gb3V0bGV0X2lkIHRpZGFrIGRpc2VydGFrYW4sIHNlcnZlciBtZW1pbnRhCiAqIG91dGxldF9pZCBzZWNhcmEgZWtzcGxpc2l0IChWQUxJREFUSU9OX0VSUk9SKSBhZ2FyIHRpZGFrIG1lbmViYWsgb3V0bGV0LgogKi8KaW1wb3J0IHsgSG9ubyB9IGZyb20gImhvbm8iOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgQXBpRXJyb3IgfSBmcm9tICIuLi9saWIvZXJyb3JzIjsKaW1wb3J0IHsgc3VjY2Vzc0VudmVsb3BlIH0gZnJvbSAiLi4vbGliL2VudmVsb3BlIjsKaW1wb3J0IHsgdmVyaWZ5UGFzc3dvcmQgfSBmcm9tICIuLi9saWIvcGFzc3dvcmQiOwppbXBvcnQgeyBhdXRoTWlkZGxld2FyZSwgY3JlYXRlU2Vzc2lvbiwgcmV2b2tlU2Vzc2lvbiB9IGZyb20gIi4uL2xpYi9hdXRoIjsKaW1wb3J0IHsgcGFyc2VXaXRoLCByZWFkSnNvbkJvZHkgfSBmcm9tICIuLi9saWIvdmFsaWRhdGUiOwppbXBvcnQgdHlwZSB7IEVudiwgUm9sZSwgVmFyaWFibGVzIH0gZnJvbSAiLi4vbGliL3R5cGVzIjsKCmNvbnN0IGF1dGggPSBuZXcgSG9ubzx7IEJpbmRpbmdzOiBFbnY7IFZhcmlhYmxlczogVmFyaWFibGVzIH0+KCk7Cgpjb25zdCBsb2dpblNjaGVtYSA9IHoub2JqZWN0KHsKICBlbWFpbDogei5zdHJpbmcoKS5lbWFpbCgiRm9ybWF0IGVtYWlsIHRpZGFrIHZhbGlkIiksCiAgcGFzc3dvcmQ6IHouc3RyaW5nKCkubWluKDEsICJLYXRhIHNhbmRpIHdhamliIGRpaXNpIiksCiAgb3V0bGV0X2lkOiB6LnN0cmluZygpLm1pbigxKS5vcHRpb25hbCgpLAp9KTsKCmludGVyZmFjZSBVc2VyUm93IHsKICBpZDogc3RyaW5nOwogIG91dGxldF9pZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICBlbWFpbDogc3RyaW5nOwogIHBhc3N3b3JkX2hhc2g6IHN0cmluZzsKICByb2xlOiBSb2xlOwp9CgphdXRoLnBvc3QoIi9hdXRoL2xvZ2luIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCBib2R5ID0gcGFyc2VXaXRoKGxvZ2luU2NoZW1hLCBhd2FpdCByZWFkSnNvbkJvZHkoYy5yZXEpKTsKICBjb25zdCBkYiA9IGMuZW52LkRCOwoKICBjb25zdCB7IHJlc3VsdHMgfSA9IGF3YWl0IGRiCiAgICAucHJlcGFyZSgKICAgICAgYFNFTEVDVCBpZCwgb3V0bGV0X2lkLCBuYW1lLCBlbWFpbCwgcGFzc3dvcmRfaGFzaCwgcm9sZQogICAgICAgICBGUk9NIHVzZXJzCiAgICAgICAgV0hFUkUgZW1haWwgPSA/IEFORCBpc19hY3RpdmUgPSAxIEFORCBkZWxldGVkX2F0IElTIE5VTEwKICAgICAgICAgIEFORCAoPyBJUyBOVUxMIE9SIG91dGxldF9pZCA9ID8pYCwKICAgICkKICAgIC5iaW5kKGJvZHkuZW1haWwsIGJvZHkub3V0bGV0X2lkID8/IG51bGwsIGJvZHkub3V0bGV0X2lkID8/IG51bGwpCiAgICAuYWxsPFVzZXJSb3c+KCk7CgogIGNvbnN0IG1hdGNoZXM6IFVzZXJSb3dbXSA9IFtdOwogIGZvciAoY29uc3Qgcm93IG9mIHJlc3VsdHMpIHsKICAgIGlmIChhd2FpdCB2ZXJpZnlQYXNzd29yZChib2R5LnBhc3N3b3JkLCByb3cucGFzc3dvcmRfaGFzaCkpIHsKICAgICAgbWF0Y2hlcy5wdXNoKHJvdyk7CiAgICB9CiAgfQoKICBpZiAobWF0Y2hlcy5sZW5ndGggPT09IDApIHsKICAgIHRocm93IG5ldyBBcGlFcnJvcigiVU5BVVRIT1JJWkVEIiwgIkVtYWlsIGF0YXUga2F0YSBzYW5kaSB0aWRhayB2YWxpZCIpOwogIH0KICBpZiAobWF0Y2hlcy5sZW5ndGggPiAxKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoCiAgICAgICJWQUxJREFUSU9OX0VSUk9SIiwKICAgICAgIkVtYWlsIHRlcmRhZnRhciBkaSBiZWJlcmFwYSBvdXRsZXQ7IHNlcnRha2FuIG91dGxldF9pZCIsCiAgICAgIHsgb3V0bGV0X2lkOiAiV2FqaWIgZGlpc2kga2FyZW5hIGVtYWlsIHRlcmRhZnRhciBkaSBsZWJpaCBkYXJpIHNhdHUgb3V0bGV0IiB9LAogICAgKTsKICB9CgogIGNvbnN0IHVzZXIgPSBtYXRjaGVzWzBdIGFzIFVzZXJSb3c7CiAgY29uc3Qgc2Vzc2lvbiA9IGF3YWl0IGNyZWF0ZVNlc3Npb24oZGIsIHsKICAgIGlkOiB1c2VyLmlkLAogICAgb3V0bGV0X2lkOiB1c2VyLm91dGxldF9pZCwKICB9KTsKCiAgcmV0dXJuIGMuanNvbigKICAgIHN1Y2Nlc3NFbnZlbG9wZSgKICAgICAgewogICAgICAgIHRva2VuOiBzZXNzaW9uLnRva2VuLAogICAgICAgIGV4cGlyZXNfYXQ6IHNlc3Npb24uZXhwaXJlc0F0LAogICAgICAgIHVzZXI6IHsKICAgICAgICAgIGlkOiB1c2VyLmlkLAogICAgICAgICAgb3V0bGV0X2lkOiB1c2VyLm91dGxldF9pZCwKICAgICAgICAgIG5hbWU6IHVzZXIubmFtZSwKICAgICAgICAgIGVtYWlsOiB1c2VyLmVtYWlsLAogICAgICAgICAgcm9sZTogdXNlci5yb2xlLAogICAgICAgIH0sCiAgICAgIH0sCiAgICAgIGMuZ2V0KCJyZXF1ZXN0SWQiKSwKICAgICksCiAgICAyMDAsCiAgKTsKfSk7CgphdXRoLnVzZSgiL2F1dGgvbG9nb3V0IiwgYXV0aE1pZGRsZXdhcmUpOwphdXRoLnVzZSgiL2F1dGgvbWUiLCBhdXRoTWlkZGxld2FyZSk7CgphdXRoLnBvc3QoIi9hdXRoL2xvZ291dCIsIGFzeW5jIChjKSA9PiB7CiAgY29uc3QgdXNlciA9IGMuZ2V0KCJ1c2VyIik7CiAgYXdhaXQgcmV2b2tlU2Vzc2lvbihjLmVudi5EQiwgdXNlci5zZXNzaW9uX2lkKTsKICByZXR1cm4gYy5qc29uKAogICAgc3VjY2Vzc0VudmVsb3BlKHsgbG9nZ2VkX291dDogdHJ1ZSB9LCBjLmdldCgicmVxdWVzdElkIikpLAogICAgMjAwLAogICk7Cn0pOwoKYXV0aC5nZXQoIi9hdXRoL21lIiwgKGMpID0+IHsKICBjb25zdCB1c2VyID0gYy5nZXQoInVzZXIiKTsKICByZXR1cm4gYy5qc29uKAogICAgc3VjY2Vzc0VudmVsb3BlKAogICAgICB7CiAgICAgICAgaWQ6IHVzZXIuaWQsCiAgICAgICAgb3V0bGV0X2lkOiB1c2VyLm91dGxldF9pZCwKICAgICAgICBuYW1lOiB1c2VyLm5hbWUsCiAgICAgICAgZW1haWw6IHVzZXIuZW1haWwsCiAgICAgICAgcm9sZTogdXNlci5yb2xlLAogICAgICB9LAogICAgICBjLmdldCgicmVxdWVzdElkIiksCiAgICApLAogICAgMjAwLAogICk7Cn0pOwoKZXhwb3J0IGRlZmF1bHQgYXV0aDsK
+/**
+ * Rute auth (kontrak G1b):
+ * - POST /api/v1/auth/login  — verifikasi nyata ke tabel users (PBKDF2),
+ *   menerbitkan token sesi; hash token disimpan di tabel sessions.
+ * - POST /api/v1/auth/logout — mencabut sesi aktif.
+ * - GET  /api/v1/auth/me     — profil pengguna aktif (tanpa hash).
+ *
+ * Email unik per outlet (UNIQUE(outlet_id, email)); bila email yang sama ada
+ * di beberapa outlet, klien dapat menyertakan outlet_id. Bila kata sandi cocok
+ * di lebih dari satu outlet dan outlet_id tidak disertakan, server meminta
+ * outlet_id secara eksplisit (VALIDATION_ERROR) agar tidak menebak outlet.
+ */
+import { Hono } from "hono";
+import { z } from "zod";
+import { ApiError } from "../lib/errors";
+import { successEnvelope } from "../lib/envelope";
+import { verifyPassword } from "../lib/password";
+import { authMiddleware, createSession, revokeSession } from "../lib/auth";
+import { parseWith, readJsonBody } from "../lib/validate";
+import type { Env, Role, Variables } from "../lib/types";
+
+const auth = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+const loginSchema = z.object({
+  email: z.string().email("Format email tidak valid"),
+  password: z.string().min(1, "Kata sandi wajib diisi"),
+  outlet_id: z.string().min(1).optional(),
+});
+
+interface UserRow {
+  id: string;
+  outlet_id: string;
+  name: string;
+  email: string;
+  password_hash: string;
+  role: Role;
+}
+
+auth.post("/auth/login", async (c) => {
+  const body = parseWith(loginSchema, await readJsonBody(c.req));
+  const db = c.env.DB;
+
+  const { results } = await db
+    .prepare(
+      `SELECT id, outlet_id, name, email, password_hash, role
+         FROM users
+        WHERE email = ? AND is_active = 1 AND deleted_at IS NULL
+          AND (? IS NULL OR outlet_id = ?)`,
+    )
+    .bind(body.email, body.outlet_id ?? null, body.outlet_id ?? null)
+    .all<UserRow>();
+
+  const matches: UserRow[] = [];
+  for (const row of results) {
+    if (await verifyPassword(body.password, row.password_hash)) {
+      matches.push(row);
+    }
+  }
+
+  if (matches.length === 0) {
+    throw new ApiError("UNAUTHORIZED", "Email atau kata sandi tidak valid");
+  }
+  if (matches.length > 1) {
+    throw new ApiError(
+      "VALIDATION_ERROR",
+      "Email terdaftar di beberapa outlet; sertakan outlet_id",
+      { outlet_id: "Wajib diisi karena email terdaftar di lebih dari satu outlet" },
+    );
+  }
+
+  const user = matches[0] as UserRow;
+  const session = await createSession(db, {
+    id: user.id,
+    outlet_id: user.outlet_id,
+  });
+
+  return c.json(
+    successEnvelope(
+      {
+        token: session.token,
+        expires_at: session.expiresAt,
+        user: {
+          id: user.id,
+          outlet_id: user.outlet_id,
+          name: user.name,
+          email: user.email,
+          role: user.role,
+        },
+      },
+      c.get("requestId"),
+    ),
+    200,
+  );
+});
+
+auth.use("/auth/logout", authMiddleware);
+auth.use("/auth/me", authMiddleware);
+
+auth.post("/auth/logout", async (c) => {
+  const user = c.get("user");
+  await revokeSession(c.env.DB, user.session_id);
+  return c.json(
+    successEnvelope({ logged_out: true }, c.get("requestId")),
+    200,
+  );
+});
+
+auth.get("/auth/me", (c) => {
+  const user = c.get("user");
+  return c.json(
+    successEnvelope(
+      {
+        id: user.id,
+        outlet_id: user.outlet_id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+      },
+      c.get("requestId"),
+    ),
+    200,
+  );
+});
+
+export default auth;
