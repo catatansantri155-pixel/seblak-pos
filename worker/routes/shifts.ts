@@ -1,1 +1,153 @@
-LyoqCiAqIFJ1dGUgc2hpZnQga2FzIChrb250cmFrIEcxYik6CiAqIC0gUE9TVCAvYXBpL3YxL3NoaWZ0cy9vcGVuICAgICAgICAg4oCUIHNhdHUgc2hpZnQgdGVyYnVrYSBwZXIgKG91dGxldCwga2FzaXIpOwogKiAgIG1lbWJ1a2EgbGFnaSBzYWF0IG1hc2loIGFkYSB5YW5nIHRlcmJ1a2EgLT4gQ09ORkxJQ1QuCiAqIC0gUE9TVCAvYXBpL3YxL3NoaWZ0cy86aWQvY2xvc2UgICAg4oCUIGNvdW50ZWRfY2FzaCB3YWppYjsgc2VydmVyIG1lbmdoaXR1bmcKICogICBleHBlY3RlZF9jYXNoIChtb2RhbCBhd2FsICsgbXV0YXNpIGthcyArIHBlbWJheWFyYW4gdHVuYWkgc2V0dGxlZCBwYWRhCiAqICAgc2hpZnQpIGRhbiBkaWZmZXJlbmNlID0gY291bnRlZCAtIGV4cGVjdGVkLgogKiAtIEdFVCAgL2FwaS92MS9zaGlmdHMvY3VycmVudCAgICAgIOKAlCBzaGlmdCB0ZXJidWthIG1pbGlrIHBlbmdndW5hIGFrdGlmLgogKi8KaW1wb3J0IHsgSG9ubyB9IGZyb20gImhvbm8iOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgQXBpRXJyb3IgfSBmcm9tICIuLi9saWIvZXJyb3JzIjsKaW1wb3J0IHsgc3VjY2Vzc0VudmVsb3BlIH0gZnJvbSAiLi4vbGliL2VudmVsb3BlIjsKaW1wb3J0IHsgcGFyc2VXaXRoLCByZWFkSnNvbkJvZHkgfSBmcm9tICIuLi9saWIvdmFsaWRhdGUiOwppbXBvcnQgdHlwZSB7IEVudiwgVmFyaWFibGVzIH0gZnJvbSAiLi4vbGliL3R5cGVzIjsKCmNvbnN0IHNoaWZ0cyA9IG5ldyBIb25vPHsgQmluZGluZ3M6IEVudjsgVmFyaWFibGVzOiBWYXJpYWJsZXMgfT4oKTsKCmV4cG9ydCBpbnRlcmZhY2UgU2hpZnRSb3cgewogIGlkOiBzdHJpbmc7IG91dGxldF9pZDogc3RyaW5nOyBjYXNoaWVyX2lkOiBzdHJpbmcgfCBudWxsOwogIG9wZW5lZF9hdDogbnVtYmVyOyBjbG9zZWRfYXQ6IG51bWJlciB8IG51bGw7IG9wZW5pbmdfY2FzaDogbnVtYmVyOwogIGV4cGVjdGVkX2Nhc2g6IG51bWJlciB8IG51bGw7IGNvdW50ZWRfY2FzaDogbnVtYmVyIHwgbnVsbDsKICBkaWZmZXJlbmNlOiBudW1iZXIgfCBudWxsOyBzdGF0dXM6IHN0cmluZzsgdmVyc2lvbjogbnVtYmVyOwp9Cgpjb25zdCBzaGlmdE91dCA9IChyOiBTaGlmdFJvdykgPT4gKHsKICBpZDogci5pZCwgb3V0bGV0X2lkOiByLm91dGxldF9pZCwgY2FzaGllcl9pZDogci5jYXNoaWVyX2lkLAogIG9wZW5lZF9hdDogci5vcGVuZWRfYXQsIGNsb3NlZF9hdDogci5jbG9zZWRfYXQsCiAgb3BlbmluZ19jYXNoOiByLm9wZW5pbmdfY2FzaCwgZXhwZWN0ZWRfY2FzaDogci5leHBlY3RlZF9jYXNoLAogIGNvdW50ZWRfY2FzaDogci5jb3VudGVkX2Nhc2gsIGRpZmZlcmVuY2U6IHIuZGlmZmVyZW5jZSwKICBzdGF0dXM6IHIuc3RhdHVzLCB2ZXJzaW9uOiByLnZlcnNpb24sCn0pOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGZpbmRPcGVuU2hpZnQoCiAgZGI6IEQxRGF0YWJhc2UsIG91dGxldElkOiBzdHJpbmcsIGNhc2hpZXJJZDogc3RyaW5nLAopOiBQcm9taXNlPFNoaWZ0Um93IHwgbnVsbD4gewogIHJldHVybiBkYgogICAgLnByZXBhcmUoCiAgICAgICJTRUxFQ1QgKiBGUk9NIGNhc2hfc2hpZnRzIFdIRVJFIG91dGxldF9pZCA9ID8gQU5EIGNhc2hpZXJfaWQgPSA/IEFORCBzdGF0dXMgPSAnb3BlbicgQU5EIGRlbGV0ZWRfYXQgSVMgTlVMTCBPUkRFUiBCWSBvcGVuZWRfYXQgREVTQyBMSU1JVCAxIiwKICAgICkKICAgIC5iaW5kKG91dGxldElkLCBjYXNoaWVySWQpCiAgICAuZmlyc3Q8U2hpZnRSb3c+KCk7Cn0KCi8qKiBUb3RhbCBwZW1iYXlhcmFuIHR1bmFpIHlhbmcgc3VkYWggc2V0dGxlZCBwYWRhIHNoaWZ0IGluaS4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNldHRsZWRDYXNoVG90YWwoCiAgZGI6IEQxRGF0YWJhc2UsIG91dGxldElkOiBzdHJpbmcsIHNoaWZ0SWQ6IHN0cmluZywKKTogUHJvbWlzZTxudW1iZXI+IHsKICBjb25zdCByb3cgPSBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgIGBTRUxFQ1QgQ09BTEVTQ0UoU1VNKGFtb3VudCAtIGNoYW5nZV9hbW91bnQpLCAwKSBBUyB0b3RhbAogICAgICAgICBGUk9NIHBheW1lbnRzCiAgICAgICAgV0hFUkUgb3V0bGV0X2lkID0gPyBBTkQgc2hpZnRfaWQgPSA/IEFORCBtZXRob2QgPSAnY2FzaCcKICAgICAgICAgIEFORCBzdGF0dXMgPSAnc2V0dGxlZCcgQU5EIGRlbGV0ZWRfYXQgSVMgTlVMTGAsCiAgICApCiAgICAuYmluZChvdXRsZXRJZCwgc2hpZnRJZCkKICAgIC5maXJzdDx7IHRvdGFsOiBudW1iZXIgfT4oKTsKICByZXR1cm4gcm93Py50b3RhbCA/PyAwOwp9CgovKiogVG90YWwgbXV0YXNpIGthcyBtYW51YWwgKGluIC0gb3V0OyBhZGp1c3RtZW50IGJlcnRhbmRhIG1lbmdpa3V0aSBhbW91bnQpLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY2FzaE1vdmVtZW50c1RvdGFsKAogIGRiOiBEMURhdGFiYXNlLCBzaGlmdElkOiBzdHJpbmcsCik6IFByb21pc2U8bnVtYmVyPiB7CiAgY29uc3Qgcm93ID0gYXdhaXQgZGIKICAgIC5wcmVwYXJlKAogICAgICBgU0VMRUNUIENPQUxFU0NFKFNVTShDQVNFIFdIRU4gdHlwZSA9ICdvdXQnIFRIRU4gLWFtb3VudCBFTFNFIGFtb3VudCBFTkQpLCAwKSBBUyB0b3RhbAogICAgICAgICBGUk9NIGNhc2hfbW92ZW1lbnRzIFdIRVJFIHNoaWZ0X2lkID0gP2AsCiAgICApCiAgICAuYmluZChzaGlmdElkKQogICAgLmZpcnN0PHsgdG90YWw6IG51bWJlciB9PigpOwogIHJldHVybiByb3c/LnRvdGFsID8/IDA7Cn0KCmNvbnN0IG9wZW5TY2hlbWEgPSB6Lm9iamVjdCh7CiAgb3BlbmluZ19jYXNoOiB6Lm51bWJlcigpLmludCgpLm1pbigwKS5kZWZhdWx0KDApLAp9KTsKCnNoaWZ0cy5wb3N0KCIvc2hpZnRzL29wZW4iLCBhc3luYyAoYykgPT4gewogIGNvbnN0IHVzZXIgPSBjLmdldCgidXNlciIpOwogIGNvbnN0IGJvZHkgPSBwYXJzZVdpdGgob3BlblNjaGVtYSwgYXdhaXQgcmVhZEpzb25Cb2R5KGMucmVxKSk7CiAgY29uc3QgZXhpc3RpbmcgPSBhd2FpdCBmaW5kT3BlblNoaWZ0KGMuZW52LkRCLCB1c2VyLm91dGxldF9pZCwgdXNlci5pZCk7CiAgaWYgKGV4aXN0aW5nKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoIkNPTkZMSUNUIiwgIk1hc2loIGFkYSBzaGlmdCB0ZXJidWthIHVudHVrIGthc2lyIGluaSIsIHsKICAgICAgc2hpZnRfaWQ6IGV4aXN0aW5nLmlkLAogICAgfSk7CiAgfQogIGNvbnN0IHQgPSBEYXRlLm5vdygpOwogIGNvbnN0IGlkID0gY3J5cHRvLnJhbmRvbVVVSUQoKTsKICBhd2FpdCBjLmVudi5EQgogICAgLnByZXBhcmUoCiAgICAgIGBJTlNFUlQgSU5UTyBjYXNoX3NoaWZ0cyAoaWQsIG91dGxldF9pZCwgY2FzaGllcl9pZCwgb3BlbmVkX2F0LCBjbG9zZWRfYXQsIG9wZW5pbmdfY2FzaCwKICAgICAgICAgICAgICBleHBlY3RlZF9jYXNoLCBjb3VudGVkX2Nhc2gsIGRpZmZlcmVuY2UsIHN0YXR1cywgY3JlYXRlZF9hdCwgdXBkYXRlZF9hdCwgZGVsZXRlZF9hdCwgdmVyc2lvbikKICAgICAgIFZBTFVFUyAoPywgPywgPywgPywgTlVMTCwgPywgTlVMTCwgTlVMTCwgTlVMTCwgJ29wZW4nLCA/LCA/LCBOVUxMLCAxKWAsCiAgICApCiAgICAuYmluZChpZCwgdXNlci5vdXRsZXRfaWQsIHVzZXIuaWQsIHQsIGJvZHkub3BlbmluZ19jYXNoLCB0LCB0KQogICAgLnJ1bigpOwogIGNvbnN0IHJvdyA9IGF3YWl0IGMuZW52LkRCCiAgICAucHJlcGFyZSgiU0VMRUNUICogRlJPTSBjYXNoX3NoaWZ0cyBXSEVSRSBpZCA9ID8iKQogICAgLmJpbmQoaWQpCiAgICAuZmlyc3Q8U2hpZnRSb3c+KCk7CiAgcmV0dXJuIGMuanNvbihzdWNjZXNzRW52ZWxvcGUoc2hpZnRPdXQocm93IGFzIFNoaWZ0Um93KSwgYy5nZXQoInJlcXVlc3RJZCIpKSwgMjAxKTsKfSk7Cgpjb25zdCBjbG9zZVNjaGVtYSA9IHoub2JqZWN0KHsKICBjb3VudGVkX2Nhc2g6IHoubnVtYmVyKCkuaW50KCkubWluKDAsICJVYW5nIHRlcmhpdHVuZyB3YWppYiBkaWlzaSIpLAp9KTsKCnNoaWZ0cy5wb3N0KCIvc2hpZnRzLzppZC9jbG9zZSIsIGFzeW5jIChjKSA9PiB7CiAgY29uc3QgdXNlciA9IGMuZ2V0KCJ1c2VyIik7CiAgY29uc3QgaWQgPSBjLnJlcS5wYXJhbSgiaWQiKTsKICBjb25zdCBib2R5ID0gcGFyc2VXaXRoKGNsb3NlU2NoZW1hLCBhd2FpdCByZWFkSnNvbkJvZHkoYy5yZXEpKTsKICBjb25zdCByb3cgPSBhd2FpdCBjLmVudi5EQgogICAgLnByZXBhcmUoIlNFTEVDVCAqIEZST00gY2FzaF9zaGlmdHMgV0hFUkUgaWQgPSA/IEFORCBvdXRsZXRfaWQgPSA/IEFORCBkZWxldGVkX2F0IElTIE5VTEwiKQogICAgLmJpbmQoaWQsIHVzZXIub3V0bGV0X2lkKQogICAgLmZpcnN0PFNoaWZ0Um93PigpOwogIGlmICghcm93KSB0aHJvdyBuZXcgQXBpRXJyb3IoIk5PVF9GT1VORCIsICJTaGlmdCB0aWRhayBkaXRlbXVrYW4iKTsKICBpZiAocm93LnN0YXR1cyAhPT0gIm9wZW4iKSB7CiAgICB0aHJvdyBuZXcgQXBpRXJyb3IoIkNPTkZMSUNUIiwgIlNoaWZ0IHN1ZGFoIGRpdHV0dXAiKTsKICB9CiAgY29uc3QgY2FzaFNhbGVzID0gYXdhaXQgc2V0dGxlZENhc2hUb3RhbChjLmVudi5EQiwgdXNlci5vdXRsZXRfaWQsIGlkKTsKICBjb25zdCBtb3ZlbWVudHMgPSBhd2FpdCBjYXNoTW92ZW1lbnRzVG90YWwoYy5lbnYuREIsIGlkKTsKICBjb25zdCBleHBlY3RlZCA9IHJvdy5vcGVuaW5nX2Nhc2ggKyBtb3ZlbWVudHMgKyBjYXNoU2FsZXM7CiAgY29uc3QgZGlmZmVyZW5jZSA9IGJvZHkuY291bnRlZF9jYXNoIC0gZXhwZWN0ZWQ7CiAgY29uc3QgdCA9IERhdGUubm93KCk7CiAgYXdhaXQgYy5lbnYuREIKICAgIC5wcmVwYXJlKAogICAgICBgVVBEQVRFIGNhc2hfc2hpZnRzIFNFVCBjbG9zZWRfYXQgPSA/LCBleHBlY3RlZF9jYXNoID0gPywgY291bnRlZF9jYXNoID0gPywgZGlmZmVyZW5jZSA9ID8sCiAgICAgICAgICAgICAgc3RhdHVzID0gJ2Nsb3NlZCcsIHVwZGF0ZWRfYXQgPSA/LCB2ZXJzaW9uID0gdmVyc2lvbiArIDEgV0hFUkUgaWQgPSA/YCwKICAgICkKICAgIC5iaW5kKHQsIGV4cGVjdGVkLCBib2R5LmNvdW50ZWRfY2FzaCwgZGlmZmVyZW5jZSwgdCwgaWQpCiAgICAucnVuKCk7CiAgY29uc3QgdXBkYXRlZCA9IGF3YWl0IGMuZW52LkRCCiAgICAucHJlcGFyZSgiU0VMRUNUICogRlJPTSBjYXNoX3NoaWZ0cyBXSEVSRSBpZCA9ID8iKQogICAgLmJpbmQoaWQpCiAgICAuZmlyc3Q8U2hpZnRSb3c+KCk7CiAgcmV0dXJuIGMuanNvbigKICAgIHN1Y2Nlc3NFbnZlbG9wZSgKICAgICAgeyAuLi5zaGlmdE91dCh1cGRhdGVkIGFzIFNoaWZ0Um93KSwgY2FzaF9zYWxlc190b3RhbDogY2FzaFNhbGVzLCBjYXNoX21vdmVtZW50c190b3RhbDogbW92ZW1lbnRzIH0sCiAgICAgIGMuZ2V0KCJyZXF1ZXN0SWQiKSwKICAgICksCiAgICAyMDAsCiAgKTsKfSk7CgpzaGlmdHMuZ2V0KCIvc2hpZnRzL2N1cnJlbnQiLCBhc3luYyAoYykgPT4gewogIGNvbnN0IHVzZXIgPSBjLmdldCgidXNlciIpOwogIGNvbnN0IHJvdyA9IGF3YWl0IGZpbmRPcGVuU2hpZnQoYy5lbnYuREIsIHVzZXIub3V0bGV0X2lkLCB1c2VyLmlkKTsKICBpZiAoIXJvdykgdGhyb3cgbmV3IEFwaUVycm9yKCJTSElGVF9OT1RfT1BFTiIsICJUaWRhayBhZGEgc2hpZnQgdGVyYnVrYSB1bnR1ayBrYXNpciBpbmkiKTsKICByZXR1cm4gYy5qc29uKHN1Y2Nlc3NFbnZlbG9wZShzaGlmdE91dChyb3cpLCBjLmdldCgicmVxdWVzdElkIikpLCAyMDApOwp9KTsKCmV4cG9ydCBkZWZhdWx0IHNoaWZ0czsK
+/**
+ * Rute shift kas (kontrak G1b):
+ * - POST /api/v1/shifts/open         — satu shift terbuka per (outlet, kasir);
+ *   membuka lagi saat masih ada yang terbuka -> CONFLICT.
+ * - POST /api/v1/shifts/:id/close    — counted_cash wajib; server menghitung
+ *   expected_cash (modal awal + mutasi kas + pembayaran tunai settled pada
+ *   shift) dan difference = counted - expected.
+ * - GET  /api/v1/shifts/current      — shift terbuka milik pengguna aktif.
+ */
+import { Hono } from "hono";
+import { z } from "zod";
+import { ApiError } from "../lib/errors";
+import { successEnvelope } from "../lib/envelope";
+import { parseWith, readJsonBody } from "../lib/validate";
+import type { Env, Variables } from "../lib/types";
+
+const shifts = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+export interface ShiftRow {
+  id: string; outlet_id: string; cashier_id: string | null;
+  opened_at: number; closed_at: number | null; opening_cash: number;
+  expected_cash: number | null; counted_cash: number | null;
+  difference: number | null; status: string; version: number;
+}
+
+const shiftOut = (r: ShiftRow) => ({
+  id: r.id, outlet_id: r.outlet_id, cashier_id: r.cashier_id,
+  opened_at: r.opened_at, closed_at: r.closed_at,
+  opening_cash: r.opening_cash, expected_cash: r.expected_cash,
+  counted_cash: r.counted_cash, difference: r.difference,
+  status: r.status, version: r.version,
+});
+
+export async function findOpenShift(
+  db: D1Database, outletId: string, cashierId: string,
+): Promise<ShiftRow | null> {
+  return db
+    .prepare(
+      "SELECT * FROM cash_shifts WHERE outlet_id = ? AND cashier_id = ? AND status = 'open' AND deleted_at IS NULL ORDER BY opened_at DESC LIMIT 1",
+    )
+    .bind(outletId, cashierId)
+    .first<ShiftRow>();
+}
+
+/** Total pembayaran tunai yang sudah settled pada shift ini. */
+export async function settledCashTotal(
+  db: D1Database, outletId: string, shiftId: string,
+): Promise<number> {
+  const row = await db
+    .prepare(
+      `SELECT COALESCE(SUM(amount - change_amount), 0) AS total
+         FROM payments
+        WHERE outlet_id = ? AND shift_id = ? AND method = 'cash'
+          AND status = 'settled' AND deleted_at IS NULL`,
+    )
+    .bind(outletId, shiftId)
+    .first<{ total: number }>();
+  return row?.total ?? 0;
+}
+
+/** Total mutasi kas manual (in - out; adjustment bertanda mengikuti amount). */
+export async function cashMovementsTotal(
+  db: D1Database, shiftId: string,
+): Promise<number> {
+  const row = await db
+    .prepare(
+      `SELECT COALESCE(SUM(CASE WHEN type = 'out' THEN -amount ELSE amount END), 0) AS total
+         FROM cash_movements WHERE shift_id = ?`,
+    )
+    .bind(shiftId)
+    .first<{ total: number }>();
+  return row?.total ?? 0;
+}
+
+const openSchema = z.object({
+  opening_cash: z.number().int().min(0).default(0),
+});
+
+shifts.post("/shifts/open", async (c) => {
+  const user = c.get("user");
+  const body = parseWith(openSchema, await readJsonBody(c.req));
+  const existing = await findOpenShift(c.env.DB, user.outlet_id, user.id);
+  if (existing) {
+    throw new ApiError("CONFLICT", "Masih ada shift terbuka untuk kasir ini", {
+      shift_id: existing.id,
+    });
+  }
+  const t = Date.now();
+  const id = crypto.randomUUID();
+  await c.env.DB
+    .prepare(
+      `INSERT INTO cash_shifts (id, outlet_id, cashier_id, opened_at, closed_at, opening_cash,
+              expected_cash, counted_cash, difference, status, created_at, updated_at, deleted_at, version)
+       VALUES (?, ?, ?, ?, NULL, ?, NULL, NULL, NULL, 'open', ?, ?, NULL, 1)`,
+    )
+    .bind(id, user.outlet_id, user.id, t, body.opening_cash, t, t)
+    .run();
+  const row = await c.env.DB
+    .prepare("SELECT * FROM cash_shifts WHERE id = ?")
+    .bind(id)
+    .first<ShiftRow>();
+  return c.json(successEnvelope(shiftOut(row as ShiftRow), c.get("requestId")), 201);
+});
+
+const closeSchema = z.object({
+  counted_cash: z.number().int().min(0, "Uang terhitung wajib diisi"),
+});
+
+shifts.post("/shifts/:id/close", async (c) => {
+  const user = c.get("user");
+  const id = c.req.param("id");
+  const body = parseWith(closeSchema, await readJsonBody(c.req));
+  const row = await c.env.DB
+    .prepare("SELECT * FROM cash_shifts WHERE id = ? AND outlet_id = ? AND deleted_at IS NULL")
+    .bind(id, user.outlet_id)
+    .first<ShiftRow>();
+  if (!row) throw new ApiError("NOT_FOUND", "Shift tidak ditemukan");
+  if (row.status !== "open") {
+    throw new ApiError("CONFLICT", "Shift sudah ditutup");
+  }
+  const cashSales = await settledCashTotal(c.env.DB, user.outlet_id, id);
+  const movements = await cashMovementsTotal(c.env.DB, id);
+  const expected = row.opening_cash + movements + cashSales;
+  const difference = body.counted_cash - expected;
+  const t = Date.now();
+  await c.env.DB
+    .prepare(
+      `UPDATE cash_shifts SET closed_at = ?, expected_cash = ?, counted_cash = ?, difference = ?,
+              status = 'closed', updated_at = ?, version = version + 1 WHERE id = ?`,
+    )
+    .bind(t, expected, body.counted_cash, difference, t, id)
+    .run();
+  const updated = await c.env.DB
+    .prepare("SELECT * FROM cash_shifts WHERE id = ?")
+    .bind(id)
+    .first<ShiftRow>();
+  return c.json(
+    successEnvelope(
+      { ...shiftOut(updated as ShiftRow), cash_sales_total: cashSales, cash_movements_total: movements },
+      c.get("requestId"),
+    ),
+    200,
+  );
+});
+
+shifts.get("/shifts/current", async (c) => {
+  const user = c.get("user");
+  const row = await findOpenShift(c.env.DB, user.outlet_id, user.id);
+  if (!row) throw new ApiError("SHIFT_NOT_OPEN", "Tidak ada shift terbuka untuk kasir ini");
+  return c.json(successEnvelope(shiftOut(row), c.get("requestId")), 200);
+});
+
+export default shifts;
