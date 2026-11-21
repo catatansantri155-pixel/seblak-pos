@@ -1,1 +1,103 @@
-aW1wb3J0IHR5cGUgeyBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEJyb3dzZXJSb3V0ZXIsIE5hdmlnYXRlLCBSb3V0ZSwgUm91dGVzIH0gZnJvbSAicmVhY3Qtcm91dGVyLWRvbSI7CmltcG9ydCB7IEF1dGhQcm92aWRlciwgdXNlQXV0aCB9IGZyb20gIi4vYXBwL2F1dGgiOwppbXBvcnQgQXBwU2hlbGwgZnJvbSAiLi9hcHAvQXBwU2hlbGwiOwppbXBvcnQgdHlwZSB7IFJvbGUgfSBmcm9tICIuL2xpYi9hcGkiOwppbXBvcnQgTG9naW5QYWdlIGZyb20gIi4vZmVhdHVyZXMvYXV0aC9Mb2dpblBhZ2UiOwppbXBvcnQgS2FzaXJQYWdlIGZyb20gIi4vZmVhdHVyZXMva2FzaXIvS2FzaXJQYWdlIjsKaW1wb3J0IERhcHVyUGFnZSBmcm9tICIuL2ZlYXR1cmVzL2RhcHVyL0RhcHVyUGFnZSI7CmltcG9ydCBPcmRlcnNQYWdlIGZyb20gIi4vZmVhdHVyZXMvb3JkZXJzL09yZGVyc1BhZ2UiOwppbXBvcnQgU2hpZnRQYWdlIGZyb20gIi4vZmVhdHVyZXMvc2hpZnQvU2hpZnRQYWdlIjsKaW1wb3J0IExhcG9yYW5QYWdlIGZyb20gIi4vZmVhdHVyZXMvbGFwb3Jhbi9MYXBvcmFuUGFnZSI7CmltcG9ydCBTdG9rUGFnZSBmcm9tICIuL2ZlYXR1cmVzL3N0b2svU3Rva1BhZ2UiOwppbXBvcnQgUHJvbW9QYWdlIGZyb20gIi4vZmVhdHVyZXMvcHJvbW8vUHJvbW9QYWdlIjsKaW1wb3J0IFVzZXJzUGFnZSBmcm9tICIuL2ZlYXR1cmVzL3BlbmdndW5hL1VzZXJzUGFnZSI7CmltcG9ydCBQZW5nYXR1cmFuUGFnZSBmcm9tICIuL2ZlYXR1cmVzL3BlbmdhdHVyYW4vUGVuZ2F0dXJhblBhZ2UiOwoKLyoqIEdlcmJhbmcgcnV0ZSB0ZXJwcm90ZWtzaTogYmVsdW0gbG9naW4gLT4gL2xvZ2luLiAqLwpmdW5jdGlvbiBSZXF1aXJlQXV0aCh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0Tm9kZSB9KSB7CiAgY29uc3QgeyB1c2VyLCBsb2FkaW5nIH0gPSB1c2VBdXRoKCk7CiAgaWYgKGxvYWRpbmcpIHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IG1pbi1oLWR2aCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYmctY2FudmFzIj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1tdXRlZCI+TWVtZXJpa3NhIHNlc2nigKY8L3A+CiAgICAgIDwvZGl2PgogICAgKTsKICB9CiAgaWYgKCF1c2VyKSByZXR1cm4gPE5hdmlnYXRlIHRvPSIvbG9naW4iIHJlcGxhY2UgLz47CiAgcmV0dXJuIDw+e2NoaWxkcmVufTwvPjsKfQoKLyoqIEdlcmJhbmcgcGVyYW46IGtvbnNpc3RlbiBkZW5nYW4gbWVudSBBcHBTaGVsbCAmIHBlbmVnYWthbiBzZXJ2ZXIuICovCmZ1bmN0aW9uIFJlcXVpcmVSb2xlKHsgcm9sZXMsIGNoaWxkcmVuIH06IHsgcm9sZXM6IFJvbGVbXTsgY2hpbGRyZW46IFJlYWN0Tm9kZSB9KSB7CiAgY29uc3QgeyB1c2VyIH0gPSB1c2VBdXRoKCk7CiAgaWYgKCF1c2VyKSByZXR1cm4gPE5hdmlnYXRlIHRvPSIvbG9naW4iIHJlcGxhY2UgLz47CiAgaWYgKCFyb2xlcy5pbmNsdWRlcyh1c2VyLnJvbGUpKSByZXR1cm4gPE5hdmlnYXRlIHRvPSIvIiByZXBsYWNlIC8+OwogIHJldHVybiA8PntjaGlsZHJlbn08Lz47Cn0KCi8qKiBIYWxhbWFuIGF3YWwgbWVuZ2lrdXRpIHBlcmFuOiBkYXB1ciBsYW5nc3VuZyBrZSBhbnRyZWFuIGRhcHVyLiAqLwpmdW5jdGlvbiBSb2xlSG9tZSgpIHsKICBjb25zdCB7IHVzZXIgfSA9IHVzZUF1dGgoKTsKICBpZiAodXNlcj8ucm9sZSA9PT0gImtpdGNoZW4iKSByZXR1cm4gPE5hdmlnYXRlIHRvPSIvZGFwdXIiIHJlcGxhY2UgLz47CiAgcmV0dXJuIDxOYXZpZ2F0ZSB0bz0iL2thc2lyIiByZXBsYWNlIC8+Owp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBcHAoKSB7CiAgcmV0dXJuICgKICAgIDxBdXRoUHJvdmlkZXI+CiAgICAgIDxCcm93c2VyUm91dGVyPgogICAgICAgIDxSb3V0ZXM+CiAgICAgICAgICA8Um91dGUgcGF0aD0iL2xvZ2luIiBlbGVtZW50PXs8TG9naW5QYWdlIC8+fSAvPgogICAgICAgICAgPFJvdXRlCiAgICAgICAgICAgIGVsZW1lbnQ9ewogICAgICAgICAgICAgIDxSZXF1aXJlQXV0aD4KICAgICAgICAgICAgICAgIDxBcHBTaGVsbCAvPgogICAgICAgICAgICAgIDwvUmVxdWlyZUF1dGg+CiAgICAgICAgICAgIH0KICAgICAgICAgID4KICAgICAgICAgICAgPFJvdXRlIGluZGV4IGVsZW1lbnQ9ezxSb2xlSG9tZSAvPn0gLz4KICAgICAgICAgICAgPFJvdXRlIHBhdGg9Ii9rYXNpciIgZWxlbWVudD17PEthc2lyUGFnZSAvPn0gLz4KICAgICAgICAgICAgPFJvdXRlIHBhdGg9Ii9kYXB1ciIgZWxlbWVudD17PERhcHVyUGFnZSAvPn0gLz4KICAgICAgICAgICAgPFJvdXRlIHBhdGg9Ii9wZXNhbmFuIiBlbGVtZW50PXs8T3JkZXJzUGFnZSAvPn0gLz4KICAgICAgICAgICAgPFJvdXRlIHBhdGg9Ii9zaGlmdCIgZWxlbWVudD17PFNoaWZ0UGFnZSAvPn0gLz4KICAgICAgICAgICAgPFJvdXRlCiAgICAgICAgICAgICAgcGF0aD0iL2xhcG9yYW4iCiAgICAgICAgICAgICAgZWxlbWVudD17CiAgICAgICAgICAgICAgICA8UmVxdWlyZVJvbGUgcm9sZXM9e1sib3duZXIiLCAibWFuYWdlciJdfT4KICAgICAgICAgICAgICAgICAgPExhcG9yYW5QYWdlIC8+CiAgICAgICAgICAgICAgICA8L1JlcXVpcmVSb2xlPgogICAgICAgICAgICAgIH0KICAgICAgICAgICAgLz4KICAgICAgICAgICAgPFJvdXRlCiAgICAgICAgICAgICAgcGF0aD0iL3N0b2siCiAgICAgICAgICAgICAgZWxlbWVudD17CiAgICAgICAgICAgICAgICA8UmVxdWlyZVJvbGUgcm9sZXM9e1sib3duZXIiLCAibWFuYWdlciIsICJjYXNoaWVyIl19PgogICAgICAgICAgICAgICAgICA8U3Rva1BhZ2UgLz4KICAgICAgICAgICAgICAgIDwvUmVxdWlyZVJvbGU+CiAgICAgICAgICAgICAgfQogICAgICAgICAgICAvPgogICAgICAgICAgICA8Um91dGUKICAgICAgICAgICAgICBwYXRoPSIvcHJvbW8iCiAgICAgICAgICAgICAgZWxlbWVudD17CiAgICAgICAgICAgICAgICA8UmVxdWlyZVJvbGUgcm9sZXM9e1sib3duZXIiLCAibWFuYWdlciJdfT4KICAgICAgICAgICAgICAgICAgPFByb21vUGFnZSAvPgogICAgICAgICAgICAgICAgPC9SZXF1aXJlUm9sZT4KICAgICAgICAgICAgICB9CiAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDxSb3V0ZQogICAgICAgICAgICAgIHBhdGg9Ii9wZW5nZ3VuYSIKICAgICAgICAgICAgICBlbGVtZW50PXsKICAgICAgICAgICAgICAgIDxSZXF1aXJlUm9sZSByb2xlcz17WyJvd25lciIsICJtYW5hZ2VyIl19PgogICAgICAgICAgICAgICAgICA8VXNlcnNQYWdlIC8+CiAgICAgICAgICAgICAgICA8L1JlcXVpcmVSb2xlPgogICAgICAgICAgICAgIH0KICAgICAgICAgICAgLz4KICAgICAgICAgICAgPFJvdXRlIHBhdGg9Ii9wZW5nYXR1cmFuIiBlbGVtZW50PXs8UGVuZ2F0dXJhblBhZ2UgLz59IC8+CiAgICAgICAgICA8L1JvdXRlPgogICAgICAgICAgPFJvdXRlIHBhdGg9IioiIGVsZW1lbnQ9ezxOYXZpZ2F0ZSB0bz0iLyIgcmVwbGFjZSAvPn0gLz4KICAgICAgICA8L1JvdXRlcz4KICAgICAgPC9Ccm93c2VyUm91dGVyPgogICAgPC9BdXRoUHJvdmlkZXI+CiAgKTsKfQo=
+import type { ReactNode } from "react";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { AuthProvider, useAuth } from "./app/auth";
+import AppShell from "./app/AppShell";
+import type { Role } from "./lib/api";
+import LoginPage from "./features/auth/LoginPage";
+import KasirPage from "./features/kasir/KasirPage";
+import DapurPage from "./features/dapur/DapurPage";
+import OrdersPage from "./features/orders/OrdersPage";
+import ShiftPage from "./features/shift/ShiftPage";
+import LaporanPage from "./features/laporan/LaporanPage";
+import StokPage from "./features/stok/StokPage";
+import PromoPage from "./features/promo/PromoPage";
+import UsersPage from "./features/pengguna/UsersPage";
+import PengaturanPage from "./features/pengaturan/PengaturanPage";
+
+/** Gerbang rute terproteksi: belum login -> /login. */
+function RequireAuth({ children }: { children: ReactNode }) {
+  const { user, loading } = useAuth();
+  if (loading) {
+    return (
+      <div className="flex min-h-dvh items-center justify-center bg-canvas">
+        <p className="text-sm font-medium text-muted">Memeriksa sesi…</p>
+      </div>
+    );
+  }
+  if (!user) return <Navigate to="/login" replace />;
+  return <>{children}</>;
+}
+
+/** Gerbang peran: konsisten dengan menu AppShell & penegakan server. */
+function RequireRole({ roles, children }: { roles: Role[]; children: ReactNode }) {
+  const { user } = useAuth();
+  if (!user) return <Navigate to="/login" replace />;
+  if (!roles.includes(user.role)) return <Navigate to="/" replace />;
+  return <>{children}</>;
+}
+
+/** Halaman awal mengikuti peran: dapur langsung ke antrean dapur. */
+function RoleHome() {
+  const { user } = useAuth();
+  if (user?.role === "kitchen") return <Navigate to="/dapur" replace />;
+  return <Navigate to="/kasir" replace />;
+}
+
+export default function App() {
+  return (
+    <AuthProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/login" element={<LoginPage />} />
+          <Route
+            element={
+              <RequireAuth>
+                <AppShell />
+              </RequireAuth>
+            }
+          >
+            <Route index element={<RoleHome />} />
+            <Route path="/kasir" element={<KasirPage />} />
+            <Route path="/dapur" element={<DapurPage />} />
+            <Route path="/pesanan" element={<OrdersPage />} />
+            <Route path="/shift" element={<ShiftPage />} />
+            <Route
+              path="/laporan"
+              element={
+                <RequireRole roles={["owner", "manager"]}>
+                  <LaporanPage />
+                </RequireRole>
+              }
+            />
+            <Route
+              path="/stok"
+              element={
+                <RequireRole roles={["owner", "manager", "cashier"]}>
+                  <StokPage />
+                </RequireRole>
+              }
+            />
+            <Route
+              path="/promo"
+              element={
+                <RequireRole roles={["owner", "manager"]}>
+                  <PromoPage />
+                </RequireRole>
+              }
+            />
+            <Route
+              path="/pengguna"
+              element={
+                <RequireRole roles={["owner", "manager"]}>
+                  <UsersPage />
+                </RequireRole>
+              }
+            />
+            <Route path="/pengaturan" element={<PengaturanPage />} />
+          </Route>
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
+  );
+}
