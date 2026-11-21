@@ -133,13 +133,14 @@ interface OfflinePromptState {
  * aman); isi berubah -> kunci baru (server menolak kunci sama isi beda). */
 function useKeyedIdempotency() {
   const store = useRef(new Map<string, { sig: string; key: string }>());
-  return useCallback((scope: string, signature: string): string => {
+  const keyFor = (scope: string, signature: string): string => {
     const existing = store.current.get(scope);
     if (existing && existing.sig === signature) return existing.key;
     const key = newIdempotencyKey();
     store.current.set(scope, { sig: signature, key });
     return key;
-  }, []);
+  };
+  return { keyFor, clearKeys: () => store.current.clear() };
 }
 
 // ------------------------------------------------------------------ stepper
@@ -183,7 +184,7 @@ function QtyStepper({
 
 export default function KasirPage() {
   const { user } = useAuth();
-  const keyFor = useKeyedIdempotency();
+  const { keyFor, clearKeys } = useKeyedIdempotency();
 
   const [shift, setShift] = useState<Shift | null>(null);
   const [shiftLoading, setShiftLoading] = useState(true);
@@ -436,6 +437,7 @@ export default function KasirPage() {
     };
     setCreating(true);
     setError(null);
+    setSyncNotice(null);
     try {
       const order = await createOrder(input, key);
       setCreatedOrder(order);
@@ -483,6 +485,7 @@ export default function KasirPage() {
     const key = keyFor("pay", JSON.stringify({ order: createdOrder.id, ...input }));
     setPaying(true);
     setError(null);
+    setSyncNotice(null);
     try {
       const result = await payOrder(createdOrder.id, input, key);
       setPayResult(result);
@@ -495,28 +498,33 @@ export default function KasirPage() {
       if (isApiError(err) && err.code === "NETWORK_ERROR") {
         // Pembayaran gagal terkirim karena jaringan: antrekan sebagai
         // event pembayaran offline untuk order yang SUDAH ada di server.
-        addOutboxEntry({
-          id: newIdempotencyKey(),
-          kind: "payment",
-          client_tx_id: createdOrder.client_tx_id ?? "",
-          payment_client_tx_id: newIdempotencyKey(),
-          idempotency_key: key,
-          order_input: null,
-          order_id: createdOrder.id,
-          order_label: createdOrder.order_no,
-          payment: {
-            method: input.method,
-            amount: input.amount,
-            reference_no: input.reference_no ?? null,
-          },
-          preview_total: input.amount,
-          item_count: 0,
-          item_summary: `Pembayaran ${paymentMethodLabel(input.method)} ${formatRp(input.amount)} untuk pesanan ${createdOrder.order_no}`,
-          created_at: Date.now(),
-          status: "queued",
-          reject_code: null,
-          reject_reason: null,
-        });
+        try {
+          addOutboxEntry({
+            id: newIdempotencyKey(),
+            kind: "payment",
+            client_tx_id: createdOrder.client_tx_id ?? "",
+            payment_client_tx_id: newIdempotencyKey(),
+            idempotency_key: key,
+            order_input: null,
+            order_id: createdOrder.id,
+            order_label: createdOrder.order_no,
+            payment: {
+              method: input.method,
+              amount: input.amount,
+              reference_no: input.reference_no ?? null,
+            },
+            preview_total: input.amount,
+            item_count: 0,
+            item_summary: `Pembayaran ${paymentMethodLabel(input.method)} ${formatRp(input.amount)} untuk pesanan ${createdOrder.order_no}`,
+            created_at: Date.now(),
+            status: "queued",
+            reject_code: null,
+            reject_reason: null,
+          });
+        } catch (storageError) {
+          setError(`Pembayaran belum tersimpan di perangkat. ${humanError(storageError)}`);
+          return;
+        }
         setSyncNotice(
           `Pembayaran pesanan ${createdOrder.order_no} tercatat di perangkat (belum masuk server) dan akan disinkronkan.`,
         );
@@ -548,6 +556,7 @@ export default function KasirPage() {
   };
 
   const resetTransaction = () => {
+    clearKeys();
     setCart([]);
     setPromoCodes([]);
     setPromoInput("");
@@ -575,24 +584,29 @@ export default function KasirPage() {
                 : offlinePrompt.previewTotal,
             reference_no: null,
           };
-    addOutboxEntry({
-      id: offlinePrompt.input.client_tx_id ?? newIdempotencyKey(),
-      kind: "checkout",
-      client_tx_id: offlinePrompt.input.client_tx_id ?? "",
-      payment_client_tx_id: newIdempotencyKey(),
-      idempotency_key: offlinePrompt.idempotencyKey,
-      order_input: offlinePrompt.input,
-      order_id: null,
-      order_label: "Checkout offline",
-      payment,
-      preview_total: offlinePrompt.previewTotal,
-      item_count: offlinePrompt.itemCount,
-      item_summary: offlinePrompt.itemSummary,
-      created_at: Date.now(),
-      status: "queued",
-      reject_code: null,
-      reject_reason: null,
-    });
+    try {
+      addOutboxEntry({
+        id: offlinePrompt.input.client_tx_id ?? newIdempotencyKey(),
+        kind: "checkout",
+        client_tx_id: offlinePrompt.input.client_tx_id ?? "",
+        payment_client_tx_id: newIdempotencyKey(),
+        idempotency_key: offlinePrompt.idempotencyKey,
+        order_input: offlinePrompt.input,
+        order_id: null,
+        order_label: "Checkout offline",
+        payment,
+        preview_total: offlinePrompt.previewTotal,
+        item_count: offlinePrompt.itemCount,
+        item_summary: offlinePrompt.itemSummary,
+        created_at: Date.now(),
+        status: "queued",
+        reject_code: null,
+        reject_reason: null,
+      });
+    } catch (storageError) {
+      setError(`Checkout belum tersimpan di perangkat. ${humanError(storageError)}`);
+      return;
+    }
     setOfflinePrompt(null);
     resetTransaction();
     setSyncNotice(
@@ -762,7 +776,13 @@ export default function KasirPage() {
                 </div>
                 <button
                   type="button"
-                  onClick={() => removeOutboxEntry(entry.id)}
+                  onClick={() => {
+                    try {
+                      removeOutboxEntry(entry.id);
+                    } catch (storageError) {
+                      setSyncNotice(humanError(storageError));
+                    }
+                  }}
                   aria-label={`Hapus entri antrean ${entry.order_label}`}
                   className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md text-danger hover:bg-danger-bg"
                 >
@@ -1038,6 +1058,12 @@ export default function KasirPage() {
             ))}
           </ul>
 
+          {error && (
+            <p role="alert" className="mt-3 rounded-md bg-danger-bg p-3 text-sm font-medium text-danger">
+              {error}
+            </p>
+          )}
+
           <dl className="numeric mt-3 space-y-1.5 border-t border-line pt-3 text-sm">
             <div className="flex justify-between"><dt className="text-secondary">Subtotal</dt><dd className="font-semibold">{formatRp(createdOrder.subtotal)}</dd></div>
             {createdOrder.discount_total > 0 && (
@@ -1272,7 +1298,7 @@ export default function KasirPage() {
           />
         </div>
 
-        {error && (
+        {error && !offlinePrompt && stage === "cart" && (
           <div role="alert" className="mb-4 flex items-start gap-2 rounded-md bg-danger-bg px-3 py-2.5 text-sm font-medium text-danger">
             <CircleAlert size={18} aria-hidden className="mt-0.5 shrink-0" />
             <span>{error}</span>
@@ -1567,6 +1593,12 @@ export default function KasirPage() {
                 {offlinePrompt.itemCount} item · pratinjau {formatRp(offlinePrompt.previewTotal)}
               </p>
             </div>
+
+            {error && (
+              <p role="alert" className="mt-3 rounded-md bg-danger-bg p-3 text-sm font-medium text-danger">
+                {error}
+              </p>
+            )}
 
             <fieldset className="mt-4">
               <legend className="mb-2 text-sm font-semibold text-ink">Pembayaran pelanggan</legend>

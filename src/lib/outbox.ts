@@ -15,6 +15,7 @@
  *   atau mengirim ulang lewat tombol Sinkronkan Sekarang.
  */
 import {
+  ApiError,
   isApiError,
   syncPull,
   syncPush,
@@ -67,28 +68,39 @@ function notifyChanged(): void {
   }
 }
 
+function readOutbox(): OutboxEntry[] {
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (!raw) return [];
+  const parsed: unknown = JSON.parse(raw);
+  if (!Array.isArray(parsed)) throw new Error("Format antrean tidak valid");
+  return parsed.filter(
+    (e): e is OutboxEntry =>
+      typeof e === "object" && e !== null && "id" in e && "status" in e,
+  );
+}
+
 export function loadOutbox(): OutboxEntry[] {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return [];
-    const parsed = JSON.parse(raw) as unknown;
-    if (!Array.isArray(parsed)) return [];
-    return parsed.filter(
-      (e): e is OutboxEntry =>
-        typeof e === "object" && e !== null && "id" in e && "status" in e,
-    );
+    return readOutbox();
   } catch {
     return [];
   }
 }
 
-function saveOutbox(entries: OutboxEntry[]): void {
+function updateOutbox(update: (entries: OutboxEntry[]) => OutboxEntry[]): OutboxEntry[] {
+  let next: OutboxEntry[];
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
+    next = update(readOutbox());
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
   } catch {
-    // Penyimpanan penuh/tidak tersedia: antrean hanya hidup di memori sesi.
+    throw new ApiError(
+      "LOCAL_STORAGE_ERROR",
+      "Perubahan antrean gagal disimpan di perangkat. Periksa penyimpanan browser, lalu coba lagi.",
+      0,
+    );
   }
   notifyChanged();
+  return next;
 }
 
 /** Jumlah checkout yang belum terkirim (untuk lencana header). */
@@ -97,13 +109,11 @@ export function outboxQueuedCount(): number {
 }
 
 export function addOutboxEntry(entry: OutboxEntry): void {
-  const entries = loadOutbox();
-  entries.push(entry);
-  saveOutbox(entries);
+  updateOutbox((entries) => [...entries, entry]);
 }
 
 export function removeOutboxEntry(id: string): void {
-  saveOutbox(loadOutbox().filter((e) => e.id !== id));
+  updateOutbox((entries) => entries.filter((e) => e.id !== id));
 }
 
 /** Langganan perubahan antrean (event lokal + perubahan tab lain). */
@@ -261,9 +271,13 @@ export async function syncOutbox(
   }
 
   const targetIds = new Set(targets.map((e) => e.id));
-  const untouched = all.filter((e) => !targetIds.has(e.id));
-  const next = [...untouched, ...kept].sort((a, b) => a.created_at - b.created_at);
-  saveOutbox(next);
+  const next = updateOutbox((current) => {
+    const currentIds = new Set(current.map((entry) => entry.id));
+    return [
+      ...current.filter((entry) => !targetIds.has(entry.id)),
+      ...kept.filter((entry) => currentIds.has(entry.id)),
+    ].sort((a, b) => a.created_at - b.created_at);
+  });
 
   return {
     attempted: targets.length,

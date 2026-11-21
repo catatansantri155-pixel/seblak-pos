@@ -7,7 +7,8 @@
  *   Tunai boleh lebih; kembalian dihitung server dan tercatat di
  *   payments.change_amount. Non-tunai tidak boleh lebih (PAYMENT_MISMATCH).
  *   Tunai langsung 'settled'; non-tunai berstatus 'pending' sampai dikonfirmasi.
- *   Order yang sudah lunas tidak bisa dibayar lagi (CONFLICT).
+ *   Order yang sudah lunas atau berasal dari shift yang ditutup tidak
+ *   menerima pembayaran baru (CONFLICT).
  * - POST /api/v1/payments/:id/confirm — hanya owner/manager (kasir pembuat
  *   tidak bisa mengonfirmasi pembayaran non-tunainya sendiri). Mengubah
  *   pembayaran pending menjadi settled dan memperbarui payment_status order.
@@ -129,26 +130,39 @@ export async function createPaymentCore(
 
   const t = Date.now();
   const paymentId = crypto.randomUUID();
-  await db.batch([
+  const [insert] = await db.batch([
     db
       .prepare(
         `INSERT INTO payments (id, outlet_id, order_id, shift_id, method, amount, change_amount,
                 status, reference_no, client_tx_id, created_at, updated_at, deleted_at, version)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NULL, 1)`,
+         SELECT ?, o.outlet_id, o.id, o.shift_id, ?, ?, ?, ?, ?, ?, ?, ?, NULL, 1
+           FROM orders o
+           LEFT JOIN cash_shifts s
+             ON s.id = o.shift_id AND s.outlet_id = o.outlet_id AND s.deleted_at IS NULL
+          WHERE o.id = ? AND o.outlet_id = ?
+            AND (o.shift_id IS NULL OR s.status = 'open')`,
       )
       .bind(
-        paymentId, user.outlet_id, order.id, order.shift_id, body.method,
-        body.amount, change, status, body.reference_no ?? null,
-        body.client_tx_id ?? null, t, t,
+        paymentId, body.method, body.amount, change, status,
+        body.reference_no ?? null, body.client_tx_id ?? null, t, t,
+        order.id, user.outlet_id,
       ),
     db
       .prepare(
         `INSERT INTO payment_allocations (id, outlet_id, payment_id, order_id, amount,
                 created_at, updated_at, deleted_at, version)
-         VALUES (?, ?, ?, ?, ?, ?, ?, NULL, 1)`,
+         SELECT ?, outlet_id, id, order_id, ?, ?, ?, NULL, 1
+           FROM payments WHERE id = ?`,
       )
-      .bind(crypto.randomUUID(), user.outlet_id, paymentId, order.id, applied, t, t),
+      .bind(crypto.randomUUID(), applied, t, t, paymentId),
   ]);
+  if (!insert?.meta.changes) {
+    throw new ApiError(
+      "CONFLICT",
+      "Shift asal pesanan sudah ditutup. Pembayaran baru tidak dapat dicatat pada shift ini. Hubungi penanggung jawab untuk rekonsiliasi pesanan.",
+      { shift_id: order.shift_id },
+    );
+  }
 
   const payment = await fetchPayment(db, user.outlet_id, paymentId);
   let refreshed = order;
