@@ -1,1 +1,275 @@
-LyoqCiAqIE91dGJveCBvZmZsaW5lIGthc2lyIOKAlCBhbnRyZWFuIGNoZWNrb3V0IHlhbmcgZ2FnYWwgdGVya2lyaW0ga2FyZW5hCiAqIGphcmluZ2FuIChidWthbiBrYXJlbmEgZGl0b2xhayBzZXJ2ZXIpLCBkaXNpbXBhbiBkaSBsb2NhbFN0b3JhZ2UuCiAqCiAqIEtlanVqdXJhbiBzdGF0dXMgYWRhbGFoIGF0dXJhbiB1dGFtYSBtb2R1bCBpbmk6IGVudHJpIG91dGJveCBhZGFsYWgKICogY2F0YXRhbiBESSBQRVJBTkdLQVQuIE9yZGVyIGJhcnUgZGlhbmdnYXAgbWFzdWsgc2VydmVyIHNldGVsYWgKICogUE9TVCAvc3luYy9wdXNoIG1lbmphd2FiIGFjY2VwdGVkL2R1cGxpY2F0ZSB1bnR1ayBldmVudC1ueWEuCiAqCiAqIFNldGlhcCBlbnRyaSBjaGVja291dCBtZW1iYXdhIGNsaWVudF90eF9pZCB1bmlrIChpZGVtcG90ZW5zaSBHMWIpOgogKiBwZW5naXJpbWFuIHVsYW5nIHRpZGFrIGFrYW4gbWVuZ2dhbmRha2FuIG9yZGVyIGRpIHNlcnZlci4gSGFzaWwgcGVyCiAqIGV2ZW50IGRhcmkgc2VydmVyOgogKiAtIGFjY2VwdGVkL2R1cGxpY2F0ZSAtPiBlbnRyaSBzZWxlc2FpLCBkaWhhcHVzIGRhcmkgYW50cmVhbi4KICogLSByZWplY3RlZCAgICAgICAgICAgLT4gZW50cmkgRElUQU5EQUkgZGVuZ2FuIGFsYXNhbiBzZXJ2ZXIgZGFuIHRldGFwCiAqICAgdGFtcGlsIGRpIGthc2lyIChsZW5jYW5hIERpdG9sYWspIHNhbXBhaSBrYXNpciBtZW5naGFwdXNueWEgbWFudWFsCiAqICAgYXRhdSBtZW5naXJpbSB1bGFuZyBsZXdhdCB0b21ib2wgU2lua3JvbmthbiBTZWthcmFuZy4KICovCmltcG9ydCB7CiAgaXNBcGlFcnJvciwKICBzeW5jUHVsbCwKICBzeW5jUHVzaCwKICB0eXBlIENyZWF0ZU9yZGVySW5wdXQsCiAgdHlwZSBQYXltZW50TWV0aG9kLAogIHR5cGUgU3luY0V2ZW50SW5wdXQsCiAgdHlwZSBTeW5jRXZlbnRSZXN1bHQsCn0gZnJvbSAiLi9hcGkiOwoKZXhwb3J0IGludGVyZmFjZSBPdXRib3hQYXltZW50IHsKICBtZXRob2Q6IFBheW1lbnRNZXRob2Q7CiAgYW1vdW50OiBudW1iZXI7CiAgcmVmZXJlbmNlX25vOiBzdHJpbmcgfCBudWxsOwp9CgpleHBvcnQgaW50ZXJmYWNlIE91dGJveEVudHJ5IHsKICAvKiogSUQgbG9rYWwgZW50cmkgKD0gY2xpZW50X3R4X2lkIG9yZGVyIHVudHVrIGNoZWNrb3V0KS4gKi8KICBpZDogc3RyaW5nOwogIGtpbmQ6ICJjaGVja291dCIgfCAicGF5bWVudCI7CiAgLyoqIGNsaWVudF90eF9pZCBvcmRlciAoY2hlY2tvdXQpOyB1bnR1ayBraW5kICJwYXltZW50IjogY2xpZW50X3R4X2lkCiAgICogb3JkZXIgcnVqdWthbiBiaWxhIGRpa2VuYWwsIHN0cmluZyBrb3NvbmcgYmlsYSB0aWRhay4gKi8KICBjbGllbnRfdHhfaWQ6IHN0cmluZzsKICBwYXltZW50X2NsaWVudF90eF9pZDogc3RyaW5nOwogIC8qKiBJZGVtcG90ZW5jeS1LZXkgeWFuZyBkaXBha2FpIHBlcmNvYmFhbiBvbmxpbmUgKGplamFrIGF1ZGl0IGxva2FsKS4gKi8KICBpZGVtcG90ZW5jeV9rZXk6IHN0cmluZyB8IG51bGw7CiAgLyoqIElzaSBvcmRlciBwZXJzaXMgc2VwZXJ0aSB5YW5nIGdhZ2FsIHRlcmtpcmltIChjaGVja291dCBzYWphKS4gKi8KICBvcmRlcl9pbnB1dDogQ3JlYXRlT3JkZXJJbnB1dCB8IG51bGw7CiAgLyoqIE9yZGVyIHlhbmcgc3VkYWggYWRhIGRpIHNlcnZlciAoa2luZCAicGF5bWVudCIgc2FqYSkuICovCiAgb3JkZXJfaWQ6IHN0cmluZyB8IG51bGw7CiAgb3JkZXJfbGFiZWw6IHN0cmluZzsKICBwYXltZW50OiBPdXRib3hQYXltZW50IHwgbnVsbDsKICAvKiogVG90YWwgcHJhdGluamF1IGxva2FsIHNhYXQgY2hlY2tvdXQgKGJ1a2FuIGFuZ2thIHJlc21pIHNlcnZlcikuICovCiAgcHJldmlld190b3RhbDogbnVtYmVyOwogIGl0ZW1fY291bnQ6IG51bWJlcjsKICBpdGVtX3N1bW1hcnk6IHN0cmluZzsKICBjcmVhdGVkX2F0OiBudW1iZXI7CiAgc3RhdHVzOiAicXVldWVkIiB8ICJyZWplY3RlZCI7CiAgcmVqZWN0X2NvZGU6IHN0cmluZyB8IG51bGw7CiAgcmVqZWN0X3JlYXNvbjogc3RyaW5nIHwgbnVsbDsKfQoKY29uc3QgU1RPUkFHRV9LRVkgPSAic2VibGFrcG9zLm91dGJveC52MSI7CmV4cG9ydCBjb25zdCBPVVRCT1hfQ0hBTkdFRF9FVkVOVCA9ICJzZWJsYWtwb3M6b3V0Ym94LWNoYW5nZWQiOwoKZnVuY3Rpb24gbm90aWZ5Q2hhbmdlZCgpOiB2b2lkIHsKICB0cnkgewogICAgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEN1c3RvbUV2ZW50KE9VVEJPWF9DSEFOR0VEX0VWRU5UKSk7CiAgfSBjYXRjaCB7CiAgICAvLyBCdWthbiBkaSBicm93c2VyIChTU1IvdGVzdCk6IGFiYWlrYW4uCiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gbG9hZE91dGJveCgpOiBPdXRib3hFbnRyeVtdIHsKICB0cnkgewogICAgY29uc3QgcmF3ID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oU1RPUkFHRV9LRVkpOwogICAgaWYgKCFyYXcpIHJldHVybiBbXTsKICAgIGNvbnN0IHBhcnNlZCA9IEpTT04ucGFyc2UocmF3KSBhcyB1bmtub3duOwogICAgaWYgKCFBcnJheS5pc0FycmF5KHBhcnNlZCkpIHJldHVybiBbXTsKICAgIHJldHVybiBwYXJzZWQuZmlsdGVyKAogICAgICAoZSk6IGUgaXMgT3V0Ym94RW50cnkgPT4KICAgICAgICB0eXBlb2YgZSA9PT0gIm9iamVjdCIgJiYgZSAhPT0gbnVsbCAmJiAiaWQiIGluIGUgJiYgInN0YXR1cyIgaW4gZSwKICAgICk7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gW107CiAgfQp9CgpmdW5jdGlvbiBzYXZlT3V0Ym94KGVudHJpZXM6IE91dGJveEVudHJ5W10pOiB2b2lkIHsKICB0cnkgewogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oU1RPUkFHRV9LRVksIEpTT04uc3RyaW5naWZ5KGVudHJpZXMpKTsKICB9IGNhdGNoIHsKICAgIC8vIFBlbnlpbXBhbmFuIHBlbnVoL3RpZGFrIHRlcnNlZGlhOiBhbnRyZWFuIGhhbnlhIGhpZHVwIGRpIG1lbW9yaSBzZXNpLgogIH0KICBub3RpZnlDaGFuZ2VkKCk7Cn0KCi8qKiBKdW1sYWggY2hlY2tvdXQgeWFuZyBiZWx1bSB0ZXJraXJpbSAodW50dWsgbGVuY2FuYSBoZWFkZXIpLiAqLwpleHBvcnQgZnVuY3Rpb24gb3V0Ym94UXVldWVkQ291bnQoKTogbnVtYmVyIHsKICByZXR1cm4gbG9hZE91dGJveCgpLmZpbHRlcigoZSkgPT4gZS5zdGF0dXMgPT09ICJxdWV1ZWQiKS5sZW5ndGg7Cn0KCmV4cG9ydCBmdW5jdGlvbiBhZGRPdXRib3hFbnRyeShlbnRyeTogT3V0Ym94RW50cnkpOiB2b2lkIHsKICBjb25zdCBlbnRyaWVzID0gbG9hZE91dGJveCgpOwogIGVudHJpZXMucHVzaChlbnRyeSk7CiAgc2F2ZU91dGJveChlbnRyaWVzKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHJlbW92ZU91dGJveEVudHJ5KGlkOiBzdHJpbmcpOiB2b2lkIHsKICBzYXZlT3V0Ym94KGxvYWRPdXRib3goKS5maWx0ZXIoKGUpID0+IGUuaWQgIT09IGlkKSk7Cn0KCi8qKiBMYW5nZ2FuYW4gcGVydWJhaGFuIGFudHJlYW4gKGV2ZW50IGxva2FsICsgcGVydWJhaGFuIHRhYiBsYWluKS4gKi8KZXhwb3J0IGZ1bmN0aW9uIHN1YnNjcmliZU91dGJveChvbkNoYW5nZTogKCkgPT4gdm9pZCk6ICgpID0+IHZvaWQgewogIGNvbnN0IGhhbmRsZXIgPSAoKSA9PiBvbkNoYW5nZSgpOwogIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKE9VVEJPWF9DSEFOR0VEX0VWRU5ULCBoYW5kbGVyKTsKICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigic3RvcmFnZSIsIGhhbmRsZXIpOwogIHJldHVybiAoKSA9PiB7CiAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcihPVVRCT1hfQ0hBTkdFRF9FVkVOVCwgaGFuZGxlcik7CiAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigic3RvcmFnZSIsIGhhbmRsZXIpOwogIH07Cn0KCmV4cG9ydCBpbnRlcmZhY2UgU3luY1N1bW1hcnkgewogIGF0dGVtcHRlZDogbnVtYmVyOwogIGNvbXBsZXRlZDogbnVtYmVyOwogIHJlamVjdGVkOiBudW1iZXI7CiAgcmVtYWluaW5nOiBudW1iZXI7CiAgLyoqIHRydWUgYmlsYSBwZW5naXJpbWFuIGl0dSBzZW5kaXJpIGdhZ2FsIGphcmluZ2FuIChhbnRyZWFuIHV0dWgpLiAqLwogIG5ldHdvcmtFcnJvcjogYm9vbGVhbjsKfQoKaW50ZXJmYWNlIEVudHJ5RXZlbnRzIHsKICBlbnRyeTogT3V0Ym94RW50cnk7CiAgb3JkZXJFdmVudElkOiBzdHJpbmcgfCBudWxsOwogIHBheW1lbnRFdmVudElkOiBzdHJpbmcgfCBudWxsOwp9CgpmdW5jdGlvbiBidWlsZEV2ZW50cyhlbnRyaWVzOiBPdXRib3hFbnRyeVtdKTogewogIGV2ZW50czogU3luY0V2ZW50SW5wdXRbXTsKICBtYXA6IEVudHJ5RXZlbnRzW107Cn0gewogIGNvbnN0IGV2ZW50czogU3luY0V2ZW50SW5wdXRbXSA9IFtdOwogIGNvbnN0IG1hcDogRW50cnlFdmVudHNbXSA9IFtdOwogIGZvciAoY29uc3QgZW50cnkgb2YgZW50cmllcykgewogICAgY29uc3QgaXRlbTogRW50cnlFdmVudHMgPSB7IGVudHJ5LCBvcmRlckV2ZW50SWQ6IG51bGwsIHBheW1lbnRFdmVudElkOiBudWxsIH07CiAgICBpZiAoZW50cnkua2luZCA9PT0gImNoZWNrb3V0IiAmJiBlbnRyeS5vcmRlcl9pbnB1dCkgewogICAgICBpdGVtLm9yZGVyRXZlbnRJZCA9IGVudHJ5LmNsaWVudF90eF9pZDsKICAgICAgZXZlbnRzLnB1c2goewogICAgICAgIGNsaWVudF90eF9pZDogZW50cnkuY2xpZW50X3R4X2lkLAogICAgICAgIGVudGl0eTogIm9yZGVyIiwKICAgICAgICBwYXlsb2FkOiB7IC4uLmVudHJ5Lm9yZGVyX2lucHV0IH0sCiAgICAgIH0pOwogICAgICBpZiAoZW50cnkucGF5bWVudCkgewogICAgICAgIGl0ZW0ucGF5bWVudEV2ZW50SWQgPSBlbnRyeS5wYXltZW50X2NsaWVudF90eF9pZDsKICAgICAgICBldmVudHMucHVzaCh7CiAgICAgICAgICBjbGllbnRfdHhfaWQ6IGVudHJ5LnBheW1lbnRfY2xpZW50X3R4X2lkLAogICAgICAgICAgZW50aXR5OiAicGF5bWVudCIsCiAgICAgICAgICBwYXlsb2FkOiB7CiAgICAgICAgICAgIG9yZGVyX2NsaWVudF90eF9pZDogZW50cnkuY2xpZW50X3R4X2lkLAogICAgICAgICAgICBtZXRob2Q6IGVudHJ5LnBheW1lbnQubWV0aG9kLAogICAgICAgICAgICBhbW91bnQ6IGVudHJ5LnBheW1lbnQuYW1vdW50LAogICAgICAgICAgICByZWZlcmVuY2Vfbm86IGVudHJ5LnBheW1lbnQucmVmZXJlbmNlX25vLAogICAgICAgICAgfSwKICAgICAgICB9KTsKICAgICAgfQogICAgfSBlbHNlIGlmIChlbnRyeS5raW5kID09PSAicGF5bWVudCIgJiYgZW50cnkucGF5bWVudCAmJiBlbnRyeS5vcmRlcl9pZCkgewogICAgICBpdGVtLnBheW1lbnRFdmVudElkID0gZW50cnkucGF5bWVudF9jbGllbnRfdHhfaWQ7CiAgICAgIGV2ZW50cy5wdXNoKHsKICAgICAgICBjbGllbnRfdHhfaWQ6IGVudHJ5LnBheW1lbnRfY2xpZW50X3R4X2lkLAogICAgICAgIGVudGl0eTogInBheW1lbnQiLAogICAgICAgIHBheWxvYWQ6IHsKICAgICAgICAgIG9yZGVyX2lkOiBlbnRyeS5vcmRlcl9pZCwKICAgICAgICAgIG1ldGhvZDogZW50cnkucGF5bWVudC5tZXRob2QsCiAgICAgICAgICBhbW91bnQ6IGVudHJ5LnBheW1lbnQuYW1vdW50LAogICAgICAgICAgcmVmZXJlbmNlX25vOiBlbnRyeS5wYXltZW50LnJlZmVyZW5jZV9ubywKICAgICAgICB9LAogICAgICB9KTsKICAgIH0KICAgIG1hcC5wdXNoKGl0ZW0pOwogIH0KICByZXR1cm4geyBldmVudHMsIG1hcCB9Owp9CgovKioKICogS2lyaW0gYW50cmVhbiBrZSBQT1NUIC9zeW5jL3B1c2guIEVudHJpIGJlcnN0YXR1cyAicmVqZWN0ZWQiIGhhbnlhIGlrdXQKICogYmlsYSBpbmNsdWRlUmVqZWN0ZWQgdHJ1ZSAodG9tYm9sIG1hbnVhbCBrYXNpcik7IHNpbmtyb25pc2FzaSBvdG9tYXRpcwogKiAoZXZlbnQgb25saW5lIC8gaGFsYW1hbiBkaWJ1a2EpIGhhbnlhIG1lbmdpcmltIHlhbmcgInF1ZXVlZCIgYWdhcgogKiBwZW5vbGFrYW4gcGVybWFuZW4gdGlkYWsgYmVycHV0YXIgdGFucGEga2VwdXR1c2FuIGthc2lyLgogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHN5bmNPdXRib3goCiAgb3B0aW9ucz86IHsgaW5jbHVkZVJlamVjdGVkPzogYm9vbGVhbiB9LAopOiBQcm9taXNlPFN5bmNTdW1tYXJ5PiB7CiAgY29uc3QgYWxsID0gbG9hZE91dGJveCgpOwogIGNvbnN0IHRhcmdldHMgPSBhbGwuZmlsdGVyKAogICAgKGUpID0+IGUuc3RhdHVzID09PSAicXVldWVkIiB8fCAob3B0aW9ucz8uaW5jbHVkZVJlamVjdGVkICYmIGUuc3RhdHVzID09PSAicmVqZWN0ZWQiKSwKICApOwogIGlmICh0YXJnZXRzLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuIHsgYXR0ZW1wdGVkOiAwLCBjb21wbGV0ZWQ6IDAsIHJlamVjdGVkOiAwLCByZW1haW5pbmc6IGFsbC5sZW5ndGgsIG5ldHdvcmtFcnJvcjogZmFsc2UgfTsKICB9CgogIGNvbnN0IHsgZXZlbnRzLCBtYXAgfSA9IGJ1aWxkRXZlbnRzKHRhcmdldHMpOwogIGNvbnN0IHJlc3VsdHMgPSBuZXcgTWFwPHN0cmluZywgU3luY0V2ZW50UmVzdWx0PigpOwogIHRyeSB7CiAgICAvLyAvc3luYy9wdXNoIG1lbWJhdGFzaSAxMDAgZXZlbnQgcGVyIHBhbmdnaWxhbjoga2lyaW0gcGVyIHBvdG9uZ2FuLgogICAgZm9yIChsZXQgaSA9IDA7IGkgPCBldmVudHMubGVuZ3RoOyBpICs9IDEwMCkgewogICAgICBjb25zdCBjaHVuayA9IGV2ZW50cy5zbGljZShpLCBpICsgMTAwKTsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgc3luY1B1c2goY2h1bmspOwogICAgICBmb3IgKGNvbnN0IHIgb2YgcmVzLnJlc3VsdHMpIHJlc3VsdHMuc2V0KHIuY2xpZW50X3R4X2lkLCByKTsKICAgIH0KICB9IGNhdGNoIChlcnIpIHsKICAgIGlmIChpc0FwaUVycm9yKGVycikgJiYgZXJyLmNvZGUgPT09ICJORVRXT1JLX0VSUk9SIikgewogICAgICByZXR1cm4gewogICAgICAgIGF0dGVtcHRlZDogdGFyZ2V0cy5sZW5ndGgsCiAgICAgICAgY29tcGxldGVkOiAwLAogICAgICAgIHJlamVjdGVkOiAwLAogICAgICAgIHJlbWFpbmluZzogYWxsLmxlbmd0aCwKICAgICAgICBuZXR3b3JrRXJyb3I6IHRydWUsCiAgICAgIH07CiAgICB9CiAgICB0aHJvdyBlcnI7CiAgfQoKICBjb25zdCBrZXB0OiBPdXRib3hFbnRyeVtdID0gW107CiAgbGV0IGNvbXBsZXRlZCA9IDA7CiAgbGV0IHJlamVjdGVkQ291bnQgPSAwOwoKICBmb3IgKGNvbnN0IHsgZW50cnksIG9yZGVyRXZlbnRJZCwgcGF5bWVudEV2ZW50SWQgfSBvZiBtYXApIHsKICAgIGNvbnN0IG9yZGVyUmVzdWx0ID0gb3JkZXJFdmVudElkID8gcmVzdWx0cy5nZXQob3JkZXJFdmVudElkKSA6IHVuZGVmaW5lZDsKICAgIGNvbnN0IHBheW1lbnRSZXN1bHQgPSBwYXltZW50RXZlbnRJZCA/IHJlc3VsdHMuZ2V0KHBheW1lbnRFdmVudElkKSA6IHVuZGVmaW5lZDsKCiAgICBsZXQgb3JkZXJSZWplY3RlZCA9IG9yZGVyUmVzdWx0Py5zdGF0dXMgPT09ICJyZWplY3RlZCIgPyBvcmRlclJlc3VsdCA6IHVuZGVmaW5lZDsKCiAgICAvLyBQZW11bGloYW4ga2h1c3VzOiBvcmRlciBkaXRvbGFrIENPTkZMSUNUIGthcmVuYSBjbGllbnRfdHhfaWQgc3VkYWgKICAgIC8vIGRpcGFrYWkg4oCUIGl0dSB0ZXJqYWRpIGJpbGEgcGVyY29iYWFuIG9ubGluZSBzZWJlbmFybnlhIHNlbXBhdAogICAgLy8gZGlwcm9zZXMgc2VydmVyIHRldGFwaSByZXNwb25zbnlhIGhpbGFuZyBkaSBqYXJpbmdhbi4gUGVyaWtzYSBsZXdhdAogICAgLy8gL3N5bmMvcHVsbCBhcGFrYWggb3JkZXItbnlhIG1lbWFuZyBzdWRhaCBhZGE7IGJpbGEgYWRhLCBwZXJsYWt1a2FuCiAgICAvLyBzZWJhZ2FpIGR1cGxpY2F0ZSAoYnVrYW4gcGVub2xha2FuKS4KICAgIGlmIChvcmRlclJlamVjdGVkICYmIG9yZGVyUmVqZWN0ZWQuZXJyb3I/LmNvZGUgPT09ICJDT05GTElDVCIpIHsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCBwdWxsZWQgPSBhd2FpdCBzeW5jUHVsbChNYXRoLm1heCgwLCBlbnRyeS5jcmVhdGVkX2F0IC0gNSAqIDYwXzAwMCkpOwogICAgICAgIGNvbnN0IGZvdW5kID0gcHVsbGVkLm9yZGVycy5maW5kKChvKSA9PiBvLmNsaWVudF90eF9pZCA9PT0gZW50cnkuY2xpZW50X3R4X2lkKTsKICAgICAgICBpZiAoZm91bmQpIG9yZGVyUmVqZWN0ZWQgPSB1bmRlZmluZWQ7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIC8vIFB1bGwgZ2FnYWw6IGJpYXJrYW4gdmVyZGljdCBwZW5vbGFrYW4gYXBhIGFkYW55YS4KICAgICAgfQogICAgfQoKICAgIGNvbnN0IHBheW1lbnRSZWplY3RlZCA9CiAgICAgIHBheW1lbnRSZXN1bHQ/LnN0YXR1cyA9PT0gInJlamVjdGVkIiA/IHBheW1lbnRSZXN1bHQgOiB1bmRlZmluZWQ7CgogICAgaWYgKCFvcmRlclJlamVjdGVkICYmICFwYXltZW50UmVqZWN0ZWQpIHsKICAgICAgY29tcGxldGVkICs9IDE7CiAgICAgIGNvbnRpbnVlOyAvLyBzZWxlc2FpOiB0aWRhayBkaXNpbXBhbiBsYWdpCiAgICB9CgogICAgY29uc3QgY3VscHJpdCA9IG9yZGVyUmVqZWN0ZWQgPz8gcGF5bWVudFJlamVjdGVkOwogICAga2VwdC5wdXNoKHsKICAgICAgLi4uZW50cnksCiAgICAgIHN0YXR1czogInJlamVjdGVkIiwKICAgICAgcmVqZWN0X2NvZGU6IGN1bHByaXQ/LmVycm9yPy5jb2RlID8/ICJJTlRFUk5BTF9FUlJPUiIsCiAgICAgIHJlamVjdF9yZWFzb246IGN1bHByaXQ/LmVycm9yPy5tZXNzYWdlID8/ICJEaXRvbGFrIHNlcnZlciB0YW5wYSBhbGFzYW4gdGVydHVsaXMuIiwKICAgIH0pOwogICAgcmVqZWN0ZWRDb3VudCArPSAxOwogIH0KCiAgY29uc3QgdGFyZ2V0SWRzID0gbmV3IFNldCh0YXJnZXRzLm1hcCgoZSkgPT4gZS5pZCkpOwogIGNvbnN0IHVudG91Y2hlZCA9IGFsbC5maWx0ZXIoKGUpID0+ICF0YXJnZXRJZHMuaGFzKGUuaWQpKTsKICBjb25zdCBuZXh0ID0gWy4uLnVudG91Y2hlZCwgLi4ua2VwdF0uc29ydCgoYSwgYikgPT4gYS5jcmVhdGVkX2F0IC0gYi5jcmVhdGVkX2F0KTsKICBzYXZlT3V0Ym94KG5leHQpOwoKICByZXR1cm4gewogICAgYXR0ZW1wdGVkOiB0YXJnZXRzLmxlbmd0aCwKICAgIGNvbXBsZXRlZCwKICAgIHJlamVjdGVkOiByZWplY3RlZENvdW50LAogICAgcmVtYWluaW5nOiBuZXh0Lmxlbmd0aCwKICAgIG5ldHdvcmtFcnJvcjogZmFsc2UsCiAgfTsKfQo=
+/**
+ * Outbox offline kasir — antrean checkout yang gagal terkirim karena
+ * jaringan (bukan karena ditolak server), disimpan di localStorage.
+ *
+ * Kejujuran status adalah aturan utama modul ini: entri outbox adalah
+ * catatan DI PERANGKAT. Order baru dianggap masuk server setelah
+ * POST /sync/push menjawab accepted/duplicate untuk event-nya.
+ *
+ * Setiap entri checkout membawa client_tx_id unik (idempotensi G1b):
+ * pengiriman ulang tidak akan menggandakan order di server. Hasil per
+ * event dari server:
+ * - accepted/duplicate -> entri selesai, dihapus dari antrean.
+ * - rejected           -> entri DITANDAI dengan alasan server dan tetap
+ *   tampil di kasir (lencana Ditolak) sampai kasir menghapusnya manual
+ *   atau mengirim ulang lewat tombol Sinkronkan Sekarang.
+ */
+import {
+  isApiError,
+  syncPull,
+  syncPush,
+  type CreateOrderInput,
+  type PaymentMethod,
+  type SyncEventInput,
+  type SyncEventResult,
+} from "./api";
+
+export interface OutboxPayment {
+  method: PaymentMethod;
+  amount: number;
+  reference_no: string | null;
+}
+
+export interface OutboxEntry {
+  /** ID lokal entri (= client_tx_id order untuk checkout). */
+  id: string;
+  kind: "checkout" | "payment";
+  /** client_tx_id order (checkout); untuk kind "payment": client_tx_id
+   * order rujukan bila dikenal, string kosong bila tidak. */
+  client_tx_id: string;
+  payment_client_tx_id: string;
+  /** Idempotency-Key yang dipakai percobaan online (jejak audit lokal). */
+  idempotency_key: string | null;
+  /** Isi order persis seperti yang gagal terkirim (checkout saja). */
+  order_input: CreateOrderInput | null;
+  /** Order yang sudah ada di server (kind "payment" saja). */
+  order_id: string | null;
+  order_label: string;
+  payment: OutboxPayment | null;
+  /** Total pratinjau lokal saat checkout (bukan angka resmi server). */
+  preview_total: number;
+  item_count: number;
+  item_summary: string;
+  created_at: number;
+  status: "queued" | "rejected";
+  reject_code: string | null;
+  reject_reason: string | null;
+}
+
+const STORAGE_KEY = "seblakpos.outbox.v1";
+export const OUTBOX_CHANGED_EVENT = "seblakpos:outbox-changed";
+
+function notifyChanged(): void {
+  try {
+    window.dispatchEvent(new CustomEvent(OUTBOX_CHANGED_EVENT));
+  } catch {
+    // Bukan di browser (SSR/test): abaikan.
+  }
+}
+
+export function loadOutbox(): OutboxEntry[] {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as unknown;
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter(
+      (e): e is OutboxEntry =>
+        typeof e === "object" && e !== null && "id" in e && "status" in e,
+    );
+  } catch {
+    return [];
+  }
+}
+
+function saveOutbox(entries: OutboxEntry[]): void {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(entries));
+  } catch {
+    // Penyimpanan penuh/tidak tersedia: antrean hanya hidup di memori sesi.
+  }
+  notifyChanged();
+}
+
+/** Jumlah checkout yang belum terkirim (untuk lencana header). */
+export function outboxQueuedCount(): number {
+  return loadOutbox().filter((e) => e.status === "queued").length;
+}
+
+export function addOutboxEntry(entry: OutboxEntry): void {
+  const entries = loadOutbox();
+  entries.push(entry);
+  saveOutbox(entries);
+}
+
+export function removeOutboxEntry(id: string): void {
+  saveOutbox(loadOutbox().filter((e) => e.id !== id));
+}
+
+/** Langganan perubahan antrean (event lokal + perubahan tab lain). */
+export function subscribeOutbox(onChange: () => void): () => void {
+  const handler = () => onChange();
+  window.addEventListener(OUTBOX_CHANGED_EVENT, handler);
+  window.addEventListener("storage", handler);
+  return () => {
+    window.removeEventListener(OUTBOX_CHANGED_EVENT, handler);
+    window.removeEventListener("storage", handler);
+  };
+}
+
+export interface SyncSummary {
+  attempted: number;
+  completed: number;
+  rejected: number;
+  remaining: number;
+  /** true bila pengiriman itu sendiri gagal jaringan (antrean utuh). */
+  networkError: boolean;
+}
+
+interface EntryEvents {
+  entry: OutboxEntry;
+  orderEventId: string | null;
+  paymentEventId: string | null;
+}
+
+function buildEvents(entries: OutboxEntry[]): {
+  events: SyncEventInput[];
+  map: EntryEvents[];
+} {
+  const events: SyncEventInput[] = [];
+  const map: EntryEvents[] = [];
+  for (const entry of entries) {
+    const item: EntryEvents = { entry, orderEventId: null, paymentEventId: null };
+    if (entry.kind === "checkout" && entry.order_input) {
+      item.orderEventId = entry.client_tx_id;
+      events.push({
+        client_tx_id: entry.client_tx_id,
+        entity: "order",
+        payload: { ...entry.order_input },
+      });
+      if (entry.payment) {
+        item.paymentEventId = entry.payment_client_tx_id;
+        events.push({
+          client_tx_id: entry.payment_client_tx_id,
+          entity: "payment",
+          payload: {
+            order_client_tx_id: entry.client_tx_id,
+            method: entry.payment.method,
+            amount: entry.payment.amount,
+            reference_no: entry.payment.reference_no,
+          },
+        });
+      }
+    } else if (entry.kind === "payment" && entry.payment && entry.order_id) {
+      item.paymentEventId = entry.payment_client_tx_id;
+      events.push({
+        client_tx_id: entry.payment_client_tx_id,
+        entity: "payment",
+        payload: {
+          order_id: entry.order_id,
+          method: entry.payment.method,
+          amount: entry.payment.amount,
+          reference_no: entry.payment.reference_no,
+        },
+      });
+    }
+    map.push(item);
+  }
+  return { events, map };
+}
+
+/**
+ * Kirim antrean ke POST /sync/push. Entri berstatus "rejected" hanya ikut
+ * bila includeRejected true (tombol manual kasir); sinkronisasi otomatis
+ * (event online / halaman dibuka) hanya mengirim yang "queued" agar
+ * penolakan permanen tidak berputar tanpa keputusan kasir.
+ */
+export async function syncOutbox(
+  options?: { includeRejected?: boolean },
+): Promise<SyncSummary> {
+  const all = loadOutbox();
+  const targets = all.filter(
+    (e) => e.status === "queued" || (options?.includeRejected && e.status === "rejected"),
+  );
+  if (targets.length === 0) {
+    return { attempted: 0, completed: 0, rejected: 0, remaining: all.length, networkError: false };
+  }
+
+  const { events, map } = buildEvents(targets);
+  const results = new Map<string, SyncEventResult>();
+  try {
+    // /sync/push membatasi 100 event per panggilan: kirim per potongan.
+    for (let i = 0; i < events.length; i += 100) {
+      const chunk = events.slice(i, i + 100);
+      const res = await syncPush(chunk);
+      for (const r of res.results) results.set(r.client_tx_id, r);
+    }
+  } catch (err) {
+    if (isApiError(err) && err.code === "NETWORK_ERROR") {
+      return {
+        attempted: targets.length,
+        completed: 0,
+        rejected: 0,
+        remaining: all.length,
+        networkError: true,
+      };
+    }
+    throw err;
+  }
+
+  const kept: OutboxEntry[] = [];
+  let completed = 0;
+  let rejectedCount = 0;
+
+  for (const { entry, orderEventId, paymentEventId } of map) {
+    const orderResult = orderEventId ? results.get(orderEventId) : undefined;
+    const paymentResult = paymentEventId ? results.get(paymentEventId) : undefined;
+
+    let orderRejected = orderResult?.status === "rejected" ? orderResult : undefined;
+
+    // Pemulihan khusus: order ditolak CONFLICT karena client_tx_id sudah
+    // dipakai — itu terjadi bila percobaan online sebenarnya sempat
+    // diproses server tetapi responsnya hilang di jaringan. Periksa lewat
+    // /sync/pull apakah order-nya memang sudah ada; bila ada, perlakukan
+    // sebagai duplicate (bukan penolakan).
+    if (orderRejected && orderRejected.error?.code === "CONFLICT") {
+      try {
+        const pulled = await syncPull(Math.max(0, entry.created_at - 5 * 60_000));
+        const found = pulled.orders.find((o) => o.client_tx_id === entry.client_tx_id);
+        if (found) orderRejected = undefined;
+      } catch {
+        // Pull gagal: biarkan verdict penolakan apa adanya.
+      }
+    }
+
+    const paymentRejected =
+      paymentResult?.status === "rejected" ? paymentResult : undefined;
+
+    if (!orderRejected && !paymentRejected) {
+      completed += 1;
+      continue; // selesai: tidak disimpan lagi
+    }
+
+    const culprit = orderRejected ?? paymentRejected;
+    kept.push({
+      ...entry,
+      status: "rejected",
+      reject_code: culprit?.error?.code ?? "INTERNAL_ERROR",
+      reject_reason: culprit?.error?.message ?? "Ditolak server tanpa alasan tertulis.",
+    });
+    rejectedCount += 1;
+  }
+
+  const targetIds = new Set(targets.map((e) => e.id));
+  const untouched = all.filter((e) => !targetIds.has(e.id));
+  const next = [...untouched, ...kept].sort((a, b) => a.created_at - b.created_at);
+  saveOutbox(next);
+
+  return {
+    attempted: targets.length,
+    completed,
+    rejected: rejectedCount,
+    remaining: next.length,
+    networkError: false,
+  };
+}
