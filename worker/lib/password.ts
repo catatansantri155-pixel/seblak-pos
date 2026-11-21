@@ -1,1 +1,85 @@
-LyoqCiAqIEhhc2gga2F0YSBzYW5kaSBQQktERjIgKFdlYkNyeXB0bykg4oCUIGRpcGFrYWkgdW50dWsgdXNlcnMucGFzc3dvcmRfaGFzaC4KICoKICogRm9ybWF0IHRlcnNpbXBhbjogcGJrZGYyJDxpdGVyYXNpPiQ8c2FsdCBiYXNlNjQ+JDxoYXNoIGJhc2U2ND4KICogLSBLREY6IFBCS0RGMiBkZW5nYW4gU0hBLTI1Niwgc2FsdCBhY2FrIDE2IGJ5dGUsIGt1bmNpIHR1cnVuYW4gMzIgYnl0ZS4KICogLSBJdGVyYXNpIGRlZmF1bHQgMTAwLjAwMCAoZGkgYmF3YWggYmF0YXMgQ1BVIFdvcmtlcnMgcGVyIHJlcXVlc3QsIGRhbgogKiAgIHRlcmNhdGF0IGRpIHN0cmluZyBzZWhpbmdnYSBiaXNhIGRpbmFpa2thbiB0YW5wYSBtZW11dHVzIGhhc2ggbGFtYSkuCiAqLwoKY29uc3QgREVGQVVMVF9JVEVSQVRJT05TID0gMTAwXzAwMDsKY29uc3QgU0FMVF9CWVRFUyA9IDE2Owpjb25zdCBLRVlfQllURVMgPSAzMjsKCmZ1bmN0aW9uIGJ5dGVzVG9CYXNlNjQoYnl0ZXM6IFVpbnQ4QXJyYXkpOiBzdHJpbmcgewogIGxldCBiaW4gPSAiIjsKICBmb3IgKGNvbnN0IGIgb2YgYnl0ZXMpIGJpbiArPSBTdHJpbmcuZnJvbUNoYXJDb2RlKGIpOwogIHJldHVybiBidG9hKGJpbik7Cn0KCmZ1bmN0aW9uIGJhc2U2NFRvQnl0ZXMoYjY0OiBzdHJpbmcpOiBVaW50OEFycmF5IHsKICBjb25zdCBiaW4gPSBhdG9iKGI2NCk7CiAgY29uc3Qgb3V0ID0gbmV3IFVpbnQ4QXJyYXkoYmluLmxlbmd0aCk7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBiaW4ubGVuZ3RoOyBpKyspIG91dFtpXSA9IGJpbi5jaGFyQ29kZUF0KGkpOwogIHJldHVybiBvdXQ7Cn0KCmFzeW5jIGZ1bmN0aW9uIGRlcml2ZSgKICBwYXNzd29yZDogc3RyaW5nLAogIHNhbHQ6IFVpbnQ4QXJyYXksCiAgaXRlcmF0aW9uczogbnVtYmVyLAopOiBQcm9taXNlPFVpbnQ4QXJyYXk+IHsKICBjb25zdCBrZXkgPSBhd2FpdCBjcnlwdG8uc3VidGxlLmltcG9ydEtleSgKICAgICJyYXciLAogICAgbmV3IFRleHRFbmNvZGVyKCkuZW5jb2RlKHBhc3N3b3JkKSwKICAgICJQQktERjIiLAogICAgZmFsc2UsCiAgICBbImRlcml2ZUJpdHMiXSwKICApOwogIGNvbnN0IGJpdHMgPSBhd2FpdCBjcnlwdG8uc3VidGxlLmRlcml2ZUJpdHMoCiAgICB7IG5hbWU6ICJQQktERjIiLCBzYWx0OiBzYWx0IGFzIEJ1ZmZlclNvdXJjZSwgaXRlcmF0aW9ucywgaGFzaDogIlNIQS0yNTYiIH0sCiAgICBrZXksCiAgICBLRVlfQllURVMgKiA4LAogICk7CiAgcmV0dXJuIG5ldyBVaW50OEFycmF5KGJpdHMpOwp9CgovKiogSGFzaCBrYXRhIHNhbmRpIGJhcnU7IG1lbmdoYXNpbGthbiBzdHJpbmcgZm9ybWF0IHBia2RmMiRpdGVyYXNpJHNhbHQkaGFzaC4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGhhc2hQYXNzd29yZCgKICBwYXNzd29yZDogc3RyaW5nLAogIGl0ZXJhdGlvbnM6IG51bWJlciA9IERFRkFVTFRfSVRFUkFUSU9OUywKKTogUHJvbWlzZTxzdHJpbmc+IHsKICBjb25zdCBzYWx0ID0gY3J5cHRvLmdldFJhbmRvbVZhbHVlcyhuZXcgVWludDhBcnJheShTQUxUX0JZVEVTKSk7CiAgY29uc3QgaGFzaCA9IGF3YWl0IGRlcml2ZShwYXNzd29yZCwgc2FsdCwgaXRlcmF0aW9ucyk7CiAgcmV0dXJuIGBwYmtkZjIkJHtpdGVyYXRpb25zfSQke2J5dGVzVG9CYXNlNjQoc2FsdCl9JCR7Ynl0ZXNUb0Jhc2U2NChoYXNoKX1gOwp9CgovKiogUGVyYmFuZGluZ2FuIGJ5dGUgdGFoYW4tdGltaW5nIChwYW5qYW5nIGhhcnVzIHNhbWEpLiAqLwpmdW5jdGlvbiB0aW1pbmdTYWZlRXF1YWwoYTogVWludDhBcnJheSwgYjogVWludDhBcnJheSk6IGJvb2xlYW4gewogIGlmIChhLmxlbmd0aCAhPT0gYi5sZW5ndGgpIHJldHVybiBmYWxzZTsKICBsZXQgZGlmZiA9IDA7CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBhLmxlbmd0aDsgaSsrKSBkaWZmIHw9IChhW2ldID8/IDApIF4gKGJbaV0gPz8gMCk7CiAgcmV0dXJuIGRpZmYgPT09IDA7Cn0KCi8qKiBWZXJpZmlrYXNpIGthdGEgc2FuZGkgdGVyaGFkYXAgc3RyaW5nIGhhc2ggdGVyc2ltcGFuLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdmVyaWZ5UGFzc3dvcmQoCiAgcGFzc3dvcmQ6IHN0cmluZywKICBzdG9yZWQ6IHN0cmluZywKKTogUHJvbWlzZTxib29sZWFuPiB7CiAgY29uc3QgcGFydHMgPSBzdG9yZWQuc3BsaXQoIiQiKTsKICBpZiAocGFydHMubGVuZ3RoICE9PSA0IHx8IHBhcnRzWzBdICE9PSAicGJrZGYyIikgcmV0dXJuIGZhbHNlOwogIGNvbnN0IGl0ZXJhdGlvbnMgPSBOdW1iZXIocGFydHNbMV0pOwogIGlmICghTnVtYmVyLmlzSW50ZWdlcihpdGVyYXRpb25zKSB8fCBpdGVyYXRpb25zIDw9IDApIHJldHVybiBmYWxzZTsKICBsZXQgc2FsdDogVWludDhBcnJheTsKICBsZXQgZXhwZWN0ZWQ6IFVpbnQ4QXJyYXk7CiAgdHJ5IHsKICAgIHNhbHQgPSBiYXNlNjRUb0J5dGVzKHBhcnRzWzJdID8/ICIiKTsKICAgIGV4cGVjdGVkID0gYmFzZTY0VG9CeXRlcyhwYXJ0c1szXSA/PyAiIik7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQogIGlmIChleHBlY3RlZC5sZW5ndGggIT09IEtFWV9CWVRFUykgcmV0dXJuIGZhbHNlOwogIGNvbnN0IGFjdHVhbCA9IGF3YWl0IGRlcml2ZShwYXNzd29yZCwgc2FsdCwgaXRlcmF0aW9ucyk7CiAgcmV0dXJuIHRpbWluZ1NhZmVFcXVhbChhY3R1YWwsIGV4cGVjdGVkKTsKfQo=
+/**
+ * Hash kata sandi PBKDF2 (WebCrypto) — dipakai untuk users.password_hash.
+ *
+ * Format tersimpan: pbkdf2$<iterasi>$<salt base64>$<hash base64>
+ * - KDF: PBKDF2 dengan SHA-256, salt acak 16 byte, kunci turunan 32 byte.
+ * - Iterasi default 100.000 (di bawah batas CPU Workers per request, dan
+ *   tercatat di string sehingga bisa dinaikkan tanpa memutus hash lama).
+ */
+
+const DEFAULT_ITERATIONS = 100_000;
+const SALT_BYTES = 16;
+const KEY_BYTES = 32;
+
+function bytesToBase64(bytes: Uint8Array): string {
+  let bin = "";
+  for (const b of bytes) bin += String.fromCharCode(b);
+  return btoa(bin);
+}
+
+function base64ToBytes(b64: string): Uint8Array {
+  const bin = atob(b64);
+  const out = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+  return out;
+}
+
+async function derive(
+  password: string,
+  salt: Uint8Array,
+  iterations: number,
+): Promise<Uint8Array> {
+  const key = await crypto.subtle.importKey(
+    "raw",
+    new TextEncoder().encode(password),
+    "PBKDF2",
+    false,
+    ["deriveBits"],
+  );
+  const bits = await crypto.subtle.deriveBits(
+    { name: "PBKDF2", salt: salt as BufferSource, iterations, hash: "SHA-256" },
+    key,
+    KEY_BYTES * 8,
+  );
+  return new Uint8Array(bits);
+}
+
+/** Hash kata sandi baru; menghasilkan string format pbkdf2$iterasi$salt$hash. */
+export async function hashPassword(
+  password: string,
+  iterations: number = DEFAULT_ITERATIONS,
+): Promise<string> {
+  const salt = crypto.getRandomValues(new Uint8Array(SALT_BYTES));
+  const hash = await derive(password, salt, iterations);
+  return `pbkdf2$${iterations}$${bytesToBase64(salt)}$${bytesToBase64(hash)}`;
+}
+
+/** Perbandingan byte tahan-timing (panjang harus sama). */
+function timingSafeEqual(a: Uint8Array, b: Uint8Array): boolean {
+  if (a.length !== b.length) return false;
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) diff |= (a[i] ?? 0) ^ (b[i] ?? 0);
+  return diff === 0;
+}
+
+/** Verifikasi kata sandi terhadap string hash tersimpan. */
+export async function verifyPassword(
+  password: string,
+  stored: string,
+): Promise<boolean> {
+  const parts = stored.split("$");
+  if (parts.length !== 4 || parts[0] !== "pbkdf2") return false;
+  const iterations = Number(parts[1]);
+  if (!Number.isInteger(iterations) || iterations <= 0) return false;
+  let salt: Uint8Array;
+  let expected: Uint8Array;
+  try {
+    salt = base64ToBytes(parts[2] ?? "");
+    expected = base64ToBytes(parts[3] ?? "");
+  } catch {
+    return false;
+  }
+  if (expected.length !== KEY_BYTES) return false;
+  const actual = await derive(password, salt, iterations);
+  return timingSafeEqual(actual, expected);
+}
