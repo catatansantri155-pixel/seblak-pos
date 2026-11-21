@@ -1,1 +1,19 @@
-bmFtZSA9ICJzZWJsYWstcG9zIgptYWluID0gIndvcmtlci9pbmRleC50cyIKY29tcGF0aWJpbGl0eV9kYXRlID0gIjIwMjUtMDktMTUiCmNvbXBhdGliaWxpdHlfZmxhZ3MgPSBbIm5vZGVqc19jb21wYXQiXQoKIyBCaW5kaW5nIEQxIHNlc3VhaSBrb250cmFrIEcxYS4gRGF0YWJhc2UgInNlYmxhay1wb3MtZGIiIGRpYnVhdCAyMSBOb3YgMjAyNgojIGRpIGFrdW4gQ2xvdWRmbGFyZSBwZW1pbGlrIChkaWJ1YXQgdmlhIGRhc2hib2FyZCBvbGVoIE5haWxvbmcgYXRhcyBpemluIHBlbWlsaWspOwojIGRhdGFiYXNlX2lkIGRpIGJhd2FoIGFkYWxhaCBJRCBhc2xpbnlhLgpbW2QxX2RhdGFiYXNlc11dCmJpbmRpbmcgPSAiREIiCmRhdGFiYXNlX25hbWUgPSAic2VibGFrLXBvcy1kYiIKZGF0YWJhc2VfaWQgPSAiNmU1MDI5NDktMTQ5Ni00ZDQyLTljYWMtZDQ5OTBlMTIwMWM5IgptaWdyYXRpb25zX2RpciA9ICJtaWdyYXRpb25zIgoKIyBGcm9udGVuZCAoaGFzaWwgYG5wbSBydW4gYnVpbGRgIGtlIGRpc3QvKSBkaXNhamlrYW4gZGFyaSBXb3JrZXIgeWFuZyBzYW1hOwojIHJ1dGUgU1BBIHNlbGFpbiBiZXJrYXMgc3RhdGlzICYgL2FwaSBkaXRlcnVza2FuIGtlIGluZGV4Lmh0bWwuClthc3NldHNdCmRpcmVjdG9yeSA9ICJkaXN0Igpub3RfZm91bmRfaGFuZGxpbmcgPSAic2luZ2xlLXBhZ2UtYXBwbGljYXRpb24iCg==
+name = "seblak-pos"
+main = "worker/index.ts"
+compatibility_date = "2025-09-15"
+compatibility_flags = ["nodejs_compat"]
+
+# Binding D1 sesuai kontrak G1a. Database "seblak-pos-db" dibuat 21 Nov 2026
+# di akun Cloudflare pemilik (dibuat via dashboard oleh Nailong atas izin pemilik);
+# database_id di bawah adalah ID aslinya.
+[[d1_databases]]
+binding = "DB"
+database_name = "seblak-pos-db"
+database_id = "6e502949-1496-4d42-9cac-d4990e1201c9"
+migrations_dir = "migrations"
+
+# Frontend (hasil `npm run build` ke dist/) disajikan dari Worker yang sama;
+# rute SPA selain berkas statis & /api diteruskan ke index.html.
+[assets]
+directory = "dist"
+not_found_handling = "single-page-application"
