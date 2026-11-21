@@ -1,1 +1,261 @@
-LyoqCiAqIEhhbGFtYW4gUGVuZ2F0dXJhbiDigJQgcHJvZmlsIG91dGxldCBkYXJpIEdFVCAvb3V0bGV0cy9tZS4gS29sb20geWFuZwogKiBiaXNhIGRpdWJhaCBwZXJzaXMgeWFuZyBkaWR1a3VuZyBBUEkgKG5hbWUsIGFkZHJlc3MsIHBob25lLAogKiB0YXhfcmF0ZV9icCwgY3VycmVuY3kpIGRhbiBoYW55YSBvbGVoIG93bmVyIChQQVRDSCAvb3V0bGV0cy9tZQogKiBvd25lci1vbmx5IGRpIHNlcnZlcikuIFBlcmFuIGxhaW4gbWVsaWhhdCBwcm9maWwgc2VjYXJhIGJhY2Etc2FqYS4KICovCmltcG9ydCB7IHVzZUNhbGxiYWNrLCB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBDaXJjbGVBbGVydCwgQ2lyY2xlQ2hlY2sgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAiLi4vLi4vYXBwL2F1dGgiOwppbXBvcnQgeyBnZXRPdXRsZXQsIHBhdGNoT3V0bGV0LCB0eXBlIE91dGxldCB9IGZyb20gIi4uLy4uL2xpYi9hcGkiOwppbXBvcnQgeyBodW1hbkVycm9yLCByb2xlTGFiZWwgfSBmcm9tICIuLi8uLi9saWIvZm9ybWF0IjsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBlbmdhdHVyYW5QYWdlKCkgewogIGNvbnN0IHsgdXNlciB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IGlzT3duZXIgPSB1c2VyPy5yb2xlID09PSAib3duZXIiOwoKICBjb25zdCBbb3V0bGV0LCBzZXRPdXRsZXRdID0gdXNlU3RhdGU8T3V0bGV0IHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUodHJ1ZSk7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKCiAgY29uc3QgW25hbWUsIHNldE5hbWVdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFthZGRyZXNzLCBzZXRBZGRyZXNzXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbcGhvbmUsIHNldFBob25lXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbdGF4QnAsIHNldFRheEJwXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbY3VycmVuY3ksIHNldEN1cnJlbmN5XSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbc2F2aW5nLCBzZXRTYXZpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtmb3JtRXJyb3IsIHNldEZvcm1FcnJvcl0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBbc3VjY2Vzcywgc2V0U3VjY2Vzc10gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKCiAgY29uc3QgZmlsbEZvcm0gPSB1c2VDYWxsYmFjaygobzogT3V0bGV0KSA9PiB7CiAgICBzZXROYW1lKG8ubmFtZSk7CiAgICBzZXRBZGRyZXNzKG8uYWRkcmVzcyA/PyAiIik7CiAgICBzZXRQaG9uZShvLnBob25lID8/ICIiKTsKICAgIHNldFRheEJwKFN0cmluZyhvLnRheF9yYXRlX2JwKSk7CiAgICBzZXRDdXJyZW5jeShvLmN1cnJlbmN5KTsKICB9LCBbXSk7CgogIGNvbnN0IGxvYWQgPSB1c2VDYWxsYmFjayhhc3luYyAoKSA9PiB7CiAgICBzZXRMb2FkaW5nKHRydWUpOwogICAgc2V0RXJyb3IobnVsbCk7CiAgICB0cnkgewogICAgICBjb25zdCBvID0gYXdhaXQgZ2V0T3V0bGV0KCk7CiAgICAgIHNldE91dGxldChvKTsKICAgICAgZmlsbEZvcm0obyk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgc2V0RXJyb3IoaHVtYW5FcnJvcihlcnIpKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldExvYWRpbmcoZmFsc2UpOwogICAgfQogIH0sIFtmaWxsRm9ybV0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgdm9pZCBsb2FkKCk7CiAgfSwgW2xvYWRdKTsKCiAgY29uc3Qgb25TYXZlID0gYXN5bmMgKCkgPT4gewogICAgc2V0Rm9ybUVycm9yKG51bGwpOwogICAgc2V0U3VjY2VzcyhudWxsKTsKICAgIGlmICghbmFtZS50cmltKCkpIHsKICAgICAgc2V0Rm9ybUVycm9yKCJOYW1hIG91dGxldCB0aWRhayBib2xlaCBrb3NvbmcuIik7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnN0IHRheCA9IE51bWJlci5wYXJzZUludCh0YXhCcC5yZXBsYWNlKC9bXlxkXS9nLCAiIiksIDEwKTsKICAgIGlmICghTnVtYmVyLmlzRmluaXRlKHRheCkgfHwgdGF4IDwgMCB8fCB0YXggPiAxMF8wMDApIHsKICAgICAgc2V0Rm9ybUVycm9yKCJUYXJpZiBwYWphayBoYXJ1cyBhbnRhcmEgMCBkYW4gMTAwMDAgYmFzaXMgcG9pbnQgKDAl4oCTMTAwJSkuIik7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmICghY3VycmVuY3kudHJpbSgpKSB7CiAgICAgIHNldEZvcm1FcnJvcigiTWF0YSB1YW5nIHRpZGFrIGJvbGVoIGtvc29uZy4iKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgc2V0U2F2aW5nKHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3QgdXBkYXRlZCA9IGF3YWl0IHBhdGNoT3V0bGV0KHsKICAgICAgICBuYW1lOiBuYW1lLnRyaW0oKSwKICAgICAgICBhZGRyZXNzOiBhZGRyZXNzLnRyaW0oKSA/IGFkZHJlc3MudHJpbSgpIDogbnVsbCwKICAgICAgICBwaG9uZTogcGhvbmUudHJpbSgpID8gcGhvbmUudHJpbSgpIDogbnVsbCwKICAgICAgICB0YXhfcmF0ZV9icDogdGF4LAogICAgICAgIGN1cnJlbmN5OiBjdXJyZW5jeS50cmltKCkudG9VcHBlckNhc2UoKSwKICAgICAgfSk7CiAgICAgIHNldE91dGxldCh1cGRhdGVkKTsKICAgICAgZmlsbEZvcm0odXBkYXRlZCk7CiAgICAgIHNldFN1Y2Nlc3MoIlBlbmdhdHVyYW4gb3V0bGV0IHRlcnNpbXBhbi4iKTsKICAgIH0gY2F0Y2ggKGVycikgewogICAgICBzZXRGb3JtRXJyb3IoaHVtYW5FcnJvcihlcnIpKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldFNhdmluZyhmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgdGF4UGVyY2VudCA9IG91dGxldCA/IG91dGxldC50YXhfcmF0ZV9icCAvIDEwMCA6IDA7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byB3LWZ1bGwgbWF4LXctNHhsIHB4LTQgcHktNiBzbTpweC02Ij4KICAgICAge2Vycm9yICYmICgKICAgICAgICA8ZGl2IHJvbGU9ImFsZXJ0IiBjbGFzc05hbWU9Im1iLTQgZmxleCBpdGVtcy1zdGFydCBnYXAtMiByb3VuZGVkLW1kIGJnLWRhbmdlci1iZyBweC0zIHB5LTIuNSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZGFuZ2VyIj4KICAgICAgICAgIDxDaXJjbGVBbGVydCBzaXplPXsxOH0gYXJpYS1oaWRkZW4gY2xhc3NOYW1lPSJtdC0wLjUgc2hyaW5rLTAiIC8+CiAgICAgICAgICA8c3Bhbj5CZWx1bSBiaXNhIG1lbXVhdCBwcm9maWwgb3V0bGV0OiB7ZXJyb3J9PC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICApfQoKICAgICAge2xvYWRpbmcgPyAoCiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtbXV0ZWQiPk1lbXVhdCBwZW5nYXR1cmFu4oCmPC9wPgogICAgICApIDogb3V0bGV0ID8gKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdhcC04IGxnOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxzZWN0aW9uIGFyaWEtbGFiZWw9IlByb2ZpbCBvdXRsZXQiIGNsYXNzTmFtZT0iaC1maXQgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWxpbmUgYmctc3VyZmFjZSBwLTUiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1oMiBmb250LWJvbGQgdGV4dC1pbmsiPlByb2ZpbCBPdXRsZXQ8L2gyPgogICAgICAgICAgICA8ZGwgY2xhc3NOYW1lPSJtdC00IHNwYWNlLXktMi41IHRleHQtc20iPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICA8ZHQgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+TmFtYSBvdXRsZXQ8L2R0PgogICAgICAgICAgICAgICAgPGRkIGNsYXNzTmFtZT0idGV4dC1yaWdodCBmb250LXNlbWlib2xkIHRleHQtaW5rIj57b3V0bGV0Lm5hbWV9PC9kZD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQiPgogICAgICAgICAgICAgICAgPGR0IGNsYXNzTmFtZT0idGV4dC1zZWNvbmRhcnkiPkFsYW1hdDwvZHQ+CiAgICAgICAgICAgICAgICA8ZGQgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0IGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPntvdXRsZXQuYWRkcmVzcyA/PyAi4oCUIn08L2RkPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICA8ZHQgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+VGVsZXBvbjwvZHQ+CiAgICAgICAgICAgICAgICA8ZGQgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0IGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPntvdXRsZXQucGhvbmUgPz8gIuKAlCJ9PC9kZD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQiPgogICAgICAgICAgICAgICAgPGR0IGNsYXNzTmFtZT0idGV4dC1zZWNvbmRhcnkiPlRhcmlmIHBhamFrPC9kdD4KICAgICAgICAgICAgICAgIDxkZCBjbGFzc05hbWU9Im51bWVyaWMgdGV4dC1yaWdodCBmb250LXNlbWlib2xkIHRleHQtaW5rIj4KICAgICAgICAgICAgICAgICAge3RheFBlcmNlbnR9JSAoe291dGxldC50YXhfcmF0ZV9icH0gYnApCiAgICAgICAgICAgICAgICA8L2RkPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICA8ZHQgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+TWF0YSB1YW5nPC9kdD4KICAgICAgICAgICAgICAgIDxkZCBjbGFzc05hbWU9InRleHQtcmlnaHQgZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+e291dGxldC5jdXJyZW5jeX08L2RkPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICA8ZHQgY2xhc3NOYW1lPSJ0ZXh0LXNlY29uZGFyeSI+U3RhdHVzPC9kdD4KICAgICAgICAgICAgICAgIDxkZCBjbGFzc05hbWU9InRleHQtcmlnaHQgZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+CiAgICAgICAgICAgICAgICAgIHtvdXRsZXQuaXNfYWN0aXZlID8gIkFrdGlmIiA6ICJOb25ha3RpZiJ9CiAgICAgICAgICAgICAgICA8L2RkPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2RsPgoKICAgICAgICAgICAge2lzT3duZXIgPyAoCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgYm9yZGVyLXQgYm9yZGVyLWxpbmUgcHQtNSI+CiAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1oMyBmb250LXNlbWlib2xkIHRleHQtaW5rIj5VYmFoIFByb2ZpbDwvaDM+CiAgICAgICAgICAgICAgICB7Zm9ybUVycm9yICYmICgKICAgICAgICAgICAgICAgICAgPGRpdiByb2xlPSJhbGVydCIgY2xhc3NOYW1lPSJtdC0zIGZsZXggaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC1tZCBiZy1kYW5nZXItYmcgcHgtMyBweS0yLjUgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LWRhbmdlciI+CiAgICAgICAgICAgICAgICAgICAgPENpcmNsZUFsZXJ0IHNpemU9ezE4fSBhcmlhLWhpZGRlbiBjbGFzc05hbWU9Im10LTAuNSBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgICAgICA8c3Bhbj57Zm9ybUVycm9yfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAge3N1Y2Nlc3MgJiYgKAogICAgICAgICAgICAgICAgICA8ZGl2IHJvbGU9InN0YXR1cyIgY2xhc3NOYW1lPSJtdC0zIGZsZXggaXRlbXMtc3RhcnQgZ2FwLTIgcm91bmRlZC1tZCBiZy1zdWNjZXNzLWJnIHB4LTMgcHktMi41IHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1zdWNjZXNzIj4KICAgICAgICAgICAgICAgICAgICA8Q2lyY2xlQ2hlY2sgc2l6ZT17MTh9IGFyaWEtaGlkZGVuIGNsYXNzTmFtZT0ibXQtMC41IHNocmluay0wIiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPntzdWNjZXNzfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgc3BhY2UteS0zIj4KICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8bGFiZWwgaHRtbEZvcj0ib3V0LW5hbWUiIGNsYXNzTmFtZT0ibWItMS41IGJsb2NrIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+TmFtYSBvdXRsZXQ8L2xhYmVsPgogICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgaWQ9Im91dC1uYW1lIgogICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e25hbWV9CiAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldE5hbWUoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtaW4taC1bNDhweF0gdy1mdWxsIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1saW5lIGJnLXN1cmZhY2UgcHgtMyB0ZXh0LWJhc2UgdGV4dC1pbmsgZm9jdXM6Ym9yZGVyLXByaW1hcnkiCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9Im91dC1hZGRyZXNzIiBjbGFzc05hbWU9Im1iLTEuNSBibG9jayB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPkFsYW1hdDwvbGFiZWw+CiAgICAgICAgICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgICAgICAgICBpZD0ib3V0LWFkZHJlc3MiCiAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17YWRkcmVzc30KICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0QWRkcmVzcyhlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iQWxhbWF0IG91dGxldCIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWluLWgtWzQ4cHhdIHctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItbGluZSBiZy1zdXJmYWNlIHB4LTMgdGV4dC1iYXNlIHRleHQtaW5rIHBsYWNlaG9sZGVyOnRleHQtbXV0ZWQgZm9jdXM6Ym9yZGVyLXByaW1hcnkiCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9Im91dC1waG9uZSIgY2xhc3NOYW1lPSJtYi0xLjUgYmxvY2sgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtaW5rIj5UZWxlcG9uPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgIGlkPSJvdXQtcGhvbmUiCiAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17cGhvbmV9CiAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFBob25lKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJOb21vciB0ZWxlcG9uIG91dGxldCIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWluLWgtWzQ4cHhdIHctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItbGluZSBiZy1zdXJmYWNlIHB4LTMgdGV4dC1iYXNlIHRleHQtaW5rIHBsYWNlaG9sZGVyOnRleHQtbXV0ZWQgZm9jdXM6Ym9yZGVyLXByaW1hcnkiCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGh0bWxGb3I9Im91dC10YXgiIGNsYXNzTmFtZT0ibWItMS41IGJsb2NrIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+CiAgICAgICAgICAgICAgICAgICAgICBUYXJpZiBwYWphayAoYmFzaXMgcG9pbnQpCiAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgIGlkPSJvdXQtdGF4IgogICAgICAgICAgICAgICAgICAgICAgaW5wdXRNb2RlPSJudW1lcmljIgogICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3RheEJwfQogICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRUYXhCcChlLnRhcmdldC52YWx1ZS5yZXBsYWNlKC9bXlxkXS9nLCAiIikpfQogICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJudW1lcmljIG1pbi1oLVs0OHB4XSB3LWZ1bGwgcm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWxpbmUgYmctc3VyZmFjZSBweC0zIHRleHQtYmFzZSB0ZXh0LWluayBmb2N1czpib3JkZXItcHJpbWFyeSIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQiPgogICAgICAgICAgICAgICAgICAgICAgMTAwIGJwID0gMSUuIENvbnRvaDogcGFqYWsgMTElIGRpaXNpIDExMDAuIFBhamFrIGRpaGl0dW5nIHNlcnZlciBwYWRhCiAgICAgICAgICAgICAgICAgICAgICBzZXRpYXAgcGVzYW5hbi4KICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxsYWJlbCBodG1sRm9yPSJvdXQtY3VycmVuY3kiIGNsYXNzTmFtZT0ibWItMS41IGJsb2NrIHRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+TWF0YSB1YW5nPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgIGlkPSJvdXQtY3VycmVuY3kiCiAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17Y3VycmVuY3l9CiAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldEN1cnJlbmN5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ibWluLWgtWzQ4cHhdIHctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItbGluZSBiZy1zdXJmYWNlIHB4LTMgdGV4dC1iYXNlIHVwcGVyY2FzZSB0ZXh0LWluayBmb2N1czpib3JkZXItcHJpbWFyeSIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB2b2lkIG9uU2F2ZSgpfQogICAgICAgICAgICAgICAgICAgIGRpc2FibGVkPXtzYXZpbmd9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtaW4taC1bNTJweF0gdy1mdWxsIHJvdW5kZWQtbWQgYmctcHJpbWFyeSBweC00IGZvbnQtZGlzcGxheSB0ZXh0LWJhc2UgZm9udC1ib2xkIHRleHQtd2hpdGUgaG92ZXI6YmctcHJpbWFyeS1ob3ZlciBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQgZGlzYWJsZWQ6b3BhY2l0eS02MCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtzYXZpbmcgPyAiTWVueWltcGFu4oCmIiA6ICJTaW1wYW4gUGVuZ2F0dXJhbiJ9CiAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC01IGJvcmRlci10IGJvcmRlci1saW5lIHB0LTQgdGV4dC1zbSB0ZXh0LXNlY29uZGFyeSI+CiAgICAgICAgICAgICAgICBIYW55YSBwZW1pbGlrIHlhbmcgZGFwYXQgbWVuZ3ViYWggcHJvZmlsIG91dGxldC4gQW5kYSBtYXN1ayBzZWJhZ2FpeyIgIn0KICAgICAgICAgICAgICAgIHt1c2VyID8gcm9sZUxhYmVsKHVzZXIucm9sZSkgOiAi4oCUIn0uCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICApfQogICAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICAgIDxzZWN0aW9uIGFyaWEtbGFiZWw9IkFrdW4gc2F5YSIgY2xhc3NOYW1lPSJoLWZpdCByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItbGluZSBiZy1zdXJmYWNlIHAtNSI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LWgyIGZvbnQtYm9sZCB0ZXh0LWluayI+QWt1biBTYXlhPC9oMj4KICAgICAgICAgICAge3VzZXIgPyAoCiAgICAgICAgICAgICAgPGRsIGNsYXNzTmFtZT0ibXQtNCBzcGFjZS15LTIuNSB0ZXh0LXNtIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICAgIDxkdCBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij5OYW1hPC9kdD4KICAgICAgICAgICAgICAgICAgPGRkIGNsYXNzTmFtZT0idGV4dC1yaWdodCBmb250LXNlbWlib2xkIHRleHQtaW5rIj57dXNlci5uYW1lfTwvZGQ+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICAgIDxkdCBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij5FbWFpbDwvZHQ+CiAgICAgICAgICAgICAgICAgIDxkZCBjbGFzc05hbWU9ImJyZWFrLWFsbCB0ZXh0LXJpZ2h0IGZvbnQtc2VtaWJvbGQgdGV4dC1pbmsiPnt1c2VyLmVtYWlsfTwvZGQ+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICAgIDxkdCBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij5QZXJhbjwvZHQ+CiAgICAgICAgICAgICAgICAgIDxkZCBjbGFzc05hbWU9InRleHQtcmlnaHQgZm9udC1zZW1pYm9sZCB0ZXh0LWluayI+e3JvbGVMYWJlbCh1c2VyLnJvbGUpfTwvZGQ+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgICAgICAgICAgIDxkdCBjbGFzc05hbWU9InRleHQtc2Vjb25kYXJ5Ij5JRCBPdXRsZXQ8L2R0PgogICAgICAgICAgICAgICAgICA8ZGQgY2xhc3NOYW1lPSJicmVhay1hbGwgdGV4dC1yaWdodCBmb250LW1vbm8gdGV4dC14cyBmb250LXNlbWlib2xkIHRleHQtaW5rIj4KICAgICAgICAgICAgICAgICAgICB7dXNlci5vdXRsZXRfaWR9CiAgICAgICAgICAgICAgICAgIDwvZGQ+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2RsPgogICAgICAgICAgICApIDogKAogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LXNtIHRleHQtc2Vjb25kYXJ5Ij5TZXNpIHRpZGFrIHRlcnNlZGlhLjwvcD4KICAgICAgICAgICAgKX0KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC01IGJvcmRlci10IGJvcmRlci1saW5lIHB0LTQgdGV4dC14cyB0ZXh0LW11dGVkIj4KICAgICAgICAgICAgICBLYXRhIHNhbmRpIGFrdW4gaGFueWEgYmlzYSBkaWF0dXIgdWxhbmcgb2xlaCBwZW1pbGlrIGxld2F0IGhhbGFtYW4gUGVuZ2d1bmEuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICA8L2Rpdj4KICAgICAgKSA6IG51bGx9CiAgICA8L2Rpdj4KICApOwp9Cg==
+/**
+ * Halaman Pengaturan — profil outlet dari GET /outlets/me. Kolom yang
+ * bisa diubah persis yang didukung API (name, address, phone,
+ * tax_rate_bp, currency) dan hanya oleh owner (PATCH /outlets/me
+ * owner-only di server). Peran lain melihat profil secara baca-saja.
+ */
+import { useCallback, useEffect, useState } from "react";
+import { CircleAlert, CircleCheck } from "lucide-react";
+import { useAuth } from "../../app/auth";
+import { getOutlet, patchOutlet, type Outlet } from "../../lib/api";
+import { humanError, roleLabel } from "../../lib/format";
+
+export default function PengaturanPage() {
+  const { user } = useAuth();
+  const isOwner = user?.role === "owner";
+
+  const [outlet, setOutlet] = useState<Outlet | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const [name, setName] = useState("");
+  const [address, setAddress] = useState("");
+  const [phone, setPhone] = useState("");
+  const [taxBp, setTaxBp] = useState("");
+  const [currency, setCurrency] = useState("");
+  const [saving, setSaving] = useState(false);
+  const [formError, setFormError] = useState<string | null>(null);
+  const [success, setSuccess] = useState<string | null>(null);
+
+  const fillForm = useCallback((o: Outlet) => {
+    setName(o.name);
+    setAddress(o.address ?? "");
+    setPhone(o.phone ?? "");
+    setTaxBp(String(o.tax_rate_bp));
+    setCurrency(o.currency);
+  }, []);
+
+  const load = useCallback(async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const o = await getOutlet();
+      setOutlet(o);
+      fillForm(o);
+    } catch (err) {
+      setError(humanError(err));
+    } finally {
+      setLoading(false);
+    }
+  }, [fillForm]);
+
+  useEffect(() => {
+    void load();
+  }, [load]);
+
+  const onSave = async () => {
+    setFormError(null);
+    setSuccess(null);
+    if (!name.trim()) {
+      setFormError("Nama outlet tidak boleh kosong.");
+      return;
+    }
+    const tax = Number.parseInt(taxBp.replace(/[^\d]/g, ""), 10);
+    if (!Number.isFinite(tax) || tax < 0 || tax > 10_000) {
+      setFormError("Tarif pajak harus antara 0 dan 10000 basis point (0%–100%).");
+      return;
+    }
+    if (!currency.trim()) {
+      setFormError("Mata uang tidak boleh kosong.");
+      return;
+    }
+    setSaving(true);
+    try {
+      const updated = await patchOutlet({
+        name: name.trim(),
+        address: address.trim() ? address.trim() : null,
+        phone: phone.trim() ? phone.trim() : null,
+        tax_rate_bp: tax,
+        currency: currency.trim().toUpperCase(),
+      });
+      setOutlet(updated);
+      fillForm(updated);
+      setSuccess("Pengaturan outlet tersimpan.");
+    } catch (err) {
+      setFormError(humanError(err));
+    } finally {
+      setSaving(false);
+    }
+  };
+
+  const taxPercent = outlet ? outlet.tax_rate_bp / 100 : 0;
+
+  return (
+    <div className="mx-auto w-full max-w-4xl px-4 py-6 sm:px-6">
+      {error && (
+        <div role="alert" className="mb-4 flex items-start gap-2 rounded-md bg-danger-bg px-3 py-2.5 text-sm font-medium text-danger">
+          <CircleAlert size={18} aria-hidden className="mt-0.5 shrink-0" />
+          <span>Belum bisa memuat profil outlet: {error}</span>
+        </div>
+      )}
+
+      {loading ? (
+        <p className="text-sm text-muted">Memuat pengaturan…</p>
+      ) : outlet ? (
+        <div className="grid gap-8 lg:grid-cols-2">
+          <section aria-label="Profil outlet" className="h-fit rounded-lg border border-line bg-surface p-5">
+            <h2 className="font-display text-h2 font-bold text-ink">Profil Outlet</h2>
+            <dl className="mt-4 space-y-2.5 text-sm">
+              <div className="flex justify-between gap-4">
+                <dt className="text-secondary">Nama outlet</dt>
+                <dd className="text-right font-semibold text-ink">{outlet.name}</dd>
+              </div>
+              <div className="flex justify-between gap-4">
+                <dt className="text-secondary">Alamat</dt>
+                <dd className="text-right font-semibold text-ink">{outlet.address ?? "—"}</dd>
+              </div>
+              <div className="flex justify-between gap-4">
+                <dt className="text-secondary">Telepon</dt>
+                <dd className="text-right font-semibold text-ink">{outlet.phone ?? "—"}</dd>
+              </div>
+              <div className="flex justify-between gap-4">
+                <dt className="text-secondary">Tarif pajak</dt>
+                <dd className="numeric text-right font-semibold text-ink">
+                  {taxPercent}% ({outlet.tax_rate_bp} bp)
+                </dd>
+              </div>
+              <div className="flex justify-between gap-4">
+                <dt className="text-secondary">Mata uang</dt>
+                <dd className="text-right font-semibold text-ink">{outlet.currency}</dd>
+              </div>
+              <div className="flex justify-between gap-4">
+                <dt className="text-secondary">Status</dt>
+                <dd className="text-right font-semibold text-ink">
+                  {outlet.is_active ? "Aktif" : "Nonaktif"}
+                </dd>
+              </div>
+            </dl>
+
+            {isOwner ? (
+              <div className="mt-6 border-t border-line pt-5">
+                <h3 className="font-display text-h3 font-semibold text-ink">Ubah Profil</h3>
+                {formError && (
+                  <div role="alert" className="mt-3 flex items-start gap-2 rounded-md bg-danger-bg px-3 py-2.5 text-sm font-medium text-danger">
+                    <CircleAlert size={18} aria-hidden className="mt-0.5 shrink-0" />
+                    <span>{formError}</span>
+                  </div>
+                )}
+                {success && (
+                  <div role="status" className="mt-3 flex items-start gap-2 rounded-md bg-success-bg px-3 py-2.5 text-sm font-medium text-success">
+                    <CircleCheck size={18} aria-hidden className="mt-0.5 shrink-0" />
+                    <span>{success}</span>
+                  </div>
+                )}
+                <div className="mt-4 space-y-3">
+                  <div>
+                    <label htmlFor="out-name" className="mb-1.5 block text-sm font-semibold text-ink">Nama outlet</label>
+                    <input
+                      id="out-name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      className="min-h-[48px] w-full rounded-md border border-line bg-surface px-3 text-base text-ink focus:border-primary"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="out-address" className="mb-1.5 block text-sm font-semibold text-ink">Alamat</label>
+                    <input
+                      id="out-address"
+                      value={address}
+                      onChange={(e) => setAddress(e.target.value)}
+                      placeholder="Alamat outlet"
+                      className="min-h-[48px] w-full rounded-md border border-line bg-surface px-3 text-base text-ink placeholder:text-muted focus:border-primary"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="out-phone" className="mb-1.5 block text-sm font-semibold text-ink">Telepon</label>
+                    <input
+                      id="out-phone"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
+                      placeholder="Nomor telepon outlet"
+                      className="min-h-[48px] w-full rounded-md border border-line bg-surface px-3 text-base text-ink placeholder:text-muted focus:border-primary"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="out-tax" className="mb-1.5 block text-sm font-semibold text-ink">
+                      Tarif pajak (basis point)
+                    </label>
+                    <input
+                      id="out-tax"
+                      inputMode="numeric"
+                      value={taxBp}
+                      onChange={(e) => setTaxBp(e.target.value.replace(/[^\d]/g, ""))}
+                      className="numeric min-h-[48px] w-full rounded-md border border-line bg-surface px-3 text-base text-ink focus:border-primary"
+                    />
+                    <p className="mt-1 text-xs text-muted">
+                      100 bp = 1%. Contoh: pajak 11% diisi 1100. Pajak dihitung server pada
+                      setiap pesanan.
+                    </p>
+                  </div>
+                  <div>
+                    <label htmlFor="out-currency" className="mb-1.5 block text-sm font-semibold text-ink">Mata uang</label>
+                    <input
+                      id="out-currency"
+                      value={currency}
+                      onChange={(e) => setCurrency(e.target.value)}
+                      className="min-h-[48px] w-full rounded-md border border-line bg-surface px-3 text-base uppercase text-ink focus:border-primary"
+                    />
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => void onSave()}
+                    disabled={saving}
+                    className="min-h-[52px] w-full rounded-md bg-primary px-4 font-display text-base font-bold text-white hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-60"
+                  >
+                    {saving ? "Menyimpan…" : "Simpan Pengaturan"}
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <p className="mt-5 border-t border-line pt-4 text-sm text-secondary">
+                Hanya pemilik yang dapat mengubah profil outlet. Anda masuk sebagai{" "}
+                {user ? roleLabel(user.role) : "—"}.
+              </p>
+            )}
+          </section>
+
+          <section aria-label="Akun saya" className="h-fit rounded-lg border border-line bg-surface p-5">
+            <h2 className="font-display text-h2 font-bold text-ink">Akun Saya</h2>
+            {user ? (
+              <dl className="mt-4 space-y-2.5 text-sm">
+                <div className="flex justify-between gap-4">
+                  <dt className="text-secondary">Nama</dt>
+                  <dd className="text-right font-semibold text-ink">{user.name}</dd>
+                </div>
+                <div className="flex justify-between gap-4">
+                  <dt className="text-secondary">Email</dt>
+                  <dd className="break-all text-right font-semibold text-ink">{user.email}</dd>
+                </div>
+                <div className="flex justify-between gap-4">
+                  <dt className="text-secondary">Peran</dt>
+                  <dd className="text-right font-semibold text-ink">{roleLabel(user.role)}</dd>
+                </div>
+                <div className="flex justify-between gap-4">
+                  <dt className="text-secondary">ID Outlet</dt>
+                  <dd className="break-all text-right font-mono text-xs font-semibold text-ink">
+                    {user.outlet_id}
+                  </dd>
+                </div>
+              </dl>
+            ) : (
+              <p className="mt-3 text-sm text-secondary">Sesi tidak tersedia.</p>
+            )}
+            <p className="mt-5 border-t border-line pt-4 text-xs text-muted">
+              Kata sandi akun hanya bisa diatur ulang oleh pemilik lewat halaman Pengguna.
+            </p>
+          </section>
+        </div>
+      ) : null}
+    </div>
+  );
+}
