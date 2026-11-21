@@ -1,0 +1,14 @@
+name = "seblak-pos"
+main = "worker/index.ts"
+compatibility_date = "2025-09-15"
+compatibility_flags = ["nodejs_compat"]
+
+# Binding D1 sesuai kontrak G1a (skema 25 tabel, migrasi 0001-0007).
+# database_id di bawah masih PLACEHOLDER: akses Cloudflare belum tersedia,
+# jadi database D1 "seblak-pos-db" belum dibuat. Isi dengan ID asli hasil
+# `wrangler d1 create seblak-pos-db` begitu akses Cloudflare tersedia.
+[[d1_databases]]
+binding = "DB"
+database_name = "seblak-pos-db"
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
