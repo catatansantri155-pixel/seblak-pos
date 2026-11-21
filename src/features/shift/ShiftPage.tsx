@@ -158,7 +158,7 @@ export default function ShiftPage() {
               </button>
             </div>
             <p className="mt-1.5 text-xs text-muted">
-              Server akan menghitung uang seharusnya (modal + penjualan tunai terkonfirmasi) dan selisihnya.
+              Selesaikan pembayaran pesanan sebelum menutup shift. Server akan menghitung uang seharusnya dan selisihnya.
             </p>
           </form>
         </div>

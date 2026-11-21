@@ -1,1 +1,116 @@
-LyoqCiAqIFNoaW0gRDEgaW4tbWVtb3J5IHVudHVrIHRlc3QgVml0ZXN0LCBkaSBhdGFzIG5vZGU6c3FsaXRlIChiYXdhYW4gTm9kZSAyNCwKICogdGFucGEgZGVwZW5kZW5zaSB0YW1iYWhhbikuIE1lbmdpbXBsZW1lbnRhc2lrYW4gcGVybXVrYWFuIEQxIHlhbmcgZGlwYWthaQogKiB3b3JrZXI6IHByZXBhcmUvYmluZC9ydW4vZmlyc3QvYWxsL2JhdGNoICsgZXhlYy4KICoKICogY3JlYXRlVGVzdERiKCkgbWVtYnVhdCBkYXRhYmFzZSBrb3NvbmcsIG1lbmphbGFua2FuIFNFTVVBIG1pZ3Jhc2kKICogKG1pZ3JhdGlvbnMvKi5zcWwgYmVydXJ1dGFuKSBsYWx1IHNlZWQgZGVtbyAoc2VlZHMvMDAwMV9kZW1vLnNxbCksIHBlcnNpcwogKiBzZXBlcnRpIHVydXRhbiBwZW1ha2FpYW4gbnlhdGEuCiAqLwppbXBvcnQgdHlwZSB7IERhdGFiYXNlU3luYyB9IGZyb20gIm5vZGU6c3FsaXRlIjsKaW1wb3J0IHsgY3JlYXRlUmVxdWlyZSB9IGZyb20gIm5vZGU6bW9kdWxlIjsKaW1wb3J0IHsgcmVhZEZpbGVTeW5jLCByZWFkZGlyU3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgeyBkaXJuYW1lLCBqb2luIH0gZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKCi8vIG5vZGU6c3FsaXRlIGRpbXVhdCBsZXdhdCBjcmVhdGVSZXF1aXJlOiByZXNvbHZlciBWaXRlIHBhZGEgVml0ZXN0IGJlbHVtCi8vIG1lbmdlbmFsaSBidWlsdGluICJub2RlOnNxbGl0ZSIgZGFuIGdhZ2FsIG1lbXVhdG55YSBzZWJhZ2FpIFVSTC4KY29uc3QgeyBEYXRhYmFzZVN5bmM6IERhdGFiYXNlU3luY0N0b3IgfSA9IGNyZWF0ZVJlcXVpcmUoaW1wb3J0Lm1ldGEudXJsKSgKICAibm9kZTpzcWxpdGUiLAopIGFzIHsgRGF0YWJhc2VTeW5jOiB0eXBlb2YgRGF0YWJhc2VTeW5jIH07Cgpjb25zdCByb290ID0gam9pbihkaXJuYW1lKGZpbGVVUkxUb1BhdGgoaW1wb3J0Lm1ldGEudXJsKSksICIuLiIsICIuLiIpOwoKY2xhc3MgU2hpbVByZXBhcmVkU3RhdGVtZW50IHsKICBjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgcmVhZG9ubHkgc3FsaXRlOiBEYXRhYmFzZVN5bmMsCiAgICBwcml2YXRlIHJlYWRvbmx5IHNxbDogc3RyaW5nLAogICAgcHJpdmF0ZSByZWFkb25seSBwYXJhbXM6IHVua25vd25bXSA9IFtdLAogICkge30KCiAgYmluZCguLi52YWx1ZXM6IHVua25vd25bXSk6IFNoaW1QcmVwYXJlZFN0YXRlbWVudCB7CiAgICByZXR1cm4gbmV3IFNoaW1QcmVwYXJlZFN0YXRlbWVudCh0aGlzLnNxbGl0ZSwgdGhpcy5zcWwsIHZhbHVlcyk7CiAgfQoKICBhc3luYyBydW4oKTogUHJvbWlzZTx7IHN1Y2Nlc3M6IGJvb2xlYW47IG1ldGE6IHsgY2hhbmdlczogbnVtYmVyOyBsYXN0X3Jvd19pZDogbnVtYmVyIH0gfT4gewogICAgY29uc3QgaW5mbyA9IHRoaXMuc3FsaXRlLnByZXBhcmUodGhpcy5zcWwpLnJ1biguLi50aGlzLnBhcmFtcyk7CiAgICByZXR1cm4gewogICAgICBzdWNjZXNzOiB0cnVlLAogICAgICBtZXRhOiB7IGNoYW5nZXM6IE51bWJlcihpbmZvLmNoYW5nZXMpLCBsYXN0X3Jvd19pZDogTnVtYmVyKGluZm8ubGFzdEluc2VydFJvd2lkKSB9LAogICAgfTsKICB9CgogIGFzeW5jIGZpcnN0PFQ+KGNvbE5hbWU/OiBzdHJpbmcpOiBQcm9taXNlPFQgfCBudWxsPiB7CiAgICBjb25zdCByb3cgPSB0aGlzLnNxbGl0ZS5wcmVwYXJlKHRoaXMuc3FsKS5nZXQoLi4udGhpcy5wYXJhbXMpOwogICAgaWYgKCFyb3cpIHJldHVybiBudWxsOwogICAgaWYgKGNvbE5hbWUpIHJldHVybiAocm93W2NvbE5hbWVdIGFzIFQpID8/IG51bGw7CiAgICByZXR1cm4gcm93IGFzIFQ7CiAgfQoKICBhc3luYyBhbGw8VD4oKTogUHJvbWlzZTx7IHJlc3VsdHM6IFRbXTsgc3VjY2VzczogYm9vbGVhbjsgbWV0YTogUmVjb3JkPHN0cmluZywgbmV2ZXI+IH0+IHsKICAgIGNvbnN0IHJvd3MgPSB0aGlzLnNxbGl0ZS5wcmVwYXJlKHRoaXMuc3FsKS5hbGwoLi4udGhpcy5wYXJhbXMpOwogICAgcmV0dXJuIHsgcmVzdWx0czogcm93cyBhcyBUW10sIHN1Y2Nlc3M6IHRydWUsIG1ldGE6IHt9IH07CiAgfQp9CgpjbGFzcyBTaGltRDEgewogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgc3FsaXRlOiBEYXRhYmFzZVN5bmMpIHt9CgogIHByZXBhcmUoc3FsOiBzdHJpbmcpOiBTaGltUHJlcGFyZWRTdGF0ZW1lbnQgewogICAgcmV0dXJuIG5ldyBTaGltUHJlcGFyZWRTdGF0ZW1lbnQodGhpcy5zcWxpdGUsIHNxbCk7CiAgfQoKICBhc3luYyBiYXRjaChzdG10czogU2hpbVByZXBhcmVkU3RhdGVtZW50W10pOiBQcm9taXNlPHVua25vd25bXT4gewogICAgdGhpcy5zcWxpdGUuZXhlYygiQkVHSU4iKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlc3VsdHM6IHVua25vd25bXSA9IFtdOwogICAgICBmb3IgKGNvbnN0IHMgb2Ygc3RtdHMpIHJlc3VsdHMucHVzaChhd2FpdCBzLnJ1bigpKTsKICAgICAgdGhpcy5zcWxpdGUuZXhlYygiQ09NTUlUIik7CiAgICAgIHJldHVybiByZXN1bHRzOwogICAgfSBjYXRjaCAoZSkgewogICAgICB0aGlzLnNxbGl0ZS5leGVjKCJST0xMQkFDSyIpOwogICAgICB0aHJvdyBlOwogICAgfQogIH0KCiAgYXN5bmMgZXhlYyhzcWw6IHN0cmluZyk6IFByb21pc2U8eyBzdWNjZXNzOiBib29sZWFuOyBtZXRhOiBSZWNvcmQ8c3RyaW5nLCBuZXZlcj4gfT4gewogICAgdGhpcy5zcWxpdGUuZXhlYyhzcWwpOwogICAgcmV0dXJuIHsgc3VjY2VzczogdHJ1ZSwgbWV0YToge30gfTsKICB9Cn0KCmV4cG9ydCBpbnRlcmZhY2UgVGVzdERiIHsKICBkYjogRDFEYXRhYmFzZTsKICBzcWxpdGU6IERhdGFiYXNlU3luYzsKICBzdG9ja0JhbGFuY2UocHJvZHVjdElkOiBzdHJpbmcpOiBudW1iZXI7CiAgc2NhbGFyPFQ+KHNxbDogc3RyaW5nLCAuLi5wYXJhbXM6IHVua25vd25bXSk6IFQgfCB1bmRlZmluZWQ7Cn0KCmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVUZXN0RGIod2l0aFNlZWQgPSB0cnVlKTogVGVzdERiIHsKICBjb25zdCBzcWxpdGUgPSBuZXcgRGF0YWJhc2VTeW5jQ3RvcigiOm1lbW9yeToiKTsKICBjb25zdCBtaWdEaXIgPSBqb2luKHJvb3QsICJtaWdyYXRpb25zIik7CiAgY29uc3QgZmlsZXMgPSByZWFkZGlyU3luYyhtaWdEaXIpLmZpbHRlcigoZikgPT4gZi5lbmRzV2l0aCgiLnNxbCIpKS5zb3J0KCk7CiAgZm9yIChjb25zdCBmIG9mIGZpbGVzKSB7CiAgICBzcWxpdGUuZXhlYyhyZWFkRmlsZVN5bmMoam9pbihtaWdEaXIsIGYpLCAidXRmOCIpKTsKICB9CiAgaWYgKHdpdGhTZWVkKSB7CiAgICBzcWxpdGUuZXhlYyhyZWFkRmlsZVN5bmMoam9pbihyb290LCAic2VlZHMiLCAiMDAwMV9kZW1vLnNxbCIpLCAidXRmOCIpKTsKICB9CiAgY29uc3QgZGIgPSBuZXcgU2hpbUQxKHNxbGl0ZSkgYXMgdW5rbm93biBhcyBEMURhdGFiYXNlOwogIHJldHVybiB7CiAgICBkYiwKICAgIHNxbGl0ZSwKICAgIHN0b2NrQmFsYW5jZShwcm9kdWN0SWQ6IHN0cmluZyk6IG51bWJlciB7CiAgICAgIGNvbnN0IHJvdyA9IHNxbGl0ZQogICAgICAgIC5wcmVwYXJlKCJTRUxFQ1QgQ09BTEVTQ0UoU1VNKHF0eV9kZWx0YSksIDApIEFTIGJhbCBGUk9NIHN0b2NrX21vdmVtZW50cyBXSEVSRSBwcm9kdWN0X2lkID0gPyIpCiAgICAgICAgLmdldChwcm9kdWN0SWQpOwogICAgICByZXR1cm4gTnVtYmVyKHJvdz8uYmFsID8/IDApOwogICAgfSwKICAgIHNjYWxhcjxUPihzcWw6IHN0cmluZywgLi4ucGFyYW1zOiB1bmtub3duW10pOiBUIHwgdW5kZWZpbmVkIHsKICAgICAgY29uc3Qgcm93ID0gc3FsaXRlLnByZXBhcmUoc3FsKS5nZXQoLi4ucGFyYW1zKTsKICAgICAgaWYgKCFyb3cpIHJldHVybiB1bmRlZmluZWQ7CiAgICAgIGNvbnN0IHZhbHVlcyA9IE9iamVjdC52YWx1ZXMocm93KTsKICAgICAgcmV0dXJuIHZhbHVlc1swXSBhcyBUOwogICAgfSwKICB9Owp9Cg==
+/**
+ * Shim D1 in-memory untuk test Vitest, di atas node:sqlite (bawaan Node 24,
+ * tanpa dependensi tambahan). Mengimplementasikan permukaan D1 yang dipakai
+ * worker: prepare/bind/run/first/all/batch + exec.
+ *
+ * createTestDb() membuat database kosong, menjalankan SEMUA migrasi
+ * (migrations/*.sql berurutan) lalu seed demo (seeds/0001_demo.sql), persis
+ * seperti urutan pemakaian nyata.
+ */
+import type { DatabaseSync } from "node:sqlite";
+import { createRequire } from "node:module";
+import { readFileSync, readdirSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+// node:sqlite dimuat lewat createRequire: resolver Vite pada Vitest belum
+// mengenali builtin "node:sqlite" dan gagal memuatnya sebagai URL.
+const { DatabaseSync: DatabaseSyncCtor } = createRequire(import.meta.url)(
+  "node:sqlite",
+) as { DatabaseSync: typeof DatabaseSync };
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
+
+class ShimPreparedStatement {
+  constructor(
+    private readonly sqlite: DatabaseSync,
+    private readonly sql: string,
+    private readonly params: unknown[] = [],
+  ) {}
+
+  bind(...values: unknown[]): ShimPreparedStatement {
+    return new ShimPreparedStatement(this.sqlite, this.sql, values);
+  }
+
+  async run(): Promise<{ success: boolean; meta: { changes: number; last_row_id: number } }> {
+    const info = this.sqlite.prepare(this.sql).run(...this.params);
+    return {
+      success: true,
+      meta: { changes: Number(info.changes), last_row_id: Number(info.lastInsertRowid) },
+    };
+  }
+
+  async first<T>(colName?: string): Promise<T | null> {
+    const row = this.sqlite.prepare(this.sql).get(...this.params);
+    if (!row) return null;
+    if (colName) return (row[colName] as T) ?? null;
+    return row as T;
+  }
+
+  async all<T>(): Promise<{ results: T[]; success: boolean; meta: Record<string, never> }> {
+    const rows = this.sqlite.prepare(this.sql).all(...this.params);
+    return { results: rows as T[], success: true, meta: {} };
+  }
+}
+
+class ShimD1 {
+  constructor(private readonly sqlite: DatabaseSync) {}
+
+  prepare(sql: string): ShimPreparedStatement {
+    return new ShimPreparedStatement(this.sqlite, sql);
+  }
+
+  async batch(stmts: ShimPreparedStatement[]): Promise<unknown[]> {
+    this.sqlite.exec("BEGIN");
+    try {
+      const results: unknown[] = [];
+      for (const s of stmts) results.push(await s.run());
+      this.sqlite.exec("COMMIT");
+      return results;
+    } catch (e) {
+      this.sqlite.exec("ROLLBACK");
+      throw e;
+    }
+  }
+
+  async exec(sql: string): Promise<{ success: boolean; meta: Record<string, never> }> {
+    this.sqlite.exec(sql);
+    return { success: true, meta: {} };
+  }
+}
+
+export interface TestDb {
+  db: D1Database;
+  sqlite: DatabaseSync;
+  stockBalance(productId: string): number;
+  scalar<T>(sql: string, ...params: unknown[]): T | undefined;
+}
+
+export function createTestDb(withSeed = true): TestDb {
+  const sqlite = new DatabaseSyncCtor(":memory:");
+  const migDir = join(root, "migrations");
+  const files = readdirSync(migDir).filter((f) => f.endsWith(".sql")).sort();
+  for (const f of files) {
+    sqlite.exec(readFileSync(join(migDir, f), "utf8"));
+  }
+  if (withSeed) {
+    sqlite.exec(readFileSync(join(root, "seeds", "0001_demo.sql"), "utf8"));
+  }
+  const db = new ShimD1(sqlite) as unknown as D1Database;
+  return {
+    db,
+    sqlite,
+    stockBalance(productId: string): number {
+      const row = sqlite
+        .prepare("SELECT COALESCE(SUM(qty_delta), 0) AS bal FROM stock_movements WHERE product_id = ?")
+        .get(productId);
+      return Number(row?.bal ?? 0);
+    },
+    scalar<T>(sql: string, ...params: unknown[]): T | undefined {
+      const row = sqlite.prepare(sql).get(...params);
+      if (!row) return undefined;
+      const values = Object.values(row);
+      return values[0] as T;
+    },
+  };
+}

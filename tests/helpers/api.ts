@@ -1,1 +1,80 @@
-LyoqCiAqIEtsaWVuIHRlc3QgYmVyc2FtYSB1bnR1ayB0ZXN0IGludGVncmFzaSBHNCs6IG1lbWFuZ2dpbCBXb3JrZXIgSG9ubwogKiBsYW5nc3VuZyAoYXBwLnJlcXVlc3QpIGRlbmdhbiBiaW5kaW5nIERCIGRhcmkgc2hpbSAodGVzdHMvaGVscGVycy9kMS50cyksCiAqIG1lbmlydSBwb2xhIHRlc3RzL29yZGVycy50ZXN0LnRzLgogKi8KaW1wb3J0IHsgZXhwZWN0IH0gZnJvbSAidml0ZXN0IjsKaW1wb3J0IGFwcCBmcm9tICIuLi8uLi93b3JrZXIvaW5kZXgiOwppbXBvcnQgdHlwZSB7IFRlc3REYiB9IGZyb20gIi4vZDEiOwoKZXhwb3J0IGludGVyZmFjZSBFbnZlbG9wZTxUPiB7CiAgZGF0YTogVDsKICBtZXRhOiB7IHJlcXVlc3RfaWQ6IHN0cmluZzsgcGFnaW5hdGlvbj86IHsgcGFnZTogbnVtYmVyOyBwZXJfcGFnZTogbnVtYmVyOyB0b3RhbDogbnVtYmVyIH0gfTsKfQpleHBvcnQgaW50ZXJmYWNlIEVycm9yRW52ZWxvcGUgewogIGVycm9yOiB7IGNvZGU6IHN0cmluZzsgbWVzc2FnZTogc3RyaW5nOyBkZXRhaWxzPzogdW5rbm93biB9Owp9CgpleHBvcnQgaW50ZXJmYWNlIENhbGxSZXN1bHQ8VD4gewogIHN0YXR1czogbnVtYmVyOwogIGpzb246IEVudmVsb3BlPFQ+ICYgRXJyb3JFbnZlbG9wZTsKfQoKZXhwb3J0IGZ1bmN0aW9uIG1ha2VDbGllbnQodDogVGVzdERiKSB7CiAgYXN5bmMgZnVuY3Rpb24gY2FsbDxUPigKICAgIG1ldGhvZDogc3RyaW5nLAogICAgcGF0aDogc3RyaW5nLAogICAgb3B0czogeyB0b2tlbj86IHN0cmluZzsgYm9keT86IHVua25vd247IGhlYWRlcnM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IH0gPSB7fSwKICApOiBQcm9taXNlPENhbGxSZXN1bHQ8VD4+IHsKICAgIGNvbnN0IGhlYWRlcnM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7IC4uLihvcHRzLmhlYWRlcnMgPz8ge30pIH07CiAgICBpZiAob3B0cy50b2tlbikgaGVhZGVyc1siQXV0aG9yaXphdGlvbiJdID0gYEJlYXJlciAke29wdHMudG9rZW59YDsKICAgIGlmIChvcHRzLmJvZHkgIT09IHVuZGVmaW5lZCkgaGVhZGVyc1siQ29udGVudC1UeXBlIl0gPSAiYXBwbGljYXRpb24vanNvbiI7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhcHAucmVxdWVzdCgKICAgICAgYGh0dHA6Ly90ZXN0JHtwYXRofWAsCiAgICAgIHsKICAgICAgICBtZXRob2QsCiAgICAgICAgaGVhZGVycywKICAgICAgICBib2R5OiBvcHRzLmJvZHkgIT09IHVuZGVmaW5lZCA/IEpTT04uc3RyaW5naWZ5KG9wdHMuYm9keSkgOiB1bmRlZmluZWQsCiAgICAgIH0sCiAgICAgIHsgREI6IHQuZGIgfSwKICAgICk7CiAgICBjb25zdCBqc29uID0gKGF3YWl0IHJlcy5qc29uKCkpIGFzIEVudmVsb3BlPFQ+ICYgRXJyb3JFbnZlbG9wZTsKICAgIHJldHVybiB7IHN0YXR1czogcmVzLnN0YXR1cywganNvbiB9OwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gbG9naW4oZW1haWw6IHN0cmluZywgcGFzc3dvcmQ6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nPiB7CiAgICBjb25zdCByID0gYXdhaXQgY2FsbDx7IHRva2VuOiBzdHJpbmcgfT4oIlBPU1QiLCAiL2FwaS92MS9hdXRoL2xvZ2luIiwgewogICAgICBib2R5OiB7IGVtYWlsLCBwYXNzd29yZCB9LAogICAgfSk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoMjAwKTsKICAgIHJldHVybiByLmpzb24uZGF0YS50b2tlbjsKICB9CgogIHJldHVybiB7IGNhbGwsIGxvZ2luIH07Cn0KCi8qKiBJdGVtIGNvbnRvaCBrb250cmFrOiAxIHBvcnNpID0gMTAwMDAgKyBiYWtzbyAyeDIwMDAgKyBjZWtlciAzMDAwICsgdGVsdXIgNDAwMCA9IDIxMDAwLiAqLwpleHBvcnQgY29uc3QgU0VCTEFLID0gImQwMDAwMDAwLTAwMDAtNDAwMC04MDAwLTAwMDAwMDAwMDAwMSI7CmV4cG9ydCBjb25zdCBFU19URUggPSAiZDAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDAyIjsKZXhwb3J0IGNvbnN0IFNUT0tfQkFLU08gPSAiZDAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDExIjsKZXhwb3J0IGNvbnN0IFNUT0tfQ0VLRVIgPSAiZDAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDEyIjsKZXhwb3J0IGNvbnN0IFNUT0tfVEVMVVIgPSAiZDAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDEzIjsKZXhwb3J0IGNvbnN0IE9QVF9MRVZFTDEgPSAiZjAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDAyIjsKZXhwb3J0IGNvbnN0IE9QVF9CQUtTTyA9ICJmMDAwMDAwMC0wMDAwLTQwMDAtODAwMC0wMDAwMDAwMDAwMTEiOwpleHBvcnQgY29uc3QgT1BUX0NFS0VSID0gImYwMDAwMDAwLTAwMDAtNDAwMC04MDAwLTAwMDAwMDAwMDAxMiI7CmV4cG9ydCBjb25zdCBPUFRfVEVMVVIgPSAiZjAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDEzIjsKZXhwb3J0IGNvbnN0IENBVF9TRUJMQUsgPSAiYzAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDAxIjsKZXhwb3J0IGNvbnN0IENBVF9NSU5VTUFOID0gImMwMDAwMDAwLTAwMDAtNDAwMC04MDAwLTAwMDAwMDAwMDAwMiI7CgpleHBvcnQgY29uc3Qga29udHJha0l0ZW1zID0gKHF0eTogbnVtYmVyKSA9PiBbCiAgewogICAgcHJvZHVjdF9pZDogU0VCTEFLLAogICAgcXR5LAogICAgbW9kaWZpZXJzOiBbCiAgICAgIHsgbW9kaWZpZXJfb3B0aW9uX2lkOiBPUFRfTEVWRUwxLCBxdHk6IDEgfSwKICAgICAgeyBtb2RpZmllcl9vcHRpb25faWQ6IE9QVF9CQUtTTywgcXR5OiAyIH0sCiAgICAgIHsgbW9kaWZpZXJfb3B0aW9uX2lkOiBPUFRfQ0VLRVIsIHF0eTogMSB9LAogICAgICB7IG1vZGlmaWVyX29wdGlvbl9pZDogT1BUX1RFTFVSLCBxdHk6IDEgfSwKICAgIF0sCiAgfSwKXTsK
+/**
+ * Klien test bersama untuk test integrasi G4+: memanggil Worker Hono
+ * langsung (app.request) dengan binding DB dari shim (tests/helpers/d1.ts),
+ * meniru pola tests/orders.test.ts.
+ */
+import { expect } from "vitest";
+import app from "../../worker/index";
+import type { TestDb } from "./d1";
+
+export interface Envelope<T> {
+  data: T;
+  meta: { request_id: string; pagination?: { page: number; per_page: number; total: number } };
+}
+export interface ErrorEnvelope {
+  error: { code: string; message: string; details?: unknown };
+}
+
+export interface CallResult<T> {
+  status: number;
+  json: Envelope<T> & ErrorEnvelope;
+}
+
+export function makeClient(t: TestDb) {
+  async function call<T>(
+    method: string,
+    path: string,
+    opts: { token?: string; body?: unknown; headers?: Record<string, string> } = {},
+  ): Promise<CallResult<T>> {
+    const headers: Record<string, string> = { ...(opts.headers ?? {}) };
+    if (opts.token) headers["Authorization"] = `Bearer ${opts.token}`;
+    if (opts.body !== undefined) headers["Content-Type"] = "application/json";
+    const res = await app.request(
+      `http://test${path}`,
+      {
+        method,
+        headers,
+        body: opts.body !== undefined ? JSON.stringify(opts.body) : undefined,
+      },
+      { DB: t.db },
+    );
+    const json = (await res.json()) as Envelope<T> & ErrorEnvelope;
+    return { status: res.status, json };
+  }
+
+  async function login(email: string, password: string): Promise<string> {
+    const r = await call<{ token: string }>("POST", "/api/v1/auth/login", {
+      body: { email, password },
+    });
+    expect(r.status).toBe(200);
+    return r.json.data.token;
+  }
+
+  return { call, login };
+}
+
+/** Item contoh kontrak: 1 porsi = 10000 + bakso 2x2000 + ceker 3000 + telur 4000 = 21000. */
+export const SEBLAK = "d0000000-0000-4000-8000-000000000001";
+export const ES_TEH = "d0000000-0000-4000-8000-000000000002";
+export const STOK_BAKSO = "d0000000-0000-4000-8000-000000000011";
+export const STOK_CEKER = "d0000000-0000-4000-8000-000000000012";
+export const STOK_TELUR = "d0000000-0000-4000-8000-000000000013";
+export const OPT_LEVEL1 = "f0000000-0000-4000-8000-000000000002";
+export const OPT_BAKSO = "f0000000-0000-4000-8000-000000000011";
+export const OPT_CEKER = "f0000000-0000-4000-8000-000000000012";
+export const OPT_TELUR = "f0000000-0000-4000-8000-000000000013";
+export const CAT_SEBLAK = "c0000000-0000-4000-8000-000000000001";
+export const CAT_MINUMAN = "c0000000-0000-4000-8000-000000000002";
+
+export const kontrakItems = (qty: number) => [
+  {
+    product_id: SEBLAK,
+    qty,
+    modifiers: [
+      { modifier_option_id: OPT_LEVEL1, qty: 1 },
+      { modifier_option_id: OPT_BAKSO, qty: 2 },
+      { modifier_option_id: OPT_CEKER, qty: 1 },
+      { modifier_option_id: OPT_TELUR, qty: 1 },
+    ],
+  },
+];

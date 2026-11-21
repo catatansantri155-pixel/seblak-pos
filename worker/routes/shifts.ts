@@ -110,33 +110,49 @@ shifts.post("/shifts/:id/close", async (c) => {
   const user = c.get("user");
   const id = c.req.param("id");
   const body = parseWith(closeSchema, await readJsonBody(c.req));
-  const row = await c.env.DB
-    .prepare("SELECT * FROM cash_shifts WHERE id = ? AND outlet_id = ? AND deleted_at IS NULL")
-    .bind(id, user.outlet_id)
+  const db = c.env.DB;
+  const t = Date.now();
+  // Hitung saldo dan tutup shift dalam satu statement. Pembayaran yang
+  // masuk lebih dulu ikut dihitung. Setelah status berubah, pembayaran baru
+  // ditolak oleh write guard di createPaymentCore.
+  const updated = await db
+    .prepare(
+      `UPDATE cash_shifts
+          SET closed_at = ?, expected_cash = totals.expected,
+              counted_cash = ?, difference = ? - totals.expected,
+              status = 'closed', updated_at = ?, version = cash_shifts.version + 1
+         FROM (
+           SELECT s.id,
+                  s.opening_cash
+                    + (SELECT COALESCE(SUM(amount - change_amount), 0)
+                         FROM payments
+                        WHERE outlet_id = s.outlet_id AND shift_id = s.id
+                          AND method = 'cash' AND status = 'settled' AND deleted_at IS NULL)
+                    + (SELECT COALESCE(SUM(CASE WHEN type = 'out' THEN -amount ELSE amount END), 0)
+                         FROM cash_movements WHERE shift_id = s.id) AS expected
+             FROM cash_shifts s WHERE s.id = ? AND s.outlet_id = ?
+         ) AS totals
+        WHERE cash_shifts.id = totals.id AND cash_shifts.status = 'open'
+          AND cash_shifts.deleted_at IS NULL
+        RETURNING *`,
+    )
+    .bind(t, body.counted_cash, body.counted_cash, t, id, user.outlet_id)
     .first<ShiftRow>();
-  if (!row) throw new ApiError("NOT_FOUND", "Shift tidak ditemukan");
-  if (row.status !== "open") {
+  if (!updated) {
+    const existing = await db
+      .prepare("SELECT id FROM cash_shifts WHERE id = ? AND outlet_id = ? AND deleted_at IS NULL")
+      .bind(id, user.outlet_id)
+      .first<{ id: string }>();
+    if (!existing) throw new ApiError("NOT_FOUND", "Shift tidak ditemukan");
     throw new ApiError("CONFLICT", "Shift sudah ditutup");
   }
-  const cashSales = await settledCashTotal(c.env.DB, user.outlet_id, id);
-  const movements = await cashMovementsTotal(c.env.DB, id);
-  const expected = row.opening_cash + movements + cashSales;
-  const difference = body.counted_cash - expected;
-  const t = Date.now();
-  await c.env.DB
-    .prepare(
-      `UPDATE cash_shifts SET closed_at = ?, expected_cash = ?, counted_cash = ?, difference = ?,
-              status = 'closed', updated_at = ?, version = version + 1 WHERE id = ?`,
-    )
-    .bind(t, expected, body.counted_cash, difference, t, id)
-    .run();
-  const updated = await c.env.DB
-    .prepare("SELECT * FROM cash_shifts WHERE id = ?")
-    .bind(id)
-    .first<ShiftRow>();
+  const [cashSales, movements] = await Promise.all([
+    settledCashTotal(db, user.outlet_id, id),
+    cashMovementsTotal(db, id),
+  ]);
   return c.json(
     successEnvelope(
-      { ...shiftOut(updated as ShiftRow), cash_sales_total: cashSales, cash_movements_total: movements },
+      { ...shiftOut(updated), cash_sales_total: cashSales, cash_movements_total: movements },
       c.get("requestId"),
     ),
     200,
