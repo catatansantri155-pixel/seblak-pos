@@ -1,1 +1,324 @@
-LyoqCiAqIE1lc2luIGhhcmdhIFNlYmxhayBQT1Mg4oCUIGZ1bmdzaSBNVVJOSSAodGFucGEgSS9PLCB0YW5wYSBha3NlcyBEQikuCiAqCiAqIEF0dXJhbiB5YW5nIGRpdGVyYXBrYW4gKGRvY3MvZzEtYnJhbmQtZGFuLWF0dXJhbi1wcm9tby5tZCBiYWdpYW4gNCk6CiAqIC0gSGFyZ2Egc2VsYWx1IGRpaGl0dW5nIHNlcnZlciBkYXJpIGhhcmdhIGRhc2FyICsgdmFyaWFuICsgb3BzaSBiZXJiYXlhci4KICogLSBVcnV0YW46IHByb21vIGl0ZW0gKGJvZ28vYnVuZGxlL2ZyZWVfaXRlbSkgZHVsdSwgbGFsdSBwcm9tbyBzdWJ0b3RhbAogKiAgIChwZXJjZW50L25vbWluYWwpLCBsYWx1IHBhamFrIGRhcmkgbmlsYWkgc2V0ZWxhaCBkaXNrb24gKGF0dXJhbiA0KS4KICogLSBEZWZhdWx0IHByb21vIHRpZGFrIGJpc2EgZGl0dW1wdWs7IGhhbnlhIGlzX3N0YWNrYWJsZSB5YW5nIGJvbGVoIGJlcmdhYnVuZywKICogICBtYWtzaW1hbCAyIHByb21vIHBlciBvcmRlciAoYXR1cmFuIDMpLgogKiAtIG1heF9kaXNjb3VudCBhZGFsYWggcGxhZm9uIG11dGxhayBwZXIgcHJvbW87IGdyYW5kX3RvdGFsIHRpZGFrIHBlcm5haAogKiAgIG5lZ2F0aWYgKGF0dXJhbiAyKS4KICogLSBQcm9tbyBkaSBsdWFyIG1hc2EgYmVybGFrdSAvIHRpZGFrIGFrdGlmIC8gc3lhcmF0IHRpZGFrIHRlcnBlbnVoaSBkaXRvbGFrCiAqICAgVkFMSURBVElPTl9FUlJPUiAoYXR1cmFuIDgpLgogKgogKiBDb250b2gga29udHJhayB5YW5nIHdhamliIGJlbmFyOgogKiAgIFNlYmxhayBiYXNlIDEwMDAwICsgYmFrc28gMngyMDAwICsgY2VrZXIgMzAwMCArIHRlbHVyIDQwMDAgPSAyMTAwMC9wb3JzaTsKICogICAyIHBvcnNpID0gNDIwMDAuCiAqLwppbXBvcnQgeyBBcGlFcnJvciB9IGZyb20gIi4vZXJyb3JzIjsKCmV4cG9ydCBpbnRlcmZhY2UgUHJpY2luZ01vZGlmaWVySW5wdXQgewogIG1vZGlmaWVyX29wdGlvbl9pZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICBwcmljZV9kZWx0YTogbnVtYmVyOwogIHF0eTogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIFByaWNpbmdMaW5lSW5wdXQgewogIHByb2R1Y3RfaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgcXR5OiBudW1iZXI7CiAgLyoqIGJhc2VfcHJpY2UgcHJvZHVrICsgcHJpY2VfZGVsdGEgdmFyaWFuICh0YW5wYSBtb2RpZmllcikuICovCiAgdW5pdF9iYXNlOiBudW1iZXI7CiAgbW9kaWZpZXJzOiBQcmljaW5nTW9kaWZpZXJJbnB1dFtdOwp9CgpleHBvcnQgdHlwZSBQcm9tb3Rpb25UeXBlID0gInBlcmNlbnQiIHwgIm5vbWluYWwiIHwgImJvZ28iIHwgImJ1bmRsZSIgfCAiZnJlZV9pdGVtIjsKCmV4cG9ydCBpbnRlcmZhY2UgUHJvbW90aW9uSW5wdXQgewogIGlkOiBzdHJpbmc7CiAgbmFtZTogc3RyaW5nOwogIHR5cGU6IFByb21vdGlvblR5cGU7CiAgLyoqIGNvbmZpZyBKU09OIHlhbmcgc3VkYWggZGktcGFyc2UgZGFyaSBwcm9tb3Rpb25zLmNvbmZpZy4gKi8KICBjb25maWc6IFJlY29yZDxzdHJpbmcsIHVua25vd24+OwogIGlzX3N0YWNrYWJsZTogYm9vbGVhbjsKICBtYXhfZGlzY291bnQ6IG51bWJlciB8IG51bGw7CiAgaXNfYWN0aXZlOiBib29sZWFuOwogIHN0YXJ0c19hdDogbnVtYmVyIHwgbnVsbDsKICBlbmRzX2F0OiBudW1iZXIgfCBudWxsOwp9CgpleHBvcnQgaW50ZXJmYWNlIFByaWNlZExpbmUgZXh0ZW5kcyBQcmljaW5nTGluZUlucHV0IHsKICAvKiogdW5pdF9iYXNlICsgc3VtKHByaWNlX2RlbHRhIG9wc2kgKiBxdHkgb3BzaSkuICovCiAgdW5pdF9wcmljZTogbnVtYmVyOwogIGxpbmVfc3VidG90YWw6IG51bWJlcjsKICAvKiogRGlza29uIHByb21vIHRpbmdrYXQgaXRlbSB5YW5nIHRlcmF0cmlidXNpIGtlIGJhcmlzIGluaS4gKi8KICBsaW5lX2Rpc2NvdW50OiBudW1iZXI7CiAgbGluZV90b3RhbDogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIEFwcGxpZWRQcm9tb3Rpb24gewogIHByb21vdGlvbl9pZDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICB0eXBlOiBQcm9tb3Rpb25UeXBlOwogIGRpc2NvdW50X2Ftb3VudDogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIFByaWNpbmdSZXN1bHQgewogIGxpbmVzOiBQcmljZWRMaW5lW107CiAgc3VidG90YWw6IG51bWJlcjsKICBpdGVtX2Rpc2NvdW50OiBudW1iZXI7CiAgc3VidG90YWxfZGlzY291bnQ6IG51bWJlcjsKICBkaXNjb3VudF90b3RhbDogbnVtYmVyOwogIHRheF90b3RhbDogbnVtYmVyOwogIGdyYW5kX3RvdGFsOiBudW1iZXI7CiAgYXBwbGllZF9wcm9tb3Rpb25zOiBBcHBsaWVkUHJvbW90aW9uW107Cn0KCmZ1bmN0aW9uIGludmFsaWRQcm9tbyhwcm9tbzogUHJvbW90aW9uSW5wdXQsIHJlYXNvbjogc3RyaW5nKTogQXBpRXJyb3IgewogIHJldHVybiBuZXcgQXBpRXJyb3IoIlZBTElEQVRJT05fRVJST1IiLCBgUHJvbW8gIiR7cHJvbW8ubmFtZX0iIHRpZGFrIHZhbGlkOiAke3JlYXNvbn1gLCB7CiAgICBwcm9tb3Rpb25faWQ6IHByb21vLmlkLAogICAgcmVhc29uLAogIH0pOwp9CgpmdW5jdGlvbiBjZmdJbnQoCiAgcHJvbW86IFByb21vdGlvbklucHV0LAogIGNmZzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4sCiAga2V5OiBzdHJpbmcsCiAgb3B0czogeyBtaW4/OiBudW1iZXI7IG1heD86IG51bWJlcjsgcmVxdWlyZWQ/OiBib29sZWFuOyBkZWY/OiBudW1iZXIgfSA9IHt9LAopOiBudW1iZXIgewogIGNvbnN0IHJhdyA9IGNmZ1trZXldOwogIGlmIChyYXcgPT09IHVuZGVmaW5lZCB8fCByYXcgPT09IG51bGwpIHsKICAgIGlmIChvcHRzLnJlcXVpcmVkKSB0aHJvdyBpbnZhbGlkUHJvbW8ocHJvbW8sIGBjb25maWcuJHtrZXl9IHdhamliIGRpaXNpYCk7CiAgICByZXR1cm4gb3B0cy5kZWYgPz8gMDsKICB9CiAgaWYgKHR5cGVvZiByYXcgIT09ICJudW1iZXIiIHx8ICFOdW1iZXIuaXNJbnRlZ2VyKHJhdykpIHsKICAgIHRocm93IGludmFsaWRQcm9tbyhwcm9tbywgYGNvbmZpZy4ke2tleX0gaGFydXMgYmlsYW5nYW4gYnVsYXRgKTsKICB9CiAgaWYgKG9wdHMubWluICE9PSB1bmRlZmluZWQgJiYgcmF3IDwgb3B0cy5taW4pIHsKICAgIHRocm93IGludmFsaWRQcm9tbyhwcm9tbywgYGNvbmZpZy4ke2tleX0gbWluaW1hbCAke29wdHMubWlufWApOwogIH0KICBpZiAob3B0cy5tYXggIT09IHVuZGVmaW5lZCAmJiByYXcgPiBvcHRzLm1heCkgewogICAgdGhyb3cgaW52YWxpZFByb21vKHByb21vLCBgY29uZmlnLiR7a2V5fSBtYWtzaW1hbCAke29wdHMubWF4fWApOwogIH0KICByZXR1cm4gcmF3Owp9CgpmdW5jdGlvbiBjZmdQcm9kdWN0SWQoCiAgcHJvbW86IFByb21vdGlvbklucHV0LAogIGNmZzogUmVjb3JkPHN0cmluZywgdW5rbm93bj4sCiAga2V5OiBzdHJpbmcsCik6IHN0cmluZyB7CiAgY29uc3QgcmF3ID0gY2ZnW2tleV07CiAgaWYgKHR5cGVvZiByYXcgIT09ICJzdHJpbmciIHx8IHJhdy5sZW5ndGggPT09IDApIHsKICAgIHRocm93IGludmFsaWRQcm9tbyhwcm9tbywgYGNvbmZpZy4ke2tleX0gd2FqaWIgYmVydXBhIGlkIHByb2R1a2ApOwogIH0KICByZXR1cm4gcmF3Owp9CgpmdW5jdGlvbiBjYXBEaXNjb3VudChwcm9tbzogUHJvbW90aW9uSW5wdXQsIGRpc2NvdW50OiBudW1iZXIpOiBudW1iZXIgewogIGxldCBkID0gTWF0aC5tYXgoMCwgTWF0aC5mbG9vcihkaXNjb3VudCkpOwogIGlmIChwcm9tby5tYXhfZGlzY291bnQgIT0gbnVsbCkgZCA9IE1hdGgubWluKGQsIHByb21vLm1heF9kaXNjb3VudCk7CiAgcmV0dXJuIGQ7Cn0KCmV4cG9ydCBmdW5jdGlvbiBwcmljZU9yZGVyKGlucHV0OiB7CiAgbGluZXM6IFByaWNpbmdMaW5lSW5wdXRbXTsKICBwcm9tb3Rpb25zOiBQcm9tb3Rpb25JbnB1dFtdOwogIHRheF9yYXRlX2JwOiBudW1iZXI7CiAgbm93OiBudW1iZXI7Cn0pOiBQcmljaW5nUmVzdWx0IHsKICBjb25zdCB7IHByb21vdGlvbnMsIHRheF9yYXRlX2JwLCBub3cgfSA9IGlucHV0OwoKICAvLyAtLS0gaGFyZ2EgZGFzYXIgcGVyIGJhcmlzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICBjb25zdCBsaW5lczogUHJpY2VkTGluZVtdID0gaW5wdXQubGluZXMubWFwKChsKSA9PiB7CiAgICBjb25zdCBvcHRpb25zVG90YWwgPSBsLm1vZGlmaWVycy5yZWR1Y2UoCiAgICAgIChzdW0sIG0pID0+IHN1bSArIG0ucHJpY2VfZGVsdGEgKiBtLnF0eSwKICAgICAgMCwKICAgICk7CiAgICBjb25zdCB1bml0X3ByaWNlID0gbC51bml0X2Jhc2UgKyBvcHRpb25zVG90YWw7CiAgICByZXR1cm4gewogICAgICAuLi5sLAogICAgICB1bml0X3ByaWNlLAogICAgICBsaW5lX3N1YnRvdGFsOiB1bml0X3ByaWNlICogbC5xdHksCiAgICAgIGxpbmVfZGlzY291bnQ6IDAsCiAgICAgIGxpbmVfdG90YWw6IHVuaXRfcHJpY2UgKiBsLnF0eSwKICAgIH07CiAgfSk7CiAgY29uc3Qgc3VidG90YWwgPSBsaW5lcy5yZWR1Y2UoKHMsIGwpID0+IHMgKyBsLmxpbmVfc3VidG90YWwsIDApOwoKICAvLyAtLS0gdmFsaWRhc2kgcHJvbW86IG1hc2EgYmVybGFrdSAmIHBlbnVtcHVrYW4gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgZm9yIChjb25zdCBwcm9tbyBvZiBwcm9tb3Rpb25zKSB7CiAgICBpZiAoIXByb21vLmlzX2FjdGl2ZSkgdGhyb3cgaW52YWxpZFByb21vKHByb21vLCAicHJvbW8gdGlkYWsgYWt0aWYiKTsKICAgIGlmIChwcm9tby5zdGFydHNfYXQgIT0gbnVsbCAmJiBub3cgPCBwcm9tby5zdGFydHNfYXQpIHsKICAgICAgdGhyb3cgaW52YWxpZFByb21vKHByb21vLCAicHJvbW8gYmVsdW0gbXVsYWkgYmVybGFrdSIpOwogICAgfQogICAgaWYgKHByb21vLmVuZHNfYXQgIT0gbnVsbCAmJiBub3cgPiBwcm9tby5lbmRzX2F0KSB7CiAgICAgIHRocm93IGludmFsaWRQcm9tbyhwcm9tbywgInByb21vIHN1ZGFoIGJlcmFraGlyIik7CiAgICB9CiAgfQogIGlmIChwcm9tb3Rpb25zLmxlbmd0aCA+IDIpIHsKICAgIHRocm93IG5ldyBBcGlFcnJvcigKICAgICAgIlZBTElEQVRJT05fRVJST1IiLAogICAgICAiTWFrc2ltYWwgMiBwcm9tbyBwZXIgb3JkZXIiLAogICAgICB7IHByb21vdGlvbnM6ICJsZWJpaCBkYXJpIDIgcHJvbW8iIH0sCiAgICApOwogIH0KICBpZiAocHJvbW90aW9ucy5sZW5ndGggPiAxICYmIHByb21vdGlvbnMuc29tZSgocCkgPT4gIXAuaXNfc3RhY2thYmxlKSkgewogICAgdGhyb3cgbmV3IEFwaUVycm9yKAogICAgICAiVkFMSURBVElPTl9FUlJPUiIsCiAgICAgICJQcm9tbyB5YW5nIHRpZGFrIGJpc2EgZGl0dW1wdWsgdGlkYWsgYm9sZWggZGlnYWJ1bmcgZGVuZ2FuIHByb21vIGxhaW4iLAogICAgICB7IHByb21vdGlvbnM6ICJwZW51bXB1a2FuIHRpZGFrIGRpaXppbmthbiIgfSwKICAgICk7CiAgfQoKICBjb25zdCBhcHBsaWVkOiBBcHBsaWVkUHJvbW90aW9uW10gPSBbXTsKICBsZXQgaXRlbURpc2NvdW50ID0gMDsKICBsZXQgc3VidG90YWxEaXNjb3VudCA9IDA7CgogIGNvbnN0IGxpbmVPZlByb2R1Y3QgPSAocHJvZHVjdElkOiBzdHJpbmcpID0+CiAgICBsaW5lcy5maWx0ZXIoKGwpID0+IGwucHJvZHVjdF9pZCA9PT0gcHJvZHVjdElkKTsKICBjb25zdCBxdHlPZlByb2R1Y3QgPSAocHJvZHVjdElkOiBzdHJpbmcpID0+CiAgICBsaW5lT2ZQcm9kdWN0KHByb2R1Y3RJZCkucmVkdWNlKChzLCBsKSA9PiBzICsgbC5xdHksIDApOwoKICAvLyAtLS0gdGFoYXAgMTogcHJvbW8gaXRlbSAoYm9nbywgYnVuZGxlLCBmcmVlX2l0ZW0pIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogIGZvciAoY29uc3QgcHJvbW8gb2YgcHJvbW90aW9ucykgewogICAgY29uc3QgY2ZnID0gcHJvbW8uY29uZmlnID8/IHt9OwogICAgbGV0IGRpc2NvdW50ID0gMDsKICAgIGlmIChwcm9tby50eXBlID09PSAiYm9nbyIpIHsKICAgICAgY29uc3QgcHJvZHVjdElkID0gY2ZnUHJvZHVjdElkKHByb21vLCBjZmcsICJwcm9kdWN0X2lkIik7CiAgICAgIGNvbnN0IGJ1eVF0eSA9IGNmZ0ludChwcm9tbywgY2ZnLCAiYnV5X3F0eSIsIHsgcmVxdWlyZWQ6IHRydWUsIG1pbjogMSB9KTsKICAgICAgY29uc3QgZnJlZVF0eSA9IGNmZ0ludChwcm9tbywgY2ZnLCAiZnJlZV9xdHkiLCB7IHJlcXVpcmVkOiB0cnVlLCBtaW46IDEgfSk7CiAgICAgIGNvbnN0IHRhcmdldCA9IGxpbmVPZlByb2R1Y3QocHJvZHVjdElkKVswXTsKICAgICAgaWYgKCF0YXJnZXQpIHRocm93IGludmFsaWRQcm9tbyhwcm9tbywgInByb2R1ayBwcm9tbyB0aWRhayBhZGEgZGkga2VyYW5qYW5nIik7CiAgICAgIGNvbnN0IGdyb3VwcyA9IE1hdGguZmxvb3IocXR5T2ZQcm9kdWN0KHByb2R1Y3RJZCkgLyAoYnV5UXR5ICsgZnJlZVF0eSkpOwogICAgICBjb25zdCBmcmVlVW5pdHMgPSBncm91cHMgKiBmcmVlUXR5OwogICAgICBkaXNjb3VudCA9IGZyZWVVbml0cyAqIHRhcmdldC51bml0X3ByaWNlOwogICAgICB0YXJnZXQubGluZV9kaXNjb3VudCArPSBNYXRoLm1pbihkaXNjb3VudCwgdGFyZ2V0LmxpbmVfc3VidG90YWwgLSB0YXJnZXQubGluZV9kaXNjb3VudCk7CiAgICB9IGVsc2UgaWYgKHByb21vLnR5cGUgPT09ICJidW5kbGUiKSB7CiAgICAgIGNvbnN0IHJhd0l0ZW1zID0gY2ZnWyJpdGVtcyJdOwogICAgICBpZiAoIUFycmF5LmlzQXJyYXkocmF3SXRlbXMpIHx8IHJhd0l0ZW1zLmxlbmd0aCA9PT0gMCkgewogICAgICAgIHRocm93IGludmFsaWRQcm9tbyhwcm9tbywgImNvbmZpZy5pdGVtcyB3YWppYiBiZXJpc2kgZGFmdGFyIGl0ZW0gcGFrZXQiKTsKICAgICAgfQogICAgICBjb25zdCBidW5kbGVQcmljZSA9IGNmZ0ludChwcm9tbywgY2ZnLCAiYnVuZGxlX3ByaWNlIiwgeyByZXF1aXJlZDogdHJ1ZSwgbWluOiAwIH0pOwogICAgICBsZXQgYnVuZGxlcyA9IE51bWJlci5QT1NJVElWRV9JTkZJTklUWTsKICAgICAgbGV0IG5vcm1hbFBlckJ1bmRsZSA9IDA7CiAgICAgIGxldCBmaXJzdExpbmU6IFByaWNlZExpbmUgfCB1bmRlZmluZWQ7CiAgICAgIGZvciAoY29uc3QgcmF3IG9mIHJhd0l0ZW1zKSB7CiAgICAgICAgaWYgKHR5cGVvZiByYXcgIT09ICJvYmplY3QiIHx8IHJhdyA9PT0gbnVsbCkgewogICAgICAgICAgdGhyb3cgaW52YWxpZFByb21vKHByb21vLCAiY29uZmlnLml0ZW1zIGhhcnVzIGJlcmlzaSBvYmplayB7cHJvZHVjdF9pZCwgcXR5fSIpOwogICAgICAgIH0KICAgICAgICBjb25zdCBpdGVtID0gcmF3IGFzIFJlY29yZDxzdHJpbmcsIHVua25vd24+OwogICAgICAgIGNvbnN0IHBpZCA9IGNmZ1Byb2R1Y3RJZChwcm9tbywgaXRlbSwgInByb2R1Y3RfaWQiKTsKICAgICAgICBjb25zdCBuZWVkID0gY2ZnSW50KHByb21vLCBpdGVtLCAicXR5IiwgeyByZXF1aXJlZDogdHJ1ZSwgbWluOiAxIH0pOwogICAgICAgIGNvbnN0IGxpbmUgPSBsaW5lT2ZQcm9kdWN0KHBpZClbMF07CiAgICAgICAgaWYgKCFsaW5lKSB0aHJvdyBpbnZhbGlkUHJvbW8ocHJvbW8sICJpdGVtIHBha2V0IHRpZGFrIGFkYSBkaSBrZXJhbmphbmciKTsKICAgICAgICBmaXJzdExpbmUgPz89IGxpbmU7CiAgICAgICAgYnVuZGxlcyA9IE1hdGgubWluKGJ1bmRsZXMsIE1hdGguZmxvb3IocXR5T2ZQcm9kdWN0KHBpZCkgLyBuZWVkKSk7CiAgICAgICAgbm9ybWFsUGVyQnVuZGxlICs9IGxpbmUudW5pdF9wcmljZSAqIG5lZWQ7CiAgICAgIH0KICAgICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoYnVuZGxlcykgfHwgYnVuZGxlcyA8IDEpIHsKICAgICAgICB0aHJvdyBpbnZhbGlkUHJvbW8ocHJvbW8sICJqdW1sYWggaXRlbSB0aWRhayBjdWt1cCB1bnR1ayBzYXR1IHBha2V0Iik7CiAgICAgIH0KICAgICAgY29uc3QgcGVyQnVuZGxlRGlzY291bnQgPSBub3JtYWxQZXJCdW5kbGUgLSBidW5kbGVQcmljZTsKICAgICAgaWYgKHBlckJ1bmRsZURpc2NvdW50IDw9IDApIHsKICAgICAgICB0aHJvdyBpbnZhbGlkUHJvbW8ocHJvbW8sICJoYXJnYSBwYWtldCB0aWRhayBsZWJpaCBtdXJhaCBkYXJpIGhhcmdhIG5vcm1hbCIpOwogICAgICB9CiAgICAgIGRpc2NvdW50ID0gcGVyQnVuZGxlRGlzY291bnQgKiBidW5kbGVzOwogICAgICBpZiAoZmlyc3RMaW5lKSB7CiAgICAgICAgZmlyc3RMaW5lLmxpbmVfZGlzY291bnQgKz0gTWF0aC5taW4oCiAgICAgICAgICBkaXNjb3VudCwKICAgICAgICAgIGZpcnN0TGluZS5saW5lX3N1YnRvdGFsIC0gZmlyc3RMaW5lLmxpbmVfZGlzY291bnQsCiAgICAgICAgKTsKICAgICAgfQogICAgfSBlbHNlIGlmIChwcm9tby50eXBlID09PSAiZnJlZV9pdGVtIikgewogICAgICBjb25zdCBmcmVlUHJvZHVjdElkID0gY2ZnUHJvZHVjdElkKHByb21vLCBjZmcsICJmcmVlX3Byb2R1Y3RfaWQiKTsKICAgICAgY29uc3QgZnJlZVF0eUNmZyA9IGNmZ0ludChwcm9tbywgY2ZnLCAicXR5IiwgeyBkZWY6IDEsIG1pbjogMSB9KTsKICAgICAgY29uc3QgbWluU3VidG90YWwgPSBjZmdJbnQocHJvbW8sIGNmZywgIm1pbl9zdWJ0b3RhbCIsIHsgZGVmOiAwLCBtaW46IDAgfSk7CiAgICAgIGlmIChzdWJ0b3RhbCA8IG1pblN1YnRvdGFsKSB7CiAgICAgICAgdGhyb3cgaW52YWxpZFByb21vKHByb21vLCAic3VidG90YWwgYmVsdW0gbWVtZW51aGkgc3lhcmF0IGl0ZW0gZ3JhdGlzIik7CiAgICAgIH0KICAgICAgY29uc3QgdGFyZ2V0ID0gbGluZU9mUHJvZHVjdChmcmVlUHJvZHVjdElkKVswXTsKICAgICAgaWYgKCF0YXJnZXQpIHRocm93IGludmFsaWRQcm9tbyhwcm9tbywgIml0ZW0gZ3JhdGlzIHRpZGFrIGFkYSBkaSBrZXJhbmphbmciKTsKICAgICAgY29uc3QgZ3JhbnRlZCA9IE1hdGgubWluKGZyZWVRdHlDZmcsIHRhcmdldC5xdHkpOwogICAgICBkaXNjb3VudCA9IGdyYW50ZWQgKiB0YXJnZXQudW5pdF9wcmljZTsKICAgICAgdGFyZ2V0LmxpbmVfZGlzY291bnQgKz0gTWF0aC5taW4oZGlzY291bnQsIHRhcmdldC5saW5lX3N1YnRvdGFsIC0gdGFyZ2V0LmxpbmVfZGlzY291bnQpOwogICAgfQogICAgaWYgKHByb21vLnR5cGUgPT09ICJib2dvIiB8fCBwcm9tby50eXBlID09PSAiYnVuZGxlIiB8fCBwcm9tby50eXBlID09PSAiZnJlZV9pdGVtIikgewogICAgICBkaXNjb3VudCA9IGNhcERpc2NvdW50KHByb21vLCBkaXNjb3VudCk7CiAgICAgIGlmIChkaXNjb3VudCA+IDApIHsKICAgICAgICBhcHBsaWVkLnB1c2goewogICAgICAgICAgcHJvbW90aW9uX2lkOiBwcm9tby5pZCwKICAgICAgICAgIG5hbWU6IHByb21vLm5hbWUsCiAgICAgICAgICB0eXBlOiBwcm9tby50eXBlLAogICAgICAgICAgZGlzY291bnRfYW1vdW50OiBkaXNjb3VudCwKICAgICAgICB9KTsKICAgICAgICBpdGVtRGlzY291bnQgKz0gZGlzY291bnQ7CiAgICAgIH0KICAgIH0KICB9CgogIC8vIC0tLSB0YWhhcCAyOiBwcm9tbyBzdWJ0b3RhbCAocGVyY2VudCwgbm9taW5hbCkgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgY29uc3QgYmFzZUFmdGVySXRlbSA9IHN1YnRvdGFsIC0gaXRlbURpc2NvdW50OwogIGZvciAoY29uc3QgcHJvbW8gb2YgcHJvbW90aW9ucykgewogICAgY29uc3QgY2ZnID0gcHJvbW8uY29uZmlnID8/IHt9OwogICAgbGV0IGRpc2NvdW50ID0gMDsKICAgIGlmIChwcm9tby50eXBlID09PSAicGVyY2VudCIpIHsKICAgICAgY29uc3QgcGVyY2VudCA9IGNmZ0ludChwcm9tbywgY2ZnLCAicGVyY2VudCIsIHsgcmVxdWlyZWQ6IHRydWUsIG1pbjogMSwgbWF4OiAxMDAgfSk7CiAgICAgIGNvbnN0IHNjb3BlZFByb2R1Y3QgPQogICAgICAgIHR5cGVvZiBjZmdbInByb2R1Y3RfaWQiXSA9PT0gInN0cmluZyIgPyAoY2ZnWyJwcm9kdWN0X2lkIl0gYXMgc3RyaW5nKSA6IG51bGw7CiAgICAgIGNvbnN0IGJhc2UgPSBzY29wZWRQcm9kdWN0CiAgICAgICAgPyBsaW5lT2ZQcm9kdWN0KHNjb3BlZFByb2R1Y3QpLnJlZHVjZSgKICAgICAgICAgICAgKHMsIGwpID0+IHMgKyAobC5saW5lX3N1YnRvdGFsIC0gbC5saW5lX2Rpc2NvdW50KSwKICAgICAgICAgICAgMCwKICAgICAgICAgICkKICAgICAgICA6IGJhc2VBZnRlckl0ZW0gLSBzdWJ0b3RhbERpc2NvdW50OwogICAgICBpZiAoc2NvcGVkUHJvZHVjdCAmJiBiYXNlIDw9IDApIHsKICAgICAgICB0aHJvdyBpbnZhbGlkUHJvbW8ocHJvbW8sICJwcm9kdWsgcHJvbW8gdGlkYWsgYWRhIGRpIGtlcmFuamFuZyIpOwogICAgICB9CiAgICAgIGRpc2NvdW50ID0gTWF0aC5mbG9vcigoYmFzZSAqIHBlcmNlbnQpIC8gMTAwKTsKICAgIH0gZWxzZSBpZiAocHJvbW8udHlwZSA9PT0gIm5vbWluYWwiKSB7CiAgICAgIGNvbnN0IGFtb3VudCA9IGNmZ0ludChwcm9tbywgY2ZnLCAiYW1vdW50IiwgeyByZXF1aXJlZDogdHJ1ZSwgbWluOiAxIH0pOwogICAgICBjb25zdCBtaW5TdWJ0b3RhbCA9IGNmZ0ludChwcm9tbywgY2ZnLCAibWluX3N1YnRvdGFsIiwgeyBkZWY6IDAsIG1pbjogMCB9KTsKICAgICAgY29uc3QgYmFzZSA9IGJhc2VBZnRlckl0ZW0gLSBzdWJ0b3RhbERpc2NvdW50OwogICAgICBpZiAoYmFzZSA8IG1pblN1YnRvdGFsKSB7CiAgICAgICAgdGhyb3cgaW52YWxpZFByb21vKHByb21vLCAic3VidG90YWwgYmVsdW0gbWVtZW51aGkgc3lhcmF0IHBvdG9uZ2FuIG5vbWluYWwiKTsKICAgICAgfQogICAgICBkaXNjb3VudCA9IE1hdGgubWluKGFtb3VudCwgYmFzZSk7CiAgICB9CiAgICBpZiAocHJvbW8udHlwZSA9PT0gInBlcmNlbnQiIHx8IHByb21vLnR5cGUgPT09ICJub21pbmFsIikgewogICAgICBkaXNjb3VudCA9IGNhcERpc2NvdW50KHByb21vLCBkaXNjb3VudCk7CiAgICAgIGlmIChkaXNjb3VudCA+IDApIHsKICAgICAgICBhcHBsaWVkLnB1c2goewogICAgICAgICAgcHJvbW90aW9uX2lkOiBwcm9tby5pZCwKICAgICAgICAgIG5hbWU6IHByb21vLm5hbWUsCiAgICAgICAgICB0eXBlOiBwcm9tby50eXBlLAogICAgICAgICAgZGlzY291bnRfYW1vdW50OiBkaXNjb3VudCwKICAgICAgICB9KTsKICAgICAgICBzdWJ0b3RhbERpc2NvdW50ICs9IGRpc2NvdW50OwogICAgICB9CiAgICB9CiAgfQoKICAvLyAtLS0gdG90YWwgYWtoaXIgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiAgbGV0IGRpc2NvdW50VG90YWwgPSBpdGVtRGlzY291bnQgKyBzdWJ0b3RhbERpc2NvdW50OwogIGlmIChkaXNjb3VudFRvdGFsID4gc3VidG90YWwpIGRpc2NvdW50VG90YWwgPSBzdWJ0b3RhbDsgLy8gYXR1cmFuIDI6IHRpZGFrIG5lZ2F0aWYKICBjb25zdCB0YXhhYmxlID0gc3VidG90YWwgLSBkaXNjb3VudFRvdGFsOwogIGNvbnN0IHRheFRvdGFsID0gTWF0aC5mbG9vcigodGF4YWJsZSAqIHRheF9yYXRlX2JwKSAvIDEwXzAwMCk7CiAgY29uc3QgZ3JhbmRUb3RhbCA9IHRheGFibGUgKyB0YXhUb3RhbDsKCiAgZm9yIChjb25zdCBsIG9mIGxpbmVzKSBsLmxpbmVfdG90YWwgPSBsLmxpbmVfc3VidG90YWwgLSBsLmxpbmVfZGlzY291bnQ7CgogIHJldHVybiB7CiAgICBsaW5lcywKICAgIHN1YnRvdGFsLAogICAgaXRlbV9kaXNjb3VudDogaXRlbURpc2NvdW50LAogICAgc3VidG90YWxfZGlzY291bnQ6IHN1YnRvdGFsRGlzY291bnQsCiAgICBkaXNjb3VudF90b3RhbDogZGlzY291bnRUb3RhbCwKICAgIHRheF90b3RhbDogdGF4VG90YWwsCiAgICBncmFuZF90b3RhbDogZ3JhbmRUb3RhbCwKICAgIGFwcGxpZWRfcHJvbW90aW9uczogYXBwbGllZCwKICB9Owp9Cg==
+/**
+ * Mesin harga Seblak POS — fungsi MURNI (tanpa I/O, tanpa akses DB).
+ *
+ * Aturan yang diterapkan (docs/g1-brand-dan-aturan-promo.md bagian 4):
+ * - Harga selalu dihitung server dari harga dasar + varian + opsi berbayar.
+ * - Urutan: promo item (bogo/bundle/free_item) dulu, lalu promo subtotal
+ *   (percent/nominal), lalu pajak dari nilai setelah diskon (aturan 4).
+ * - Default promo tidak bisa ditumpuk; hanya is_stackable yang boleh bergabung,
+ *   maksimal 2 promo per order (aturan 3).
+ * - max_discount adalah plafon mutlak per promo; grand_total tidak pernah
+ *   negatif (aturan 2).
+ * - Promo di luar masa berlaku / tidak aktif / syarat tidak terpenuhi ditolak
+ *   VALIDATION_ERROR (aturan 8).
+ *
+ * Contoh kontrak yang wajib benar:
+ *   Seblak base 10000 + bakso 2x2000 + ceker 3000 + telur 4000 = 21000/porsi;
+ *   2 porsi = 42000.
+ */
+import { ApiError } from "./errors";
+
+export interface PricingModifierInput {
+  modifier_option_id: string;
+  name: string;
+  price_delta: number;
+  qty: number;
+}
+
+export interface PricingLineInput {
+  product_id: string;
+  name: string;
+  qty: number;
+  /** base_price produk + price_delta varian (tanpa modifier). */
+  unit_base: number;
+  modifiers: PricingModifierInput[];
+}
+
+export type PromotionType = "percent" | "nominal" | "bogo" | "bundle" | "free_item";
+
+export interface PromotionInput {
+  id: string;
+  name: string;
+  type: PromotionType;
+  /** config JSON yang sudah di-parse dari promotions.config. */
+  config: Record<string, unknown>;
+  is_stackable: boolean;
+  max_discount: number | null;
+  is_active: boolean;
+  starts_at: number | null;
+  ends_at: number | null;
+}
+
+export interface PricedLine extends PricingLineInput {
+  /** unit_base + sum(price_delta opsi * qty opsi). */
+  unit_price: number;
+  line_subtotal: number;
+  /** Diskon promo tingkat item yang teratribusi ke baris ini. */
+  line_discount: number;
+  line_total: number;
+}
+
+export interface AppliedPromotion {
+  promotion_id: string;
+  name: string;
+  type: PromotionType;
+  discount_amount: number;
+}
+
+export interface PricingResult {
+  lines: PricedLine[];
+  subtotal: number;
+  item_discount: number;
+  subtotal_discount: number;
+  discount_total: number;
+  tax_total: number;
+  grand_total: number;
+  applied_promotions: AppliedPromotion[];
+}
+
+function invalidPromo(promo: PromotionInput, reason: string): ApiError {
+  return new ApiError("VALIDATION_ERROR", `Promo "${promo.name}" tidak valid: ${reason}`, {
+    promotion_id: promo.id,
+    reason,
+  });
+}
+
+function cfgInt(
+  promo: PromotionInput,
+  cfg: Record<string, unknown>,
+  key: string,
+  opts: { min?: number; max?: number; required?: boolean; def?: number } = {},
+): number {
+  const raw = cfg[key];
+  if (raw === undefined || raw === null) {
+    if (opts.required) throw invalidPromo(promo, `config.${key} wajib diisi`);
+    return opts.def ?? 0;
+  }
+  if (typeof raw !== "number" || !Number.isInteger(raw)) {
+    throw invalidPromo(promo, `config.${key} harus bilangan bulat`);
+  }
+  if (opts.min !== undefined && raw < opts.min) {
+    throw invalidPromo(promo, `config.${key} minimal ${opts.min}`);
+  }
+  if (opts.max !== undefined && raw > opts.max) {
+    throw invalidPromo(promo, `config.${key} maksimal ${opts.max}`);
+  }
+  return raw;
+}
+
+function cfgProductId(
+  promo: PromotionInput,
+  cfg: Record<string, unknown>,
+  key: string,
+): string {
+  const raw = cfg[key];
+  if (typeof raw !== "string" || raw.length === 0) {
+    throw invalidPromo(promo, `config.${key} wajib berupa id produk`);
+  }
+  return raw;
+}
+
+function capDiscount(promo: PromotionInput, discount: number): number {
+  let d = Math.max(0, Math.floor(discount));
+  if (promo.max_discount != null) d = Math.min(d, promo.max_discount);
+  return d;
+}
+
+export function priceOrder(input: {
+  lines: PricingLineInput[];
+  promotions: PromotionInput[];
+  tax_rate_bp: number;
+  now: number;
+}): PricingResult {
+  const { promotions, tax_rate_bp, now } = input;
+
+  // --- harga dasar per baris -------------------------------------------------
+  const lines: PricedLine[] = input.lines.map((l) => {
+    const optionsTotal = l.modifiers.reduce(
+      (sum, m) => sum + m.price_delta * m.qty,
+      0,
+    );
+    const unit_price = l.unit_base + optionsTotal;
+    return {
+      ...l,
+      unit_price,
+      line_subtotal: unit_price * l.qty,
+      line_discount: 0,
+      line_total: unit_price * l.qty,
+    };
+  });
+  const subtotal = lines.reduce((s, l) => s + l.line_subtotal, 0);
+
+  // --- validasi promo: masa berlaku & penumpukan ------------------------------
+  for (const promo of promotions) {
+    if (!promo.is_active) throw invalidPromo(promo, "promo tidak aktif");
+    if (promo.starts_at != null && now < promo.starts_at) {
+      throw invalidPromo(promo, "promo belum mulai berlaku");
+    }
+    if (promo.ends_at != null && now > promo.ends_at) {
+      throw invalidPromo(promo, "promo sudah berakhir");
+    }
+  }
+  if (promotions.length > 2) {
+    throw new ApiError(
+      "VALIDATION_ERROR",
+      "Maksimal 2 promo per order",
+      { promotions: "lebih dari 2 promo" },
+    );
+  }
+  if (promotions.length > 1 && promotions.some((p) => !p.is_stackable)) {
+    throw new ApiError(
+      "VALIDATION_ERROR",
+      "Promo yang tidak bisa ditumpuk tidak boleh digabung dengan promo lain",
+      { promotions: "penumpukan tidak diizinkan" },
+    );
+  }
+
+  const applied: AppliedPromotion[] = [];
+  let itemDiscount = 0;
+  let subtotalDiscount = 0;
+
+  const lineOfProduct = (productId: string) =>
+    lines.filter((l) => l.product_id === productId);
+  const qtyOfProduct = (productId: string) =>
+    lineOfProduct(productId).reduce((s, l) => s + l.qty, 0);
+
+  // --- tahap 1: promo item (bogo, bundle, free_item) ---------------------------
+  for (const promo of promotions) {
+    const cfg = promo.config ?? {};
+    let discount = 0;
+    if (promo.type === "bogo") {
+      const productId = cfgProductId(promo, cfg, "product_id");
+      const buyQty = cfgInt(promo, cfg, "buy_qty", { required: true, min: 1 });
+      const freeQty = cfgInt(promo, cfg, "free_qty", { required: true, min: 1 });
+      const target = lineOfProduct(productId)[0];
+      if (!target) throw invalidPromo(promo, "produk promo tidak ada di keranjang");
+      const groups = Math.floor(qtyOfProduct(productId) / (buyQty + freeQty));
+      const freeUnits = groups * freeQty;
+      discount = freeUnits * target.unit_price;
+      target.line_discount += Math.min(discount, target.line_subtotal - target.line_discount);
+    } else if (promo.type === "bundle") {
+      const rawItems = cfg["items"];
+      if (!Array.isArray(rawItems) || rawItems.length === 0) {
+        throw invalidPromo(promo, "config.items wajib berisi daftar item paket");
+      }
+      const bundlePrice = cfgInt(promo, cfg, "bundle_price", { required: true, min: 0 });
+      let bundles = Number.POSITIVE_INFINITY;
+      let normalPerBundle = 0;
+      let firstLine: PricedLine | undefined;
+      for (const raw of rawItems) {
+        if (typeof raw !== "object" || raw === null) {
+          throw invalidPromo(promo, "config.items harus berisi objek {product_id, qty}");
+        }
+        const item = raw as Record<string, unknown>;
+        const pid = cfgProductId(promo, item, "product_id");
+        const need = cfgInt(promo, item, "qty", { required: true, min: 1 });
+        const line = lineOfProduct(pid)[0];
+        if (!line) throw invalidPromo(promo, "item paket tidak ada di keranjang");
+        firstLine ??= line;
+        bundles = Math.min(bundles, Math.floor(qtyOfProduct(pid) / need));
+        normalPerBundle += line.unit_price * need;
+      }
+      if (!Number.isFinite(bundles) || bundles < 1) {
+        throw invalidPromo(promo, "jumlah item tidak cukup untuk satu paket");
+      }
+      const perBundleDiscount = normalPerBundle - bundlePrice;
+      if (perBundleDiscount <= 0) {
+        throw invalidPromo(promo, "harga paket tidak lebih murah dari harga normal");
+      }
+      discount = perBundleDiscount * bundles;
+      if (firstLine) {
+        firstLine.line_discount += Math.min(
+          discount,
+          firstLine.line_subtotal - firstLine.line_discount,
+        );
+      }
+    } else if (promo.type === "free_item") {
+      const freeProductId = cfgProductId(promo, cfg, "free_product_id");
+      const freeQtyCfg = cfgInt(promo, cfg, "qty", { def: 1, min: 1 });
+      const minSubtotal = cfgInt(promo, cfg, "min_subtotal", { def: 0, min: 0 });
+      if (subtotal < minSubtotal) {
+        throw invalidPromo(promo, "subtotal belum memenuhi syarat item gratis");
+      }
+      const target = lineOfProduct(freeProductId)[0];
+      if (!target) throw invalidPromo(promo, "item gratis tidak ada di keranjang");
+      const granted = Math.min(freeQtyCfg, target.qty);
+      discount = granted * target.unit_price;
+      target.line_discount += Math.min(discount, target.line_subtotal - target.line_discount);
+    }
+    if (promo.type === "bogo" || promo.type === "bundle" || promo.type === "free_item") {
+      discount = capDiscount(promo, discount);
+      if (discount > 0) {
+        applied.push({
+          promotion_id: promo.id,
+          name: promo.name,
+          type: promo.type,
+          discount_amount: discount,
+        });
+        itemDiscount += discount;
+      }
+    }
+  }
+
+  // --- tahap 2: promo subtotal (percent, nominal) ------------------------------
+  const baseAfterItem = subtotal - itemDiscount;
+  for (const promo of promotions) {
+    const cfg = promo.config ?? {};
+    let discount = 0;
+    if (promo.type === "percent") {
+      const percent = cfgInt(promo, cfg, "percent", { required: true, min: 1, max: 100 });
+      const scopedProduct =
+        typeof cfg["product_id"] === "string" ? (cfg["product_id"] as string) : null;
+      const base = scopedProduct
+        ? lineOfProduct(scopedProduct).reduce(
+            (s, l) => s + (l.line_subtotal - l.line_discount),
+            0,
+          )
+        : baseAfterItem - subtotalDiscount;
+      if (scopedProduct && base <= 0) {
+        throw invalidPromo(promo, "produk promo tidak ada di keranjang");
+      }
+      discount = Math.floor((base * percent) / 100);
+    } else if (promo.type === "nominal") {
+      const amount = cfgInt(promo, cfg, "amount", { required: true, min: 1 });
+      const minSubtotal = cfgInt(promo, cfg, "min_subtotal", { def: 0, min: 0 });
+      const base = baseAfterItem - subtotalDiscount;
+      if (base < minSubtotal) {
+        throw invalidPromo(promo, "subtotal belum memenuhi syarat potongan nominal");
+      }
+      discount = Math.min(amount, base);
+    }
+    if (promo.type === "percent" || promo.type === "nominal") {
+      discount = capDiscount(promo, discount);
+      if (discount > 0) {
+        applied.push({
+          promotion_id: promo.id,
+          name: promo.name,
+          type: promo.type,
+          discount_amount: discount,
+        });
+        subtotalDiscount += discount;
+      }
+    }
+  }
+
+  // --- total akhir ---------------------------------------------------------------
+  let discountTotal = itemDiscount + subtotalDiscount;
+  if (discountTotal > subtotal) discountTotal = subtotal; // aturan 2: tidak negatif
+  const taxable = subtotal - discountTotal;
+  const taxTotal = Math.floor((taxable * tax_rate_bp) / 10_000);
+  const grandTotal = taxable + taxTotal;
+
+  for (const l of lines) l.line_total = l.line_subtotal - l.line_discount;
+
+  return {
+    lines,
+    subtotal,
+    item_discount: itemDiscount,
+    subtotal_discount: subtotalDiscount,
+    discount_total: discountTotal,
+    tax_total: taxTotal,
+    grand_total: grandTotal,
+    applied_promotions: applied,
+  };
+}
