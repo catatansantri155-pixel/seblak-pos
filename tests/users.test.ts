@@ -1,1 +1,143 @@
-LyoqCiAqIFRlc3QgbWFuYWplbWVuIHBlbmdndW5hICYgb3V0bGV0IChHNGEpIHRlcmhhZGFwIFdvcmtlciArIHNoaW0gRDE6CiAqIC0gb3duZXIgbWVtYnVhdCBrYXNpciBiYXJ1OyBrYXNpciBiYXJ1IGJpc2EgbG9naW4uCiAqIC0gZW1haWwgZG9iZWwgZGkgb3V0bGV0IHlhbmcgc2FtYSAtPiBDT05GTElDVC4KICogLSBtZW1idWF0IHBlbmdndW5hIG9sZWggbWFuYWdlciAtPiBGT1JCSURERU4gKGhhbnlhIG93bmVyKS4KICogLSBkYWZ0YXIgcGVuZ2d1bmEgdW50dWsgbWFuYWdlciB0aWRhayBtZW11YXQgcGFzc3dvcmRfaGFzaC4KICogLSByZXNldCBwYXNzd29yZCBvbGVoIG93bmVyIG1lbmNhYnV0IHNlc2kgbGFtYSAodG9rZW4gbGFtYSA0MDEsCiAqICAga2F0YSBzYW5kaSBsYW1hIGRpdG9sYWssIGthdGEgc2FuZGkgYmFydSBkaXRlcmltYSkuCiAqIC0gbWVub25ha3RpZmthbiBwZW5nZ3VuYSBtZW5jYWJ1dCBha3NlcyAodG9rZW4gYWt0aWYgNDAxLCBsb2dpbiBkaXRvbGFrKS4KICogLSBHRVQgL291dGxldHMvbWUgbWVuZ2VtYmFsaWthbiBuYW1hIG91dGxldDsgUEFUQ0ggb2xlaCBvd25lciBtZW5ndWJhaAogKiAgIG5hbWE7IFBBVENIIG9sZWgga2FzaXIgLT4gRk9SQklEREVOLgogKi8KaW1wb3J0IHsgYmVmb3JlQWxsLCBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CmltcG9ydCB7IGNyZWF0ZVRlc3REYiwgdHlwZSBUZXN0RGIgfSBmcm9tICIuL2hlbHBlcnMvZDEiOwppbXBvcnQgeyBtYWtlQ2xpZW50IH0gZnJvbSAiLi9oZWxwZXJzL2FwaSI7CgpsZXQgdDogVGVzdERiOwpsZXQgY2xpZW50OiBSZXR1cm5UeXBlPHR5cGVvZiBtYWtlQ2xpZW50PjsKbGV0IGNhbGw6IFJldHVyblR5cGU8dHlwZW9mIG1ha2VDbGllbnQ+WyJjYWxsIl07CmxldCBvd25lclRva2VuID0gIiI7CmxldCBtYW5hZ2VyVG9rZW4gPSAiIjsKbGV0IG5ld1VzZXJJZCA9ICIiOwpsZXQgbmV3VXNlclRva2VuID0gIiI7CgpiZWZvcmVBbGwoYXN5bmMgKCkgPT4gewogIHQgPSBjcmVhdGVUZXN0RGIodHJ1ZSk7CiAgY2xpZW50ID0gbWFrZUNsaWVudCh0KTsKICBjYWxsID0gY2xpZW50LmNhbGw7CiAgb3duZXJUb2tlbiA9IGF3YWl0IGNsaWVudC5sb2dpbigib3duZXJAZGVtby5zZWJsYWtwb3MuaWQiLCAic2VibGFrMTIzIik7CiAgbWFuYWdlclRva2VuID0gYXdhaXQgY2xpZW50LmxvZ2luKCJhZG1pbkBkZW1vLnNlYmxha3Bvcy5pZCIsICJzZWJsYWsxMjMiKTsKfSk7CgpkZXNjcmliZSgidXNlcnMiLCAoKSA9PiB7CiAgaXQoIm93bmVyIG1lbWJ1YXQga2FzaXIgYmFydTsga2FzaXIgYmFydSBiaXNhIGxvZ2luIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGw8eyBpZDogc3RyaW5nOyByb2xlOiBzdHJpbmcgfT4oIlBPU1QiLCAiL2FwaS92MS91c2VycyIsIHsKICAgICAgdG9rZW46IG93bmVyVG9rZW4sCiAgICAgIGJvZHk6IHsKICAgICAgICBuYW1lOiAiS2FzaXIgRHVhIiwgZW1haWw6ICJrYXNpcjJAZGVtby5zZWJsYWtwb3MuaWQiLAogICAgICAgIHBhc3N3b3JkOiAicmFoYXNpYTEyMyIsIHJvbGU6ICJjYXNoaWVyIiwKICAgICAgfSwKICAgIH0pOwogICAgZXhwZWN0KHIuc3RhdHVzKS50b0JlKDIwMSk7CiAgICBleHBlY3Qoci5qc29uLmRhdGEucm9sZSkudG9CZSgiY2FzaGllciIpOwogICAgbmV3VXNlcklkID0gci5qc29uLmRhdGEuaWQ7CgogICAgbmV3VXNlclRva2VuID0gYXdhaXQgY2xpZW50LmxvZ2luKCJrYXNpcjJAZGVtby5zZWJsYWtwb3MuaWQiLCAicmFoYXNpYTEyMyIpOwogICAgY29uc3QgbWUgPSBhd2FpdCBjYWxsPHsgZW1haWw6IHN0cmluZyB9PigiR0VUIiwgIi9hcGkvdjEvYXV0aC9tZSIsIHsKICAgICAgdG9rZW46IG5ld1VzZXJUb2tlbiwKICAgIH0pOwogICAgZXhwZWN0KG1lLmpzb24uZGF0YS5lbWFpbCkudG9CZSgia2FzaXIyQGRlbW8uc2VibGFrcG9zLmlkIik7CiAgfSk7CgogIGl0KCJlbWFpbCBkb2JlbCAtPiA0MDkgQ09ORkxJQ1Q7IG1hbmFnZXIgbWVtYnVhdCB1c2VyIC0+IDQwMyIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGR1cCA9IGF3YWl0IGNhbGwoIlBPU1QiLCAiL2FwaS92MS91c2VycyIsIHsKICAgICAgdG9rZW46IG93bmVyVG9rZW4sCiAgICAgIGJvZHk6IHsKICAgICAgICBuYW1lOiAiVGlydSIsIGVtYWlsOiAia2FzaXIyQGRlbW8uc2VibGFrcG9zLmlkIiwKICAgICAgICBwYXNzd29yZDogInJhaGFzaWExMjMiLCByb2xlOiAiY2FzaGllciIsCiAgICAgIH0sCiAgICB9KTsKICAgIGV4cGVjdChkdXAuc3RhdHVzKS50b0JlKDQwOSk7CiAgICBleHBlY3QoZHVwLmpzb24uZXJyb3IuY29kZSkudG9CZSgiQ09ORkxJQ1QiKTsKCiAgICBjb25zdCBieU1hbmFnZXIgPSBhd2FpdCBjYWxsKCJQT1NUIiwgIi9hcGkvdjEvdXNlcnMiLCB7CiAgICAgIHRva2VuOiBtYW5hZ2VyVG9rZW4sCiAgICAgIGJvZHk6IHsKICAgICAgICBuYW1lOiAiRGFyaSBNYW5hZ2VyIiwgZW1haWw6ICJtZ3JAZGVtby5zZWJsYWtwb3MuaWQiLAogICAgICAgIHBhc3N3b3JkOiAicmFoYXNpYTEyMyIsIHJvbGU6ICJjYXNoaWVyIiwKICAgICAgfSwKICAgIH0pOwogICAgZXhwZWN0KGJ5TWFuYWdlci5zdGF0dXMpLnRvQmUoNDAzKTsKICAgIGV4cGVjdChieU1hbmFnZXIuanNvbi5lcnJvci5jb2RlKS50b0JlKCJGT1JCSURERU4iKTsKICB9KTsKCiAgaXQoImRhZnRhciBwZW5nZ3VuYSB1bnR1ayBtYW5hZ2VyIHRhbnBhIHBhc3N3b3JkX2hhc2giLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByID0gYXdhaXQgY2FsbDxSZWNvcmQ8c3RyaW5nLCB1bmtub3duPltdPigiR0VUIiwgIi9hcGkvdjEvdXNlcnMiLCB7CiAgICAgIHRva2VuOiBtYW5hZ2VyVG9rZW4sCiAgICB9KTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSgyMDApOwogICAgZXhwZWN0KHIuanNvbi5kYXRhLnNvbWUoKHUpID0+IHVbImlkIl0gPT09IG5ld1VzZXJJZCkpLnRvQmUodHJ1ZSk7CiAgICBmb3IgKGNvbnN0IHUgb2Ygci5qc29uLmRhdGEpIHsKICAgICAgZXhwZWN0KHUpLm5vdC50b0hhdmVQcm9wZXJ0eSgicGFzc3dvcmRfaGFzaCIpOwogICAgfQogIH0pOwoKICBpdCgicmVzZXQgcGFzc3dvcmQgbWVuY2FidXQgc2VzaSAmIGthdGEgc2FuZGkgbGFtYSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsKCJQT1NUIiwgYC9hcGkvdjEvdXNlcnMvJHtuZXdVc2VySWR9L3Jlc2V0LXBhc3N3b3JkYCwgewogICAgICB0b2tlbjogb3duZXJUb2tlbiwgYm9keTogeyBwYXNzd29yZDogImJhcnUxMjM0NSIgfSwKICAgIH0pOwogICAgZXhwZWN0KHIuc3RhdHVzKS50b0JlKDIwMCk7CgogICAgY29uc3Qgb2xkVG9rZW4gPSBhd2FpdCBjYWxsKCJHRVQiLCAiL2FwaS92MS9hdXRoL21lIiwgeyB0b2tlbjogbmV3VXNlclRva2VuIH0pOwogICAgZXhwZWN0KG9sZFRva2VuLnN0YXR1cykudG9CZSg0MDEpOwoKICAgIGNvbnN0IG9sZExvZ2luID0gYXdhaXQgY2FsbCgiUE9TVCIsICIvYXBpL3YxL2F1dGgvbG9naW4iLCB7CiAgICAgIGJvZHk6IHsgZW1haWw6ICJrYXNpcjJAZGVtby5zZWJsYWtwb3MuaWQiLCBwYXNzd29yZDogInJhaGFzaWExMjMiIH0sCiAgICB9KTsKICAgIGV4cGVjdChvbGRMb2dpbi5zdGF0dXMpLnRvQmUoNDAxKTsKCiAgICBuZXdVc2VyVG9rZW4gPSBhd2FpdCBjbGllbnQubG9naW4oImthc2lyMkBkZW1vLnNlYmxha3Bvcy5pZCIsICJiYXJ1MTIzNDUiKTsKICB9KTsKCiAgaXQoIm1lbm9uYWt0aWZrYW4gcGVuZ2d1bmEgbWVuY2FidXQgYWtzZXMgc2VwZW51aG55YSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgaXNfYWN0aXZlOiBib29sZWFuIH0+KAogICAgICAiUEFUQ0giLCBgL2FwaS92MS91c2Vycy8ke25ld1VzZXJJZH1gLAogICAgICB7IHRva2VuOiBvd25lclRva2VuLCBib2R5OiB7IGlzX2FjdGl2ZTogZmFsc2UgfSB9LAogICAgKTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSgyMDApOwogICAgZXhwZWN0KHIuanNvbi5kYXRhLmlzX2FjdGl2ZSkudG9CZShmYWxzZSk7CgogICAgY29uc3QgbWUgPSBhd2FpdCBjYWxsKCJHRVQiLCAiL2FwaS92MS9hdXRoL21lIiwgeyB0b2tlbjogbmV3VXNlclRva2VuIH0pOwogICAgZXhwZWN0KG1lLnN0YXR1cykudG9CZSg0MDEpOwoKICAgIGNvbnN0IGxvZ2luID0gYXdhaXQgY2FsbCgiUE9TVCIsICIvYXBpL3YxL2F1dGgvbG9naW4iLCB7CiAgICAgIGJvZHk6IHsgZW1haWw6ICJrYXNpcjJAZGVtby5zZWJsYWtwb3MuaWQiLCBwYXNzd29yZDogImJhcnUxMjM0NSIgfSwKICAgIH0pOwogICAgZXhwZWN0KGxvZ2luLnN0YXR1cykudG9CZSg0MDEpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCJvdXRsZXRzL21lIiwgKCkgPT4gewogIGl0KCJHRVQgbWVuZ2VtYmFsaWthbiBwcm9maWwgb3V0bGV0IGRlbW87IFBBVENIIG93bmVyIG1lbmd1YmFoIG5hbWEiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBiZWZvcmUgPSBhd2FpdCBjYWxsPHsgbmFtZTogc3RyaW5nOyB0YXhfcmF0ZV9icDogbnVtYmVyIH0+KAogICAgICAiR0VUIiwgIi9hcGkvdjEvb3V0bGV0cy9tZSIsIHsgdG9rZW46IG93bmVyVG9rZW4gfSwKICAgICk7CiAgICBleHBlY3QoYmVmb3JlLnN0YXR1cykudG9CZSgyMDApOwogICAgZXhwZWN0KGJlZm9yZS5qc29uLmRhdGEubmFtZSkudG9CZSgiU2VibGFrIERlbW8gTnVzYW50YXJhIik7CgogICAgY29uc3QgcGF0Y2hlZCA9IGF3YWl0IGNhbGw8eyBuYW1lOiBzdHJpbmc7IHBob25lOiBzdHJpbmcgfCBudWxsIH0+KAogICAgICAiUEFUQ0giLCAiL2FwaS92MS9vdXRsZXRzL21lIiwKICAgICAgeyB0b2tlbjogb3duZXJUb2tlbiwgYm9keTogeyBuYW1lOiAiU2VibGFrIERlbW8gQmFydSIsIHBob25lOiAiMDgxMjk5OTk5OTk5IiB9IH0sCiAgICApOwogICAgZXhwZWN0KHBhdGNoZWQuc3RhdHVzKS50b0JlKDIwMCk7CiAgICBleHBlY3QocGF0Y2hlZC5qc29uLmRhdGEubmFtZSkudG9CZSgiU2VibGFrIERlbW8gQmFydSIpOwogICAgZXhwZWN0KHBhdGNoZWQuanNvbi5kYXRhLnBob25lKS50b0JlKCIwODEyOTk5OTk5OTkiKTsKCiAgICBjb25zdCBrYXNpciA9IGF3YWl0IGNsaWVudC5sb2dpbigia2FzaXJAZGVtby5zZWJsYWtwb3MuaWQiLCAic2VibGFrMTIzIik7CiAgICBjb25zdCBmb3JiaWRkZW4gPSBhd2FpdCBjYWxsKCJQQVRDSCIsICIvYXBpL3YxL291dGxldHMvbWUiLCB7CiAgICAgIHRva2VuOiBrYXNpciwgYm9keTogeyBuYW1lOiAiVGlkYWsgQm9sZWgiIH0sCiAgICB9KTsKICAgIGV4cGVjdChmb3JiaWRkZW4uc3RhdHVzKS50b0JlKDQwMyk7CiAgfSk7Cn0pOwo=
+/**
+ * Test manajemen pengguna & outlet (G4a) terhadap Worker + shim D1:
+ * - owner membuat kasir baru; kasir baru bisa login.
+ * - email dobel di outlet yang sama -> CONFLICT.
+ * - membuat pengguna oleh manager -> FORBIDDEN (hanya owner).
+ * - daftar pengguna untuk manager tidak memuat password_hash.
+ * - reset password oleh owner mencabut sesi lama (token lama 401,
+ *   kata sandi lama ditolak, kata sandi baru diterima).
+ * - menonaktifkan pengguna mencabut akses (token aktif 401, login ditolak).
+ * - GET /outlets/me mengembalikan nama outlet; PATCH oleh owner mengubah
+ *   nama; PATCH oleh kasir -> FORBIDDEN.
+ */
+import { beforeAll, describe, expect, it } from "vitest";
+import { createTestDb, type TestDb } from "./helpers/d1";
+import { makeClient } from "./helpers/api";
+
+let t: TestDb;
+let client: ReturnType<typeof makeClient>;
+let call: ReturnType<typeof makeClient>["call"];
+let ownerToken = "";
+let managerToken = "";
+let newUserId = "";
+let newUserToken = "";
+
+beforeAll(async () => {
+  t = createTestDb(true);
+  client = makeClient(t);
+  call = client.call;
+  ownerToken = await client.login("owner@demo.seblakpos.id", "seblak123");
+  managerToken = await client.login("admin@demo.seblakpos.id", "seblak123");
+});
+
+describe("users", () => {
+  it("owner membuat kasir baru; kasir baru bisa login", async () => {
+    const r = await call<{ id: string; role: string }>("POST", "/api/v1/users", {
+      token: ownerToken,
+      body: {
+        name: "Kasir Dua", email: "kasir2@demo.seblakpos.id",
+        password: "rahasia123", role: "cashier",
+      },
+    });
+    expect(r.status).toBe(201);
+    expect(r.json.data.role).toBe("cashier");
+    newUserId = r.json.data.id;
+
+    newUserToken = await client.login("kasir2@demo.seblakpos.id", "rahasia123");
+    const me = await call<{ email: string }>("GET", "/api/v1/auth/me", {
+      token: newUserToken,
+    });
+    expect(me.json.data.email).toBe("kasir2@demo.seblakpos.id");
+  });
+
+  it("email dobel -> 409 CONFLICT; manager membuat user -> 403", async () => {
+    const dup = await call("POST", "/api/v1/users", {
+      token: ownerToken,
+      body: {
+        name: "Tiru", email: "kasir2@demo.seblakpos.id",
+        password: "rahasia123", role: "cashier",
+      },
+    });
+    expect(dup.status).toBe(409);
+    expect(dup.json.error.code).toBe("CONFLICT");
+
+    const byManager = await call("POST", "/api/v1/users", {
+      token: managerToken,
+      body: {
+        name: "Dari Manager", email: "mgr@demo.seblakpos.id",
+        password: "rahasia123", role: "cashier",
+      },
+    });
+    expect(byManager.status).toBe(403);
+    expect(byManager.json.error.code).toBe("FORBIDDEN");
+  });
+
+  it("daftar pengguna untuk manager tanpa password_hash", async () => {
+    const r = await call<Record<string, unknown>[]>("GET", "/api/v1/users", {
+      token: managerToken,
+    });
+    expect(r.status).toBe(200);
+    expect(r.json.data.some((u) => u["id"] === newUserId)).toBe(true);
+    for (const u of r.json.data) {
+      expect(u).not.toHaveProperty("password_hash");
+    }
+  });
+
+  it("reset password mencabut sesi & kata sandi lama", async () => {
+    const r = await call("POST", `/api/v1/users/${newUserId}/reset-password`, {
+      token: ownerToken, body: { password: "baru12345" },
+    });
+    expect(r.status).toBe(200);
+
+    const oldToken = await call("GET", "/api/v1/auth/me", { token: newUserToken });
+    expect(oldToken.status).toBe(401);
+
+    const oldLogin = await call("POST", "/api/v1/auth/login", {
+      body: { email: "kasir2@demo.seblakpos.id", password: "rahasia123" },
+    });
+    expect(oldLogin.status).toBe(401);
+
+    newUserToken = await client.login("kasir2@demo.seblakpos.id", "baru12345");
+  });
+
+  it("menonaktifkan pengguna mencabut akses sepenuhnya", async () => {
+    const r = await call<{ is_active: boolean }>(
+      "PATCH", `/api/v1/users/${newUserId}`,
+      { token: ownerToken, body: { is_active: false } },
+    );
+    expect(r.status).toBe(200);
+    expect(r.json.data.is_active).toBe(false);
+
+    const me = await call("GET", "/api/v1/auth/me", { token: newUserToken });
+    expect(me.status).toBe(401);
+
+    const login = await call("POST", "/api/v1/auth/login", {
+      body: { email: "kasir2@demo.seblakpos.id", password: "baru12345" },
+    });
+    expect(login.status).toBe(401);
+  });
+});
+
+describe("outlets/me", () => {
+  it("GET mengembalikan profil outlet demo; PATCH owner mengubah nama", async () => {
+    const before = await call<{ name: string; tax_rate_bp: number }>(
+      "GET", "/api/v1/outlets/me", { token: ownerToken },
+    );
+    expect(before.status).toBe(200);
+    expect(before.json.data.name).toBe("Seblak Demo Nusantara");
+
+    const patched = await call<{ name: string; phone: string | null }>(
+      "PATCH", "/api/v1/outlets/me",
+      { token: ownerToken, body: { name: "Seblak Demo Baru", phone: "081299999999" } },
+    );
+    expect(patched.status).toBe(200);
+    expect(patched.json.data.name).toBe("Seblak Demo Baru");
+    expect(patched.json.data.phone).toBe("081299999999");
+
+    const kasir = await client.login("kasir@demo.seblakpos.id", "seblak123");
+    const forbidden = await call("PATCH", "/api/v1/outlets/me", {
+      token: kasir, body: { name: "Tidak Boleh" },
+    });
+    expect(forbidden.status).toBe(403);
+  });
+});

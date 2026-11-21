@@ -1,1 +1,147 @@
-LyoqCiAqIFRlc3Qgc2lua3JvbmlzYXNpIG9mZmxpbmUgKEc0YSkgdGVyaGFkYXAgV29ya2VyICsgc2hpbSBEMToKICogLSBwdXNoIGJhdGNoIGJlcmlzaSBvcmRlciBvZmZsaW5lICsgcGVtYmF5YXJhbiBvZmZsaW5lIChtZXJ1anVrCiAqICAgb3JkZXJfY2xpZW50X3R4X2lkKSArIHNhdHUgZXZlbnQgcnVzYWs6IGR1YSBhY2NlcHRlZCwgc2F0dSByZWplY3RlZAogKiAgIHBlciBldmVudCBkZW5nYW4ga29kZSBWQUxJREFUSU9OX0VSUk9SOyBldmVudCBzYWggdGV0YXAgZGlwcm9zZXMuCiAqIC0gb3JkZXIgb2ZmbGluZSBtZWxld2F0aSBoYXJnYSBzZXJ2ZXIgKHRvdGFsIDIxLjAwMCkgZGFuIHN0b2sgYmVya3VyYW5nLgogKiAtIHB1c2ggdWxhbmcgYmF0Y2ggeWFuZyBzYW1hOiBhY2NlcHRlZCBtZW5qYWRpIGR1cGxpY2F0ZSwgcmVqZWN0ZWQKICogICBtZW5nZW1iYWxpa2FuIGFsYXNhbiBhc2xpOyBUSURBSyBhZGEgb3JkZXIvc3RvayBnYW5kYS4KICogLSBwdWxsP3NpbmNlIG1lbmdlbWJhbGlrYW4gcHJvZHVrIHlhbmcgYmVydWJhaCBzZXRlbGFoIHRpdGlrIHdha3R1IGl0dQogKiAgIChwcm9kdWsgYmFydSB5YW5nIGRpYnVhdCBvd25lciBzZXN1ZGFobnlhIG11bmN1bDsgZm9ybWF0IElTTyBkaXRlcmltYSkuCiAqLwppbXBvcnQgeyBiZWZvcmVBbGwsIGRlc2NyaWJlLCBleHBlY3QsIGl0IH0gZnJvbSAidml0ZXN0IjsKaW1wb3J0IHsgY3JlYXRlVGVzdERiLCB0eXBlIFRlc3REYiB9IGZyb20gIi4vaGVscGVycy9kMSI7CmltcG9ydCB7IG1ha2VDbGllbnQsIGtvbnRyYWtJdGVtcywgU1RPS19CQUtTTyB9IGZyb20gIi4vaGVscGVycy9hcGkiOwoKbGV0IHQ6IFRlc3REYjsKbGV0IGNhbGw6IFJldHVyblR5cGU8dHlwZW9mIG1ha2VDbGllbnQ+WyJjYWxsIl07CmxldCBrYXNpclRva2VuID0gIiI7CmxldCBvd25lclRva2VuID0gIiI7CgppbnRlcmZhY2UgUHVzaFJlc3VsdCB7CiAgcmVzdWx0czogewogICAgY2xpZW50X3R4X2lkOiBzdHJpbmc7IGVudGl0eTogc3RyaW5nOwogICAgc3RhdHVzOiAiYWNjZXB0ZWQiIHwgImR1cGxpY2F0ZSIgfCAicmVqZWN0ZWQiOwogICAgZW50aXR5X2lkPzogc3RyaW5nIHwgbnVsbDsKICAgIGVycm9yPzogeyBjb2RlOiBzdHJpbmc7IG1lc3NhZ2U6IHN0cmluZyB9OwogIH1bXTsKICBhY2NlcHRlZDogbnVtYmVyOyBkdXBsaWNhdGVzOiBudW1iZXI7IHJlamVjdGVkOiBudW1iZXI7Cn0KCmNvbnN0IGJhdGNoID0gewogIGV2ZW50czogWwogICAgewogICAgICBjbGllbnRfdHhfaWQ6ICJvZmZsaW5lLW9yZGVyLTEiLAogICAgICBlbnRpdHk6ICJvcmRlciIsCiAgICAgIHBheWxvYWQ6IHsgdHlwZTogInRha2Vhd2F5IiwgaXRlbXM6IGtvbnRyYWtJdGVtcygxKSB9LAogICAgfSwKICAgIHsKICAgICAgY2xpZW50X3R4X2lkOiAib2ZmbGluZS1wYXktMSIsCiAgICAgIGVudGl0eTogInBheW1lbnQiLAogICAgICBwYXlsb2FkOiB7CiAgICAgICAgb3JkZXJfY2xpZW50X3R4X2lkOiAib2ZmbGluZS1vcmRlci0xIiwKICAgICAgICBtZXRob2Q6ICJjYXNoIiwKICAgICAgICBhbW91bnQ6IDIxXzAwMCwKICAgICAgfSwKICAgIH0sCiAgICB7CiAgICAgIGNsaWVudF90eF9pZDogIm9mZmxpbmUtb3JkZXItcnVzYWsiLAogICAgICBlbnRpdHk6ICJvcmRlciIsCiAgICAgIHBheWxvYWQ6IHsKICAgICAgICBpdGVtczogW3sgcHJvZHVjdF9pZDogInByb2R1ay10aWRhay1hZGEiLCBxdHk6IDEsIG1vZGlmaWVyczogW10gfV0sCiAgICAgIH0sCiAgICB9LAogIF0sCn07CgpiZWZvcmVBbGwoYXN5bmMgKCkgPT4gewogIHQgPSBjcmVhdGVUZXN0RGIodHJ1ZSk7CiAgY29uc3QgY2xpZW50ID0gbWFrZUNsaWVudCh0KTsKICBjYWxsID0gY2xpZW50LmNhbGw7CiAga2FzaXJUb2tlbiA9IGF3YWl0IGNsaWVudC5sb2dpbigia2FzaXJAZGVtby5zZWJsYWtwb3MuaWQiLCAic2VibGFrMTIzIik7CiAgb3duZXJUb2tlbiA9IGF3YWl0IGNsaWVudC5sb2dpbigib3duZXJAZGVtby5zZWJsYWtwb3MuaWQiLCAic2VibGFrMTIzIik7CiAgY29uc3Qgb3BlbiA9IGF3YWl0IGNhbGwoIlBPU1QiLCAiL2FwaS92MS9zaGlmdHMvb3BlbiIsIHsKICAgIHRva2VuOiBrYXNpclRva2VuLCBib2R5OiB7IG9wZW5pbmdfY2FzaDogNTBfMDAwIH0sCiAgfSk7CiAgZXhwZWN0KG9wZW4uc3RhdHVzKS50b0JlKDIwMSk7Cn0pOwoKZGVzY3JpYmUoInN5bmMvcHVzaCIsICgpID0+IHsKICBpdCgiYmF0Y2ggY2FtcHVyYW46IDIgYWNjZXB0ZWQsIDEgcmVqZWN0ZWQgcGVyIGV2ZW50IiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGw8UHVzaFJlc3VsdD4oIlBPU1QiLCAiL2FwaS92MS9zeW5jL3B1c2giLCB7CiAgICAgIHRva2VuOiBrYXNpclRva2VuLCBib2R5OiBiYXRjaCwKICAgIH0pOwogICAgZXhwZWN0KHIuc3RhdHVzKS50b0JlKDIwMCk7CiAgICBleHBlY3Qoci5qc29uLmRhdGEuYWNjZXB0ZWQpLnRvQmUoMik7CiAgICBleHBlY3Qoci5qc29uLmRhdGEucmVqZWN0ZWQpLnRvQmUoMSk7CiAgICBjb25zdCBieVR4ID0gbmV3IE1hcChyLmpzb24uZGF0YS5yZXN1bHRzLm1hcCgoeCkgPT4gW3guY2xpZW50X3R4X2lkLCB4XSkpOwogICAgZXhwZWN0KGJ5VHguZ2V0KCJvZmZsaW5lLW9yZGVyLTEiKT8uc3RhdHVzKS50b0JlKCJhY2NlcHRlZCIpOwogICAgZXhwZWN0KGJ5VHguZ2V0KCJvZmZsaW5lLXBheS0xIik/LnN0YXR1cykudG9CZSgiYWNjZXB0ZWQiKTsKICAgIGNvbnN0IGJhZCA9IGJ5VHguZ2V0KCJvZmZsaW5lLW9yZGVyLXJ1c2FrIik7CiAgICBleHBlY3QoYmFkPy5zdGF0dXMpLnRvQmUoInJlamVjdGVkIik7CiAgICBleHBlY3QoYmFkPy5lcnJvcj8uY29kZSkudG9CZSgiVkFMSURBVElPTl9FUlJPUiIpOwoKICAgIC8vIE9yZGVyIGJlbmFyLWJlbmFyIHRlcmNpcHRhIGRlbmdhbiBoYXJnYSBzZXJ2ZXIgJiBzdG9rIGJlcmt1cmFuZy4KICAgIGV4cGVjdCh0LnNjYWxhcjxudW1iZXI+KCJTRUxFQ1QgQ09VTlQoKikgRlJPTSBvcmRlcnMiKSkudG9CZSgxKTsKICAgIGV4cGVjdCgKICAgICAgdC5zY2FsYXI8bnVtYmVyPigiU0VMRUNUIGdyYW5kX3RvdGFsIEZST00gb3JkZXJzIiksCiAgICApLnRvQmUoMjFfMDAwKTsKICAgIGV4cGVjdCgKICAgICAgdC5zY2FsYXI8c3RyaW5nPigiU0VMRUNUIHBheW1lbnRfc3RhdHVzIEZST00gb3JkZXJzIiksCiAgICApLnRvQmUoInBhaWQiKTsKICAgIGV4cGVjdCh0LnN0b2NrQmFsYW5jZShTVE9LX0JBS1NPKSkudG9CZSg5OCk7IC8vIDEwMCAtIDIgYmFrc28gcGVyIHBvcnNpCiAgICBleHBlY3QoCiAgICAgIHQuc2NhbGFyPG51bWJlcj4oIlNFTEVDVCBDT1VOVCgqKSBGUk9NIHN5bmNfZXZlbnRzIiksCiAgICApLnRvQmUoMyk7CiAgfSk7CgogIGl0KCJwdXNoIHVsYW5nIGJhdGNoIHNhbWE6IGR1cGxpY2F0ZSAmIHJlamVjdGVkIGFzbGksIHRhbnBhIGVmZWsgZ2FuZGEiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByID0gYXdhaXQgY2FsbDxQdXNoUmVzdWx0PigiUE9TVCIsICIvYXBpL3YxL3N5bmMvcHVzaCIsIHsKICAgICAgdG9rZW46IGthc2lyVG9rZW4sIGJvZHk6IGJhdGNoLAogICAgfSk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoMjAwKTsKICAgIGV4cGVjdChyLmpzb24uZGF0YS5hY2NlcHRlZCkudG9CZSgwKTsKICAgIGV4cGVjdChyLmpzb24uZGF0YS5kdXBsaWNhdGVzKS50b0JlKDIpOwogICAgZXhwZWN0KHIuanNvbi5kYXRhLnJlamVjdGVkKS50b0JlKDEpOwogICAgY29uc3QgYnlUeCA9IG5ldyBNYXAoci5qc29uLmRhdGEucmVzdWx0cy5tYXAoKHgpID0+IFt4LmNsaWVudF90eF9pZCwgeF0pKTsKICAgIGV4cGVjdChieVR4LmdldCgib2ZmbGluZS1vcmRlci0xIik/LnN0YXR1cykudG9CZSgiZHVwbGljYXRlIik7CiAgICBleHBlY3QoYnlUeC5nZXQoIm9mZmxpbmUtcGF5LTEiKT8uc3RhdHVzKS50b0JlKCJkdXBsaWNhdGUiKTsKICAgIGV4cGVjdChieVR4LmdldCgib2ZmbGluZS1vcmRlci1ydXNhayIpPy5lcnJvcj8uY29kZSkudG9CZSgiVkFMSURBVElPTl9FUlJPUiIpOwoKICAgIGV4cGVjdCh0LnNjYWxhcjxudW1iZXI+KCJTRUxFQ1QgQ09VTlQoKikgRlJPTSBvcmRlcnMiKSkudG9CZSgxKTsKICAgIGV4cGVjdCh0LnNjYWxhcjxudW1iZXI+KCJTRUxFQ1QgQ09VTlQoKikgRlJPTSBwYXltZW50cyIpKS50b0JlKDEpOwogICAgZXhwZWN0KHQuc3RvY2tCYWxhbmNlKFNUT0tfQkFLU08pKS50b0JlKDk4KTsKICB9KTsKfSk7CgpkZXNjcmliZSgic3luYy9wdWxsIiwgKCkgPT4gewogIGl0KCJwcm9kdWsgeWFuZyBiZXJ1YmFoIHNldGVsYWggc2luY2UgbXVuY3VsIGRpIHB1bGwgKGVwb2NoICYgSVNPKSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGJlZm9yZSA9IERhdGUubm93KCk7CiAgICBjb25zdCBjcmVhdGVkID0gYXdhaXQgY2FsbDx7IGlkOiBzdHJpbmcgfT4oIlBPU1QiLCAiL2FwaS92MS9wcm9kdWN0cyIsIHsKICAgICAgdG9rZW46IG93bmVyVG9rZW4sCiAgICAgIGJvZHk6IHsgbmFtZTogIlNlYmxhayBDZWtlciBTcGVzaWFsIiwgYmFzZV9wcmljZTogMTVfMDAwLCBza3U6ICJTQkwtQ0tSIiB9LAogICAgfSk7CiAgICBleHBlY3QoY3JlYXRlZC5zdGF0dXMpLnRvQmUoMjAxKTsKICAgIGNvbnN0IG5ld0lkID0gY3JlYXRlZC5qc29uLmRhdGEuaWQ7CgogICAgY29uc3QgcHVsbCA9IGF3YWl0IGNhbGw8eyBwcm9kdWN0czogeyBpZDogc3RyaW5nIH1bXTsgb3JkZXJzOiB7IGlkOiBzdHJpbmcgfVtdIH0+KAogICAgICAiR0VUIiwgYC9hcGkvdjEvc3luYy9wdWxsP3NpbmNlPSR7YmVmb3JlfWAsIHsgdG9rZW46IGthc2lyVG9rZW4gfSwKICAgICk7CiAgICBleHBlY3QocHVsbC5zdGF0dXMpLnRvQmUoMjAwKTsKICAgIGV4cGVjdChwdWxsLmpzb24uZGF0YS5wcm9kdWN0cy5zb21lKChwKSA9PiBwLmlkID09PSBuZXdJZCkpLnRvQmUodHJ1ZSk7CiAgICAvLyBPcmRlciBvZmZsaW5lIHlhbmcgYmFydSBkaWJ1YXQganVnYSBiZXJ1YmFoIHNldGVsYWggJ2JlZm9yZSc/IFRpZGFrIOKAlAogICAgLy8gb3JkZXIgZGlidWF0IFNFQkVMVU0gcHJvZHVrIGJhcnU7IHNpbmNlPWJlZm9yZSBwcm9kdWsgYmVyYXJ0aSBvcmRlcgogICAgLy8geWFuZyBsZWJpaCBsYW1hIHRpZGFrIGlrdXQuIEd1bmFrYW4gc2luY2U9MCB1bnR1ayBvcmRlcjoKICAgIGNvbnN0IHB1bGxBbGwgPSBhd2FpdCBjYWxsPHsgb3JkZXJzOiB7IHBheW1lbnRfc3RhdHVzOiBzdHJpbmcgfVtdIH0+KAogICAgICAiR0VUIiwgIi9hcGkvdjEvc3luYy9wdWxsP3NpbmNlPTAiLCB7IHRva2VuOiBrYXNpclRva2VuIH0sCiAgICApOwogICAgZXhwZWN0KHB1bGxBbGwuanNvbi5kYXRhLm9yZGVycykudG9IYXZlTGVuZ3RoKDEpOwogICAgZXhwZWN0KHB1bGxBbGwuanNvbi5kYXRhLm9yZGVyc1swXT8ucGF5bWVudF9zdGF0dXMpLnRvQmUoInBhaWQiKTsKCiAgICBjb25zdCBwdWxsSXNvID0gYXdhaXQgY2FsbDx7IHByb2R1Y3RzOiB7IGlkOiBzdHJpbmcgfVtdIH0+KAogICAgICAiR0VUIiwKICAgICAgYC9hcGkvdjEvc3luYy9wdWxsP3NpbmNlPSR7ZW5jb2RlVVJJQ29tcG9uZW50KG5ldyBEYXRlKGJlZm9yZSkudG9JU09TdHJpbmcoKSl9YCwKICAgICAgeyB0b2tlbjoga2FzaXJUb2tlbiB9LAogICAgKTsKICAgIGV4cGVjdChwdWxsSXNvLnN0YXR1cykudG9CZSgyMDApOwogICAgZXhwZWN0KHB1bGxJc28uanNvbi5kYXRhLnByb2R1Y3RzLnNvbWUoKHApID0+IHAuaWQgPT09IG5ld0lkKSkudG9CZSh0cnVlKTsKICB9KTsKfSk7Cg==
+/**
+ * Test sinkronisasi offline (G4a) terhadap Worker + shim D1:
+ * - push batch berisi order offline + pembayaran offline (merujuk
+ *   order_client_tx_id) + satu event rusak: dua accepted, satu rejected
+ *   per event dengan kode VALIDATION_ERROR; event sah tetap diproses.
+ * - order offline melewati harga server (total 21.000) dan stok berkurang.
+ * - push ulang batch yang sama: accepted menjadi duplicate, rejected
+ *   mengembalikan alasan asli; TIDAK ada order/stok ganda.
+ * - pull?since mengembalikan produk yang berubah setelah titik waktu itu
+ *   (produk baru yang dibuat owner sesudahnya muncul; format ISO diterima).
+ */
+import { beforeAll, describe, expect, it } from "vitest";
+import { createTestDb, type TestDb } from "./helpers/d1";
+import { makeClient, kontrakItems, STOK_BAKSO } from "./helpers/api";
+
+let t: TestDb;
+let call: ReturnType<typeof makeClient>["call"];
+let kasirToken = "";
+let ownerToken = "";
+
+interface PushResult {
+  results: {
+    client_tx_id: string; entity: string;
+    status: "accepted" | "duplicate" | "rejected";
+    entity_id?: string | null;
+    error?: { code: string; message: string };
+  }[];
+  accepted: number; duplicates: number; rejected: number;
+}
+
+const batch = {
+  events: [
+    {
+      client_tx_id: "offline-order-1",
+      entity: "order",
+      payload: { type: "takeaway", items: kontrakItems(1) },
+    },
+    {
+      client_tx_id: "offline-pay-1",
+      entity: "payment",
+      payload: {
+        order_client_tx_id: "offline-order-1",
+        method: "cash",
+        amount: 21_000,
+      },
+    },
+    {
+      client_tx_id: "offline-order-rusak",
+      entity: "order",
+      payload: {
+        items: [{ product_id: "produk-tidak-ada", qty: 1, modifiers: [] }],
+      },
+    },
+  ],
+};
+
+beforeAll(async () => {
+  t = createTestDb(true);
+  const client = makeClient(t);
+  call = client.call;
+  kasirToken = await client.login("kasir@demo.seblakpos.id", "seblak123");
+  ownerToken = await client.login("owner@demo.seblakpos.id", "seblak123");
+  const open = await call("POST", "/api/v1/shifts/open", {
+    token: kasirToken, body: { opening_cash: 50_000 },
+  });
+  expect(open.status).toBe(201);
+});
+
+describe("sync/push", () => {
+  it("batch campuran: 2 accepted, 1 rejected per event", async () => {
+    const r = await call<PushResult>("POST", "/api/v1/sync/push", {
+      token: kasirToken, body: batch,
+    });
+    expect(r.status).toBe(200);
+    expect(r.json.data.accepted).toBe(2);
+    expect(r.json.data.rejected).toBe(1);
+    const byTx = new Map(r.json.data.results.map((x) => [x.client_tx_id, x]));
+    expect(byTx.get("offline-order-1")?.status).toBe("accepted");
+    expect(byTx.get("offline-pay-1")?.status).toBe("accepted");
+    const bad = byTx.get("offline-order-rusak");
+    expect(bad?.status).toBe("rejected");
+    expect(bad?.error?.code).toBe("VALIDATION_ERROR");
+
+    // Order benar-benar tercipta dengan harga server & stok berkurang.
+    expect(t.scalar<number>("SELECT COUNT(*) FROM orders")).toBe(1);
+    expect(
+      t.scalar<number>("SELECT grand_total FROM orders"),
+    ).toBe(21_000);
+    expect(
+      t.scalar<string>("SELECT payment_status FROM orders"),
+    ).toBe("paid");
+    expect(t.stockBalance(STOK_BAKSO)).toBe(98); // 100 - 2 bakso per porsi
+    expect(
+      t.scalar<number>("SELECT COUNT(*) FROM sync_events"),
+    ).toBe(3);
+  });
+
+  it("push ulang batch sama: duplicate & rejected asli, tanpa efek ganda", async () => {
+    const r = await call<PushResult>("POST", "/api/v1/sync/push", {
+      token: kasirToken, body: batch,
+    });
+    expect(r.status).toBe(200);
+    expect(r.json.data.accepted).toBe(0);
+    expect(r.json.data.duplicates).toBe(2);
+    expect(r.json.data.rejected).toBe(1);
+    const byTx = new Map(r.json.data.results.map((x) => [x.client_tx_id, x]));
+    expect(byTx.get("offline-order-1")?.status).toBe("duplicate");
+    expect(byTx.get("offline-pay-1")?.status).toBe("duplicate");
+    expect(byTx.get("offline-order-rusak")?.error?.code).toBe("VALIDATION_ERROR");
+
+    expect(t.scalar<number>("SELECT COUNT(*) FROM orders")).toBe(1);
+    expect(t.scalar<number>("SELECT COUNT(*) FROM payments")).toBe(1);
+    expect(t.stockBalance(STOK_BAKSO)).toBe(98);
+  });
+});
+
+describe("sync/pull", () => {
+  it("produk yang berubah setelah since muncul di pull (epoch & ISO)", async () => {
+    const created = await call<{ id: string; updated_at: number }>("POST", "/api/v1/products", {
+      token: ownerToken,
+      body: { name: "Seblak Ceker Spesial", base_price: 15_000, sku: "SBL-CKR" },
+    });
+    expect(created.status).toBe(201);
+    const { id: newId, updated_at: updatedAt } = created.json.data;
+    const before = updatedAt - 1;
+
+    const pull = await call<{ products: { id: string }[]; orders: { id: string }[] }>(
+      "GET", `/api/v1/sync/pull?since=${before}`, { token: kasirToken },
+    );
+    expect(pull.status).toBe(200);
+    expect(pull.json.data.products.some((p) => p.id === newId)).toBe(true);
+    // Gunakan since=0 untuk memeriksa order offline secara terpisah.
+    const pullAll = await call<{ orders: { payment_status: string }[] }>(
+      "GET", "/api/v1/sync/pull?since=0", { token: kasirToken },
+    );
+    expect(pullAll.json.data.orders).toHaveLength(1);
+    expect(pullAll.json.data.orders[0]?.payment_status).toBe("paid");
+
+    const pullIso = await call<{ products: { id: string }[] }>(
+      "GET",
+      `/api/v1/sync/pull?since=${encodeURIComponent(new Date(before).toISOString())}`,
+      { token: kasirToken },
+    );
+    expect(pullIso.status).toBe(200);
+    expect(pullIso.json.data.products.some((p) => p.id === newId)).toBe(true);
+  });
+});

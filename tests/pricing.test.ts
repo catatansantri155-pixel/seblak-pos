@@ -1,1 +1,178 @@
-LyoqCiAqIFRlc3QgbWVzaW4gaGFyZ2EgbXVybmkgKHdvcmtlci9saWIvcHJpY2luZy50cyk6CiAqIC0gY29udG9oIGtvbnRyYWsgeWFuZyB3YWppYiBiZW5hciAoMjEuMDAwL3BvcnNpLCA0Mi4wMDAgdW50dWsgMiBwb3JzaSksCiAqIC0gY29udG9oIGhpdHVuZyBkb2t1bWVuIHByb21vIChwZXJjZW50IDEwJSAmIHBsYWZvbiBtYXhfZGlzY291bnQpLAogKiAtIGJvZ28sIG5vbWluYWwgYmVyc3lhcmF0LCBwYWphayBzZXRlbGFoIGRpc2tvbiwKICogLSBwcm9tbyB0aWRhayB2YWxpZCAoa2VkYWx1d2Fyc2EsIHBlbnVtcHVrYW4gdGVybGFyYW5nLCBzeWFyYXQgdGFrIHRlcnBlbnVoaSkuCiAqLwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCBpdCB9IGZyb20gInZpdGVzdCI7CmltcG9ydCB7CiAgcHJpY2VPcmRlciwKICB0eXBlIFByaWNpbmdMaW5lSW5wdXQsCiAgdHlwZSBQcm9tb3Rpb25JbnB1dCwKfSBmcm9tICIuLi93b3JrZXIvbGliL3ByaWNpbmciOwppbXBvcnQgeyBBcGlFcnJvciB9IGZyb20gIi4uL3dvcmtlci9saWIvZXJyb3JzIjsKCmNvbnN0IE5PVyA9IDFfNzYzXzUwMF8wMDBfMDAwOwoKZnVuY3Rpb24gcHJvbW8ocGFydGlhbDogUGFydGlhbDxQcm9tb3Rpb25JbnB1dD4pOiBQcm9tb3Rpb25JbnB1dCB7CiAgcmV0dXJuIHsKICAgIGlkOiAicHJvbW8tMSIsCiAgICBuYW1lOiAiUHJvbW8gVWppIiwKICAgIHR5cGU6ICJwZXJjZW50IiwKICAgIGNvbmZpZzoge30sCiAgICBpc19zdGFja2FibGU6IGZhbHNlLAogICAgbWF4X2Rpc2NvdW50OiBudWxsLAogICAgaXNfYWN0aXZlOiB0cnVlLAogICAgc3RhcnRzX2F0OiBudWxsLAogICAgZW5kc19hdDogbnVsbCwKICAgIC4uLnBhcnRpYWwsCiAgfTsKfQoKY29uc3Qgc2VibGFrTGluZSA9IChxdHk6IG51bWJlcik6IFByaWNpbmdMaW5lSW5wdXQgPT4gKHsKICBwcm9kdWN0X2lkOiAic2VibGFrLW9yaWdpbmFsIiwKICBuYW1lOiAiU2VibGFrIE9yaWdpbmFsIiwKICBxdHksCiAgdW5pdF9iYXNlOiAxMF8wMDAsCiAgbW9kaWZpZXJzOiBbCiAgICB7IG1vZGlmaWVyX29wdGlvbl9pZDogImJha3NvIiwgbmFtZTogIkJha3NvIiwgcHJpY2VfZGVsdGE6IDJfMDAwLCBxdHk6IDIgfSwKICAgIHsgbW9kaWZpZXJfb3B0aW9uX2lkOiAiY2VrZXIiLCBuYW1lOiAiQ2VrZXIiLCBwcmljZV9kZWx0YTogM18wMDAsIHF0eTogMSB9LAogICAgeyBtb2RpZmllcl9vcHRpb25faWQ6ICJ0ZWx1ciIsIG5hbWU6ICJUZWx1ciIsIHByaWNlX2RlbHRhOiA0XzAwMCwgcXR5OiAxIH0sCiAgXSwKfSk7CgpkZXNjcmliZSgicHJpY2luZzogY29udG9oIGtvbnRyYWsgd2FqaWIiLCAoKSA9PiB7CiAgaXQoInNhdHUgcG9yc2kgPSAyMTAwMCAoMTAwMDAgKyAyeDIwMDAgKyAzMDAwICsgNDAwMCkiLCAoKSA9PiB7CiAgICBjb25zdCByID0gcHJpY2VPcmRlcih7IGxpbmVzOiBbc2VibGFrTGluZSgxKV0sIHByb21vdGlvbnM6IFtdLCB0YXhfcmF0ZV9icDogMCwgbm93OiBOT1cgfSk7CiAgICBleHBlY3Qoci5saW5lc1swXT8udW5pdF9wcmljZSkudG9CZSgyMV8wMDApOwogICAgZXhwZWN0KHIuc3VidG90YWwpLnRvQmUoMjFfMDAwKTsKICAgIGV4cGVjdChyLmdyYW5kX3RvdGFsKS50b0JlKDIxXzAwMCk7CiAgfSk7CgogIGl0KCJkdWEgcG9yc2kgPSA0MjAwMCIsICgpID0+IHsKICAgIGNvbnN0IHIgPSBwcmljZU9yZGVyKHsgbGluZXM6IFtzZWJsYWtMaW5lKDIpXSwgcHJvbW90aW9uczogW10sIHRheF9yYXRlX2JwOiAwLCBub3c6IE5PVyB9KTsKICAgIGV4cGVjdChyLnN1YnRvdGFsKS50b0JlKDQyXzAwMCk7CiAgICBleHBlY3Qoci5ncmFuZF90b3RhbCkudG9CZSg0Ml8wMDApOwogIH0pOwp9KTsKCmRlc2NyaWJlKCJwcmljaW5nOiBwcm9tbyBwZXJjZW50IChjb250b2ggZG9rdW1lbiBicmFuZCAmIHByb21vKSIsICgpID0+IHsKICBjb25zdCBsaW5lczogUHJpY2luZ0xpbmVJbnB1dFtdID0gWwogICAgeyBwcm9kdWN0X2lkOiAic2VibGFrLWtvbXBsaXQiLCBuYW1lOiAiU2VibGFrIEtvbXBsaXQiLCBxdHk6IDIsIHVuaXRfYmFzZTogMTVfMDAwLCBtb2RpZmllcnM6IFtdIH0sCiAgXTsKCiAgaXQoInBlcmNlbnQgMTAlIHBsYWZvbiA1MDAwIC0+IGRpc2tvbiAzMDAwLCB0b3RhbCAyNzAwMCIsICgpID0+IHsKICAgIGNvbnN0IHIgPSBwcmljZU9yZGVyKHsKICAgICAgbGluZXMsCiAgICAgIHByb21vdGlvbnM6IFtwcm9tbyh7IHR5cGU6ICJwZXJjZW50IiwgY29uZmlnOiB7IHBlcmNlbnQ6IDEwIH0sIG1heF9kaXNjb3VudDogNV8wMDAgfSldLAogICAgICB0YXhfcmF0ZV9icDogMCwKICAgICAgbm93OiBOT1csCiAgICB9KTsKICAgIGV4cGVjdChyLnN1YnRvdGFsKS50b0JlKDMwXzAwMCk7CiAgICBleHBlY3Qoci5kaXNjb3VudF90b3RhbCkudG9CZSgzXzAwMCk7CiAgICBleHBlY3Qoci5ncmFuZF90b3RhbCkudG9CZSgyN18wMDApOwogIH0pOwoKICBpdCgicGVyY2VudCA1MCUgcGxhZm9uIDUwMDAgLT4gZGlza29uIGRpcG90b25nIG1lbmphZGkgNTAwMCwgdG90YWwgMjUwMDAiLCAoKSA9PiB7CiAgICBjb25zdCByID0gcHJpY2VPcmRlcih7CiAgICAgIGxpbmVzLAogICAgICBwcm9tb3Rpb25zOiBbcHJvbW8oeyB0eXBlOiAicGVyY2VudCIsIGNvbmZpZzogeyBwZXJjZW50OiA1MCB9LCBtYXhfZGlzY291bnQ6IDVfMDAwIH0pXSwKICAgICAgdGF4X3JhdGVfYnA6IDAsCiAgICAgIG5vdzogTk9XLAogICAgfSk7CiAgICBleHBlY3Qoci5kaXNjb3VudF90b3RhbCkudG9CZSg1XzAwMCk7CiAgICBleHBlY3Qoci5ncmFuZF90b3RhbCkudG9CZSgyNV8wMDApOwogIH0pOwp9KTsKCmRlc2NyaWJlKCJwcmljaW5nOiBwcm9tbyBpdGVtICYgbm9taW5hbCIsICgpID0+IHsKICBpdCgiYm9nbyBiZWxpIDIgZ3JhdGlzIDEgdW50dWsgMyBpdGVtIC0+IGRpc2tvbiBzZWJlc2FyIDEgdW5pdCIsICgpID0+IHsKICAgIGNvbnN0IHIgPSBwcmljZU9yZGVyKHsKICAgICAgbGluZXM6IFt7IHByb2R1Y3RfaWQ6ICJlcy10ZWgiLCBuYW1lOiAiRXMgVGVoIiwgcXR5OiAzLCB1bml0X2Jhc2U6IDVfMDAwLCBtb2RpZmllcnM6IFtdIH1dLAogICAgICBwcm9tb3Rpb25zOiBbCiAgICAgICAgcHJvbW8oeyB0eXBlOiAiYm9nbyIsIGNvbmZpZzogeyBwcm9kdWN0X2lkOiAiZXMtdGVoIiwgYnV5X3F0eTogMiwgZnJlZV9xdHk6IDEgfSB9KSwKICAgICAgXSwKICAgICAgdGF4X3JhdGVfYnA6IDAsCiAgICAgIG5vdzogTk9XLAogICAgfSk7CiAgICBleHBlY3Qoci5pdGVtX2Rpc2NvdW50KS50b0JlKDVfMDAwKTsKICAgIGV4cGVjdChyLmdyYW5kX3RvdGFsKS50b0JlKDEwXzAwMCk7CiAgfSk7CgogIGl0KCJub21pbmFsIHRlcnBvdG9uZyBzYW1wYWkgc2lzYSB0YWdpaGFuIChncmFuZF90b3RhbCB0aWRhayBuZWdhdGlmKSIsICgpID0+IHsKICAgIGNvbnN0IHIgPSBwcmljZU9yZGVyKHsKICAgICAgbGluZXM6IFt7IHByb2R1Y3RfaWQ6ICJlcy10ZWgiLCBuYW1lOiAiRXMgVGVoIiwgcXR5OiAxLCB1bml0X2Jhc2U6IDVfMDAwLCBtb2RpZmllcnM6IFtdIH1dLAogICAgICBwcm9tb3Rpb25zOiBbcHJvbW8oeyB0eXBlOiAibm9taW5hbCIsIGNvbmZpZzogeyBhbW91bnQ6IDk5XzAwMCB9IH0pXSwKICAgICAgdGF4X3JhdGVfYnA6IDAsCiAgICAgIG5vdzogTk9XLAogICAgfSk7CiAgICBleHBlY3Qoci5kaXNjb3VudF90b3RhbCkudG9CZSg1XzAwMCk7CiAgICBleHBlY3Qoci5ncmFuZF90b3RhbCkudG9CZSgwKTsKICB9KTsKCiAgaXQoInBhamFrIGRpaGl0dW5nIHNldGVsYWggZGlza29uIiwgKCkgPT4gewogICAgY29uc3QgciA9IHByaWNlT3JkZXIoewogICAgICBsaW5lczogW3sgcHJvZHVjdF9pZDogIngiLCBuYW1lOiAiWCIsIHF0eTogMSwgdW5pdF9iYXNlOiAyMF8wMDAsIG1vZGlmaWVyczogW10gfV0sCiAgICAgIHByb21vdGlvbnM6IFtwcm9tbyh7IHR5cGU6ICJwZXJjZW50IiwgY29uZmlnOiB7IHBlcmNlbnQ6IDUwIH0gfSldLAogICAgICB0YXhfcmF0ZV9icDogMV8wMDAsIC8vIDEwJQogICAgICBub3c6IE5PVywKICAgIH0pOwogICAgZXhwZWN0KHIuZGlzY291bnRfdG90YWwpLnRvQmUoMTBfMDAwKTsKICAgIGV4cGVjdChyLnRheF90b3RhbCkudG9CZSgxXzAwMCk7CiAgICBleHBlY3Qoci5ncmFuZF90b3RhbCkudG9CZSgxMV8wMDApOwogIH0pOwp9KTsKCmRlc2NyaWJlKCJwcmljaW5nOiBwcm9tbyB0aWRhayB2YWxpZCBkaXRvbGFrIFZBTElEQVRJT05fRVJST1IiLCAoKSA9PiB7CiAgY29uc3QgbGluZXM6IFByaWNpbmdMaW5lSW5wdXRbXSA9IFsKICAgIHsgcHJvZHVjdF9pZDogImVzLXRlaCIsIG5hbWU6ICJFcyBUZWgiLCBxdHk6IDEsIHVuaXRfYmFzZTogNV8wMDAsIG1vZGlmaWVyczogW10gfSwKICBdOwoKICBpdCgicHJvbW8ga2VkYWx1d2Fyc2EiLCAoKSA9PiB7CiAgICBleHBlY3QoKCkgPT4KICAgICAgcHJpY2VPcmRlcih7CiAgICAgICAgbGluZXMsCiAgICAgICAgcHJvbW90aW9uczogW3Byb21vKHsgdHlwZTogInBlcmNlbnQiLCBjb25maWc6IHsgcGVyY2VudDogMTAgfSwgZW5kc19hdDogTk9XIC0gMSB9KV0sCiAgICAgICAgdGF4X3JhdGVfYnA6IDAsCiAgICAgICAgbm93OiBOT1csCiAgICAgIH0pLAogICAgKS50b1Rocm93RXJyb3IoQXBpRXJyb3IpOwogIH0pOwoKICBpdCgiZHVhIHByb21vIG5vbi1zdGFja2FibGUgdGlkYWsgYm9sZWggZGlnYWJ1bmciLCAoKSA9PiB7CiAgICBleHBlY3QoKCkgPT4KICAgICAgcHJpY2VPcmRlcih7CiAgICAgICAgbGluZXMsCiAgICAgICAgcHJvbW90aW9uczogWwogICAgICAgICAgcHJvbW8oeyBpZDogInAxIiwgdHlwZTogInBlcmNlbnQiLCBjb25maWc6IHsgcGVyY2VudDogMTAgfSB9KSwKICAgICAgICAgIHByb21vKHsgaWQ6ICJwMiIsIHR5cGU6ICJub21pbmFsIiwgY29uZmlnOiB7IGFtb3VudDogMV8wMDAgfSB9KSwKICAgICAgICBdLAogICAgICAgIHRheF9yYXRlX2JwOiAwLAogICAgICAgIG5vdzogTk9XLAogICAgICB9KSwKICAgICkudG9UaHJvd0Vycm9yKEFwaUVycm9yKTsKICB9KTsKCiAgaXQoIm5vbWluYWwgZGVuZ2FuIG1pbl9zdWJ0b3RhbCB0aWRhayB0ZXJwZW51aGkiLCAoKSA9PiB7CiAgICBleHBlY3QoKCkgPT4KICAgICAgcHJpY2VPcmRlcih7CiAgICAgICAgbGluZXMsCiAgICAgICAgcHJvbW90aW9uczogW3Byb21vKHsgdHlwZTogIm5vbWluYWwiLCBjb25maWc6IHsgYW1vdW50OiAxXzAwMCwgbWluX3N1YnRvdGFsOiA1MF8wMDAgfSB9KV0sCiAgICAgICAgdGF4X3JhdGVfYnA6IDAsCiAgICAgICAgbm93OiBOT1csCiAgICAgIH0pLAogICAgKS50b1Rocm93RXJyb3IoQXBpRXJyb3IpOwogIH0pOwoKICBpdCgiZnJlZV9pdGVtIHRhbnBhIGl0ZW0gZ3JhdGlzIGRpIGtlcmFuamFuZyIsICgpID0+IHsKICAgIGV4cGVjdCgoKSA9PgogICAgICBwcmljZU9yZGVyKHsKICAgICAgICBsaW5lcywKICAgICAgICBwcm9tb3Rpb25zOiBbcHJvbW8oeyB0eXBlOiAiZnJlZV9pdGVtIiwgY29uZmlnOiB7IGZyZWVfcHJvZHVjdF9pZDogInRpZGFrLWFkYSIgfSB9KV0sCiAgICAgICAgdGF4X3JhdGVfYnA6IDAsCiAgICAgICAgbm93OiBOT1csCiAgICAgIH0pLAogICAgKS50b1Rocm93RXJyb3IoQXBpRXJyb3IpOwogIH0pOwp9KTsK
+/**
+ * Test mesin harga murni (worker/lib/pricing.ts):
+ * - contoh kontrak yang wajib benar (21.000/porsi, 42.000 untuk 2 porsi),
+ * - contoh hitung dokumen promo (percent 10% & plafon max_discount),
+ * - bogo, nominal bersyarat, pajak setelah diskon,
+ * - promo tidak valid (kedaluwarsa, penumpukan terlarang, syarat tak terpenuhi).
+ */
+import { describe, expect, it } from "vitest";
+import {
+  priceOrder,
+  type PricingLineInput,
+  type PromotionInput,
+} from "../worker/lib/pricing";
+import { ApiError } from "../worker/lib/errors";
+
+const NOW = 1_763_500_000_000;
+
+function promo(partial: Partial<PromotionInput>): PromotionInput {
+  return {
+    id: "promo-1",
+    name: "Promo Uji",
+    type: "percent",
+    config: {},
+    is_stackable: false,
+    max_discount: null,
+    is_active: true,
+    starts_at: null,
+    ends_at: null,
+    ...partial,
+  };
+}
+
+const seblakLine = (qty: number): PricingLineInput => ({
+  product_id: "seblak-original",
+  name: "Seblak Original",
+  qty,
+  unit_base: 10_000,
+  modifiers: [
+    { modifier_option_id: "bakso", name: "Bakso", price_delta: 2_000, qty: 2 },
+    { modifier_option_id: "ceker", name: "Ceker", price_delta: 3_000, qty: 1 },
+    { modifier_option_id: "telur", name: "Telur", price_delta: 4_000, qty: 1 },
+  ],
+});
+
+describe("pricing: contoh kontrak wajib", () => {
+  it("satu porsi = 21000 (10000 + 2x2000 + 3000 + 4000)", () => {
+    const r = priceOrder({ lines: [seblakLine(1)], promotions: [], tax_rate_bp: 0, now: NOW });
+    expect(r.lines[0]?.unit_price).toBe(21_000);
+    expect(r.subtotal).toBe(21_000);
+    expect(r.grand_total).toBe(21_000);
+  });
+
+  it("dua porsi = 42000", () => {
+    const r = priceOrder({ lines: [seblakLine(2)], promotions: [], tax_rate_bp: 0, now: NOW });
+    expect(r.subtotal).toBe(42_000);
+    expect(r.grand_total).toBe(42_000);
+  });
+});
+
+describe("pricing: promo percent (contoh dokumen brand & promo)", () => {
+  const lines: PricingLineInput[] = [
+    { product_id: "seblak-komplit", name: "Seblak Komplit", qty: 2, unit_base: 15_000, modifiers: [] },
+  ];
+
+  it("percent 10% plafon 5000 -> diskon 3000, total 27000", () => {
+    const r = priceOrder({
+      lines,
+      promotions: [promo({ type: "percent", config: { percent: 10 }, max_discount: 5_000 })],
+      tax_rate_bp: 0,
+      now: NOW,
+    });
+    expect(r.subtotal).toBe(30_000);
+    expect(r.discount_total).toBe(3_000);
+    expect(r.grand_total).toBe(27_000);
+  });
+
+  it("percent 50% plafon 5000 -> diskon dipotong menjadi 5000, total 25000", () => {
+    const r = priceOrder({
+      lines,
+      promotions: [promo({ type: "percent", config: { percent: 50 }, max_discount: 5_000 })],
+      tax_rate_bp: 0,
+      now: NOW,
+    });
+    expect(r.discount_total).toBe(5_000);
+    expect(r.grand_total).toBe(25_000);
+  });
+});
+
+describe("pricing: promo item & nominal", () => {
+  it("bogo beli 2 gratis 1 untuk 3 item -> diskon sebesar 1 unit", () => {
+    const r = priceOrder({
+      lines: [{ product_id: "es-teh", name: "Es Teh", qty: 3, unit_base: 5_000, modifiers: [] }],
+      promotions: [
+        promo({ type: "bogo", config: { product_id: "es-teh", buy_qty: 2, free_qty: 1 } }),
+      ],
+      tax_rate_bp: 0,
+      now: NOW,
+    });
+    expect(r.item_discount).toBe(5_000);
+    expect(r.grand_total).toBe(10_000);
+  });
+
+  it("nominal terpotong sampai sisa tagihan (grand_total tidak negatif)", () => {
+    const r = priceOrder({
+      lines: [{ product_id: "es-teh", name: "Es Teh", qty: 1, unit_base: 5_000, modifiers: [] }],
+      promotions: [promo({ type: "nominal", config: { amount: 99_000 } })],
+      tax_rate_bp: 0,
+      now: NOW,
+    });
+    expect(r.discount_total).toBe(5_000);
+    expect(r.grand_total).toBe(0);
+  });
+
+  it("pajak dihitung setelah diskon", () => {
+    const r = priceOrder({
+      lines: [{ product_id: "x", name: "X", qty: 1, unit_base: 20_000, modifiers: [] }],
+      promotions: [promo({ type: "percent", config: { percent: 50 } })],
+      tax_rate_bp: 1_000, // 10%
+      now: NOW,
+    });
+    expect(r.discount_total).toBe(10_000);
+    expect(r.tax_total).toBe(1_000);
+    expect(r.grand_total).toBe(11_000);
+  });
+});
+
+describe("pricing: promo tidak valid ditolak VALIDATION_ERROR", () => {
+  const lines: PricingLineInput[] = [
+    { product_id: "es-teh", name: "Es Teh", qty: 1, unit_base: 5_000, modifiers: [] },
+  ];
+
+  it("promo kedaluwarsa", () => {
+    expect(() =>
+      priceOrder({
+        lines,
+        promotions: [promo({ type: "percent", config: { percent: 10 }, ends_at: NOW - 1 })],
+        tax_rate_bp: 0,
+        now: NOW,
+      }),
+    ).toThrowError(ApiError);
+  });
+
+  it("dua promo non-stackable tidak boleh digabung", () => {
+    expect(() =>
+      priceOrder({
+        lines,
+        promotions: [
+          promo({ id: "p1", type: "percent", config: { percent: 10 } }),
+          promo({ id: "p2", type: "nominal", config: { amount: 1_000 } }),
+        ],
+        tax_rate_bp: 0,
+        now: NOW,
+      }),
+    ).toThrowError(ApiError);
+  });
+
+  it("nominal dengan min_subtotal tidak terpenuhi", () => {
+    expect(() =>
+      priceOrder({
+        lines,
+        promotions: [promo({ type: "nominal", config: { amount: 1_000, min_subtotal: 50_000 } })],
+        tax_rate_bp: 0,
+        now: NOW,
+      }),
+    ).toThrowError(ApiError);
+  });
+
+  it("free_item tanpa item gratis di keranjang", () => {
+    expect(() =>
+      priceOrder({
+        lines,
+        promotions: [promo({ type: "free_item", config: { free_product_id: "tidak-ada" } })],
+        tax_rate_bp: 0,
+        now: NOW,
+      }),
+    ).toThrowError(ApiError);
+  });
+});

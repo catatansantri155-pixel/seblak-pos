@@ -1,1 +1,346 @@
-LyoqCiAqIFRlc3QgaW50ZWdyYXNpIGFsdXIgb3JkZXIgdGVyaGFkYXAgV29ya2VyIEhvbm8gZGVuZ2FuIHNoaW0gRDEgaW4tbWVtb3J5CiAqIChub2RlOnNxbGl0ZSkgeWFuZyBtZW5qYWxhbmthbiBtaWdyYXNpIDAwMDEtMDAwOCArIHNlZWQgZGVtbyBhc2xpLgogKgogKiBTa2VuYXJpbyB5YW5nIGJlbmFyLWJlbmFyIGRpdWppOgogKiAtIGxvZ2luIHNhbGFoIC0+IFVOQVVUSE9SSVpFRDsgbG9naW4gYmVuYXIgLT4gdG9rZW47IC9hdXRoL21lLgogKiAtIG9yZGVyIHRhbnBhIHNoaWZ0IHRlcmJ1a2EgLT4gU0hJRlRfTk9UX09QRU4uCiAqIC0gYnVrYSBzaGlmdCBnYW5kYSAtPiBDT05GTElDVC4KICogLSBvcmRlciBjb250b2gga29udHJhazogdG90YWwgNDIwMDA7IHN0b2sgYmFoYW4gYmVya3VyYW5nIHRlcGF0IHNla2FsaS4KICogLSByZXBsYXkgSWRlbXBvdGVuY3ktS2V5IHNhbWEgLT4gb3JkZXIgeWFuZyBzYW1hLCB0YW5wYSBzdG9rL29yZGVyIGdhbmRhLgogKiAtIElkZW1wb3RlbmN5LUtleSBzYW1hIGlzaSBiZXJiZWRhIC0+IENPTkZMSUNULgogKiAtIHBlbWJheWFyYW4ga3VyYW5nIC0+IFBBWU1FTlRfTUlTTUFUQ0g7IHR1bmFpIGxlYmloIC0+IGtlbWJhbGlhbiB0ZXJjYXRhdAogKiAgIGRhbiBvcmRlciBsdW5hczsgYmF5YXIgbGFnaSAtPiBDT05GTElDVC4KICogLSBzdG9rIHRpZGFrIGN1a3VwIC0+IElOU1VGRklDSUVOVF9TVE9DSy4KICogLSBub24tdHVuYWkgcGVuZGluZzsgY29uZmlybSBvbGVoIGthc2lyIC0+IEZPUkJJRERFTjsgb2xlaCBvd25lciAtPiBsdW5hcy4KICogLSBkYXB1cjogYW50cmVhbiwgdHJhbnNpc2kgcXVldWVkLT5jb29raW5nLT5kb25lLCB0cmFuc2lzaSBtdW5kdXIgQ09ORkxJQ1QuCiAqIC0gY2FuY2VsIG9yZGVyIGx1bmFzIC0+IENPTkZMSUNUOyBjYW5jZWwgb3JkZXIgYW50cmUgLT4gdm9pZC4KICovCmltcG9ydCB7IGJlZm9yZUFsbCwgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgYXBwIGZyb20gIi4uL3dvcmtlci9pbmRleCI7CmltcG9ydCB7IGNyZWF0ZVRlc3REYiwgdHlwZSBUZXN0RGIgfSBmcm9tICIuL2hlbHBlcnMvZDEiOwoKY29uc3QgU0VCTEFLID0gImQwMDAwMDAwLTAwMDAtNDAwMC04MDAwLTAwMDAwMDAwMDAwMSI7CmNvbnN0IEVTX1RFSCA9ICJkMDAwMDAwMC0wMDAwLTQwMDAtODAwMC0wMDAwMDAwMDAwMDIiOwpjb25zdCBTVE9LX0JBS1NPID0gImQwMDAwMDAwLTAwMDAtNDAwMC04MDAwLTAwMDAwMDAwMDAxMSI7CmNvbnN0IFNUT0tfQ0VLRVIgPSAiZDAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDEyIjsKY29uc3QgU1RPS19URUxVUiA9ICJkMDAwMDAwMC0wMDAwLTQwMDAtODAwMC0wMDAwMDAwMDAwMTMiOwpjb25zdCBPUFRfTEVWRUwxID0gImYwMDAwMDAwLTAwMDAtNDAwMC04MDAwLTAwMDAwMDAwMDAwMiI7CmNvbnN0IE9QVF9CQUtTTyA9ICJmMDAwMDAwMC0wMDAwLTQwMDAtODAwMC0wMDAwMDAwMDAwMTEiOwpjb25zdCBPUFRfQ0VLRVIgPSAiZjAwMDAwMDAtMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDEyIjsKY29uc3QgT1BUX1RFTFVSID0gImYwMDAwMDAwLTAwMDAtNDAwMC04MDAwLTAwMDAwMDAwMDAxMyI7CgppbnRlcmZhY2UgRW52ZWxvcGU8VD4gewogIGRhdGE6IFQ7CiAgbWV0YTogeyByZXF1ZXN0X2lkOiBzdHJpbmcgfTsKfQppbnRlcmZhY2UgRXJyb3JFbnZlbG9wZSB7CiAgZXJyb3I6IHsgY29kZTogc3RyaW5nOyBtZXNzYWdlOiBzdHJpbmc7IGRldGFpbHM/OiB1bmtub3duIH07Cn0KCmxldCB0OiBUZXN0RGI7CmxldCBrYXNpclRva2VuID0gIiI7CmxldCBvd25lclRva2VuID0gIiI7CmxldCBvcmRlcjFJZCA9ICIiOwoKYXN5bmMgZnVuY3Rpb24gY2FsbDxUPigKICBtZXRob2Q6IHN0cmluZywKICBwYXRoOiBzdHJpbmcsCiAgb3B0czogeyB0b2tlbj86IHN0cmluZzsgYm9keT86IHVua25vd247IGhlYWRlcnM/OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IH0gPSB7fSwKKTogUHJvbWlzZTx7IHN0YXR1czogbnVtYmVyOyBqc29uOiBFbnZlbG9wZTxUPiAmIEVycm9yRW52ZWxvcGUgfT4gewogIGNvbnN0IGhlYWRlcnM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7IC4uLihvcHRzLmhlYWRlcnMgPz8ge30pIH07CiAgaWYgKG9wdHMudG9rZW4pIGhlYWRlcnNbIkF1dGhvcml6YXRpb24iXSA9IGBCZWFyZXIgJHtvcHRzLnRva2VufWA7CiAgaWYgKG9wdHMuYm9keSAhPT0gdW5kZWZpbmVkKSBoZWFkZXJzWyJDb250ZW50LVR5cGUiXSA9ICJhcHBsaWNhdGlvbi9qc29uIjsKICBjb25zdCByZXMgPSBhd2FpdCBhcHAucmVxdWVzdCgKICAgIGBodHRwOi8vdGVzdCR7cGF0aH1gLAogICAgewogICAgICBtZXRob2QsCiAgICAgIGhlYWRlcnMsCiAgICAgIGJvZHk6IG9wdHMuYm9keSAhPT0gdW5kZWZpbmVkID8gSlNPTi5zdHJpbmdpZnkob3B0cy5ib2R5KSA6IHVuZGVmaW5lZCwKICAgIH0sCiAgICB7IERCOiB0LmRiIH0sCiAgKTsKICBjb25zdCBqc29uID0gKGF3YWl0IHJlcy5qc29uKCkpIGFzIEVudmVsb3BlPFQ+ICYgRXJyb3JFbnZlbG9wZTsKICByZXR1cm4geyBzdGF0dXM6IHJlcy5zdGF0dXMsIGpzb24gfTsKfQoKYXN5bmMgZnVuY3Rpb24gbG9naW4oZW1haWw6IHN0cmluZywgcGFzc3dvcmQ6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nPiB7CiAgY29uc3QgciA9IGF3YWl0IGNhbGw8eyB0b2tlbjogc3RyaW5nIH0+KCJQT1NUIiwgIi9hcGkvdjEvYXV0aC9sb2dpbiIsIHsKICAgIGJvZHk6IHsgZW1haWwsIHBhc3N3b3JkIH0sCiAgfSk7CiAgZXhwZWN0KHIuc3RhdHVzKS50b0JlKDIwMCk7CiAgcmV0dXJuIHIuanNvbi5kYXRhLnRva2VuOwp9Cgpjb25zdCBrb250cmFrSXRlbXMgPSAocXR5OiBudW1iZXIpID0+IFsKICB7CiAgICBwcm9kdWN0X2lkOiBTRUJMQUssCiAgICBxdHksCiAgICBtb2RpZmllcnM6IFsKICAgICAgeyBtb2RpZmllcl9vcHRpb25faWQ6IE9QVF9MRVZFTDEsIHF0eTogMSB9LAogICAgICB7IG1vZGlmaWVyX29wdGlvbl9pZDogT1BUX0JBS1NPLCBxdHk6IDIgfSwKICAgICAgeyBtb2RpZmllcl9vcHRpb25faWQ6IE9QVF9DRUtFUiwgcXR5OiAxIH0sCiAgICAgIHsgbW9kaWZpZXJfb3B0aW9uX2lkOiBPUFRfVEVMVVIsIHF0eTogMSB9LAogICAgXSwKICB9LApdOwoKYmVmb3JlQWxsKGFzeW5jICgpID0+IHsKICB0ID0gY3JlYXRlVGVzdERiKHRydWUpOwp9KTsKCmRlc2NyaWJlKCJhdXRoIiwgKCkgPT4gewogIGl0KCJsb2dpbiBrYXRhIHNhbmRpIHNhbGFoIC0+IDQwMSBVTkFVVEhPUklaRUQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByID0gYXdhaXQgY2FsbCgiUE9TVCIsICIvYXBpL3YxL2F1dGgvbG9naW4iLCB7CiAgICAgIGJvZHk6IHsgZW1haWw6ICJrYXNpckBkZW1vLnNlYmxha3Bvcy5pZCIsIHBhc3N3b3JkOiAic2FsYWgxMjMiIH0sCiAgICB9KTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSg0MDEpOwogICAgZXhwZWN0KHIuanNvbi5lcnJvci5jb2RlKS50b0JlKCJVTkFVVEhPUklaRUQiKTsKICB9KTsKCiAgaXQoImxvZ2luIGJlbmFyIC0+IHRva2VuOyAvYXV0aC9tZSBtZW5nZW1iYWxpa2FuIHByb2ZpbCBrYXNpciIsIGFzeW5jICgpID0+IHsKICAgIGthc2lyVG9rZW4gPSBhd2FpdCBsb2dpbigia2FzaXJAZGVtby5zZWJsYWtwb3MuaWQiLCAic2VibGFrMTIzIik7CiAgICBvd25lclRva2VuID0gYXdhaXQgbG9naW4oIm93bmVyQGRlbW8uc2VibGFrcG9zLmlkIiwgInNlYmxhazEyMyIpOwogICAgY29uc3QgbWUgPSBhd2FpdCBjYWxsPHsgcm9sZTogc3RyaW5nOyBlbWFpbDogc3RyaW5nIH0+KCJHRVQiLCAiL2FwaS92MS9hdXRoL21lIiwgewogICAgICB0b2tlbjoga2FzaXJUb2tlbiwKICAgIH0pOwogICAgZXhwZWN0KG1lLnN0YXR1cykudG9CZSgyMDApOwogICAgZXhwZWN0KG1lLmpzb24uZGF0YS5yb2xlKS50b0JlKCJjYXNoaWVyIik7CiAgICBleHBlY3QobWUuanNvbi5kYXRhLmVtYWlsKS50b0JlKCJrYXNpckBkZW1vLnNlYmxha3Bvcy5pZCIpOwogIH0pOwoKICBpdCgidGFucGEgdG9rZW4gLT4gNDAxIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGwoIkdFVCIsICIvYXBpL3YxL3Byb2R1Y3RzIik7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoNDAxKTsKICB9KTsKfSk7CgpkZXNjcmliZSgic2hpZnQgJiBvcmRlciIsICgpID0+IHsKICBpdCgib3JkZXIgc2ViZWx1bSBidWthIHNoaWZ0IC0+IFNISUZUX05PVF9PUEVOIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGwoIlBPU1QiLCAiL2FwaS92MS9vcmRlcnMiLCB7CiAgICAgIHRva2VuOiBrYXNpclRva2VuLAogICAgICBoZWFkZXJzOiB7ICJJZGVtcG90ZW5jeS1LZXkiOiAiaWRlbS1wcmUtc2hpZnQiIH0sCiAgICAgIGJvZHk6IHsgaXRlbXM6IGtvbnRyYWtJdGVtcygxKSB9LAogICAgfSk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoNDIyKTsKICAgIGV4cGVjdChyLmpzb24uZXJyb3IuY29kZSkudG9CZSgiU0hJRlRfTk9UX09QRU4iKTsKICB9KTsKCiAgaXQoImJ1a2Egc2hpZnQgYmVyaGFzaWw7IGJ1a2EgbGFnaSAtPiBDT05GTElDVCIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IG9wZW4gPSBhd2FpdCBjYWxsKCJQT1NUIiwgIi9hcGkvdjEvc2hpZnRzL29wZW4iLCB7CiAgICAgIHRva2VuOiBrYXNpclRva2VuLAogICAgICBib2R5OiB7IG9wZW5pbmdfY2FzaDogMTAwXzAwMCB9LAogICAgfSk7CiAgICBleHBlY3Qob3Blbi5zdGF0dXMpLnRvQmUoMjAxKTsKICAgIGNvbnN0IGFnYWluID0gYXdhaXQgY2FsbCgiUE9TVCIsICIvYXBpL3YxL3NoaWZ0cy9vcGVuIiwgewogICAgICB0b2tlbjoga2FzaXJUb2tlbiwKICAgICAgYm9keTogeyBvcGVuaW5nX2Nhc2g6IDAgfSwKICAgIH0pOwogICAgZXhwZWN0KGFnYWluLnN0YXR1cykudG9CZSg0MDkpOwogICAgZXhwZWN0KGFnYWluLmpzb24uZXJyb3IuY29kZSkudG9CZSgiQ09ORkxJQ1QiKTsKICB9KTsKCiAgaXQoIm9yZGVyIGtvbnRyYWsgMiBwb3JzaTogdG90YWwgNDIwMDAgZGFuIHN0b2sgYmVya3VyYW5nIHRlcGF0IHNla2FsaSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgaWQ6IHN0cmluZzsgc3VidG90YWw6IG51bWJlcjsgZ3JhbmRfdG90YWw6IG51bWJlciB9PigKICAgICAgIlBPU1QiLAogICAgICAiL2FwaS92MS9vcmRlcnMiLAogICAgICB7CiAgICAgICAgdG9rZW46IGthc2lyVG9rZW4sCiAgICAgICAgaGVhZGVyczogeyAiSWRlbXBvdGVuY3ktS2V5IjogImlkZW0tb3JkZXItMSIgfSwKICAgICAgICBib2R5OiB7IGl0ZW1zOiBrb250cmFrSXRlbXMoMikgfSwKICAgICAgfSwKICAgICk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoMjAxKTsKICAgIGV4cGVjdChyLmpzb24uZGF0YS5zdWJ0b3RhbCkudG9CZSg0Ml8wMDApOwogICAgZXhwZWN0KHIuanNvbi5kYXRhLmdyYW5kX3RvdGFsKS50b0JlKDQyXzAwMCk7CiAgICBvcmRlcjFJZCA9IHIuanNvbi5kYXRhLmlkOwogICAgLy8gUGVyIHBvcnNpOiBiYWtzbyAyLCBjZWtlciAxLCB0ZWx1ciAxIC0+IDIgcG9yc2k6IDQvMi8yIGRhcmkgc3RvayBhd2FsIDEwMC4KICAgIGV4cGVjdCh0LnN0b2NrQmFsYW5jZShTVE9LX0JBS1NPKSkudG9CZSg5Nik7CiAgICBleHBlY3QodC5zdG9ja0JhbGFuY2UoU1RPS19DRUtFUikpLnRvQmUoOTgpOwogICAgZXhwZWN0KHQuc3RvY2tCYWxhbmNlKFNUT0tfVEVMVVIpKS50b0JlKDk4KTsKICB9KTsKCiAgaXQoInJlcGxheSBJZGVtcG90ZW5jeS1LZXkgc2FtYSAtPiBvcmRlciBzYW1hLCB0YW5wYSBvcmRlci9zdG9rIGdhbmRhIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGw8eyBpZDogc3RyaW5nIH0+KCJQT1NUIiwgIi9hcGkvdjEvb3JkZXJzIiwgewogICAgICB0b2tlbjoga2FzaXJUb2tlbiwKICAgICAgaGVhZGVyczogeyAiSWRlbXBvdGVuY3ktS2V5IjogImlkZW0tb3JkZXItMSIgfSwKICAgICAgYm9keTogeyBpdGVtczoga29udHJha0l0ZW1zKDIpIH0sCiAgICB9KTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSgyMDEpOwogICAgZXhwZWN0KHIuanNvbi5kYXRhLmlkKS50b0JlKG9yZGVyMUlkKTsKICAgIGV4cGVjdCh0LnNjYWxhcjxudW1iZXI+KCJTRUxFQ1QgQ09VTlQoKikgRlJPTSBvcmRlcnMiKSkudG9CZSgxKTsKICAgIGV4cGVjdCh0LnN0b2NrQmFsYW5jZShTVE9LX0JBS1NPKSkudG9CZSg5Nik7CiAgfSk7CgogIGl0KCJJZGVtcG90ZW5jeS1LZXkgc2FtYSBkZW5nYW4gaXNpIGJlcmJlZGEgLT4gQ09ORkxJQ1QiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByID0gYXdhaXQgY2FsbCgiUE9TVCIsICIvYXBpL3YxL29yZGVycyIsIHsKICAgICAgdG9rZW46IGthc2lyVG9rZW4sCiAgICAgIGhlYWRlcnM6IHsgIklkZW1wb3RlbmN5LUtleSI6ICJpZGVtLW9yZGVyLTEiIH0sCiAgICAgIGJvZHk6IHsgaXRlbXM6IGtvbnRyYWtJdGVtcygxKSB9LAogICAgfSk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoNDA5KTsKICAgIGV4cGVjdChyLmpzb24uZXJyb3IuY29kZSkudG9CZSgiQ09ORkxJQ1QiKTsKICB9KTsKCiAgaXQoInN0b2sgdGlkYWsgY3VrdXAgLT4gSU5TVUZGSUNJRU5UX1NUT0NLIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGwoIlBPU1QiLCAiL2FwaS92MS9vcmRlcnMiLCB7CiAgICAgIHRva2VuOiBrYXNpclRva2VuLAogICAgICBoZWFkZXJzOiB7ICJJZGVtcG90ZW5jeS1LZXkiOiAiaWRlbS1vcmRlci1zdG9rIiB9LAogICAgICBib2R5OiB7CiAgICAgICAgaXRlbXM6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgcHJvZHVjdF9pZDogU0VCTEFLLAogICAgICAgICAgICBxdHk6IDEsCiAgICAgICAgICAgIG1vZGlmaWVyczogWwogICAgICAgICAgICAgIHsgbW9kaWZpZXJfb3B0aW9uX2lkOiBPUFRfTEVWRUwxLCBxdHk6IDEgfSwKICAgICAgICAgICAgICB7IG1vZGlmaWVyX29wdGlvbl9pZDogT1BUX0JBS1NPLCBxdHk6IDIwMCB9LAogICAgICAgICAgICBdLAogICAgICAgICAgfSwKICAgICAgICBdLAogICAgICB9LAogICAgfSk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoNDIyKTsKICAgIGV4cGVjdChyLmpzb24uZXJyb3IuY29kZSkudG9CZSgiSU5TVUZGSUNJRU5UX1NUT0NLIik7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoInBlbWJheWFyYW4gdHVuYWkiLCAoKSA9PiB7CiAgaXQoImJheWFyIGt1cmFuZyAtPiBQQVlNRU5UX01JU01BVENIIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGwoIlBPU1QiLCBgL2FwaS92MS9vcmRlcnMvJHtvcmRlcjFJZH0vcGF5bWVudHNgLCB7CiAgICAgIHRva2VuOiBrYXNpclRva2VuLAogICAgICBoZWFkZXJzOiB7ICJJZGVtcG90ZW5jeS1LZXkiOiAiaWRlbS1wYXkta3VyYW5nIiB9LAogICAgICBib2R5OiB7IG1ldGhvZDogImNhc2giLCBhbW91bnQ6IDQwXzAwMCB9LAogICAgfSk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoNDIyKTsKICAgIGV4cGVjdChyLmpzb24uZXJyb3IuY29kZSkudG9CZSgiUEFZTUVOVF9NSVNNQVRDSCIpOwogIH0pOwoKICBpdCgiYmF5YXIgdHVuYWkgNTAwMDAgLT4ga2VtYmFsaWFuIDgwMDAgZGFuIG9yZGVyIGx1bmFzIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGw8eyBjaGFuZ2VfYW1vdW50OiBudW1iZXI7IHBheW1lbnRfc3RhdHVzOiBzdHJpbmc7IG9yZGVyX3N0YXR1czogc3RyaW5nIH0+KAogICAgICAiUE9TVCIsCiAgICAgIGAvYXBpL3YxL29yZGVycy8ke29yZGVyMUlkfS9wYXltZW50c2AsCiAgICAgIHsKICAgICAgICB0b2tlbjoga2FzaXJUb2tlbiwKICAgICAgICBoZWFkZXJzOiB7ICJJZGVtcG90ZW5jeS1LZXkiOiAiaWRlbS1wYXktMSIgfSwKICAgICAgICBib2R5OiB7IG1ldGhvZDogImNhc2giLCBhbW91bnQ6IDUwXzAwMCB9LAogICAgICB9LAogICAgKTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSgyMDEpOwogICAgZXhwZWN0KHIuanNvbi5kYXRhLmNoYW5nZV9hbW91bnQpLnRvQmUoOF8wMDApOwogICAgZXhwZWN0KHIuanNvbi5kYXRhLnBheW1lbnRfc3RhdHVzKS50b0JlKCJwYWlkIik7CiAgICBleHBlY3Qoci5qc29uLmRhdGEub3JkZXJfc3RhdHVzKS50b0JlKCJwYWlkIik7CiAgfSk7CgogIGl0KCJiYXlhciBsYWdpIHBhZGEgb3JkZXIgbHVuYXMgLT4gQ09ORkxJQ1QiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByID0gYXdhaXQgY2FsbCgiUE9TVCIsIGAvYXBpL3YxL29yZGVycy8ke29yZGVyMUlkfS9wYXltZW50c2AsIHsKICAgICAgdG9rZW46IGthc2lyVG9rZW4sCiAgICAgIGhlYWRlcnM6IHsgIklkZW1wb3RlbmN5LUtleSI6ICJpZGVtLXBheS0yIiB9LAogICAgICBib2R5OiB7IG1ldGhvZDogImNhc2giLCBhbW91bnQ6IDQyXzAwMCB9LAogICAgfSk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoNDA5KTsKICAgIGV4cGVjdChyLmpzb24uZXJyb3IuY29kZSkudG9CZSgiQ09ORkxJQ1QiKTsKICB9KTsKfSk7CgpkZXNjcmliZSgicGVtYmF5YXJhbiBub24tdHVuYWkgJiBkYXB1ciAmIGNhbmNlbCIsICgpID0+IHsKICBsZXQgb3JkZXIySWQgPSAiIjsKICBsZXQgcGF5bWVudDJJZCA9ICIiOwoKICBpdCgib3JkZXIgZXMgdGVoICsgYmF5YXIgcXJpcyAtPiBwZW5kaW5nLCBiZWx1bSBsdW5hcyIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IG8gPSBhd2FpdCBjYWxsPHsgaWQ6IHN0cmluZzsgZ3JhbmRfdG90YWw6IG51bWJlciB9PigiUE9TVCIsICIvYXBpL3YxL29yZGVycyIsIHsKICAgICAgdG9rZW46IGthc2lyVG9rZW4sCiAgICAgIGhlYWRlcnM6IHsgIklkZW1wb3RlbmN5LUtleSI6ICJpZGVtLW9yZGVyLTIiIH0sCiAgICAgIGJvZHk6IHsgaXRlbXM6IFt7IHByb2R1Y3RfaWQ6IEVTX1RFSCwgcXR5OiAxLCBtb2RpZmllcnM6IFtdIH1dIH0sCiAgICB9KTsKICAgIGV4cGVjdChvLnN0YXR1cykudG9CZSgyMDEpOwogICAgZXhwZWN0KG8uanNvbi5kYXRhLmdyYW5kX3RvdGFsKS50b0JlKDVfMDAwKTsKICAgIG9yZGVyMklkID0gby5qc29uLmRhdGEuaWQ7CgogICAgY29uc3QgcCA9IGF3YWl0IGNhbGw8eyBwYXltZW50OiB7IGlkOiBzdHJpbmc7IHN0YXR1czogc3RyaW5nIH07IHBheW1lbnRfc3RhdHVzOiBzdHJpbmcgfT4oCiAgICAgICJQT1NUIiwKICAgICAgYC9hcGkvdjEvb3JkZXJzLyR7b3JkZXIySWR9L3BheW1lbnRzYCwKICAgICAgewogICAgICAgIHRva2VuOiBrYXNpclRva2VuLAogICAgICAgIGhlYWRlcnM6IHsgIklkZW1wb3RlbmN5LUtleSI6ICJpZGVtLXBheS1xcmlzIiB9LAogICAgICAgIGJvZHk6IHsgbWV0aG9kOiAicXJpcyIsIGFtb3VudDogNV8wMDAsIHJlZmVyZW5jZV9ubzogIlFSSVMtVEVTVC0xIiB9LAogICAgICB9LAogICAgKTsKICAgIGV4cGVjdChwLnN0YXR1cykudG9CZSgyMDEpOwogICAgZXhwZWN0KHAuanNvbi5kYXRhLnBheW1lbnQuc3RhdHVzKS50b0JlKCJwZW5kaW5nIik7CiAgICBleHBlY3QocC5qc29uLmRhdGEucGF5bWVudF9zdGF0dXMpLnRvQmUoInVucGFpZCIpOwogICAgcGF5bWVudDJJZCA9IHAuanNvbi5kYXRhLnBheW1lbnQuaWQ7CiAgfSk7CgogIGl0KCJjb25maXJtIG9sZWgga2FzaXIgLT4gRk9SQklEREVOOyBvbGVoIG93bmVyIC0+IHNldHRsZWQgJiBsdW5hcyIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IGJ5S2FzaXIgPSBhd2FpdCBjYWxsKCJQT1NUIiwgYC9hcGkvdjEvcGF5bWVudHMvJHtwYXltZW50MklkfS9jb25maXJtYCwgewogICAgICB0b2tlbjoga2FzaXJUb2tlbiwKICAgIH0pOwogICAgZXhwZWN0KGJ5S2FzaXIuc3RhdHVzKS50b0JlKDQwMyk7CiAgICBleHBlY3QoYnlLYXNpci5qc29uLmVycm9yLmNvZGUpLnRvQmUoIkZPUkJJRERFTiIpOwoKICAgIGNvbnN0IGJ5T3duZXIgPSBhd2FpdCBjYWxsPHsgcGF5bWVudDogeyBzdGF0dXM6IHN0cmluZyB9OyBvcmRlcjogeyBwYXltZW50X3N0YXR1czogc3RyaW5nIH0gfCBudWxsIH0+KAogICAgICAiUE9TVCIsCiAgICAgIGAvYXBpL3YxL3BheW1lbnRzLyR7cGF5bWVudDJJZH0vY29uZmlybWAsCiAgICAgIHsgdG9rZW46IG93bmVyVG9rZW4gfSwKICAgICk7CiAgICBleHBlY3QoYnlPd25lci5zdGF0dXMpLnRvQmUoMjAwKTsKICAgIGV4cGVjdChieU93bmVyLmpzb24uZGF0YS5wYXltZW50LnN0YXR1cykudG9CZSgic2V0dGxlZCIpOwogICAgZXhwZWN0KGJ5T3duZXIuanNvbi5kYXRhLm9yZGVyPy5wYXltZW50X3N0YXR1cykudG9CZSgicGFpZCIpOwogIH0pOwoKICBpdCgiZGFwdXI6IGFudHJlYW4sIHRyYW5zaXNpIHNhaCwgdHJhbnNpc2kgbXVuZHVyIC0+IENPTkZMSUNUIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgcXVldWUgPSBhd2FpdCBjYWxsPHsgaWQ6IHN0cmluZyB9W10+KCJHRVQiLCAiL2FwaS92MS9raXRjaGVuL3F1ZXVlIiwgewogICAgICB0b2tlbjoga2FzaXJUb2tlbiwKICAgIH0pOwogICAgZXhwZWN0KHF1ZXVlLnN0YXR1cykudG9CZSgyMDApOwogICAgZXhwZWN0KHF1ZXVlLmpzb24uZGF0YS5zb21lKChvKSA9PiBvLmlkID09PSBvcmRlcjFJZCkpLnRvQmUodHJ1ZSk7CgogICAgY29uc3QgY29va2luZyA9IGF3YWl0IGNhbGw8eyBraXRjaGVuX3N0YXR1czogc3RyaW5nIH0+KAogICAgICAiUE9TVCIsCiAgICAgIGAvYXBpL3YxL2tpdGNoZW4vb3JkZXJzLyR7b3JkZXIxSWR9L3N0YXR1c2AsCiAgICAgIHsgdG9rZW46IGthc2lyVG9rZW4sIGJvZHk6IHsgc3RhdHVzOiAiY29va2luZyIgfSB9LAogICAgKTsKICAgIGV4cGVjdChjb29raW5nLnN0YXR1cykudG9CZSgyMDApOwogICAgZXhwZWN0KGNvb2tpbmcuanNvbi5kYXRhLmtpdGNoZW5fc3RhdHVzKS50b0JlKCJjb29raW5nIik7CgogICAgY29uc3QgZG9uZSA9IGF3YWl0IGNhbGw8eyBraXRjaGVuX3N0YXR1czogc3RyaW5nOyBzdGF0dXM6IHN0cmluZyB9PigKICAgICAgIlBPU1QiLAogICAgICBgL2FwaS92MS9raXRjaGVuL29yZGVycy8ke29yZGVyMUlkfS9zdGF0dXNgLAogICAgICB7IHRva2VuOiBrYXNpclRva2VuLCBib2R5OiB7IHN0YXR1czogImRvbmUiIH0gfSwKICAgICk7CiAgICBleHBlY3QoZG9uZS5zdGF0dXMpLnRvQmUoMjAwKTsKICAgIGV4cGVjdChkb25lLmpzb24uZGF0YS5raXRjaGVuX3N0YXR1cykudG9CZSgiZG9uZSIpOwogICAgZXhwZWN0KGRvbmUuanNvbi5kYXRhLnN0YXR1cykudG9CZSgiY29tcGxldGVkIik7CgogICAgY29uc3QgYmFja3dhcmRzID0gYXdhaXQgY2FsbCgiUE9TVCIsIGAvYXBpL3YxL2tpdGNoZW4vb3JkZXJzLyR7b3JkZXIxSWR9L3N0YXR1c2AsIHsKICAgICAgdG9rZW46IGthc2lyVG9rZW4sCiAgICAgIGJvZHk6IHsgc3RhdHVzOiAiY29va2luZyIgfSwKICAgIH0pOwogICAgZXhwZWN0KGJhY2t3YXJkcy5zdGF0dXMpLnRvQmUoNDA5KTsKICAgIGV4cGVjdChiYWNrd2FyZHMuanNvbi5lcnJvci5jb2RlKS50b0JlKCJDT05GTElDVCIpOwogIH0pOwoKICBpdCgiY2FuY2VsIG9yZGVyIHlhbmcgc3VkYWggbHVuYXMgLT4gQ09ORkxJQ1QiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByID0gYXdhaXQgY2FsbCgiUE9TVCIsIGAvYXBpL3YxL29yZGVycy8ke29yZGVyMklkfS9jYW5jZWxgLCB7CiAgICAgIHRva2VuOiBrYXNpclRva2VuLAogICAgfSk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoNDA5KTsKICAgIGV4cGVjdChyLmpzb24uZXJyb3IuY29kZSkudG9CZSgiQ09ORkxJQ1QiKTsKICB9KTsKCiAgaXQoImNhbmNlbCBvcmRlciB5YW5nIG1hc2loIGFudHJlIC0+IHZvaWQiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCBvID0gYXdhaXQgY2FsbDx7IGlkOiBzdHJpbmcgfT4oIlBPU1QiLCAiL2FwaS92MS9vcmRlcnMiLCB7CiAgICAgIHRva2VuOiBrYXNpclRva2VuLAogICAgICBoZWFkZXJzOiB7ICJJZGVtcG90ZW5jeS1LZXkiOiAiaWRlbS1vcmRlci0zIiB9LAogICAgICBib2R5OiB7IGl0ZW1zOiBbeyBwcm9kdWN0X2lkOiBFU19URUgsIHF0eTogMSwgbW9kaWZpZXJzOiBbXSB9XSB9LAogICAgfSk7CiAgICBleHBlY3Qoby5zdGF0dXMpLnRvQmUoMjAxKTsKICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsgc3RhdHVzOiBzdHJpbmcgfT4oCiAgICAgICJQT1NUIiwKICAgICAgYC9hcGkvdjEvb3JkZXJzLyR7by5qc29uLmRhdGEuaWR9L2NhbmNlbGAsCiAgICAgIHsgdG9rZW46IGthc2lyVG9rZW4gfSwKICAgICk7CiAgICBleHBlY3Qoci5zdGF0dXMpLnRvQmUoMjAwKTsKICAgIGV4cGVjdChyLmpzb24uZGF0YS5zdGF0dXMpLnRvQmUoInZvaWQiKTsKICB9KTsKfSk7Cg==
+/**
+ * Test integrasi alur order terhadap Worker Hono dengan shim D1 in-memory
+ * (node:sqlite) yang menjalankan migrasi 0001-0008 + seed demo asli.
+ *
+ * Skenario yang benar-benar diuji:
+ * - login salah -> UNAUTHORIZED; login benar -> token; /auth/me.
+ * - order tanpa shift terbuka -> SHIFT_NOT_OPEN.
+ * - buka shift ganda -> CONFLICT.
+ * - order contoh kontrak: total 42000; stok bahan berkurang tepat sekali.
+ * - replay Idempotency-Key sama -> order yang sama, tanpa stok/order ganda.
+ * - Idempotency-Key sama isi berbeda -> CONFLICT.
+ * - pembayaran kurang -> PAYMENT_MISMATCH; tunai lebih -> kembalian tercatat
+ *   dan order lunas; bayar lagi -> CONFLICT.
+ * - stok tidak cukup -> INSUFFICIENT_STOCK.
+ * - non-tunai pending; confirm oleh kasir -> FORBIDDEN; oleh owner -> lunas.
+ * - dapur: antrean, transisi queued->cooking->done, transisi mundur CONFLICT.
+ * - cancel order lunas -> CONFLICT; cancel order antre -> void.
+ */
+import { beforeAll, describe, expect, it } from "vitest";
+import app from "../worker/index";
+import { createTestDb, type TestDb } from "./helpers/d1";
+
+const SEBLAK = "d0000000-0000-4000-8000-000000000001";
+const ES_TEH = "d0000000-0000-4000-8000-000000000002";
+const STOK_BAKSO = "d0000000-0000-4000-8000-000000000011";
+const STOK_CEKER = "d0000000-0000-4000-8000-000000000012";
+const STOK_TELUR = "d0000000-0000-4000-8000-000000000013";
+const OPT_LEVEL1 = "f0000000-0000-4000-8000-000000000002";
+const OPT_BAKSO = "f0000000-0000-4000-8000-000000000011";
+const OPT_CEKER = "f0000000-0000-4000-8000-000000000012";
+const OPT_TELUR = "f0000000-0000-4000-8000-000000000013";
+
+interface Envelope<T> {
+  data: T;
+  meta: { request_id: string };
+}
+interface ErrorEnvelope {
+  error: { code: string; message: string; details?: unknown };
+}
+
+let t: TestDb;
+let kasirToken = "";
+let ownerToken = "";
+let order1Id = "";
+
+async function call<T>(
+  method: string,
+  path: string,
+  opts: { token?: string; body?: unknown; headers?: Record<string, string> } = {},
+): Promise<{ status: number; json: Envelope<T> & ErrorEnvelope }> {
+  const headers: Record<string, string> = { ...(opts.headers ?? {}) };
+  if (opts.token) headers["Authorization"] = `Bearer ${opts.token}`;
+  if (opts.body !== undefined) headers["Content-Type"] = "application/json";
+  const res = await app.request(
+    `http://test${path}`,
+    {
+      method,
+      headers,
+      body: opts.body !== undefined ? JSON.stringify(opts.body) : undefined,
+    },
+    { DB: t.db },
+  );
+  const json = (await res.json()) as Envelope<T> & ErrorEnvelope;
+  return { status: res.status, json };
+}
+
+async function login(email: string, password: string): Promise<string> {
+  const r = await call<{ token: string }>("POST", "/api/v1/auth/login", {
+    body: { email, password },
+  });
+  expect(r.status).toBe(200);
+  return r.json.data.token;
+}
+
+const kontrakItems = (qty: number) => [
+  {
+    product_id: SEBLAK,
+    qty,
+    modifiers: [
+      { modifier_option_id: OPT_LEVEL1, qty: 1 },
+      { modifier_option_id: OPT_BAKSO, qty: 2 },
+      { modifier_option_id: OPT_CEKER, qty: 1 },
+      { modifier_option_id: OPT_TELUR, qty: 1 },
+    ],
+  },
+];
+
+beforeAll(async () => {
+  t = createTestDb(true);
+});
+
+describe("auth", () => {
+  it("login kata sandi salah -> 401 UNAUTHORIZED", async () => {
+    const r = await call("POST", "/api/v1/auth/login", {
+      body: { email: "kasir@demo.seblakpos.id", password: "salah123" },
+    });
+    expect(r.status).toBe(401);
+    expect(r.json.error.code).toBe("UNAUTHORIZED");
+  });
+
+  it("login benar -> token; /auth/me mengembalikan profil kasir", async () => {
+    kasirToken = await login("kasir@demo.seblakpos.id", "seblak123");
+    ownerToken = await login("owner@demo.seblakpos.id", "seblak123");
+    const me = await call<{ role: string; email: string }>("GET", "/api/v1/auth/me", {
+      token: kasirToken,
+    });
+    expect(me.status).toBe(200);
+    expect(me.json.data.role).toBe("cashier");
+    expect(me.json.data.email).toBe("kasir@demo.seblakpos.id");
+  });
+
+  it("tanpa token -> 401", async () => {
+    const r = await call("GET", "/api/v1/products");
+    expect(r.status).toBe(401);
+  });
+});
+
+describe("shift & order", () => {
+  it("order sebelum buka shift -> SHIFT_NOT_OPEN", async () => {
+    const r = await call("POST", "/api/v1/orders", {
+      token: kasirToken,
+      headers: { "Idempotency-Key": "idem-pre-shift" },
+      body: { items: kontrakItems(1) },
+    });
+    expect(r.status).toBe(422);
+    expect(r.json.error.code).toBe("SHIFT_NOT_OPEN");
+  });
+
+  it("buka shift berhasil; buka lagi -> CONFLICT", async () => {
+    const open = await call("POST", "/api/v1/shifts/open", {
+      token: kasirToken,
+      body: { opening_cash: 100_000 },
+    });
+    expect(open.status).toBe(201);
+    const again = await call("POST", "/api/v1/shifts/open", {
+      token: kasirToken,
+      body: { opening_cash: 0 },
+    });
+    expect(again.status).toBe(409);
+    expect(again.json.error.code).toBe("CONFLICT");
+  });
+
+  it("order kontrak 2 porsi: total 42000 dan stok berkurang tepat sekali", async () => {
+    const r = await call<{ id: string; subtotal: number; grand_total: number }>(
+      "POST",
+      "/api/v1/orders",
+      {
+        token: kasirToken,
+        headers: { "Idempotency-Key": "idem-order-1" },
+        body: { items: kontrakItems(2) },
+      },
+    );
+    expect(r.status).toBe(201);
+    expect(r.json.data.subtotal).toBe(42_000);
+    expect(r.json.data.grand_total).toBe(42_000);
+    order1Id = r.json.data.id;
+    // Per porsi: bakso 2, ceker 1, telur 1 -> 2 porsi: 4/2/2 dari stok awal 100.
+    expect(t.stockBalance(STOK_BAKSO)).toBe(96);
+    expect(t.stockBalance(STOK_CEKER)).toBe(98);
+    expect(t.stockBalance(STOK_TELUR)).toBe(98);
+  });
+
+  it("replay Idempotency-Key sama -> order sama, tanpa order/stok ganda", async () => {
+    const r = await call<{ id: string }>("POST", "/api/v1/orders", {
+      token: kasirToken,
+      headers: { "Idempotency-Key": "idem-order-1" },
+      body: { items: kontrakItems(2) },
+    });
+    expect(r.status).toBe(201);
+    expect(r.json.data.id).toBe(order1Id);
+    expect(t.scalar<number>("SELECT COUNT(*) FROM orders")).toBe(1);
+    expect(t.stockBalance(STOK_BAKSO)).toBe(96);
+  });
+
+  it("Idempotency-Key sama dengan isi berbeda -> CONFLICT", async () => {
+    const r = await call("POST", "/api/v1/orders", {
+      token: kasirToken,
+      headers: { "Idempotency-Key": "idem-order-1" },
+      body: { items: kontrakItems(1) },
+    });
+    expect(r.status).toBe(409);
+    expect(r.json.error.code).toBe("CONFLICT");
+  });
+
+  it("stok tidak cukup -> INSUFFICIENT_STOCK", async () => {
+    const r = await call("POST", "/api/v1/orders", {
+      token: kasirToken,
+      headers: { "Idempotency-Key": "idem-order-stok" },
+      body: {
+        items: [
+          {
+            product_id: SEBLAK,
+            qty: 1,
+            modifiers: [
+              { modifier_option_id: OPT_LEVEL1, qty: 1 },
+              { modifier_option_id: OPT_BAKSO, qty: 200 },
+            ],
+          },
+        ],
+      },
+    });
+    expect(r.status).toBe(422);
+    expect(r.json.error.code).toBe("INSUFFICIENT_STOCK");
+  });
+});
+
+describe("pembayaran tunai", () => {
+  it("bayar kurang -> PAYMENT_MISMATCH", async () => {
+    const r = await call("POST", `/api/v1/orders/${order1Id}/payments`, {
+      token: kasirToken,
+      headers: { "Idempotency-Key": "idem-pay-kurang" },
+      body: { method: "cash", amount: 40_000 },
+    });
+    expect(r.status).toBe(422);
+    expect(r.json.error.code).toBe("PAYMENT_MISMATCH");
+  });
+
+  it("bayar tunai 50000 -> kembalian 8000 dan order lunas", async () => {
+    const r = await call<{ change_amount: number; payment_status: string; order_status: string }>(
+      "POST",
+      `/api/v1/orders/${order1Id}/payments`,
+      {
+        token: kasirToken,
+        headers: { "Idempotency-Key": "idem-pay-1" },
+        body: { method: "cash", amount: 50_000 },
+      },
+    );
+    expect(r.status).toBe(201);
+    expect(r.json.data.change_amount).toBe(8_000);
+    expect(r.json.data.payment_status).toBe("paid");
+    expect(r.json.data.order_status).toBe("paid");
+  });
+
+  it("bayar lagi pada order lunas -> CONFLICT", async () => {
+    const r = await call("POST", `/api/v1/orders/${order1Id}/payments`, {
+      token: kasirToken,
+      headers: { "Idempotency-Key": "idem-pay-2" },
+      body: { method: "cash", amount: 42_000 },
+    });
+    expect(r.status).toBe(409);
+    expect(r.json.error.code).toBe("CONFLICT");
+  });
+});
+
+describe("pembayaran non-tunai & dapur & cancel", () => {
+  let order2Id = "";
+  let payment2Id = "";
+
+  it("order es teh + bayar qris -> pending, belum lunas", async () => {
+    const o = await call<{ id: string; grand_total: number }>("POST", "/api/v1/orders", {
+      token: kasirToken,
+      headers: { "Idempotency-Key": "idem-order-2" },
+      body: { items: [{ product_id: ES_TEH, qty: 1, modifiers: [] }] },
+    });
+    expect(o.status).toBe(201);
+    expect(o.json.data.grand_total).toBe(5_000);
+    order2Id = o.json.data.id;
+
+    const p = await call<{ payment: { id: string; status: string }; payment_status: string }>(
+      "POST",
+      `/api/v1/orders/${order2Id}/payments`,
+      {
+        token: kasirToken,
+        headers: { "Idempotency-Key": "idem-pay-qris" },
+        body: { method: "qris", amount: 5_000, reference_no: "QRIS-TEST-1" },
+      },
+    );
+    expect(p.status).toBe(201);
+    expect(p.json.data.payment.status).toBe("pending");
+    expect(p.json.data.payment_status).toBe("unpaid");
+    payment2Id = p.json.data.payment.id;
+  });
+
+  it("confirm oleh kasir -> FORBIDDEN; oleh owner -> settled & lunas", async () => {
+    const byKasir = await call("POST", `/api/v1/payments/${payment2Id}/confirm`, {
+      token: kasirToken,
+    });
+    expect(byKasir.status).toBe(403);
+    expect(byKasir.json.error.code).toBe("FORBIDDEN");
+
+    const byOwner = await call<{ payment: { status: string }; order: { payment_status: string } | null }>(
+      "POST",
+      `/api/v1/payments/${payment2Id}/confirm`,
+      { token: ownerToken },
+    );
+    expect(byOwner.status).toBe(200);
+    expect(byOwner.json.data.payment.status).toBe("settled");
+    expect(byOwner.json.data.order?.payment_status).toBe("paid");
+  });
+
+  it("dapur: antrean, transisi sah, transisi mundur -> CONFLICT", async () => {
+    const queue = await call<{ id: string }[]>("GET", "/api/v1/kitchen/queue", {
+      token: kasirToken,
+    });
+    expect(queue.status).toBe(200);
+    expect(queue.json.data.some((o) => o.id === order1Id)).toBe(true);
+
+    const cooking = await call<{ kitchen_status: string }>(
+      "POST",
+      `/api/v1/kitchen/orders/${order1Id}/status`,
+      { token: kasirToken, body: { status: "cooking" } },
+    );
+    expect(cooking.status).toBe(200);
+    expect(cooking.json.data.kitchen_status).toBe("cooking");
+
+    const done = await call<{ kitchen_status: string; status: string }>(
+      "POST",
+      `/api/v1/kitchen/orders/${order1Id}/status`,
+      { token: kasirToken, body: { status: "done" } },
+    );
+    expect(done.status).toBe(200);
+    expect(done.json.data.kitchen_status).toBe("done");
+    expect(done.json.data.status).toBe("completed");
+
+    const backwards = await call("POST", `/api/v1/kitchen/orders/${order1Id}/status`, {
+      token: kasirToken,
+      body: { status: "cooking" },
+    });
+    expect(backwards.status).toBe(409);
+    expect(backwards.json.error.code).toBe("CONFLICT");
+  });
+
+  it("cancel order yang sudah lunas -> CONFLICT", async () => {
+    const r = await call("POST", `/api/v1/orders/${order2Id}/cancel`, {
+      token: kasirToken,
+    });
+    expect(r.status).toBe(409);
+    expect(r.json.error.code).toBe("CONFLICT");
+  });
+
+  it("cancel order yang masih antre -> void", async () => {
+    const o = await call<{ id: string }>("POST", "/api/v1/orders", {
+      token: kasirToken,
+      headers: { "Idempotency-Key": "idem-order-3" },
+      body: { items: [{ product_id: ES_TEH, qty: 1, modifiers: [] }] },
+    });
+    expect(o.status).toBe(201);
+    const r = await call<{ status: string }>(
+      "POST",
+      `/api/v1/orders/${o.json.data.id}/cancel`,
+      { token: kasirToken },
+    );
+    expect(r.status).toBe(200);
+    expect(r.json.data.status).toBe("void");
+  });
+});

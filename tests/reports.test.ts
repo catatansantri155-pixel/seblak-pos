@@ -1,1 +1,223 @@
-LyoqCiAqIFRlc3QgbGFwb3JhbiAoTWV0cmljIERpY3Rpb25hcnkgTGVzdGFyaSkgdGVyaGFkYXAgV29ya2VyICsgc2hpbSBEMS4KICoKICogU2tlbmFyaW8gKHNlbXVhIHBhZGEgaGFyaSBiZXJqYWxhbiBBc2lhL0pha2FydGEpOgogKiAtIE9yZGVyIEE6IDIgcG9yc2kga29udHJhayA9IDQyLjAwMCwgZGliYXlhciB0dW5haSA1MC4wMDAgLT4gc2V0dGxlZAogKiAgIChhcHBsaWVkIDQyLjAwMCwga2VtYmFsaWFuIDguMDAwIEJVS0FOIHBlbmVyaW1hYW4g4oCUIHByaW5zaXAgNiBMZXN0YXJpKS4KICogLSBPcmRlciBCOiAyIGVzIHRlaCA9IDEwLjAwMCwgZGliYXlhciBxcmlzIC0+IHBlbmRpbmcsIGxhbHUgZGlrb25maXJtYXNpCiAqICAgb3duZXIgLT4gc2V0dGxlZC4KICogLSBPcmRlciBDOiAxIGVzIHRlaCwgdGlkYWsgZGliYXlhciAodGV0YXAgb3Blbi91bnBhaWQpLgogKiAtIE9yZGVyIEQ6IDEgZXMgdGVoLCBkaWJ1YXQgbGFsdSBkaWJhdGFsa2FuICh2b2lkKS4KICoKICogSGl0dW5nYW4gdGFuZ2FuIHlhbmcgZGl2ZXJpZmlrYXNpIHBhZGEgL3JlcG9ydHMvZGFpbHk6CiAqIC0gZ3Jvc3MgKE0tMDEpID0gNDIuMDAwICsgMTAuMDAwID0gNTIuMDAwIChoYW55YSBvcmRlciBsdW5hcyBBICYgQjsKICogICBDIGJlbHVtIGx1bmFzIGRhbiBEIHZvaWQgdGlkYWsgbWFzdWsgcGVuZGFwYXRhbikuCiAqIC0gZGlza29uIChNLTAyKSA9IDA7IHJlZnVuZCAoTS0wMykgPSAwOyBuZXQgKE0tMDQpID0gNTIuMDAwLgogKiAtIHRyYW5zYWtzaSBsdW5hcyAoTS0wNikgPSAyOyBBT1YgKE0tMDcpID0gNTIuMDAwIC8gMiA9IDI2LjAwMC4KICogLSBwZXIgbWV0b2RlIChNLTA1KTogY2FzaCBzZXR0bGVkIGFwcGxpZWQgNDIuMDAwIChidWthbiA1MC4wMDAgdGVuZGVyZWQpLAogKiAgIHFyaXMgc2V0dGxlZCAxMC4wMDAsIHBlbmRpbmcgMCBzZXRlbGFoIGtvbmZpcm1hc2kuCiAqIC0gc3RhdHVzOiBwYWlkIDIsIG9wZW4gMSwgdm9pZCAxOyBwYXltZW50X3N0YXR1czogcGFpZCAyLCB1bnBhaWQgMi4KICogLSBrYXNpciBtZW5nYWtzZXMgbGFwb3JhbiAtPiBGT1JCSURERU4uCiAqLwppbXBvcnQgeyBiZWZvcmVBbGwsIGRlc2NyaWJlLCBleHBlY3QsIGl0IH0gZnJvbSAidml0ZXN0IjsKaW1wb3J0IHsgY3JlYXRlVGVzdERiLCB0eXBlIFRlc3REYiB9IGZyb20gIi4vaGVscGVycy9kMSI7CmltcG9ydCB7CiAgbWFrZUNsaWVudCwga29udHJha0l0ZW1zLCBFU19URUgsIFNFQkxBSywgQ0FUX1NFQkxBSywKfSBmcm9tICIuL2hlbHBlcnMvYXBpIjsKCmxldCB0OiBUZXN0RGI7CmxldCBjYWxsOiBSZXR1cm5UeXBlPHR5cGVvZiBtYWtlQ2xpZW50PlsiY2FsbCJdOwpsZXQga2FzaXJUb2tlbiA9ICIiOwpsZXQgb3duZXJUb2tlbiA9ICIiOwpsZXQgc2hpZnRJZCA9ICIiOwoKaW50ZXJmYWNlIERhaWx5UmVwb3J0IHsKICBncm9zc19zYWxlczogbnVtYmVyOyBkaXNjb3VudF90b3RhbDogbnVtYmVyOyByZWZ1bmRfdG90YWw6IG51bWJlcjsKICBuZXRfc2FsZXM6IG51bWJlcjsgdGF4X3RvdGFsOiBudW1iZXI7IHBhaWRfdHJhbnNhY3Rpb25fY291bnQ6IG51bWJlcjsKICBhdmVyYWdlX29yZGVyX3ZhbHVlOiBudW1iZXIgfCBudWxsOwogIG9yZGVyc19ieV9zdGF0dXM6IFJlY29yZDxzdHJpbmcsIG51bWJlcj47CiAgb3JkZXJzX2J5X3BheW1lbnRfc3RhdHVzOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+OwogIHBheW1lbnRfbWV0aG9kczogewogICAgbWV0aG9kOiBzdHJpbmc7IHNldHRsZWRfYW1vdW50OiBudW1iZXI7IHNldHRsZWRfY291bnQ6IG51bWJlcjsKICAgIHBlbmRpbmdfYW1vdW50OiBudW1iZXI7IG5ldF9jb2xsZWN0ZWQ6IG51bWJlcjsKICB9W107CiAgc2hpZnRzOiB7IGlkOiBzdHJpbmc7IHNldHRsZWRfY2FzaF9hbW91bnQ6IG51bWJlcjsgb3JkZXJzX2NvdW50OiBudW1iZXIgfVtdOwp9CgpiZWZvcmVBbGwoYXN5bmMgKCkgPT4gewogIHQgPSBjcmVhdGVUZXN0RGIodHJ1ZSk7CiAgY29uc3QgY2xpZW50ID0gbWFrZUNsaWVudCh0KTsKICBjYWxsID0gY2xpZW50LmNhbGw7CiAga2FzaXJUb2tlbiA9IGF3YWl0IGNsaWVudC5sb2dpbigia2FzaXJAZGVtby5zZWJsYWtwb3MuaWQiLCAic2VibGFrMTIzIik7CiAgb3duZXJUb2tlbiA9IGF3YWl0IGNsaWVudC5sb2dpbigib3duZXJAZGVtby5zZWJsYWtwb3MuaWQiLCAic2VibGFrMTIzIik7CgogIGNvbnN0IG9wZW4gPSBhd2FpdCBjYWxsPHsgaWQ6IHN0cmluZyB9PigiUE9TVCIsICIvYXBpL3YxL3NoaWZ0cy9vcGVuIiwgewogICAgdG9rZW46IGthc2lyVG9rZW4sIGJvZHk6IHsgb3BlbmluZ19jYXNoOiAxMDBfMDAwIH0sCiAgfSk7CiAgZXhwZWN0KG9wZW4uc3RhdHVzKS50b0JlKDIwMSk7CiAgc2hpZnRJZCA9IG9wZW4uanNvbi5kYXRhLmlkOwoKICAvLyBPcmRlciBBIOKAlCBrb250cmFrIDIgcG9yc2ksIHR1bmFpIDUwLjAwMC4KICBjb25zdCBhID0gYXdhaXQgY2FsbDx7IGlkOiBzdHJpbmcgfT4oIlBPU1QiLCAiL2FwaS92MS9vcmRlcnMiLCB7CiAgICB0b2tlbjoga2FzaXJUb2tlbiwgaGVhZGVyczogeyAiSWRlbXBvdGVuY3ktS2V5IjogInJlcC1vcmRlci1hIiB9LAogICAgYm9keTogeyBpdGVtczoga29udHJha0l0ZW1zKDIpIH0sCiAgfSk7CiAgZXhwZWN0KGEuc3RhdHVzKS50b0JlKDIwMSk7CiAgY29uc3QgcGF5QSA9IGF3YWl0IGNhbGwoIlBPU1QiLCBgL2FwaS92MS9vcmRlcnMvJHthLmpzb24uZGF0YS5pZH0vcGF5bWVudHNgLCB7CiAgICB0b2tlbjoga2FzaXJUb2tlbiwgaGVhZGVyczogeyAiSWRlbXBvdGVuY3ktS2V5IjogInJlcC1wYXktYSIgfSwKICAgIGJvZHk6IHsgbWV0aG9kOiAiY2FzaCIsIGFtb3VudDogNTBfMDAwIH0sCiAgfSk7CiAgZXhwZWN0KHBheUEuc3RhdHVzKS50b0JlKDIwMSk7CgogIC8vIE9yZGVyIEIg4oCUIDIgZXMgdGVoLCBxcmlzIHBlbmRpbmcgbGFsdSBkaWtvbmZpcm1hc2kgb3duZXIuCiAgY29uc3QgYiA9IGF3YWl0IGNhbGw8eyBpZDogc3RyaW5nIH0+KCJQT1NUIiwgIi9hcGkvdjEvb3JkZXJzIiwgewogICAgdG9rZW46IGthc2lyVG9rZW4sIGhlYWRlcnM6IHsgIklkZW1wb3RlbmN5LUtleSI6ICJyZXAtb3JkZXItYiIgfSwKICAgIGJvZHk6IHsgaXRlbXM6IFt7IHByb2R1Y3RfaWQ6IEVTX1RFSCwgcXR5OiAyLCBtb2RpZmllcnM6IFtdIH1dIH0sCiAgfSk7CiAgZXhwZWN0KGIuc3RhdHVzKS50b0JlKDIwMSk7CiAgY29uc3QgcGF5QiA9IGF3YWl0IGNhbGw8eyBwYXltZW50OiB7IGlkOiBzdHJpbmcgfSB9PigKICAgICJQT1NUIiwgYC9hcGkvdjEvb3JkZXJzLyR7Yi5qc29uLmRhdGEuaWR9L3BheW1lbnRzYCwKICAgIHsKICAgICAgdG9rZW46IGthc2lyVG9rZW4sIGhlYWRlcnM6IHsgIklkZW1wb3RlbmN5LUtleSI6ICJyZXAtcGF5LWIiIH0sCiAgICAgIGJvZHk6IHsgbWV0aG9kOiAicXJpcyIsIGFtb3VudDogMTBfMDAwLCByZWZlcmVuY2Vfbm86ICJRUklTLVJFUC0xIiB9LAogICAgfSwKICApOwogIGV4cGVjdChwYXlCLnN0YXR1cykudG9CZSgyMDEpOwogIGNvbnN0IGNvbmZpcm0gPSBhd2FpdCBjYWxsKCJQT1NUIiwgYC9hcGkvdjEvcGF5bWVudHMvJHtwYXlCLmpzb24uZGF0YS5wYXltZW50LmlkfS9jb25maXJtYCwgewogICAgdG9rZW46IG93bmVyVG9rZW4sCiAgfSk7CiAgZXhwZWN0KGNvbmZpcm0uc3RhdHVzKS50b0JlKDIwMCk7CgogIC8vIE9yZGVyIEMg4oCUIHRpZGFrIGRpYmF5YXIuCiAgY29uc3QgY09yZGVyID0gYXdhaXQgY2FsbDx7IGlkOiBzdHJpbmcgfT4oIlBPU1QiLCAiL2FwaS92MS9vcmRlcnMiLCB7CiAgICB0b2tlbjoga2FzaXJUb2tlbiwgaGVhZGVyczogeyAiSWRlbXBvdGVuY3ktS2V5IjogInJlcC1vcmRlci1jIiB9LAogICAgYm9keTogeyBpdGVtczogW3sgcHJvZHVjdF9pZDogRVNfVEVILCBxdHk6IDEsIG1vZGlmaWVyczogW10gfV0gfSwKICB9KTsKICBleHBlY3QoY09yZGVyLnN0YXR1cykudG9CZSgyMDEpOwoKICAvLyBPcmRlciBEIOKAlCBkaWJ1YXQgbGFsdSBkaWJhdGFsa2FuLgogIGNvbnN0IGQgPSBhd2FpdCBjYWxsPHsgaWQ6IHN0cmluZyB9PigiUE9TVCIsICIvYXBpL3YxL29yZGVycyIsIHsKICAgIHRva2VuOiBrYXNpclRva2VuLCBoZWFkZXJzOiB7ICJJZGVtcG90ZW5jeS1LZXkiOiAicmVwLW9yZGVyLWQiIH0sCiAgICBib2R5OiB7IGl0ZW1zOiBbeyBwcm9kdWN0X2lkOiBFU19URUgsIHF0eTogMSwgbW9kaWZpZXJzOiBbXSB9XSB9LAogIH0pOwogIGV4cGVjdChkLnN0YXR1cykudG9CZSgyMDEpOwogIGNvbnN0IGNhbmNlbCA9IGF3YWl0IGNhbGwoIlBPU1QiLCBgL2FwaS92MS9vcmRlcnMvJHtkLmpzb24uZGF0YS5pZH0vY2FuY2VsYCwgewogICAgdG9rZW46IGthc2lyVG9rZW4sCiAgfSk7CiAgZXhwZWN0KGNhbmNlbC5zdGF0dXMpLnRvQmUoMjAwKTsKfSk7CgpkZXNjcmliZSgicmVwb3J0cy9kYWlseSIsICgpID0+IHsKICBpdCgia2FzaXIgbWVuZ2Frc2VzIGxhcG9yYW4gLT4gNDAzIEZPUkJJRERFTiIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsKCJHRVQiLCAiL2FwaS92MS9yZXBvcnRzL2RhaWx5IiwgeyB0b2tlbjoga2FzaXJUb2tlbiB9KTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSg0MDMpOwogICAgZXhwZWN0KHIuanNvbi5lcnJvci5jb2RlKS50b0JlKCJGT1JCSURERU4iKTsKICB9KTsKCiAgaXQoImFuZ2thIGhhcmlhbiBjb2NvayBkZW5nYW4gaGl0dW5nYW4gdGFuZ2FuIChNLTAxLi5NLTA3KSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPERhaWx5UmVwb3J0PigiR0VUIiwgIi9hcGkvdjEvcmVwb3J0cy9kYWlseSIsIHsKICAgICAgdG9rZW46IG93bmVyVG9rZW4sCiAgICB9KTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSgyMDApOwogICAgY29uc3QgZCA9IHIuanNvbi5kYXRhOwogICAgZXhwZWN0KGQuZ3Jvc3Nfc2FsZXMpLnRvQmUoNTJfMDAwKTsKICAgIGV4cGVjdChkLmRpc2NvdW50X3RvdGFsKS50b0JlKDApOwogICAgZXhwZWN0KGQucmVmdW5kX3RvdGFsKS50b0JlKDApOwogICAgZXhwZWN0KGQubmV0X3NhbGVzKS50b0JlKDUyXzAwMCk7CiAgICBleHBlY3QoZC50YXhfdG90YWwpLnRvQmUoMCk7CiAgICBleHBlY3QoZC5wYWlkX3RyYW5zYWN0aW9uX2NvdW50KS50b0JlKDIpOwogICAgZXhwZWN0KGQuYXZlcmFnZV9vcmRlcl92YWx1ZSkudG9CZSgyNl8wMDApOwogICAgZXhwZWN0KGQub3JkZXJzX2J5X3N0YXR1cy5wYWlkKS50b0JlKDIpOwogICAgZXhwZWN0KGQub3JkZXJzX2J5X3N0YXR1cy5vcGVuKS50b0JlKDEpOwogICAgZXhwZWN0KGQub3JkZXJzX2J5X3N0YXR1cy52b2lkKS50b0JlKDEpOwogICAgZXhwZWN0KGQub3JkZXJzX2J5X3BheW1lbnRfc3RhdHVzLnBhaWQpLnRvQmUoMik7CiAgICBleHBlY3QoZC5vcmRlcnNfYnlfcGF5bWVudF9zdGF0dXMudW5wYWlkKS50b0JlKDIpOwoKICAgIGNvbnN0IGNhc2ggPSBkLnBheW1lbnRfbWV0aG9kcy5maW5kKChtKSA9PiBtLm1ldGhvZCA9PT0gImNhc2giKTsKICAgIGV4cGVjdChjYXNoPy5zZXR0bGVkX2Ftb3VudCkudG9CZSg0Ml8wMDApOyAvLyBhcHBsaWVkLCBidWthbiA1MC4wMDAgdGVuZGVyZWQKICAgIGV4cGVjdChjYXNoPy5zZXR0bGVkX2NvdW50KS50b0JlKDEpOwogICAgZXhwZWN0KGNhc2g/Lm5ldF9jb2xsZWN0ZWQpLnRvQmUoNDJfMDAwKTsKICAgIGNvbnN0IHFyaXMgPSBkLnBheW1lbnRfbWV0aG9kcy5maW5kKChtKSA9PiBtLm1ldGhvZCA9PT0gInFyaXMiKTsKICAgIGV4cGVjdChxcmlzPy5zZXR0bGVkX2Ftb3VudCkudG9CZSgxMF8wMDApOwogICAgZXhwZWN0KHFyaXM/LnBlbmRpbmdfYW1vdW50KS50b0JlKDApOwogICAgY29uc3QgdHJhbnNmZXIgPSBkLnBheW1lbnRfbWV0aG9kcy5maW5kKChtKSA9PiBtLm1ldGhvZCA9PT0gInRyYW5zZmVyIik7CiAgICBleHBlY3QodHJhbnNmZXI/LnNldHRsZWRfYW1vdW50KS50b0JlKDApOwoKICAgIGV4cGVjdChkLnNoaWZ0cykudG9IYXZlTGVuZ3RoKDEpOwogICAgZXhwZWN0KGQuc2hpZnRzWzBdPy5pZCkudG9CZShzaGlmdElkKTsKICAgIGV4cGVjdChkLnNoaWZ0c1swXT8uc2V0dGxlZF9jYXNoX2Ftb3VudCkudG9CZSg0Ml8wMDApOwogICAgZXhwZWN0KGQuc2hpZnRzWzBdPy5vcmRlcnNfY291bnQpLnRvQmUoNCk7CiAgfSk7CgogIGl0KCJ0YW5nZ2FsIGxhbXBhdSAtPiBzZW11YSBub2wgZGFuIEFPViBudWxsIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGw8RGFpbHlSZXBvcnQ+KAogICAgICAiR0VUIiwgIi9hcGkvdjEvcmVwb3J0cy9kYWlseT9kYXRlPTIwMjAtMDEtMDUiLCB7IHRva2VuOiBvd25lclRva2VuIH0sCiAgICApOwogICAgZXhwZWN0KHIuc3RhdHVzKS50b0JlKDIwMCk7CiAgICBleHBlY3Qoci5qc29uLmRhdGEuZ3Jvc3Nfc2FsZXMpLnRvQmUoMCk7CiAgICBleHBlY3Qoci5qc29uLmRhdGEucGFpZF90cmFuc2FjdGlvbl9jb3VudCkudG9CZSgwKTsKICAgIGV4cGVjdChyLmpzb24uZGF0YS5hdmVyYWdlX29yZGVyX3ZhbHVlKS50b0JlTnVsbCgpOwogIH0pOwp9KTsKCmRlc2NyaWJlKCJyZXBvcnRzL3Byb2R1Y3RzICYgY2F0ZWdvcmllcyIsICgpID0+IHsKICBpdCgicHJvZHVrIHRlcmxhcmlzOiBzZWJsYWsgZGkgYXRhcywgZXMgdGVoIGtlZHVhIChNLTA4KSIsIGFzeW5jICgpID0+IHsKICAgIGNvbnN0IHIgPSBhd2FpdCBjYWxsPHsKICAgICAgaXRlbXM6IHsgcHJvZHVjdF9pZDogc3RyaW5nOyBxdHlfc29sZDogbnVtYmVyOyBncm9zc19yZXZlbnVlOiBudW1iZXI7IG9yZGVyX2NvdW50OiBudW1iZXIgfVtdOwogICAgfT4oIkdFVCIsICIvYXBpL3YxL3JlcG9ydHMvcHJvZHVjdHMiLCB7IHRva2VuOiBvd25lclRva2VuIH0pOwogICAgZXhwZWN0KHIuc3RhdHVzKS50b0JlKDIwMCk7CiAgICBjb25zdCBpdGVtcyA9IHIuanNvbi5kYXRhLml0ZW1zOwogICAgZXhwZWN0KGl0ZW1zKS50b0hhdmVMZW5ndGgoMik7CiAgICBleHBlY3QoaXRlbXNbMF0/LnByb2R1Y3RfaWQpLnRvQmUoU0VCTEFLKTsKICAgIGV4cGVjdChpdGVtc1swXT8ucXR5X3NvbGQpLnRvQmUoMik7CiAgICBleHBlY3QoaXRlbXNbMF0/Lmdyb3NzX3JldmVudWUpLnRvQmUoNDJfMDAwKTsKICAgIGV4cGVjdChpdGVtc1swXT8ub3JkZXJfY291bnQpLnRvQmUoMSk7CiAgICBleHBlY3QoaXRlbXNbMV0/LnByb2R1Y3RfaWQpLnRvQmUoRVNfVEVIKTsKICAgIGV4cGVjdChpdGVtc1sxXT8ucXR5X3NvbGQpLnRvQmUoMik7CiAgICBleHBlY3QoaXRlbXNbMV0/Lmdyb3NzX3JldmVudWUpLnRvQmUoMTBfMDAwKTsKICB9KTsKCiAgaXQoInBlciBrYXRlZ29yaTogU2VibGFrIDQyLjAwMCwgTWludW1hbiAxMC4wMDAiLCBhc3luYyAoKSA9PiB7CiAgICBjb25zdCByID0gYXdhaXQgY2FsbDx7CiAgICAgIGl0ZW1zOiB7IGNhdGVnb3J5X2lkOiBzdHJpbmc7IHF0eV9zb2xkOiBudW1iZXI7IGdyb3NzX3JldmVudWU6IG51bWJlciB9W107CiAgICB9PigiR0VUIiwgIi9hcGkvdjEvcmVwb3J0cy9jYXRlZ29yaWVzIiwgeyB0b2tlbjogb3duZXJUb2tlbiB9KTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSgyMDApOwogICAgY29uc3Qgc2VibGFrID0gci5qc29uLmRhdGEuaXRlbXMuZmluZCgoaSkgPT4gaS5jYXRlZ29yeV9pZCA9PT0gQ0FUX1NFQkxBSyk7CiAgICBleHBlY3Qoc2VibGFrPy5ncm9zc19yZXZlbnVlKS50b0JlKDQyXzAwMCk7CiAgICBleHBlY3Qoc2VibGFrPy5xdHlfc29sZCkudG9CZSgyKTsKICAgIGNvbnN0IG1pbnVtYW4gPSByLmpzb24uZGF0YS5pdGVtcy5maW5kKChpKSA9PiBpLmNhdGVnb3J5X2lkICE9PSBDQVRfU0VCTEFLKTsKICAgIGV4cGVjdChtaW51bWFuPy5ncm9zc19yZXZlbnVlKS50b0JlKDEwXzAwMCk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoInJlcG9ydHMvc2hpZnQvOmlkIiwgKCkgPT4gewogIGl0KCJyZWtvbnNpbGlhc2kgc2hpZnQgY29jb2sgZGVuZ2FuIE0tMTIgKGV4cGVjdGVkIDE0Mi4wMDApIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGw8ewogICAgICByZWNvbmNpbGlhdGlvbjogewogICAgICAgIG9wZW5pbmdfY2FzaDogbnVtYmVyOyBjYXNoX3JlY2VpcHRzX3NldHRsZWQ6IG51bWJlcjsKICAgICAgICBjYXNoX3JlZnVuZHM6IG51bWJlcjsgY2FzaF9tb3ZlbWVudHNfdG90YWw6IG51bWJlcjsKICAgICAgICBleHBlY3RlZF9jYXNoX2NvbXB1dGVkOiBudW1iZXI7IGNvdW50ZWRfY2FzaDogbnVtYmVyIHwgbnVsbDsKICAgICAgICBkaWZmZXJlbmNlX2NvbXB1dGVkOiBudW1iZXIgfCBudWxsOwogICAgICB9OwogICAgICBvcmRlcnM6IHsgaWQ6IHN0cmluZyB9W107CiAgICB9PigiR0VUIiwgYC9hcGkvdjEvcmVwb3J0cy9zaGlmdC8ke3NoaWZ0SWR9YCwgeyB0b2tlbjogb3duZXJUb2tlbiB9KTsKICAgIGV4cGVjdChyLnN0YXR1cykudG9CZSgyMDApOwogICAgY29uc3QgcmVjID0gci5qc29uLmRhdGEucmVjb25jaWxpYXRpb247CiAgICBleHBlY3QocmVjLm9wZW5pbmdfY2FzaCkudG9CZSgxMDBfMDAwKTsKICAgIGV4cGVjdChyZWMuY2FzaF9yZWNlaXB0c19zZXR0bGVkKS50b0JlKDQyXzAwMCk7CiAgICBleHBlY3QocmVjLmNhc2hfcmVmdW5kcykudG9CZSgwKTsKICAgIGV4cGVjdChyZWMuY2FzaF9tb3ZlbWVudHNfdG90YWwpLnRvQmUoMCk7CiAgICBleHBlY3QocmVjLmV4cGVjdGVkX2Nhc2hfY29tcHV0ZWQpLnRvQmUoMTQyXzAwMCk7CiAgICBleHBlY3QocmVjLmNvdW50ZWRfY2FzaCkudG9CZU51bGwoKTsgLy8gc2hpZnQgbWFzaWggdGVyYnVrYQogICAgZXhwZWN0KHJlYy5kaWZmZXJlbmNlX2NvbXB1dGVkKS50b0JlTnVsbCgpOwogICAgZXhwZWN0KHIuanNvbi5kYXRhLm9yZGVycykudG9IYXZlTGVuZ3RoKDQpOwogIH0pOwoKICBpdCgic2hpZnQgdGlkYWsgZGlrZW5hbCAtPiA0MDQgTk9UX0ZPVU5EIiwgYXN5bmMgKCkgPT4gewogICAgY29uc3QgciA9IGF3YWl0IGNhbGwoIkdFVCIsICIvYXBpL3YxL3JlcG9ydHMvc2hpZnQvdGlkYWstYWRhIiwgewogICAgICB0b2tlbjogb3duZXJUb2tlbiwKICAgIH0pOwogICAgZXhwZWN0KHIuc3RhdHVzKS50b0JlKDQwNCk7CiAgICBleHBlY3Qoci5qc29uLmVycm9yLmNvZGUpLnRvQmUoIk5PVF9GT1VORCIpOwogIH0pOwp9KTsK
+/**
+ * Test laporan (Metric Dictionary Lestari) terhadap Worker + shim D1.
+ *
+ * Skenario (semua pada hari berjalan Asia/Jakarta):
+ * - Order A: 2 porsi kontrak = 42.000, dibayar tunai 50.000 -> settled
+ *   (applied 42.000, kembalian 8.000 BUKAN penerimaan — prinsip 6 Lestari).
+ * - Order B: 2 es teh = 10.000, dibayar qris -> pending, lalu dikonfirmasi
+ *   owner -> settled.
+ * - Order C: 1 es teh, tidak dibayar (tetap open/unpaid).
+ * - Order D: 1 es teh, dibuat lalu dibatalkan (void).
+ *
+ * Hitungan tangan yang diverifikasi pada /reports/daily:
+ * - gross (M-01) = 42.000 + 10.000 = 52.000 (hanya order lunas A & B;
+ *   C belum lunas dan D void tidak masuk pendapatan).
+ * - diskon (M-02) = 0; refund (M-03) = 0; net (M-04) = 52.000.
+ * - transaksi lunas (M-06) = 2; AOV (M-07) = 52.000 / 2 = 26.000.
+ * - per metode (M-05): cash settled applied 42.000 (bukan 50.000 tendered),
+ *   qris settled 10.000, pending 0 setelah konfirmasi.
+ * - status: paid 2, open 1, void 1; payment_status: paid 2, unpaid 2.
+ * - kasir mengakses laporan -> FORBIDDEN.
+ */
+import { beforeAll, describe, expect, it } from "vitest";
+import { createTestDb, type TestDb } from "./helpers/d1";
+import {
+  makeClient, kontrakItems, ES_TEH, SEBLAK, CAT_SEBLAK,
+} from "./helpers/api";
+
+let t: TestDb;
+let call: ReturnType<typeof makeClient>["call"];
+let kasirToken = "";
+let ownerToken = "";
+let shiftId = "";
+
+interface DailyReport {
+  gross_sales: number; discount_total: number; refund_total: number;
+  net_sales: number; tax_total: number; paid_transaction_count: number;
+  average_order_value: number | null;
+  orders_by_status: Record<string, number>;
+  orders_by_payment_status: Record<string, number>;
+  payment_methods: {
+    method: string; settled_amount: number; settled_count: number;
+    pending_amount: number; net_collected: number;
+  }[];
+  shifts: { id: string; settled_cash_amount: number; orders_count: number }[];
+}
+
+beforeAll(async () => {
+  t = createTestDb(true);
+  const client = makeClient(t);
+  call = client.call;
+  kasirToken = await client.login("kasir@demo.seblakpos.id", "seblak123");
+  ownerToken = await client.login("owner@demo.seblakpos.id", "seblak123");
+
+  const open = await call<{ id: string }>("POST", "/api/v1/shifts/open", {
+    token: kasirToken, body: { opening_cash: 100_000 },
+  });
+  expect(open.status).toBe(201);
+  shiftId = open.json.data.id;
+
+  // Order A — kontrak 2 porsi, tunai 50.000.
+  const a = await call<{ id: string }>("POST", "/api/v1/orders", {
+    token: kasirToken, headers: { "Idempotency-Key": "rep-order-a" },
+    body: { items: kontrakItems(2) },
+  });
+  expect(a.status).toBe(201);
+  const payA = await call("POST", `/api/v1/orders/${a.json.data.id}/payments`, {
+    token: kasirToken, headers: { "Idempotency-Key": "rep-pay-a" },
+    body: { method: "cash", amount: 50_000 },
+  });
+  expect(payA.status).toBe(201);
+
+  // Order B — 2 es teh, qris pending lalu dikonfirmasi owner.
+  const b = await call<{ id: string }>("POST", "/api/v1/orders", {
+    token: kasirToken, headers: { "Idempotency-Key": "rep-order-b" },
+    body: { items: [{ product_id: ES_TEH, qty: 2, modifiers: [] }] },
+  });
+  expect(b.status).toBe(201);
+  const payB = await call<{ payment: { id: string } }>(
+    "POST", `/api/v1/orders/${b.json.data.id}/payments`,
+    {
+      token: kasirToken, headers: { "Idempotency-Key": "rep-pay-b" },
+      body: { method: "qris", amount: 10_000, reference_no: "QRIS-REP-1" },
+    },
+  );
+  expect(payB.status).toBe(201);
+  const confirm = await call("POST", `/api/v1/payments/${payB.json.data.payment.id}/confirm`, {
+    token: ownerToken,
+  });
+  expect(confirm.status).toBe(200);
+
+  // Order C — tidak dibayar.
+  const cOrder = await call<{ id: string }>("POST", "/api/v1/orders", {
+    token: kasirToken, headers: { "Idempotency-Key": "rep-order-c" },
+    body: { items: [{ product_id: ES_TEH, qty: 1, modifiers: [] }] },
+  });
+  expect(cOrder.status).toBe(201);
+
+  // Order D — dibuat lalu dibatalkan.
+  const d = await call<{ id: string }>("POST", "/api/v1/orders", {
+    token: kasirToken, headers: { "Idempotency-Key": "rep-order-d" },
+    body: { items: [{ product_id: ES_TEH, qty: 1, modifiers: [] }] },
+  });
+  expect(d.status).toBe(201);
+  const cancel = await call("POST", `/api/v1/orders/${d.json.data.id}/cancel`, {
+    token: kasirToken,
+  });
+  expect(cancel.status).toBe(200);
+});
+
+describe("reports/daily", () => {
+  it("kasir mengakses laporan -> 403 FORBIDDEN", async () => {
+    const r = await call("GET", "/api/v1/reports/daily", { token: kasirToken });
+    expect(r.status).toBe(403);
+    expect(r.json.error.code).toBe("FORBIDDEN");
+  });
+
+  it("angka harian cocok dengan hitungan tangan (M-01..M-07)", async () => {
+    const r = await call<DailyReport>("GET", "/api/v1/reports/daily", {
+      token: ownerToken,
+    });
+    expect(r.status).toBe(200);
+    const d = r.json.data;
+    expect(d.gross_sales).toBe(52_000);
+    expect(d.discount_total).toBe(0);
+    expect(d.refund_total).toBe(0);
+    expect(d.net_sales).toBe(52_000);
+    expect(d.tax_total).toBe(0);
+    expect(d.paid_transaction_count).toBe(2);
+    expect(d.average_order_value).toBe(26_000);
+    expect(d.orders_by_status.paid).toBe(2);
+    expect(d.orders_by_status.open).toBe(1);
+    expect(d.orders_by_status.void).toBe(1);
+    expect(d.orders_by_payment_status.paid).toBe(2);
+    expect(d.orders_by_payment_status.unpaid).toBe(2);
+
+    const cash = d.payment_methods.find((m) => m.method === "cash");
+    expect(cash?.settled_amount).toBe(42_000); // applied, bukan 50.000 tendered
+    expect(cash?.settled_count).toBe(1);
+    expect(cash?.net_collected).toBe(42_000);
+    const qris = d.payment_methods.find((m) => m.method === "qris");
+    expect(qris?.settled_amount).toBe(10_000);
+    expect(qris?.pending_amount).toBe(0);
+    const transfer = d.payment_methods.find((m) => m.method === "transfer");
+    expect(transfer?.settled_amount).toBe(0);
+
+    expect(d.shifts).toHaveLength(1);
+    expect(d.shifts[0]?.id).toBe(shiftId);
+    expect(d.shifts[0]?.settled_cash_amount).toBe(42_000);
+    expect(d.shifts[0]?.orders_count).toBe(4);
+  });
+
+  it("tanggal lampau -> semua nol dan AOV null", async () => {
+    const r = await call<DailyReport>(
+      "GET", "/api/v1/reports/daily?date=2020-01-05", { token: ownerToken },
+    );
+    expect(r.status).toBe(200);
+    expect(r.json.data.gross_sales).toBe(0);
+    expect(r.json.data.paid_transaction_count).toBe(0);
+    expect(r.json.data.average_order_value).toBeNull();
+  });
+});
+
+describe("reports/products & categories", () => {
+  it("produk terlaris: seblak di atas, es teh kedua (M-08)", async () => {
+    const r = await call<{
+      items: { product_id: string; qty_sold: number; gross_revenue: number; order_count: number }[];
+    }>("GET", "/api/v1/reports/products", { token: ownerToken });
+    expect(r.status).toBe(200);
+    const items = r.json.data.items;
+    expect(items).toHaveLength(2);
+    expect(items[0]?.product_id).toBe(SEBLAK);
+    expect(items[0]?.qty_sold).toBe(2);
+    expect(items[0]?.gross_revenue).toBe(42_000);
+    expect(items[0]?.order_count).toBe(1);
+    expect(items[1]?.product_id).toBe(ES_TEH);
+    expect(items[1]?.qty_sold).toBe(2);
+    expect(items[1]?.gross_revenue).toBe(10_000);
+  });
+
+  it("per kategori: Seblak 42.000, Minuman 10.000", async () => {
+    const r = await call<{
+      items: { category_id: string; qty_sold: number; gross_revenue: number }[];
+    }>("GET", "/api/v1/reports/categories", { token: ownerToken });
+    expect(r.status).toBe(200);
+    const seblak = r.json.data.items.find((i) => i.category_id === CAT_SEBLAK);
+    expect(seblak?.gross_revenue).toBe(42_000);
+    expect(seblak?.qty_sold).toBe(2);
+    const minuman = r.json.data.items.find((i) => i.category_id !== CAT_SEBLAK);
+    expect(minuman?.gross_revenue).toBe(10_000);
+  });
+});
+
+describe("reports/shift/:id", () => {
+  it("rekonsiliasi shift cocok dengan M-12 (expected 142.000)", async () => {
+    const r = await call<{
+      reconciliation: {
+        opening_cash: number; cash_receipts_settled: number;
+        cash_refunds: number; cash_movements_total: number;
+        expected_cash_computed: number; counted_cash: number | null;
+        difference_computed: number | null;
+      };
+      orders: { id: string }[];
+    }>("GET", `/api/v1/reports/shift/${shiftId}`, { token: ownerToken });
+    expect(r.status).toBe(200);
+    const rec = r.json.data.reconciliation;
+    expect(rec.opening_cash).toBe(100_000);
+    expect(rec.cash_receipts_settled).toBe(42_000);
+    expect(rec.cash_refunds).toBe(0);
+    expect(rec.cash_movements_total).toBe(0);
+    expect(rec.expected_cash_computed).toBe(142_000);
+    expect(rec.counted_cash).toBeNull(); // shift masih terbuka
+    expect(rec.difference_computed).toBeNull();
+    expect(r.json.data.orders).toHaveLength(4);
+  });
+
+  it("shift tidak dikenal -> 404 NOT_FOUND", async () => {
+    const r = await call("GET", "/api/v1/reports/shift/tidak-ada", {
+      token: ownerToken,
+    });
+    expect(r.status).toBe(404);
+    expect(r.json.error.code).toBe("NOT_FOUND");
+  });
+});
