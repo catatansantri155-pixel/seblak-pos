@@ -1,1 +1,84 @@
-LyoqCiAqIFJ1dGUgcHJvZmlsIG91dGxldCAoZ2F0ZSBHNCk6CiAqIC0gR0VUICAgL2FwaS92MS9vdXRsZXRzL21lIOKAlCBwcm9maWwgb3V0bGV0IGRhcmkgc2VzaSAoc2VtdWEgcGVyYW4gbG9naW4pLgogKiAgIEluaWxhaCBzdW1iZXIgbmFtYSBvdXRsZXQgdW50dWsgaGVhZGVyIGFwbGlrYXNpIChzZWJlbHVtbnlhIGtsaWVuIGhhbnlhCiAqICAgbWVtZWdhbmcgb3V0bGV0X2lkIGRhcmkgL2F1dGgvbWUpLgogKiAtIFBBVENIIC9hcGkvdjEvb3V0bGV0cy9tZSDigJQgb3duZXIgc2FqYTsgaGFueWEga29sb20geWFuZyBiZW5hci1iZW5hciBhZGEKICogICBkaSB0YWJlbCBvdXRsZXRzICgwMDAxKTogbmFtZSwgYWRkcmVzcywgcGhvbmUsIHRheF9yYXRlX2JwLCBjdXJyZW5jeS4KICogICBTa2VtYSBvdXRsZXRzIG1lbWFuZyBtaW5pbSAodGFucGEgamFtIG9wZXJhc2lvbmFsL2xvZ28vZHN0Likg4oCUIGVuZHBvaW50CiAqICAgbWVuZ2VtYmFsaWthbiBhcGEgYWRhbnlhIHRhbnBhIGtvbG9tIGtoYXlhbGFuLgogKi8KaW1wb3J0IHsgSG9ubyB9IGZyb20gImhvbm8iOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgQXBpRXJyb3IgfSBmcm9tICIuLi9saWIvZXJyb3JzIjsKaW1wb3J0IHsgc3VjY2Vzc0VudmVsb3BlIH0gZnJvbSAiLi4vbGliL2VudmVsb3BlIjsKaW1wb3J0IHsgcmVxdWlyZVJvbGUgfSBmcm9tICIuLi9saWIvYXV0aCI7CmltcG9ydCB7IHBhcnNlV2l0aCwgcmVhZEpzb25Cb2R5IH0gZnJvbSAiLi4vbGliL3ZhbGlkYXRlIjsKaW1wb3J0IHR5cGUgeyBFbnYsIFZhcmlhYmxlcyB9IGZyb20gIi4uL2xpYi90eXBlcyI7Cgpjb25zdCBvdXRsZXRzID0gbmV3IEhvbm88eyBCaW5kaW5nczogRW52OyBWYXJpYWJsZXM6IFZhcmlhYmxlcyB9PigpOwoKaW50ZXJmYWNlIE91dGxldFJvdyB7CiAgaWQ6IHN0cmluZzsgbmFtZTogc3RyaW5nOyBhZGRyZXNzOiBzdHJpbmcgfCBudWxsOyBwaG9uZTogc3RyaW5nIHwgbnVsbDsKICB0YXhfcmF0ZV9icDogbnVtYmVyOyBjdXJyZW5jeTogc3RyaW5nOyBpc19hY3RpdmU6IG51bWJlcjsKICBjcmVhdGVkX2F0OiBudW1iZXI7IHVwZGF0ZWRfYXQ6IG51bWJlcjsgdmVyc2lvbjogbnVtYmVyOwp9Cgpjb25zdCBvdXRsZXRPdXQgPSAocjogT3V0bGV0Um93KSA9PiAoewogIGlkOiByLmlkLCBuYW1lOiByLm5hbWUsIGFkZHJlc3M6IHIuYWRkcmVzcywgcGhvbmU6IHIucGhvbmUsCiAgdGF4X3JhdGVfYnA6IHIudGF4X3JhdGVfYnAsIGN1cnJlbmN5OiByLmN1cnJlbmN5LAogIGlzX2FjdGl2ZTogci5pc19hY3RpdmUgPT09IDEsCiAgY3JlYXRlZF9hdDogci5jcmVhdGVkX2F0LCB1cGRhdGVkX2F0OiByLnVwZGF0ZWRfYXQsIHZlcnNpb246IHIudmVyc2lvbiwKfSk7Cgphc3luYyBmdW5jdGlvbiBmZXRjaE91dGxldCgKICBkYjogRDFEYXRhYmFzZSwgb3V0bGV0SWQ6IHN0cmluZywKKTogUHJvbWlzZTxPdXRsZXRSb3c+IHsKICBjb25zdCByb3cgPSBhd2FpdCBkYgogICAgLnByZXBhcmUoIlNFTEVDVCAqIEZST00gb3V0bGV0cyBXSEVSRSBpZCA9ID8gQU5EIGRlbGV0ZWRfYXQgSVMgTlVMTCIpCiAgICAuYmluZChvdXRsZXRJZCkKICAgIC5maXJzdDxPdXRsZXRSb3c+KCk7CiAgaWYgKCFyb3cpIHRocm93IG5ldyBBcGlFcnJvcigiTk9UX0ZPVU5EIiwgIk91dGxldCB0aWRhayBkaXRlbXVrYW4iKTsKICByZXR1cm4gcm93Owp9CgpvdXRsZXRzLmdldCgiL291dGxldHMvbWUiLCBhc3luYyAoYykgPT4gewogIGNvbnN0IHVzZXIgPSBjLmdldCgidXNlciIpOwogIGNvbnN0IHJvdyA9IGF3YWl0IGZldGNoT3V0bGV0KGMuZW52LkRCLCB1c2VyLm91dGxldF9pZCk7CiAgcmV0dXJuIGMuanNvbihzdWNjZXNzRW52ZWxvcGUob3V0bGV0T3V0KHJvdyksIGMuZ2V0KCJyZXF1ZXN0SWQiKSksIDIwMCk7Cn0pOwoKY29uc3QgcGF0Y2hPdXRsZXRTY2hlbWEgPSB6Lm9iamVjdCh7CiAgbmFtZTogei5zdHJpbmcoKS5taW4oMSwgIk5hbWEgb3V0bGV0IHRpZGFrIGJvbGVoIGtvc29uZyIpLm9wdGlvbmFsKCksCiAgYWRkcmVzczogei5zdHJpbmcoKS5udWxsYWJsZSgpLm9wdGlvbmFsKCksCiAgcGhvbmU6IHouc3RyaW5nKCkubnVsbGFibGUoKS5vcHRpb25hbCgpLAogIHRheF9yYXRlX2JwOiB6Lm51bWJlcigpLmludCgpLm1pbigwKS5tYXgoMTBfMDAwKS5vcHRpb25hbCgpLAogIGN1cnJlbmN5OiB6LnN0cmluZygpLm1pbigxKS5vcHRpb25hbCgpLAp9KTsKCm91dGxldHMucGF0Y2goIi9vdXRsZXRzL21lIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCB1c2VyID0gcmVxdWlyZVJvbGUoYywgIm93bmVyIik7CiAgY29uc3QgZGIgPSBjLmVudi5EQjsKICBjb25zdCBib2R5ID0gcGFyc2VXaXRoKHBhdGNoT3V0bGV0U2NoZW1hLCBhd2FpdCByZWFkSnNvbkJvZHkoYy5yZXEpKTsKICBjb25zdCBjdXJyZW50ID0gYXdhaXQgZmV0Y2hPdXRsZXQoZGIsIHVzZXIub3V0bGV0X2lkKTsKICBjb25zdCB0ID0gRGF0ZS5ub3coKTsKICBhd2FpdCBkYgogICAgLnByZXBhcmUoCiAgICAgIGBVUERBVEUgb3V0bGV0cyBTRVQgbmFtZSA9ID8sIGFkZHJlc3MgPSA/LCBwaG9uZSA9ID8sIHRheF9yYXRlX2JwID0gPywKICAgICAgICAgICAgICBjdXJyZW5jeSA9ID8sIHVwZGF0ZWRfYXQgPSA/LCB2ZXJzaW9uID0gdmVyc2lvbiArIDEgV0hFUkUgaWQgPSA/YCwKICAgICkKICAgIC5iaW5kKAogICAgICBib2R5Lm5hbWUgPz8gY3VycmVudC5uYW1lLAogICAgICBib2R5LmFkZHJlc3MgIT09IHVuZGVmaW5lZCA/IGJvZHkuYWRkcmVzcyA6IGN1cnJlbnQuYWRkcmVzcywKICAgICAgYm9keS5waG9uZSAhPT0gdW5kZWZpbmVkID8gYm9keS5waG9uZSA6IGN1cnJlbnQucGhvbmUsCiAgICAgIGJvZHkudGF4X3JhdGVfYnAgPz8gY3VycmVudC50YXhfcmF0ZV9icCwKICAgICAgYm9keS5jdXJyZW5jeSA/PyBjdXJyZW50LmN1cnJlbmN5LAogICAgICB0LAogICAgICBjdXJyZW50LmlkLAogICAgKQogICAgLnJ1bigpOwogIGNvbnN0IHVwZGF0ZWQgPSBhd2FpdCBmZXRjaE91dGxldChkYiwgdXNlci5vdXRsZXRfaWQpOwogIHJldHVybiBjLmpzb24oc3VjY2Vzc0VudmVsb3BlKG91dGxldE91dCh1cGRhdGVkKSwgYy5nZXQoInJlcXVlc3RJZCIpKSwgMjAwKTsKfSk7CgpleHBvcnQgZGVmYXVsdCBvdXRsZXRzOwo=
+/**
+ * Rute profil outlet (gate G4):
+ * - GET   /api/v1/outlets/me — profil outlet dari sesi (semua peran login).
+ *   Inilah sumber nama outlet untuk header aplikasi (sebelumnya klien hanya
+ *   memegang outlet_id dari /auth/me).
+ * - PATCH /api/v1/outlets/me — owner saja; hanya kolom yang benar-benar ada
+ *   di tabel outlets (0001): name, address, phone, tax_rate_bp, currency.
+ *   Skema outlets memang minim (tanpa jam operasional/logo/dst.) — endpoint
+ *   mengembalikan apa adanya tanpa kolom khayalan.
+ */
+import { Hono } from "hono";
+import { z } from "zod";
+import { ApiError } from "../lib/errors";
+import { successEnvelope } from "../lib/envelope";
+import { requireRole } from "../lib/auth";
+import { parseWith, readJsonBody } from "../lib/validate";
+import type { Env, Variables } from "../lib/types";
+
+const outlets = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+interface OutletRow {
+  id: string; name: string; address: string | null; phone: string | null;
+  tax_rate_bp: number; currency: string; is_active: number;
+  created_at: number; updated_at: number; version: number;
+}
+
+const outletOut = (r: OutletRow) => ({
+  id: r.id, name: r.name, address: r.address, phone: r.phone,
+  tax_rate_bp: r.tax_rate_bp, currency: r.currency,
+  is_active: r.is_active === 1,
+  created_at: r.created_at, updated_at: r.updated_at, version: r.version,
+});
+
+async function fetchOutlet(
+  db: D1Database, outletId: string,
+): Promise<OutletRow> {
+  const row = await db
+    .prepare("SELECT * FROM outlets WHERE id = ? AND deleted_at IS NULL")
+    .bind(outletId)
+    .first<OutletRow>();
+  if (!row) throw new ApiError("NOT_FOUND", "Outlet tidak ditemukan");
+  return row;
+}
+
+outlets.get("/outlets/me", async (c) => {
+  const user = c.get("user");
+  const row = await fetchOutlet(c.env.DB, user.outlet_id);
+  return c.json(successEnvelope(outletOut(row), c.get("requestId")), 200);
+});
+
+const patchOutletSchema = z.object({
+  name: z.string().min(1, "Nama outlet tidak boleh kosong").optional(),
+  address: z.string().nullable().optional(),
+  phone: z.string().nullable().optional(),
+  tax_rate_bp: z.number().int().min(0).max(10_000).optional(),
+  currency: z.string().min(1).optional(),
+});
+
+outlets.patch("/outlets/me", async (c) => {
+  const user = requireRole(c, "owner");
+  const db = c.env.DB;
+  const body = parseWith(patchOutletSchema, await readJsonBody(c.req));
+  const current = await fetchOutlet(db, user.outlet_id);
+  const t = Date.now();
+  await db
+    .prepare(
+      `UPDATE outlets SET name = ?, address = ?, phone = ?, tax_rate_bp = ?,
+              currency = ?, updated_at = ?, version = version + 1 WHERE id = ?`,
+    )
+    .bind(
+      body.name ?? current.name,
+      body.address !== undefined ? body.address : current.address,
+      body.phone !== undefined ? body.phone : current.phone,
+      body.tax_rate_bp ?? current.tax_rate_bp,
+      body.currency ?? current.currency,
+      t,
+      current.id,
+    )
+    .run();
+  const updated = await fetchOutlet(db, user.outlet_id);
+  return c.json(successEnvelope(outletOut(updated), c.get("requestId")), 200);
+});
+
+export default outlets;
