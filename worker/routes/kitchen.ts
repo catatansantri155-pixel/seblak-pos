@@ -1,1 +1,94 @@
-LyoqCiAqIFJ1dGUgZGFwdXI6CiAqIC0gR0VUICAvYXBpL3YxL2tpdGNoZW4vcXVldWUg4oCUIG9yZGVyIG91dGxldCBpbmkgeWFuZyBraXRjaGVuX3N0YXR1cy1ueWEKICogICAncXVldWVkJyBhdGF1ICdjb29raW5nJyAoZGFuIGJlbHVtIHZvaWQpLCBiZXNlcnRhIGl0ZW0taXRlbW55YS4KICogLSBQT1NUIC9hcGkvdjEva2l0Y2hlbi9vcmRlcnMvOmlkL3N0YXR1cyDigJQgdHJhbnNpc2kgc2FoIGhhbnlhCiAqICAgcXVldWVkIC0+IGNvb2tpbmcgLT4gZG9uZTsgc2VsYWluIGl0dSBDT05GTElDVC4gU2FhdCBtZW5qYWRpICdkb25lJyBkYW4KICogICBvcmRlciBzdWRhaCBsdW5hcywgb3JkZXJzLnN0YXR1cyBpa3V0IG1lbmphZGkgJ2NvbXBsZXRlZCcuCiAqCiAqIFN0YXR1cyBvcmRlciwgcGF5bWVudF9zdGF0dXMsIGRhbiBraXRjaGVuX3N0YXR1cyBhZGFsYWgga29sb20gdGVycGlzYWgKICogKG1pZ3Jhc2kgMDAwOCkgZGFuIHRpZGFrIHNhbGluZyBtZW5pbXBhLgogKi8KaW1wb3J0IHsgSG9ubyB9IGZyb20gImhvbm8iOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKaW1wb3J0IHsgQXBpRXJyb3IgfSBmcm9tICIuLi9saWIvZXJyb3JzIjsKaW1wb3J0IHsgc3VjY2Vzc0VudmVsb3BlIH0gZnJvbSAiLi4vbGliL2VudmVsb3BlIjsKaW1wb3J0IHsgcGFyc2VXaXRoLCByZWFkSnNvbkJvZHkgfSBmcm9tICIuLi9saWIvdmFsaWRhdGUiOwppbXBvcnQgeyBmZXRjaE9yZGVyLCBvcmRlck91dCB9IGZyb20gIi4vb3JkZXJzIjsKaW1wb3J0IHR5cGUgeyBFbnYsIFZhcmlhYmxlcyB9IGZyb20gIi4uL2xpYi90eXBlcyI7Cgpjb25zdCBraXRjaGVuID0gbmV3IEhvbm88eyBCaW5kaW5nczogRW52OyBWYXJpYWJsZXM6IFZhcmlhYmxlcyB9PigpOwoKa2l0Y2hlbi5nZXQoIi9raXRjaGVuL3F1ZXVlIiwgYXN5bmMgKGMpID0+IHsKICBjb25zdCB1c2VyID0gYy5nZXQoInVzZXIiKTsKICBjb25zdCB7IHJlc3VsdHMgfSA9IGF3YWl0IGMuZW52LkRCCiAgICAucHJlcGFyZSgKICAgICAgYFNFTEVDVCAqIEZST00gb3JkZXJzCiAgICAgICAgV0hFUkUgb3V0bGV0X2lkID0gPyBBTkQgZGVsZXRlZF9hdCBJUyBOVUxMIEFORCBzdGF0dXMgIT0gJ3ZvaWQnCiAgICAgICAgICBBTkQga2l0Y2hlbl9zdGF0dXMgSU4gKCdxdWV1ZWQnLCAnY29va2luZycpCiAgICAgICAgT1JERVIgQlkgY3JlYXRlZF9hdCBBU0NgLAogICAgKQogICAgLmJpbmQodXNlci5vdXRsZXRfaWQpCiAgICAuYWxsPFBhcmFtZXRlcnM8dHlwZW9mIG9yZGVyT3V0PlswXT4oKTsKICBjb25zdCBkYXRhID0gW107CiAgZm9yIChjb25zdCBvIG9mIHJlc3VsdHMpIHsKICAgIGNvbnN0IHsgcmVzdWx0czogaXRlbXMgfSA9IGF3YWl0IGMuZW52LkRCCiAgICAgIC5wcmVwYXJlKAogICAgICAgIGBTRUxFQ1Qgb2kuaWQsIG9pLnByb2R1Y3RfaWQsIHAubmFtZSBBUyBwcm9kdWN0X25hbWUsIG9pLnF0eSwgb2kubm90ZQogICAgICAgICAgIEZST00gb3JkZXJfaXRlbXMgb2kgTEVGVCBKT0lOIHByb2R1Y3RzIHAgT04gcC5pZCA9IG9pLnByb2R1Y3RfaWQKICAgICAgICAgIFdIRVJFIG9pLm9yZGVyX2lkID0gPyBBTkQgb2kub3V0bGV0X2lkID0gPyBBTkQgb2kuZGVsZXRlZF9hdCBJUyBOVUxMCiAgICAgICAgICBPUkRFUiBCWSBvaS5jcmVhdGVkX2F0IEFTQ2AsCiAgICAgICkKICAgICAgLmJpbmQoby5pZCwgdXNlci5vdXRsZXRfaWQpCiAgICAgIC5hbGw8eyBpZDogc3RyaW5nOyBwcm9kdWN0X2lkOiBzdHJpbmcgfCBudWxsOyBwcm9kdWN0X25hbWU6IHN0cmluZyB8IG51bGw7IHF0eTogbnVtYmVyOyBub3RlOiBzdHJpbmcgfCBudWxsIH0+KCk7CiAgICBjb25zdCBvdXRJdGVtcyA9IFtdOwogICAgZm9yIChjb25zdCBpdCBvZiBpdGVtcykgewogICAgICBjb25zdCB7IHJlc3VsdHM6IG1vZHMgfSA9IGF3YWl0IGMuZW52LkRCCiAgICAgICAgLnByZXBhcmUoIlNFTEVDVCBuYW1lX3NuYXBzaG90LCBxdHkgRlJPTSBvcmRlcl9pdGVtX21vZGlmaWVycyBXSEVSRSBvcmRlcl9pdGVtX2lkID0gPyBBTkQgb3V0bGV0X2lkID0gPyBBTkQgZGVsZXRlZF9hdCBJUyBOVUxMIikKICAgICAgICAuYmluZChpdC5pZCwgdXNlci5vdXRsZXRfaWQpCiAgICAgICAgLmFsbDx7IG5hbWVfc25hcHNob3Q6IHN0cmluZyB8IG51bGw7IHF0eTogbnVtYmVyIH0+KCk7CiAgICAgIG91dEl0ZW1zLnB1c2goewogICAgICAgIGlkOiBpdC5pZCwgcHJvZHVjdF9pZDogaXQucHJvZHVjdF9pZCwgcHJvZHVjdF9uYW1lOiBpdC5wcm9kdWN0X25hbWUsCiAgICAgICAgcXR5OiBpdC5xdHksIG5vdGU6IGl0Lm5vdGUsCiAgICAgICAgbW9kaWZpZXJzOiBtb2RzLm1hcCgobSkgPT4gKHsgbmFtZTogbS5uYW1lX3NuYXBzaG90LCBxdHk6IG0ucXR5IH0pKSwKICAgICAgfSk7CiAgICB9CiAgICBkYXRhLnB1c2goeyAuLi5vcmRlck91dChvKSwgaXRlbXM6IG91dEl0ZW1zIH0pOwogIH0KICByZXR1cm4gYy5qc29uKHN1Y2Nlc3NFbnZlbG9wZShkYXRhLCBjLmdldCgicmVxdWVzdElkIikpLCAyMDApOwp9KTsKCmNvbnN0IHN0YXR1c1NjaGVtYSA9IHoub2JqZWN0KHsKICBzdGF0dXM6IHouZW51bShbInF1ZXVlZCIsICJjb29raW5nIiwgImRvbmUiXSksCn0pOwoKY29uc3QgTkVYVDogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsgcXVldWVkOiAiY29va2luZyIsIGNvb2tpbmc6ICJkb25lIiB9OwoKa2l0Y2hlbi5wb3N0KCIva2l0Y2hlbi9vcmRlcnMvOmlkL3N0YXR1cyIsIGFzeW5jIChjKSA9PiB7CiAgY29uc3QgdXNlciA9IGMuZ2V0KCJ1c2VyIik7CiAgY29uc3QgYm9keSA9IHBhcnNlV2l0aChzdGF0dXNTY2hlbWEsIGF3YWl0IHJlYWRKc29uQm9keShjLnJlcSkpOwogIGNvbnN0IG9yZGVyID0gYXdhaXQgZmV0Y2hPcmRlcihjLmVudi5EQiwgdXNlci5vdXRsZXRfaWQsIGMucmVxLnBhcmFtKCJpZCIpKTsKICBpZiAob3JkZXIuc3RhdHVzID09PSAidm9pZCIpIHsKICAgIHRocm93IG5ldyBBcGlFcnJvcigiQ09ORkxJQ1QiLCAiT3JkZXIgc3VkYWggZGliYXRhbGthbiIpOwogIH0KICBjb25zdCBleHBlY3RlZCA9IE5FWFRbb3JkZXIua2l0Y2hlbl9zdGF0dXNdOwogIGlmIChib2R5LnN0YXR1cyAhPT0gZXhwZWN0ZWQpIHsKICAgIHRocm93IG5ldyBBcGlFcnJvcigKICAgICAgIkNPTkZMSUNUIiwKICAgICAgYFRyYW5zaXNpIGRhcHVyIHRpZGFrIHNhaDogJHtvcmRlci5raXRjaGVuX3N0YXR1c30gLT4gJHtib2R5LnN0YXR1c31gLAogICAgICB7IGtpdGNoZW5fc3RhdHVzOiBvcmRlci5raXRjaGVuX3N0YXR1cywgcmVxdWVzdGVkOiBib2R5LnN0YXR1cyB9LAogICAgKTsKICB9CiAgY29uc3QgdCA9IERhdGUubm93KCk7CiAgY29uc3QgY29tcGxldGVOb3cgPSBib2R5LnN0YXR1cyA9PT0gImRvbmUiICYmIG9yZGVyLnBheW1lbnRfc3RhdHVzID09PSAicGFpZCI7CiAgYXdhaXQgYy5lbnYuREIKICAgIC5wcmVwYXJlKAogICAgICBgVVBEQVRFIG9yZGVycyBTRVQga2l0Y2hlbl9zdGF0dXMgPSA/LCBzdGF0dXMgPSA/LCB1cGRhdGVkX2F0ID0gPywgdmVyc2lvbiA9IHZlcnNpb24gKyAxIFdIRVJFIGlkID0gP2AsCiAgICApCiAgICAuYmluZChib2R5LnN0YXR1cywgY29tcGxldGVOb3cgPyAiY29tcGxldGVkIiA6IG9yZGVyLnN0YXR1cywgdCwgb3JkZXIuaWQpCiAgICAucnVuKCk7CiAgY29uc3QgdXBkYXRlZCA9IGF3YWl0IGZldGNoT3JkZXIoYy5lbnYuREIsIHVzZXIub3V0bGV0X2lkLCBvcmRlci5pZCk7CiAgcmV0dXJuIGMuanNvbihzdWNjZXNzRW52ZWxvcGUob3JkZXJPdXQodXBkYXRlZCksIGMuZ2V0KCJyZXF1ZXN0SWQiKSksIDIwMCk7Cn0pOwoKZXhwb3J0IGRlZmF1bHQga2l0Y2hlbjsK
+/**
+ * Rute dapur:
+ * - GET  /api/v1/kitchen/queue — order outlet ini yang kitchen_status-nya
+ *   'queued' atau 'cooking' (dan belum void), beserta item-itemnya.
+ * - POST /api/v1/kitchen/orders/:id/status — transisi sah hanya
+ *   queued -> cooking -> done; selain itu CONFLICT. Saat menjadi 'done' dan
+ *   order sudah lunas, orders.status ikut menjadi 'completed'.
+ *
+ * Status order, payment_status, dan kitchen_status adalah kolom terpisah
+ * (migrasi 0008) dan tidak saling menimpa.
+ */
+import { Hono } from "hono";
+import { z } from "zod";
+import { ApiError } from "../lib/errors";
+import { successEnvelope } from "../lib/envelope";
+import { parseWith, readJsonBody } from "../lib/validate";
+import { fetchOrder, orderOut } from "./orders";
+import type { Env, Variables } from "../lib/types";
+
+const kitchen = new Hono<{ Bindings: Env; Variables: Variables }>();
+
+kitchen.get("/kitchen/queue", async (c) => {
+  const user = c.get("user");
+  const { results } = await c.env.DB
+    .prepare(
+      `SELECT * FROM orders
+        WHERE outlet_id = ? AND deleted_at IS NULL AND status != 'void'
+          AND kitchen_status IN ('queued', 'cooking')
+        ORDER BY created_at ASC`,
+    )
+    .bind(user.outlet_id)
+    .all<Parameters<typeof orderOut>[0]>();
+  const data = [];
+  for (const o of results) {
+    const { results: items } = await c.env.DB
+      .prepare(
+        `SELECT oi.id, oi.product_id, p.name AS product_name, oi.qty, oi.note
+           FROM order_items oi LEFT JOIN products p ON p.id = oi.product_id
+          WHERE oi.order_id = ? AND oi.outlet_id = ? AND oi.deleted_at IS NULL
+          ORDER BY oi.created_at ASC`,
+      )
+      .bind(o.id, user.outlet_id)
+      .all<{ id: string; product_id: string | null; product_name: string | null; qty: number; note: string | null }>();
+    const outItems = [];
+    for (const it of items) {
+      const { results: mods } = await c.env.DB
+        .prepare("SELECT name_snapshot, qty FROM order_item_modifiers WHERE order_item_id = ? AND outlet_id = ? AND deleted_at IS NULL")
+        .bind(it.id, user.outlet_id)
+        .all<{ name_snapshot: string | null; qty: number }>();
+      outItems.push({
+        id: it.id, product_id: it.product_id, product_name: it.product_name,
+        qty: it.qty, note: it.note,
+        modifiers: mods.map((m) => ({ name: m.name_snapshot, qty: m.qty })),
+      });
+    }
+    data.push({ ...orderOut(o), items: outItems });
+  }
+  return c.json(successEnvelope(data, c.get("requestId")), 200);
+});
+
+const statusSchema = z.object({
+  status: z.enum(["queued", "cooking", "done"]),
+});
+
+const NEXT: Record<string, string> = { queued: "cooking", cooking: "done" };
+
+kitchen.post("/kitchen/orders/:id/status", async (c) => {
+  const user = c.get("user");
+  const body = parseWith(statusSchema, await readJsonBody(c.req));
+  const order = await fetchOrder(c.env.DB, user.outlet_id, c.req.param("id"));
+  if (order.status === "void") {
+    throw new ApiError("CONFLICT", "Order sudah dibatalkan");
+  }
+  const expected = NEXT[order.kitchen_status];
+  if (body.status !== expected) {
+    throw new ApiError(
+      "CONFLICT",
+      `Transisi dapur tidak sah: ${order.kitchen_status} -> ${body.status}`,
+      { kitchen_status: order.kitchen_status, requested: body.status },
+    );
+  }
+  const t = Date.now();
+  const completeNow = body.status === "done" && order.payment_status === "paid";
+  await c.env.DB
+    .prepare(
+      `UPDATE orders SET kitchen_status = ?, status = ?, updated_at = ?, version = version + 1 WHERE id = ?`,
+    )
+    .bind(body.status, completeNow ? "completed" : order.status, t, order.id)
+    .run();
+  const updated = await fetchOrder(c.env.DB, user.outlet_id, order.id);
+  return c.json(successEnvelope(orderOut(updated), c.get("requestId")), 200);
+});
+
+export default kitchen;
