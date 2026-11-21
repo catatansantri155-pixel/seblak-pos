@@ -142,7 +142,7 @@ export default function StokPage() {
         </div>
       )}
 
-      <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_360px]">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-[minmax(0,1fr)_360px]">
         <section aria-label="Saldo bahan">
           <h2 className="font-display text-h2 font-bold text-ink">Saldo Bahan</h2>
           {loading ? (

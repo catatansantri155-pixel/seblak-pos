@@ -11,7 +11,7 @@
  * Pengguna) dibatasi per peran persis seperti penegakan server; header
  * menampilkan lencana antrean sinkronisasi offline dari outbox kasir.
  */
-import { useEffect, useState, type ComponentType } from "react";
+import { useEffect, useState, useRef, type ComponentType } from "react";
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import {
   CalendarClock,
@@ -21,6 +21,7 @@ import {
   CookingPot,
   LayoutGrid,
   LogOut,
+  MoreHorizontal,
   Package,
   ReceiptText,
   RefreshCw,
@@ -29,6 +30,7 @@ import {
   Tag,
   Users,
   UtensilsCrossed,
+  X,
 } from "lucide-react";
 import { useAuth } from "./auth";
 import { currentShift, type Role, type Shift } from "../lib/api";
@@ -64,7 +66,7 @@ function visibleNavItems(role: Role | undefined): NavItem[] {
   );
 }
 
-/** Bottom navigation HP tetap 4 item inti (token Sinta: maks. 5). */
+/** Empat pintasan utama dan satu tombol untuk halaman lainnya. */
 const MOBILE_CORE_IDS = ["kasir", "dapur", "pesanan", "shift"];
 
 const TITLES: Record<string, string> = {
@@ -146,6 +148,7 @@ export default function AppShell() {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
   const location = useLocation();
+  const mobileMenu = useRef<HTMLDialogElement>(null);
   const [collapsed, setCollapsed] = useState(false);
   const [shift, setShift] = useState<Shift | null>(null);
   const [shiftKnown, setShiftKnown] = useState(false);
@@ -157,9 +160,25 @@ export default function AppShell() {
     return subscribeOutbox(() => setOutboxCount(outboxQueuedCount()));
   }, [location.pathname]);
 
-  const mobileItems = visibleNavItems(user?.role).filter(
-    (i) => i.href && MOBILE_CORE_IDS.includes(i.id),
+  const mobileLinks = visibleNavItems(user?.role).flatMap((item) =>
+    item.href ? [{ ...item, href: item.href }] : [],
   );
+  const mobileItems = mobileLinks.filter((item) => MOBILE_CORE_IDS.includes(item.id));
+  const moreItems = mobileLinks.filter((item) => !MOBILE_CORE_IDS.includes(item.id));
+  const moreActive = moreItems.some((item) => item.href === location.pathname);
+
+  useEffect(() => {
+    const tablet = window.matchMedia("(min-width: 768px)");
+    const closeOnTablet = () => {
+      if (tablet.matches) mobileMenu.current?.close();
+    };
+    tablet.addEventListener("change", closeOnTablet);
+    return () => tablet.removeEventListener("change", closeOnTablet);
+  }, []);
+
+  useEffect(() => {
+    mobileMenu.current?.close();
+  }, [location.pathname]);
 
   // Status shift untuk header: diperiksa saat shell tampil & setiap pindah halaman.
   useEffect(() => {
@@ -306,7 +325,7 @@ export default function AppShell() {
           </div>
         </header>
 
-        <main className="min-w-0 pb-24 md:pb-8">
+        <main className="min-w-0 pb-[calc(5rem+env(safe-area-inset-bottom))] md:pb-8">
           <Outlet />
         </main>
       </div>
@@ -317,13 +336,13 @@ export default function AppShell() {
         className="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface md:hidden"
         style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
       >
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-5">
           {mobileItems.map((item) => {
             const Icon = item.icon;
             return (
               <NavLink
                 key={item.id}
-                to={item.href as string}
+                to={item.href}
                 className={({ isActive }) =>
                   `relative flex min-h-[64px] flex-col items-center justify-center gap-1 text-xs font-semibold ${
                     isActive ? "text-primary-text" : "text-muted"
@@ -342,8 +361,58 @@ export default function AppShell() {
               </NavLink>
             );
           })}
+          <button
+            type="button"
+            aria-haspopup="dialog"
+            aria-controls="mobile-more"
+            onClick={() => mobileMenu.current?.showModal()}
+            className={`relative flex min-h-[64px] flex-col items-center justify-center gap-1 text-xs font-semibold ${moreActive ? "text-primary-text" : "text-muted"}`}
+          >
+            {moreActive && (
+              <span aria-hidden className="absolute top-0 h-1 w-10 rounded-full bg-primary" />
+            )}
+            <MoreHorizontal size={24} aria-hidden />
+            Lainnya
+          </button>
         </div>
       </nav>
+
+      <dialog
+        ref={mobileMenu}
+        id="mobile-more"
+        aria-labelledby="mobile-more-title"
+        className="fixed inset-x-0 bottom-0 top-auto m-0 max-h-[85dvh] w-full max-w-none overflow-y-auto overscroll-contain rounded-t-xl bg-surface px-4 pt-3 pb-[calc(1rem+env(safe-area-inset-bottom))] text-ink backdrop:bg-slate-900/50"
+        onClick={(event) => {
+          if (event.target === event.currentTarget) event.currentTarget.close();
+        }}
+      >
+        <div className="mb-2 flex items-center justify-between">
+          <h2 id="mobile-more-title" className="font-display text-h3 font-bold">Lainnya</h2>
+          <button
+            type="button"
+            aria-label="Tutup menu Lainnya"
+            onClick={() => mobileMenu.current?.close()}
+            className="grid h-11 w-11 place-items-center rounded-md text-secondary hover:bg-subtle"
+          >
+            <X size={20} aria-hidden />
+          </button>
+        </div>
+        <nav aria-label="Menu lainnya" className="grid grid-cols-2 gap-2">
+          {moreItems.map(({ id, href, icon: Icon, label }) => (
+            <NavLink
+              key={id}
+              to={href}
+              onClick={() => mobileMenu.current?.close()}
+              className={({ isActive }) =>
+                `flex min-h-[52px] items-center gap-2 rounded-md border border-line px-3 font-semibold ${isActive ? "bg-primary-soft text-primary-text" : "text-secondary hover:bg-subtle"}`
+              }
+            >
+              <Icon size={20} className="shrink-0" aria-hidden />
+              {label}
+            </NavLink>
+          ))}
+        </nav>
+      </dialog>
     </div>
   );
 }

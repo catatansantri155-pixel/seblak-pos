@@ -254,7 +254,7 @@ export default function LaporanPage() {
                 </p>
               </section>
 
-              <div className="mt-8 grid gap-8 lg:grid-cols-2">
+              <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
                 <section aria-label="Produk terlaris">
                   <h2 className="font-display text-h2 font-bold text-ink">Produk Terlaris</h2>
                   {products.length === 0 ? (

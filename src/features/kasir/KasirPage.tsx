@@ -852,10 +852,10 @@ export default function KasirPage() {
   }
 
   const cartPanel = (
-    <div className="flex min-h-0 flex-1 flex-col">
+    <div className="flex min-h-0 flex-1 flex-col overflow-y-auto overscroll-contain lg:overflow-visible">
       {stage === "cart" ? (
         <>
-          <div className="flex items-center justify-between border-b border-line px-4 py-3">
+          <div className="flex shrink-0 flex-wrap items-center justify-between gap-2 border-b border-line px-4 py-3">
             <h2 className="flex items-center gap-2 font-display text-h3 font-semibold text-ink">
               <ShoppingCart size={20} aria-hidden /> Keranjang
             </h2>
@@ -893,7 +893,7 @@ export default function KasirPage() {
           </div>
 
           {cart.length === 0 ? (
-            <div className="flex flex-1 flex-col items-center justify-center px-6 py-10 text-center">
+            <div className="flex flex-col items-center justify-center px-6 py-10 text-center lg:flex-1">
               <span className="flex h-14 w-14 items-center justify-center rounded-full bg-subtle text-muted">
                 <ShoppingBasket size={28} aria-hidden />
               </span>
@@ -901,7 +901,7 @@ export default function KasirPage() {
               <p className="mt-1 text-sm text-secondary">Pilih produk untuk memulai pesanan.</p>
             </div>
           ) : (
-            <ul className="min-h-0 flex-1 divide-y divide-line overflow-y-auto px-4" aria-label="Isi keranjang">
+            <ul className="shrink-0 divide-y divide-line px-4 lg:min-h-0 lg:flex-1 lg:overflow-y-auto" aria-label="Isi keranjang">
               {cart.map((line) => {
                 const linePreview =
                   (line.unit_base +
@@ -951,8 +951,8 @@ export default function KasirPage() {
             </ul>
           )}
 
-          <div className="border-t border-line px-4 py-4">
-            <div className="mb-3 flex gap-2" role="group" aria-label="Jenis pesanan">
+          <div className="shrink-0 border-t border-line px-4 py-3">
+            <div className="mb-3 flex flex-wrap gap-2" role="group" aria-label="Jenis pesanan">
               {(
                 [
                   ["dine_in", "Makan di Tempat"],
@@ -1026,18 +1026,20 @@ export default function KasirPage() {
             <p className="text-xs text-muted">
               Perkiraan di perangkat ini — total resmi dihitung server setelah pesanan dibuat.
             </p>
+          </div>
+          <div className="sticky bottom-0 z-10 shrink-0 border-t border-line bg-surface px-4 py-3 lg:static lg:border-t-0 lg:pt-0">
             <button
               type="button"
               onClick={() => void checkout()}
               disabled={cart.length === 0 || creating}
-              className="mt-3 min-h-[52px] w-full rounded-md bg-primary px-4 font-display text-base font-bold text-white hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-60"
+              className="min-h-[52px] w-full rounded-md bg-primary px-4 font-display text-base font-bold text-white hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-60"
             >
               {creating ? "Membuat Pesanan…" : "Buat Pesanan & Bayar"}
             </button>
           </div>
         </>
       ) : createdOrder ? (
-        <div className="min-h-0 flex-1 overflow-y-auto px-4 py-4">
+        <div className="shrink-0 px-4 py-4 lg:min-h-0 lg:flex-1 lg:overflow-y-auto">
           <p className="text-sm text-secondary">Nomor pesanan</p>
           <p className="numeric font-display text-h1 font-bold text-ink">{createdOrder.order_no}</p>
 
@@ -1255,12 +1257,12 @@ export default function KasirPage() {
   );
 
   return (
-    <div className="lg:grid lg:h-[calc(100dvh-4rem)] lg:grid-cols-[232px_minmax(0,1fr)_380px]">
+    <div className="pb-20 lg:grid lg:pb-0 lg:h-[calc(100dvh-4rem)] lg:grid-cols-[232px_minmax(0,1fr)_380px]">
       {outboxSection}
       {/* Kategori */}
       <div className="border-b border-line bg-surface lg:overflow-y-auto lg:border-b-0 lg:border-r">
         <div
-          className="flex gap-2 overflow-x-auto px-4 py-3 lg:flex-col lg:overflow-visible"
+          className="flex flex-wrap gap-2 px-4 py-3 lg:flex-col"
           role="group"
           aria-label="Filter kategori"
         >
@@ -1362,8 +1364,7 @@ export default function KasirPage() {
 
       {/* Bar total HP/tablet */}
       <div
-        className="fixed inset-x-0 bottom-16 z-20 border-t border-line bg-surface px-4 py-2.5 shadow-[0_-2px_8px_rgba(15,23,42,0.06)] md:bottom-0 lg:hidden"
-        style={{ marginBottom: "env(safe-area-inset-bottom)" }}
+        className="fixed inset-x-0 bottom-[calc(4rem+1px+env(safe-area-inset-bottom))] z-20 border-t border-line bg-surface px-4 py-2.5 shadow-[0_-2px_8px_rgba(15,23,42,0.06)] md:bottom-[env(safe-area-inset-bottom)] md:left-[72px] lg:hidden"
       >
         <div className="flex items-center gap-3">
           <div aria-live="polite" className="min-w-0">
@@ -1389,24 +1390,19 @@ export default function KasirPage() {
       {/* Sheet keranjang HP/tablet */}
       {sheetOpen && (
         <div className="fixed inset-0 z-40 lg:hidden" role="dialog" aria-modal="true" aria-label="Keranjang dan pembayaran">
-          <button
-            type="button"
-            aria-label="Tutup keranjang"
-            onClick={() => setSheetOpen(false)}
-            className="absolute inset-0 h-full w-full bg-slate-900/50"
-          />
-          <div className="absolute inset-x-0 bottom-0 flex max-h-[85dvh] flex-col rounded-t-xl bg-surface">
-            <div className="flex items-center justify-between px-4 pt-2">
-              <span aria-hidden className="mx-auto h-1.5 w-10 rounded-full bg-line-strong" />
+          <div aria-hidden onClick={() => setSheetOpen(false)} className="absolute inset-0 bg-slate-900/50" />
+          <div className="absolute inset-x-0 bottom-0 flex max-h-[90dvh] flex-col overflow-hidden rounded-t-xl bg-surface pb-[env(safe-area-inset-bottom)]">
+            <div className="flex shrink-0 items-center justify-between border-b border-line px-4">
+              <span aria-hidden className="h-1.5 w-10 rounded-full bg-line-strong" />
+              <button
+                type="button"
+                onClick={() => setSheetOpen(false)}
+                aria-label="Tutup keranjang"
+                className="grid h-11 w-11 place-items-center rounded-md text-secondary hover:bg-subtle"
+              >
+                <X size={20} aria-hidden />
+              </button>
             </div>
-            <button
-              type="button"
-              onClick={() => setSheetOpen(false)}
-              aria-label="Tutup keranjang"
-              className="absolute right-2 top-2 flex h-11 w-11 items-center justify-center rounded-md text-secondary hover:bg-subtle"
-            >
-              <X size={20} aria-hidden />
-            </button>
             {cartPanel}
           </div>
         </div>
