@@ -1,1 +1,56 @@
-LyoqCiAqIEhlbHBlciB2YWxpZGFzaSB6b2QgLT4gQXBpRXJyb3IgVkFMSURBVElPTl9FUlJPUiBkZW5nYW4gZGV0YWlscyBwZXItZmllbGQsCiAqIG1lbmdpa3V0aSBwb2xhIGVudmVsb3BlIGtvbnRyYWsgRzFiLgogKi8KaW1wb3J0IHR5cGUgeyBab2RUeXBlQW55LCBpbmZlciBhcyBab2RJbmZlciB9IGZyb20gInpvZCI7CmltcG9ydCB7IEFwaUVycm9yIH0gZnJvbSAiLi9lcnJvcnMiOwoKZXhwb3J0IGZ1bmN0aW9uIHpvZERldGFpbHMoZXJyb3I6IHsKICBpc3N1ZXM6IHsgcGF0aDogKHN0cmluZyB8IG51bWJlcilbXTsgbWVzc2FnZTogc3RyaW5nIH1bXTsKfSk6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gewogIGNvbnN0IGRldGFpbHM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7fTsKICBmb3IgKGNvbnN0IGlzc3VlIG9mIGVycm9yLmlzc3VlcykgewogICAgY29uc3QgZmllbGQgPSBpc3N1ZS5wYXRoLmpvaW4oIi4iKSB8fCAiX2JvZHkiOwogICAgaWYgKCEoZmllbGQgaW4gZGV0YWlscykpIGRldGFpbHNbZmllbGRdID0gaXNzdWUubWVzc2FnZTsKICB9CiAgcmV0dXJuIGRldGFpbHM7Cn0KCmV4cG9ydCBmdW5jdGlvbiBwYXJzZVdpdGg8UyBleHRlbmRzIFpvZFR5cGVBbnk+KAogIHNjaGVtYTogUywKICByYXc6IHVua25vd24sCik6IFpvZEluZmVyPFM+IHsKICBjb25zdCBwYXJzZWQgPSBzY2hlbWEuc2FmZVBhcnNlKHJhdyk7CiAgaWYgKCFwYXJzZWQuc3VjY2VzcykgewogICAgdGhyb3cgbmV3IEFwaUVycm9yKCJWQUxJREFUSU9OX0VSUk9SIiwgIklucHV0IHRpZGFrIHZhbGlkIiwgem9kRGV0YWlscyhwYXJzZWQuZXJyb3IpKTsKICB9CiAgcmV0dXJuIHBhcnNlZC5kYXRhOwp9CgovKiogQmFjYSBib2R5IEpTT047IGJvZHkga29zb25nL3J1c2FrIGRpcGVybGFrdWthbiBzZWJhZ2FpIHt9IGFnYXIgem9kIHlhbmcgbWVuaWxhaS4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlYWRKc29uQm9keShyZXE6IHsKICBqc29uOiAoKSA9PiBQcm9taXNlPHVua25vd24+Owp9KTogUHJvbWlzZTx1bmtub3duPiB7CiAgdHJ5IHsKICAgIHJldHVybiBhd2FpdCByZXEuanNvbigpOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIHt9OwogIH0KfQoKLyoqIFBhZ2luYXRpb24ga29udHJhayBHMWI6IHBhZ2UgbXVsYWkgMSwgcGVyX3BhZ2UgZGVmYXVsdCAyMCBtYWtzIDEwMC4gKi8KZXhwb3J0IGZ1bmN0aW9uIHBhcnNlUGFnaW5hdGlvbihxdWVyeTogUmVjb3JkPHN0cmluZywgc3RyaW5nIHwgdW5kZWZpbmVkPik6IHsKICBwYWdlOiBudW1iZXI7CiAgcGVyUGFnZTogbnVtYmVyOwogIGxpbWl0OiBudW1iZXI7CiAgb2Zmc2V0OiBudW1iZXI7Cn0gewogIGNvbnN0IHBhZ2VSYXcgPSBOdW1iZXIocXVlcnkucGFnZSA/PyAiMSIpOwogIGNvbnN0IHBlclBhZ2VSYXcgPSBOdW1iZXIocXVlcnkucGVyX3BhZ2UgPz8gcXVlcnkubGltaXQgPz8gIjIwIik7CiAgY29uc3QgcGFnZSA9IE51bWJlci5pc0ludGVnZXIocGFnZVJhdykgJiYgcGFnZVJhdyA+PSAxID8gcGFnZVJhdyA6IDE7CiAgY29uc3QgcGVyUGFnZSA9CiAgICBOdW1iZXIuaXNJbnRlZ2VyKHBlclBhZ2VSYXcpICYmIHBlclBhZ2VSYXcgPj0gMQogICAgICA/IE1hdGgubWluKHBlclBhZ2VSYXcsIDEwMCkKICAgICAgOiAyMDsKICByZXR1cm4geyBwYWdlLCBwZXJQYWdlLCBsaW1pdDogcGVyUGFnZSwgb2Zmc2V0OiAocGFnZSAtIDEpICogcGVyUGFnZSB9Owp9Cg==
+/**
+ * Helper validasi zod -> ApiError VALIDATION_ERROR dengan details per-field,
+ * mengikuti pola envelope kontrak G1b.
+ */
+import type { ZodTypeAny, infer as ZodInfer } from "zod";
+import { ApiError } from "./errors";
+
+export function zodDetails(error: {
+  issues: { path: (string | number)[]; message: string }[];
+}): Record<string, string> {
+  const details: Record<string, string> = {};
+  for (const issue of error.issues) {
+    const field = issue.path.join(".") || "_body";
+    if (!(field in details)) details[field] = issue.message;
+  }
+  return details;
+}
+
+export function parseWith<S extends ZodTypeAny>(
+  schema: S,
+  raw: unknown,
+): ZodInfer<S> {
+  const parsed = schema.safeParse(raw);
+  if (!parsed.success) {
+    throw new ApiError("VALIDATION_ERROR", "Input tidak valid", zodDetails(parsed.error));
+  }
+  return parsed.data;
+}
+
+/** Baca body JSON; body kosong/rusak diperlakukan sebagai {} agar zod yang menilai. */
+export async function readJsonBody(req: {
+  json: () => Promise<unknown>;
+}): Promise<unknown> {
+  try {
+    return await req.json();
+  } catch {
+    return {};
+  }
+}
+
+/** Pagination kontrak G1b: page mulai 1, per_page default 20 maks 100. */
+export function parsePagination(query: Record<string, string | undefined>): {
+  page: number;
+  perPage: number;
+  limit: number;
+  offset: number;
+} {
+  const pageRaw = Number(query.page ?? "1");
+  const perPageRaw = Number(query.per_page ?? query.limit ?? "20");
+  const page = Number.isInteger(pageRaw) && pageRaw >= 1 ? pageRaw : 1;
+  const perPage =
+    Number.isInteger(perPageRaw) && perPageRaw >= 1
+      ? Math.min(perPageRaw, 100)
+      : 20;
+  return { page, perPage, limit: perPage, offset: (page - 1) * perPage };
+}
