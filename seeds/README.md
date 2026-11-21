@@ -1,1 +1,42 @@
-IyBTZWVkIERlbW8gU2VibGFrIFBPUwoKYDAwMDFfZGVtby5zcWxgIG1lbmdpc2kgZGF0YSBjb250b2gga2UgZGF0YWJhc2UgeWFuZyBzdWRhaCBtZW5qYWxhbmthbiBzZW11YQptaWdyYXNpIChgbWlncmF0aW9ucy8wMDAxYCBzLmQuIGAwMDA4YCkuIEphbGFua2FuIHNla2FsaSBzYWphIHBlciBkYXRhYmFzZToKCmBgYGJhc2gKd3JhbmdsZXIgZDEgZXhlY3V0ZSBzZWJsYWstcG9zLWRiIC0tbG9jYWwgLS1maWxlPXNlZWRzLzAwMDFfZGVtby5zcWwKIyBhdGF1IHVudHVrIGRhdGFiYXNlIHJlbW90ZToKd3JhbmdsZXIgZDEgZXhlY3V0ZSBzZWJsYWstcG9zLWRiIC0tcmVtb3RlIC0tZmlsZT1zZWVkcy8wMDAxX2RlbW8uc3FsCmBgYAoKIyMgQWt1biBkZW1vIChrYXRhIHNhbmRpIHNlbXVhIGFrdW46IGBzZWJsYWsxMjNgKQoKfCBQZXJhbiAgIHwgRW1haWwgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IE93bmVyICAgfCBvd25lckBkZW1vLnNlYmxha3Bvcy5pZCAgIHwKfCBNYW5hZ2VyIHwgYWRtaW5AZGVtby5zZWJsYWtwb3MuaWQgICB8CnwgS2FzaXIgICB8IGthc2lyQGRlbW8uc2VibGFrcG9zLmlkICAgfAp8IERhcHVyICAgfCBkYXB1ckBkZW1vLnNlYmxha3Bvcy5pZCAgIHwKCkthdGEgc2FuZGkgdGVyc2ltcGFuIHNlYmFnYWkgaGFzaCBQQktERjIgKGBwYmtkZjIkMTAwMDAwJC4uLmApIHlhbmcgZGloYXNpbGthbgpkZW5nYW4gaW1wbGVtZW50YXNpIHlhbmcgc2FtYSBwZXJzaXMgZGVuZ2FuIGB3b3JrZXIvbGliL3Bhc3N3b3JkLnRzYC4KKipBa3VuIGRlbW8gaGFueWEgdW50dWsgcGVuZ2VtYmFuZ2FuIOKAlCBqYW5nYW4gcGVybmFoIGRpcGFrYWkgZGkgcHJvZHVrc2kuKioKCiMjIElzaSBzZWVkCgotIDEgb3V0bGV0OiAiU2VibGFrIERlbW8gTnVzYW50YXJhIiAocGFqYWsgMCUpLgotIEthdGVnb3JpOiBTZWJsYWssIE1pbnVtYW4sIFRvcHBpbmcuCi0gUHJvZHVrIGp1YWw6IFNlYmxhayBPcmlnaW5hbCBScDEwLjAwMCwgRXMgVGVoIE1hbmlzIFJwNS4wMDAuCi0gQmFoYW4gYmFrdSAocHJvZHVrIGBpc19zdG9ja190cmFja2VkYCk6IFN0b2sgQmFrc28gU2FwaSwgU3RvayBDZWtlciBBeWFtLAogIFN0b2sgVGVsdXIgQXlhbSDigJQgbWFzaW5nLW1hc2luZyBzdG9rIGF3YWwgMTAwIHBjcyBsZXdhdCBgc3RvY2tfbW92ZW1lbnRzYAogIHR5cGUgYHB1cmNoYXNlYCBkZW5nYW4gbm90ZSAiU3RvayBhd2FsIChvcGVuaW5nKSBzZWVkIGRlbW8iIChza2VtYSBHMWEgdGlkYWsKICBtZW1wdW55YWkgdHlwZSBgb3BlbmluZ2ApLgotIEdydXAgb3BzaSB1bnR1ayBTZWJsYWsgT3JpZ2luYWw6CiAgLSAqKkxldmVsIFBlZGFzKiogKHdhamliLCBwaWxpaGFuIHR1bmdnYWwsIGdyYXRpcyk6IExldmVsIDAgcy5kLiBMZXZlbCAzLgogIC0gKipUb3BwaW5nKiogKGJlYmFzLCBib2xlaCBiYW55YWspOiBCYWtzbyArUnAyLjAwMCwgQ2VrZXIgK1JwMy4wMDAsCiAgICBUZWx1ciArUnA0LjAwMCDigJQgbWFzaW5nLW1hc2luZyB0ZXJodWJ1bmcga2UgYmFoYW4gYmFrdSBkaSBhdGFzLCBqYWRpCiAgICBwZW5qdWFsYW4gdG9wcGluZyBtZW5ndXJhbmdpIHN0b2sgYmFoYW4gc2VjYXJhIG90b21hdGlzLgoKQ29udG9oIGFsdXIgdWppIG1hbnVhbDogbG9naW4gc2ViYWdhaSBrYXNpciAtPiBidWthIHNoaWZ0IC0+IGJ1YXQgb3JkZXIKMnggU2VibGFrIE9yaWdpbmFsIGRlbmdhbiBCYWtzbyB4MiArIENla2VyICsgVGVsdXIgKHRvdGFsIFJwNDIuMDAwKSAtPgpiYXlhciB0dW5haSBScDUwLjAwMCAoa2VtYmFsaWFuIFJwOC4wMDApIC0+IGRhcHVyIG1lbXByb3NlcyBhbnRyZWFuLgo=
+# Seed Demo Seblak POS
+
+`0001_demo.sql` mengisi data contoh ke database yang sudah menjalankan semua
+migrasi (`migrations/0001` s.d. `0008`). Jalankan sekali saja per database:
+
+```bash
+wrangler d1 execute seblak-pos-db --local --file=seeds/0001_demo.sql
+# atau untuk database remote:
+wrangler d1 execute seblak-pos-db --remote --file=seeds/0001_demo.sql
+```
+
+## Akun demo (kata sandi semua akun: `seblak123`)
+
+| Peran   | Email                     |
+| ------- | ------------------------- |
+| Owner   | owner@demo.seblakpos.id   |
+| Manager | admin@demo.seblakpos.id   |
+| Kasir   | kasir@demo.seblakpos.id   |
+| Dapur   | dapur@demo.seblakpos.id   |
+
+Kata sandi tersimpan sebagai hash PBKDF2 (`pbkdf2$100000$...`) yang dihasilkan
+dengan implementasi yang sama persis dengan `worker/lib/password.ts`.
+**Akun demo hanya untuk pengembangan — jangan pernah dipakai di produksi.**
+
+## Isi seed
+
+- 1 outlet: "Seblak Demo Nusantara" (pajak 0%).
+- Kategori: Seblak, Minuman, Topping.
+- Produk jual: Seblak Original Rp10.000, Es Teh Manis Rp5.000.
+- Bahan baku (produk `is_stock_tracked`): Stok Bakso Sapi, Stok Ceker Ayam,
+  Stok Telur Ayam — masing-masing stok awal 100 pcs lewat `stock_movements`
+  type `purchase` dengan note "Stok awal (opening) seed demo" (skema G1a tidak
+  mempunyai type `opening`).
+- Grup opsi untuk Seblak Original:
+  - **Level Pedas** (wajib, pilihan tunggal, gratis): Level 0 s.d. Level 3.
+  - **Topping** (bebas, boleh banyak): Bakso +Rp2.000, Ceker +Rp3.000,
+    Telur +Rp4.000 — masing-masing terhubung ke bahan baku di atas, jadi
+    penjualan topping mengurangi stok bahan secara otomatis.
+
+Contoh alur uji manual: login sebagai kasir -> buka shift -> buat order
+2x Seblak Original dengan Bakso x2 + Ceker + Telur (total Rp42.000) ->
+bayar tunai Rp50.000 (kembalian Rp8.000) -> dapur memproses antrean.
