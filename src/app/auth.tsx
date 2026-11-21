@@ -1,1 +1,97 @@
-LyoqCiAqIEtvbnRla3MgYXV0ZW50aWthc2kgZnJvbnRlbmQ6IG1lbnlpbXBhbiBzZXNpICh0b2tlbiBkaSBsb2NhbFN0b3JhZ2UgbGV3YXQKICogbGliL2FwaSksIG1lbXVhdCBwcm9maWwgL2F1dGgvbWUgc2FhdCBhcGxpa2FzaSBkaWJ1a2EsIGRhbiBtZW55ZWRpYWthbgogKiBsb2dpbi9sb2dvdXQgdW50dWsgaGFsYW1hbi4KICovCmltcG9ydCB7CiAgY3JlYXRlQ29udGV4dCwKICB1c2VDYWxsYmFjaywKICB1c2VDb250ZXh0LAogIHVzZUVmZmVjdCwKICB1c2VNZW1vLAogIHVzZVN0YXRlLAogIHR5cGUgUmVhY3ROb2RlLAp9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsKICBnZXRUb2tlbiwKICBsb2dpbiBhcyBhcGlMb2dpbiwKICBsb2dvdXQgYXMgYXBpTG9nb3V0LAogIG1lLAogIHNldFRva2VuLAogIHR5cGUgVXNlciwKfSBmcm9tICIuLi9saWIvYXBpIjsKCmludGVyZmFjZSBBdXRoU3RhdGUgewogIHVzZXI6IFVzZXIgfCBudWxsOwogIC8qKiB0cnVlIHNlbGFtYSBwZW1lcmlrc2FhbiBzZXNpIGF3YWwgKC9hdXRoL21lKSBiZWx1bSBzZWxlc2FpLiAqLwogIGxvYWRpbmc6IGJvb2xlYW47CiAgbG9naW46IChlbWFpbDogc3RyaW5nLCBwYXNzd29yZDogc3RyaW5nLCBvdXRsZXRJZD86IHN0cmluZykgPT4gUHJvbWlzZTxVc2VyPjsKICBsb2dvdXQ6ICgpID0+IFByb21pc2U8dm9pZD47Cn0KCmNvbnN0IEF1dGhDb250ZXh0ID0gY3JlYXRlQ29udGV4dDxBdXRoU3RhdGUgfCBudWxsPihudWxsKTsKCmV4cG9ydCBmdW5jdGlvbiBBdXRoUHJvdmlkZXIoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdE5vZGUgfSkgewogIGNvbnN0IFt1c2VyLCBzZXRVc2VyXSA9IHVzZVN0YXRlPFVzZXIgfCBudWxsPihudWxsKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZTxib29sZWFuPigoKSA9PiBnZXRUb2tlbigpICE9PSBudWxsKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGxldCBjYW5jZWxsZWQgPSBmYWxzZTsKICAgIGlmICghZ2V0VG9rZW4oKSkgewogICAgICBzZXRMb2FkaW5nKGZhbHNlKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgbWUoKQogICAgICAudGhlbigodSkgPT4gewogICAgICAgIGlmICghY2FuY2VsbGVkKSBzZXRVc2VyKHUpOwogICAgICB9KQogICAgICAuY2F0Y2goKCkgPT4gewogICAgICAgIC8vIFRva2VuIHRpZGFrIHNhaC9rZWRhbHV3YXJzYTogYmVyc2loa2FuIGFnYXIgZGlhcmFoa2FuIGtlIC9sb2dpbi4KICAgICAgICBzZXRUb2tlbihudWxsKTsKICAgICAgICBpZiAoIWNhbmNlbGxlZCkgc2V0VXNlcihudWxsKTsKICAgICAgfSkKICAgICAgLmZpbmFsbHkoKCkgPT4gewogICAgICAgIGlmICghY2FuY2VsbGVkKSBzZXRMb2FkaW5nKGZhbHNlKTsKICAgICAgfSk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBjYW5jZWxsZWQgPSB0cnVlOwogICAgfTsKICB9LCBbXSk7CgogIGNvbnN0IGxvZ2luID0gdXNlQ2FsbGJhY2soCiAgICBhc3luYyAoZW1haWw6IHN0cmluZywgcGFzc3dvcmQ6IHN0cmluZywgb3V0bGV0SWQ/OiBzdHJpbmcpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYXBpTG9naW4oewogICAgICAgIGVtYWlsLAogICAgICAgIHBhc3N3b3JkLAogICAgICAgIC4uLihvdXRsZXRJZCA/IHsgb3V0bGV0X2lkOiBvdXRsZXRJZCB9IDoge30pLAogICAgICB9KTsKICAgICAgc2V0VG9rZW4ocmVzdWx0LnRva2VuKTsKICAgICAgc2V0VXNlcihyZXN1bHQudXNlcik7CiAgICAgIHJldHVybiByZXN1bHQudXNlcjsKICAgIH0sCiAgICBbXSwKICApOwoKICBjb25zdCBsb2dvdXQgPSB1c2VDYWxsYmFjayhhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBhd2FpdCBhcGlMb2dvdXQoKTsKICAgIH0gY2F0Y2ggewogICAgICAvLyBTZXNpIGRpIHNlcnZlciBtdW5na2luIHN1ZGFoIHRpZGFrIGFkYTsgdGV0YXAgYmVyc2loa2FuIGxva2FsLgogICAgfQogICAgc2V0VG9rZW4obnVsbCk7CiAgICBzZXRVc2VyKG51bGwpOwogIH0sIFtdKTsKCiAgY29uc3QgdmFsdWUgPSB1c2VNZW1vPEF1dGhTdGF0ZT4oCiAgICAoKSA9PiAoeyB1c2VyLCBsb2FkaW5nLCBsb2dpbiwgbG9nb3V0IH0pLAogICAgW3VzZXIsIGxvYWRpbmcsIGxvZ2luLCBsb2dvdXRdLAogICk7CgogIHJldHVybiA8QXV0aENvbnRleHQuUHJvdmlkZXIgdmFsdWU9e3ZhbHVlfT57Y2hpbGRyZW59PC9BdXRoQ29udGV4dC5Qcm92aWRlcj47Cn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VBdXRoKCk6IEF1dGhTdGF0ZSB7CiAgY29uc3QgY3R4ID0gdXNlQ29udGV4dChBdXRoQ29udGV4dCk7CiAgaWYgKCFjdHgpIHRocm93IG5ldyBFcnJvcigidXNlQXV0aCBoYXJ1cyBkaXBha2FpIGRpIGRhbGFtIEF1dGhQcm92aWRlciIpOwogIHJldHVybiBjdHg7Cn0K
+/**
+ * Konteks autentikasi frontend: menyimpan sesi (token di localStorage lewat
+ * lib/api), memuat profil /auth/me saat aplikasi dibuka, dan menyediakan
+ * login/logout untuk halaman.
+ */
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+  type ReactNode,
+} from "react";
+import {
+  getToken,
+  login as apiLogin,
+  logout as apiLogout,
+  me,
+  setToken,
+  type User,
+} from "../lib/api";
+
+interface AuthState {
+  user: User | null;
+  /** true selama pemeriksaan sesi awal (/auth/me) belum selesai. */
+  loading: boolean;
+  login: (email: string, password: string, outletId?: string) => Promise<User>;
+  logout: () => Promise<void>;
+}
+
+const AuthContext = createContext<AuthState | null>(null);
+
+export function AuthProvider({ children }: { children: ReactNode }) {
+  const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState<boolean>(() => getToken() !== null);
+
+  useEffect(() => {
+    let cancelled = false;
+    if (!getToken()) {
+      setLoading(false);
+      return;
+    }
+    me()
+      .then((u) => {
+        if (!cancelled) setUser(u);
+      })
+      .catch(() => {
+        // Token tidak sah/kedaluwarsa: bersihkan agar diarahkan ke /login.
+        setToken(null);
+        if (!cancelled) setUser(null);
+      })
+      .finally(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const login = useCallback(
+    async (email: string, password: string, outletId?: string) => {
+      const result = await apiLogin({
+        email,
+        password,
+        ...(outletId ? { outlet_id: outletId } : {}),
+      });
+      setToken(result.token);
+      setUser(result.user);
+      return result.user;
+    },
+    [],
+  );
+
+  const logout = useCallback(async () => {
+    try {
+      await apiLogout();
+    } catch {
+      // Sesi di server mungkin sudah tidak ada; tetap bersihkan lokal.
+    }
+    setToken(null);
+    setUser(null);
+  }, []);
+
+  const value = useMemo<AuthState>(
+    () => ({ user, loading, login, logout }),
+    [user, loading, login, logout],
+  );
+
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+}
+
+export function useAuth(): AuthState {
+  const ctx = useContext(AuthContext);
+  if (!ctx) throw new Error("useAuth harus dipakai di dalam AuthProvider");
+  return ctx;
+}
