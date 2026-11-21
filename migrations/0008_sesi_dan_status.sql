@@ -1,1 +1,68 @@
-LS0gMDAwOF9zZXNpX2Rhbl9zdGF0dXMuc3FsIOKAlCBzZXNzaW9ucywgb3JkZXJzLnBheW1lbnRfc3RhdHVzL2tpdGNoZW5fc3RhdHVzLAotLSBwYXltZW50cy5zdGF0dXMgJ3BlbmRpbmcnICsgcGF5bWVudHMuY2hhbmdlX2Ftb3VudC4KLS0KLS0gQWxhc2FuIG1pZ3Jhc2kgYmFydSBpbmkgKGF0dXJhbiBHMWE6IG1pZ3Jhc2kgcmlsaXMgdGlkYWsgcGVybmFoIGRpZWRpdCwKLS0gcGVydWJhaGFuIHNlbGFsdSBtaWdyYXNpIGJhcnUpOgotLSAxLiBGb25kYXNpIEcyICgwMDAxLTAwMDcpIGJlbHVtIHB1bnlhIHRhYmVsIHNlc2ksIHBhZGFoYWwgbG9naW4gRzFiCi0tICAgIG1lbmVyYml0a2FuIHRva2VuIHNlc2kgeWFuZyBoYXJ1cyBiaXNhIGRpY2FidXQgKGxvZ291dCkgLT4gdGFiZWwgc2Vzc2lvbnMKLS0gICAgbWVueWltcGFuIEhBU0ggdG9rZW4gKGJ1a2FuIHRva2VuIG1lbnRhaCkuCi0tIDIuIEczIG1lbnN5YXJhdGthbiBzdGF0dXMgb3JkZXIsIHN0YXR1cyBwZW1iYXlhcmFuLCBkYW4gc3RhdHVzIGRhcHVyIHNlYmFnYWkKLS0gICAga29sb20gdGVycGlzYWg7IDAwMDMgaGFueWEgcHVueWEgb3JkZXJzLnN0YXR1cyAtPiB0YW1iYWggcGF5bWVudF9zdGF0dXMKLS0gICAgZGFuIGtpdGNoZW5fc3RhdHVzLgotLSAzLiBQZW1iYXlhcmFuIG5vbi10dW5haSBtYW51YWwgcGVybHUgc3RhdHVzICdwZW5kaW5nJyAobWVudW5nZ3Uga29uZmlybWFzaSkKLS0gICAgeWFuZyBiZWx1bSBhZGEgZGkgQ0hFQ0sgcGF5bWVudHMuc3RhdHVzIHBhZGEgMDAwNCwgZGFuIGtlbWJhbGlhbiB0dW5haQotLSAgICBwZXJsdSB0ZXJjYXRhdCAtPiBiYW5ndW4gdWxhbmcgdGFiZWwgcGF5bWVudHMgKHBvbGEgc3RhbmRhciBTUUxpdGU6Ci0tICAgIGJ1YXQgYmFydSwgc2FsaW4sIHR1a2FyKSBkZW5nYW4gQ0hFQ0sgeWFuZyBkaXBlcmx1YXMgKyBrb2xvbSBjaGFuZ2VfYW1vdW50LgoKQ1JFQVRFIFRBQkxFIHNlc3Npb25zICgKICBpZCAgICAgICAgICAgVEVYVCBQUklNQVJZIEtFWSwKICBvdXRsZXRfaWQgICAgVEVYVCBOT1QgTlVMTCBSRUZFUkVOQ0VTIG91dGxldHMoaWQpLAogIHVzZXJfaWQgICAgICBURVhUIE5PVCBOVUxMIFJFRkVSRU5DRVMgdXNlcnMoaWQpLAogIHRva2VuX2hhc2ggICBURVhUIE5PVCBOVUxMLAogIGNyZWF0ZWRfYXQgICBJTlRFR0VSIE5PVCBOVUxMLAogIGV4cGlyZXNfYXQgICBJTlRFR0VSIE5PVCBOVUxMLAogIHJldm9rZWRfYXQgICBJTlRFR0VSLAogIGxhc3Rfc2Vlbl9hdCBJTlRFR0VSCik7CgpDUkVBVEUgSU5ERVggaWR4X3Nlc3Npb25zX3Rva2VuIE9OIHNlc3Npb25zICh0b2tlbl9oYXNoKTsKQ1JFQVRFIElOREVYIGlkeF9zZXNzaW9uc191c2VyIE9OIHNlc3Npb25zICh1c2VyX2lkKTsKCkFMVEVSIFRBQkxFIG9yZGVycyBBREQgQ09MVU1OIHBheW1lbnRfc3RhdHVzIFRFWFQgTk9UIE5VTEwgREVGQVVMVCAndW5wYWlkJwogIENIRUNLIChwYXltZW50X3N0YXR1cyBJTiAoJ3VucGFpZCcsJ3BhcnRpYWwnLCdwYWlkJykpOwpBTFRFUiBUQUJMRSBvcmRlcnMgQUREIENPTFVNTiBraXRjaGVuX3N0YXR1cyBURVhUIE5PVCBOVUxMIERFRkFVTFQgJ3F1ZXVlZCcKICBDSEVDSyAoa2l0Y2hlbl9zdGF0dXMgSU4gKCdxdWV1ZWQnLCdjb29raW5nJywnZG9uZScpKTsKCkNSRUFURSBUQUJMRSBwYXltZW50c19uZXcgKAogIGlkICAgICAgICAgICBURVhUIFBSSU1BUlkgS0VZLAogIG91dGxldF9pZCAgICBURVhUIE5PVCBOVUxMIFJFRkVSRU5DRVMgb3V0bGV0cyhpZCksCiAgb3JkZXJfaWQgICAgIFRFWFQgUkVGRVJFTkNFUyBvcmRlcnMoaWQpLAogIHNoaWZ0X2lkICAgICBURVhUIFJFRkVSRU5DRVMgY2FzaF9zaGlmdHMoaWQpLAogIG1ldGhvZCAgICAgICBURVhUIE5PVCBOVUxMCiAgICAgICAgICAgICAgIENIRUNLIChtZXRob2QgSU4gKCdjYXNoJywncXJpcycsJ2VkYycsJ3RyYW5zZmVyJykpLAogIGFtb3VudCAgICAgICBJTlRFR0VSIE5PVCBOVUxMIERFRkFVTFQgMCwKICBjaGFuZ2VfYW1vdW50IElOVEVHRVIgTk9UIE5VTEwgREVGQVVMVCAwLAogIHN0YXR1cyAgICAgICBURVhUIE5PVCBOVUxMIERFRkFVTFQgJ3NldHRsZWQnCiAgICAgICAgICAgICAgIENIRUNLIChzdGF0dXMgSU4gKCdwZW5kaW5nJywnc2V0dGxlZCcsJ3ZvaWQnLCdyZWZ1bmRlZCcpKSwKICByZWZlcmVuY2Vfbm8gVEVYVCwKICBjbGllbnRfdHhfaWQgVEVYVCwKICBjcmVhdGVkX2F0ICAgSU5URUdFUiBOT1QgTlVMTCwKICB1cGRhdGVkX2F0ICAgSU5URUdFUiBOT1QgTlVMTCwKICBkZWxldGVkX2F0ICAgSU5URUdFUiwKICB2ZXJzaW9uICAgICAgSU5URUdFUiBOT1QgTlVMTCBERUZBVUxUIDEKKTsKCklOU0VSVCBJTlRPIHBheW1lbnRzX25ldyAoaWQsIG91dGxldF9pZCwgb3JkZXJfaWQsIHNoaWZ0X2lkLCBtZXRob2QsIGFtb3VudCwKICBzdGF0dXMsIHJlZmVyZW5jZV9ubywgY2xpZW50X3R4X2lkLCBjcmVhdGVkX2F0LCB1cGRhdGVkX2F0LCBkZWxldGVkX2F0LAogIHZlcnNpb24pClNFTEVDVCBpZCwgb3V0bGV0X2lkLCBvcmRlcl9pZCwgc2hpZnRfaWQsIG1ldGhvZCwgYW1vdW50LAogIHN0YXR1cywgcmVmZXJlbmNlX25vLCBjbGllbnRfdHhfaWQsIGNyZWF0ZWRfYXQsIHVwZGF0ZWRfYXQsIGRlbGV0ZWRfYXQsCiAgdmVyc2lvbiBGUk9NIHBheW1lbnRzOwoKRFJPUCBUQUJMRSBwYXltZW50czsKQUxURVIgVEFCTEUgcGF5bWVudHNfbmV3IFJFTkFNRSBUTyBwYXltZW50czsKCkNSRUFURSBJTkRFWCBpZHhfcGF5bWVudHNfb3V0bGV0IE9OIHBheW1lbnRzIChvdXRsZXRfaWQpOwpDUkVBVEUgSU5ERVggaWR4X3BheW1lbnRzX29yZGVyIE9OIHBheW1lbnRzIChvcmRlcl9pZCk7CkNSRUFURSBJTkRFWCBpZHhfcGF5bWVudHNfc2hpZnQgT04gcGF5bWVudHMgKHNoaWZ0X2lkKTsKQ1JFQVRFIFVOSVFVRSBJTkRFWCBpZHhfcGF5bWVudHNfY2xpZW50X3R4IE9OIHBheW1lbnRzIChvdXRsZXRfaWQsIGNsaWVudF90eF9pZCk7Cg==
+-- 0008_sesi_dan_status.sql — sessions, orders.payment_status/kitchen_status,
+-- payments.status 'pending' + payments.change_amount.
+--
+-- Alasan migrasi baru ini (aturan G1a: migrasi rilis tidak pernah diedit,
+-- perubahan selalu migrasi baru):
+-- 1. Fondasi G2 (0001-0007) belum punya tabel sesi, padahal login G1b
+--    menerbitkan token sesi yang harus bisa dicabut (logout) -> tabel sessions
+--    menyimpan HASH token (bukan token mentah).
+-- 2. G3 mensyaratkan status order, status pembayaran, dan status dapur sebagai
+--    kolom terpisah; 0003 hanya punya orders.status -> tambah payment_status
+--    dan kitchen_status.
+-- 3. Pembayaran non-tunai manual perlu status 'pending' (menunggu konfirmasi)
+--    yang belum ada di CHECK payments.status pada 0004, dan kembalian tunai
+--    perlu tercatat -> bangun ulang tabel payments (pola standar SQLite:
+--    buat baru, salin, tukar) dengan CHECK yang diperluas + kolom change_amount.
+
+CREATE TABLE sessions (
+  id           TEXT PRIMARY KEY,
+  outlet_id    TEXT NOT NULL REFERENCES outlets(id),
+  user_id      TEXT NOT NULL REFERENCES users(id),
+  token_hash   TEXT NOT NULL,
+  created_at   INTEGER NOT NULL,
+  expires_at   INTEGER NOT NULL,
+  revoked_at   INTEGER,
+  last_seen_at INTEGER
+);
+
+CREATE INDEX idx_sessions_token ON sessions (token_hash);
+CREATE INDEX idx_sessions_user ON sessions (user_id);
+
+ALTER TABLE orders ADD COLUMN payment_status TEXT NOT NULL DEFAULT 'unpaid'
+  CHECK (payment_status IN ('unpaid','partial','paid'));
+ALTER TABLE orders ADD COLUMN kitchen_status TEXT NOT NULL DEFAULT 'queued'
+  CHECK (kitchen_status IN ('queued','cooking','done'));
+
+CREATE TABLE payments_new (
+  id           TEXT PRIMARY KEY,
+  outlet_id    TEXT NOT NULL REFERENCES outlets(id),
+  order_id     TEXT REFERENCES orders(id),
+  shift_id     TEXT REFERENCES cash_shifts(id),
+  method       TEXT NOT NULL
+               CHECK (method IN ('cash','qris','edc','transfer')),
+  amount       INTEGER NOT NULL DEFAULT 0,
+  change_amount INTEGER NOT NULL DEFAULT 0,
+  status       TEXT NOT NULL DEFAULT 'settled'
+               CHECK (status IN ('pending','settled','void','refunded')),
+  reference_no TEXT,
+  client_tx_id TEXT,
+  created_at   INTEGER NOT NULL,
+  updated_at   INTEGER NOT NULL,
+  deleted_at   INTEGER,
+  version      INTEGER NOT NULL DEFAULT 1
+);
+
+INSERT INTO payments_new (id, outlet_id, order_id, shift_id, method, amount,
+  status, reference_no, client_tx_id, created_at, updated_at, deleted_at,
+  version)
+SELECT id, outlet_id, order_id, shift_id, method, amount,
+  status, reference_no, client_tx_id, created_at, updated_at, deleted_at,
+  version FROM payments;
+
+DROP TABLE payments;
+ALTER TABLE payments_new RENAME TO payments;
+
+CREATE INDEX idx_payments_outlet ON payments (outlet_id);
+CREATE INDEX idx_payments_order ON payments (order_id);
+CREATE INDEX idx_payments_shift ON payments (shift_id);
+CREATE UNIQUE INDEX idx_payments_client_tx ON payments (outlet_id, client_tx_id);
