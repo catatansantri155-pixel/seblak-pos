@@ -1,1 +1,237 @@
-LyoqCiAqIEhlbHBlciBmb3JtYXQgJiBsYWJlbCBCYWhhc2EgSW5kb25lc2lhIHVudHVrIGZyb250ZW5kIFNlYmxhayBQT1MuCiAqIFVhbmcgc2VsYWx1IGludGVnZXIgUnVwaWFoOyBmb3JtYXQgYWtoaXIgdG90YWwgdHJhbnNha3NpIHNlbGFsdSBiZXJhc2FsCiAqIGRhcmkgcmVzcG9ucyBzZXJ2ZXIg4oCUIGhlbHBlciBpbmkgaGFueWEgbWVtZm9ybWF0IGFuZ2thIG1lbmphZGkgdGVrcy4KICovCmltcG9ydCB7IEFwaUVycm9yLCB0eXBlIFJvbGUgfSBmcm9tICIuL2FwaSI7Cgpjb25zdCBycEZvcm1hdHRlciA9IG5ldyBJbnRsLk51bWJlckZvcm1hdCgiaWQtSUQiLCB7IG1heGltdW1GcmFjdGlvbkRpZ2l0czogMCB9KTsKCi8qKiA0NTAwMCAtPiAiUnA0NS4wMDAiIChwb2xhIGxhYmVsIGhhcmdhIHRva2VuIFNpbnRhKS4gKi8KZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdFJwKGFtb3VudDogbnVtYmVyKTogc3RyaW5nIHsKICByZXR1cm4gYFJwJHtycEZvcm1hdHRlci5mb3JtYXQoYW1vdW50KX1gOwp9CgovKiogMzAwMCAtPiAiK1JwMy4wMDAiIHVudHVrIGRlbHRhIGhhcmdhIG9wc2kgYmVyYmF5YXIuICovCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRScERlbHRhKGFtb3VudDogbnVtYmVyKTogc3RyaW5nIHsKICBpZiAoYW1vdW50ID09PSAwKSByZXR1cm4gIkdyYXRpcyI7CiAgY29uc3Qgc2lnbiA9IGFtb3VudCA+IDAgPyAiKyIgOiAiLSI7CiAgcmV0dXJuIGAke3NpZ259UnAke3JwRm9ybWF0dGVyLmZvcm1hdChNYXRoLmFicyhhbW91bnQpKX1gOwp9CgovKiogUGFyc2UgaW5wdXQgdWFuZyBkYXJpIHBlbmdndW5hOiBoYW55YSBkaWdpdCB5YW5nIGRpcGFrYWkuICovCmV4cG9ydCBmdW5jdGlvbiBwYXJzZVJwSW5wdXQocmF3OiBzdHJpbmcpOiBudW1iZXIgewogIGNvbnN0IGRpZ2l0cyA9IHJhdy5yZXBsYWNlKC9bXlxkXS9nLCAiIik7CiAgaWYgKCFkaWdpdHMpIHJldHVybiAwOwogIGNvbnN0IG4gPSBOdW1iZXIucGFyc2VJbnQoZGlnaXRzLCAxMCk7CiAgcmV0dXJuIE51bWJlci5pc0Zpbml0ZShuKSA/IG4gOiAwOwp9CgovKiogRm9ybWF0IGFuZ2thIHNhYXQgZGlrZXRpayBkaSBpbnB1dCB1YW5nIChwZW1pc2FoIHJpYnVhbikuICovCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRScElucHV0KGFtb3VudDogbnVtYmVyKTogc3RyaW5nIHsKICBpZiAoIWFtb3VudCkgcmV0dXJuICIiOwogIHJldHVybiBycEZvcm1hdHRlci5mb3JtYXQoYW1vdW50KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHJvbGVMYWJlbChyb2xlOiBSb2xlKTogc3RyaW5nIHsKICBzd2l0Y2ggKHJvbGUpIHsKICAgIGNhc2UgIm93bmVyIjoKICAgICAgcmV0dXJuICJQZW1pbGlrIjsKICAgIGNhc2UgIm1hbmFnZXIiOgogICAgICByZXR1cm4gIk1hbmFnZXIiOwogICAgY2FzZSAiY2FzaGllciI6CiAgICAgIHJldHVybiAiS2FzaXIiOwogICAgY2FzZSAia2l0Y2hlbiI6CiAgICAgIHJldHVybiAiRGFwdXIiOwogIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIHBheW1lbnRTdGF0dXNMYWJlbChzdGF0dXM6IHN0cmluZyk6IHN0cmluZyB7CiAgc3dpdGNoIChzdGF0dXMpIHsKICAgIGNhc2UgInBhaWQiOgogICAgICByZXR1cm4gIkx1bmFzIjsKICAgIGNhc2UgInBhcnRpYWwiOgogICAgICByZXR1cm4gIlNlYmFnaWFuIjsKICAgIGNhc2UgInVucGFpZCI6CiAgICAgIHJldHVybiAiQmVsdW0gQmF5YXIiOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuIHN0YXR1czsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBraXRjaGVuU3RhdHVzTGFiZWwoc3RhdHVzOiBzdHJpbmcpOiBzdHJpbmcgewogIHN3aXRjaCAoc3RhdHVzKSB7CiAgICBjYXNlICJxdWV1ZWQiOgogICAgICByZXR1cm4gIkFudHJlIjsKICAgIGNhc2UgImNvb2tpbmciOgogICAgICByZXR1cm4gIlNlZGFuZyBEaW1hc2FrIjsKICAgIGNhc2UgImRvbmUiOgogICAgICByZXR1cm4gIlNlbGVzYWkgRGltYXNhayI7CiAgICBkZWZhdWx0OgogICAgICByZXR1cm4gc3RhdHVzOwogIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIG9yZGVyU3RhdHVzTGFiZWwoc3RhdHVzOiBzdHJpbmcpOiBzdHJpbmcgewogIHN3aXRjaCAoc3RhdHVzKSB7CiAgICBjYXNlICJvcGVuIjoKICAgICAgcmV0dXJuICJUZXJidWthIjsKICAgIGNhc2UgInBhaWQiOgogICAgICByZXR1cm4gIlRlcmJheWFyIjsKICAgIGNhc2UgImNvbXBsZXRlZCI6CiAgICAgIHJldHVybiAiU2VsZXNhaSI7CiAgICBjYXNlICJ2b2lkIjoKICAgICAgcmV0dXJuICJEaWJhdGFsa2FuIjsKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiBzdGF0dXM7CiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gb3JkZXJUeXBlTGFiZWwodHlwZTogc3RyaW5nKTogc3RyaW5nIHsKICBzd2l0Y2ggKHR5cGUpIHsKICAgIGNhc2UgImRpbmVfaW4iOgogICAgICByZXR1cm4gIk1ha2FuIGRpIFRlbXBhdCI7CiAgICBjYXNlICJ0YWtlYXdheSI6CiAgICAgIHJldHVybiAiQmF3YSBQdWxhbmciOwogICAgY2FzZSAib25saW5lIjoKICAgICAgcmV0dXJuICJPbmxpbmUiOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuIHR5cGU7CiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gcGF5bWVudE1ldGhvZExhYmVsKG1ldGhvZDogc3RyaW5nKTogc3RyaW5nIHsKICBzd2l0Y2ggKG1ldGhvZCkgewogICAgY2FzZSAiY2FzaCI6CiAgICAgIHJldHVybiAiVHVuYWkiOwogICAgY2FzZSAicXJpcyI6CiAgICAgIHJldHVybiAiUVJJUyI7CiAgICBjYXNlICJlZGMiOgogICAgICByZXR1cm4gIkthcnR1IChFREMpIjsKICAgIGNhc2UgInRyYW5zZmVyIjoKICAgICAgcmV0dXJuICJUcmFuc2ZlciI7CiAgICBkZWZhdWx0OgogICAgICByZXR1cm4gbWV0aG9kOwogIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIHBheW1lbnRTdGF0ZUxhYmVsKHN0YXR1czogc3RyaW5nKTogc3RyaW5nIHsKICBzd2l0Y2ggKHN0YXR1cykgewogICAgY2FzZSAic2V0dGxlZCI6CiAgICAgIHJldHVybiAiVGVya29uZmlybWFzaSI7CiAgICBjYXNlICJwZW5kaW5nIjoKICAgICAgcmV0dXJuICJNZW51bmdndSBLb25maXJtYXNpIjsKICAgIGNhc2UgInZvaWQiOgogICAgICByZXR1cm4gIkRpYmF0YWxrYW4iOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuIHN0YXR1czsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBzaGlmdFN0YXR1c0xhYmVsKHN0YXR1czogc3RyaW5nKTogc3RyaW5nIHsKICBzd2l0Y2ggKHN0YXR1cykgewogICAgY2FzZSAib3BlbiI6CiAgICAgIHJldHVybiAiVGVyYnVrYSI7CiAgICBjYXNlICJjbG9zZWQiOgogICAgICByZXR1cm4gIkRpdHV0dXAiOwogICAgZGVmYXVsdDoKICAgICAgcmV0dXJuIHN0YXR1czsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBzdG9ja01vdmVtZW50VHlwZUxhYmVsKHR5cGU6IHN0cmluZyk6IHN0cmluZyB7CiAgc3dpdGNoICh0eXBlKSB7CiAgICBjYXNlICJwdXJjaGFzZSI6CiAgICAgIHJldHVybiAiUGVtYmVsaWFuIjsKICAgIGNhc2UgInNhbGUiOgogICAgICByZXR1cm4gIlBlbmp1YWxhbiI7CiAgICBjYXNlICJhZGp1c3RtZW50IjoKICAgICAgcmV0dXJuICJQZW55ZXN1YWlhbiI7CiAgICBjYXNlICJ3YXN0ZSI6CiAgICAgIHJldHVybiAiVGVyYnVhbmcvUnVzYWsiOwogICAgY2FzZSAicmV0dXJuIjoKICAgICAgcmV0dXJuICJSZXR1ciI7CiAgICBkZWZhdWx0OgogICAgICByZXR1cm4gdHlwZTsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBwcm9tb3Rpb25UeXBlTGFiZWwodHlwZTogc3RyaW5nKTogc3RyaW5nIHsKICBzd2l0Y2ggKHR5cGUpIHsKICAgIGNhc2UgInBlcmNlbnQiOgogICAgICByZXR1cm4gIkRpc2tvbiBQZXJzZW4iOwogICAgY2FzZSAibm9taW5hbCI6CiAgICAgIHJldHVybiAiUG90b25nYW4gTm9taW5hbCI7CiAgICBjYXNlICJib2dvIjoKICAgICAgcmV0dXJuICJCZWxpIFggR3JhdGlzIFkiOwogICAgY2FzZSAiZnJlZV9pdGVtIjoKICAgICAgcmV0dXJuICJJdGVtIEdyYXRpcyI7CiAgICBjYXNlICJidW5kbGUiOgogICAgICByZXR1cm4gIlBha2V0IChCdW5kbGUpIjsKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiB0eXBlOwogIH0KfQoKY29uc3QgdGltZUZvcm1hdHRlciA9IG5ldyBJbnRsLkRhdGVUaW1lRm9ybWF0KCJpZC1JRCIsIHsKICBob3VyOiAiMi1kaWdpdCIsCiAgbWludXRlOiAiMi1kaWdpdCIsCn0pOwoKY29uc3QgZGF0ZVRpbWVGb3JtYXR0ZXIgPSBuZXcgSW50bC5EYXRlVGltZUZvcm1hdCgiaWQtSUQiLCB7CiAgZGF5OiAibnVtZXJpYyIsCiAgbW9udGg6ICJzaG9ydCIsCiAgaG91cjogIjItZGlnaXQiLAogIG1pbnV0ZTogIjItZGlnaXQiLAp9KTsKCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRUaW1lKGVwb2NoTXM6IG51bWJlcik6IHN0cmluZyB7CiAgcmV0dXJuIHRpbWVGb3JtYXR0ZXIuZm9ybWF0KG5ldyBEYXRlKGVwb2NoTXMpKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdERhdGVUaW1lKGVwb2NoTXM6IG51bWJlcik6IHN0cmluZyB7CiAgcmV0dXJuIGRhdGVUaW1lRm9ybWF0dGVyLmZvcm1hdChuZXcgRGF0ZShlcG9jaE1zKSk7Cn0KCi8qKiAiMTIgbW50IiAvICIxIGogNSBtbnQiIHNlamFrIGVwb2NoTXMg4oCUIHVudHVrIGthcnR1IGFudHJlYW4gZGFwdXIuICovCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRFbGFwc2VkKGVwb2NoTXM6IG51bWJlciwgbm93TXM6IG51bWJlciA9IERhdGUubm93KCkpOiBzdHJpbmcgewogIGNvbnN0IGRpZmZNaW4gPSBNYXRoLm1heCgwLCBNYXRoLmZsb29yKChub3dNcyAtIGVwb2NoTXMpIC8gNjAwMDApKTsKICBpZiAoZGlmZk1pbiA8IDEpIHJldHVybiAiYmFydSBzYWphIjsKICBpZiAoZGlmZk1pbiA8IDYwKSByZXR1cm4gYCR7ZGlmZk1pbn0gbW50YDsKICBjb25zdCBob3VycyA9IE1hdGguZmxvb3IoZGlmZk1pbiAvIDYwKTsKICBjb25zdCBtaW5zID0gZGlmZk1pbiAlIDYwOwogIHJldHVybiBtaW5zID4gMCA/IGAke2hvdXJzfSBqICR7bWluc30gbW50YCA6IGAke2hvdXJzfSBqYDsKfQoKLyoqIFBlc2FuIGVycm9yIG1hbnVzaWF3aSBkYXJpIEFwaUVycm9yOiB1dGFtYWthbiBwZXNhbiBzZXJ2ZXIgKHN1ZGFoIEJhaGFzYQogKiBJbmRvbmVzaWEpLCBkZW5nYW4gY2FkYW5nYW4gcGVyIGtvZGUga29udHJhayBHMWIuICovCmNvbnN0IEVSUk9SX0ZBTExCQUNLOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogIFZBTElEQVRJT05fRVJST1I6ICJBZGEgaXNpYW4geWFuZyBiZWx1bSBiZW5hci4gUGVyaWtzYSBrZW1iYWxpIGZvcm11bGlybnlhLiIsCiAgVU5BVVRIT1JJWkVEOiAiU2VzaSBiZXJha2hpciBhdGF1IGJlbHVtIGxvZ2luLiBTaWxha2FuIG1hc3VrIGxhZ2kuIiwKICBGT1JCSURERU46ICJQZXJhbiBBbmRhIHRpZGFrIGJlcmhhayBtZWxha3VrYW4gYWtzaSBpbmkuIiwKICBOT1RfRk9VTkQ6ICJEYXRhIHRpZGFrIGRpdGVtdWthbi4iLAogIENPTkZMSUNUOiAiRGF0YSBiZXJ1YmFoIGF0YXUgYmVudHJvay4gTXVhdCB1bGFuZyBsYWx1IGNvYmEgbGFnaS4iLAogIElOU1VGRklDSUVOVF9TVE9DSzogIlN0b2sgYmFoYW4gdGlkYWsgY3VrdXAgdW50dWsgcGVzYW5hbiBpbmkuIiwKICBTSElGVF9OT1RfT1BFTjogIlNoaWZ0IGJlbHVtIGRpYnVrYS4gQnVrYSBzaGlmdCBkdWx1IHVudHVrIG11bGFpIGJlcmp1YWxhbi4iLAogIFBBWU1FTlRfTUlTTUFUQ0g6ICJKdW1sYWggcGVtYmF5YXJhbiB0aWRhayBzZXN1YWkgZGVuZ2FuIHNpc2EgdGFnaWhhbi4iLAogIFJBVEVfTElNSVRFRDogIlRlcmxhbHUgYmFueWFrIHBlcm1pbnRhYW4uIFR1bmdndSBzZWJlbnRhciBsYWx1IGNvYmEgbGFnaS4iLAogIElOVEVSTkFMX0VSUk9SOiAiVGVyamFkaSBrZXNhbGFoYW4gcGFkYSBzZXJ2ZXIuIENvYmEgbGFnaSBuYW50aS4iLAogIE5FVFdPUktfRVJST1I6ICJUaWRhayBkYXBhdCB0ZXJodWJ1bmcga2Ugc2VydmVyLiBQZXJpa3NhIGtvbmVrc2kgbGFsdSBjb2JhIGxhZ2kuIiwKfTsKCmV4cG9ydCBmdW5jdGlvbiBodW1hbkVycm9yKGVycjogdW5rbm93bik6IHN0cmluZyB7CiAgaWYgKGVyciBpbnN0YW5jZW9mIEFwaUVycm9yKSB7CiAgICBpZiAoZXJyLm1lc3NhZ2UgJiYgZXJyLmNvZGUgIT09ICJJTlRFUk5BTF9FUlJPUiIpIHJldHVybiBlcnIubWVzc2FnZTsKICAgIHJldHVybiBFUlJPUl9GQUxMQkFDS1tlcnIuY29kZV0gPz8gZXJyLm1lc3NhZ2U7CiAgfQogIHJldHVybiAiVGVyamFkaSBrZXNhbGFoYW4geWFuZyB0aWRhayBkaWtldGFodWkuIjsKfQoKLyoqIEFtYmlsIHBlc2FuIHBlci1maWVsZCBkYXJpIGRldGFpbHMgZW52ZWxvcGUgKG1pcy4geyBlbWFpbDogIi4uLiIgfSkuICovCmV4cG9ydCBmdW5jdGlvbiBmaWVsZEVycm9yKGVycjogdW5rbm93biwgZmllbGQ6IHN0cmluZyk6IHN0cmluZyB8IG51bGwgewogIGlmIChlcnIgaW5zdGFuY2VvZiBBcGlFcnJvciAmJiBlcnIuZGV0YWlscyAmJiB0eXBlb2YgZXJyLmRldGFpbHMgPT09ICJvYmplY3QiKSB7CiAgICBjb25zdCB2YWx1ZSA9IChlcnIuZGV0YWlscyBhcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPilbZmllbGRdOwogICAgaWYgKHR5cGVvZiB2YWx1ZSA9PT0gInN0cmluZyIpIHJldHVybiB2YWx1ZTsKICB9CiAgcmV0dXJuIG51bGw7Cn0K
+/**
+ * Helper format & label Bahasa Indonesia untuk frontend Seblak POS.
+ * Uang selalu integer Rupiah; format akhir total transaksi selalu berasal
+ * dari respons server — helper ini hanya memformat angka menjadi teks.
+ */
+import { ApiError, type Role } from "./api";
+
+const rpFormatter = new Intl.NumberFormat("id-ID", { maximumFractionDigits: 0 });
+
+/** 45000 -> "Rp45.000" (pola label harga token Sinta). */
+export function formatRp(amount: number): string {
+  return `Rp${rpFormatter.format(amount)}`;
+}
+
+/** 3000 -> "+Rp3.000" untuk delta harga opsi berbayar. */
+export function formatRpDelta(amount: number): string {
+  if (amount === 0) return "Gratis";
+  const sign = amount > 0 ? "+" : "-";
+  return `${sign}Rp${rpFormatter.format(Math.abs(amount))}`;
+}
+
+/** Parse input uang dari pengguna: hanya digit yang dipakai. */
+export function parseRpInput(raw: string): number {
+  const digits = raw.replace(/[^\d]/g, "");
+  if (!digits) return 0;
+  const n = Number.parseInt(digits, 10);
+  return Number.isFinite(n) ? n : 0;
+}
+
+/** Format angka saat diketik di input uang (pemisah ribuan). */
+export function formatRpInput(amount: number): string {
+  if (!amount) return "";
+  return rpFormatter.format(amount);
+}
+
+export function roleLabel(role: Role): string {
+  switch (role) {
+    case "owner":
+      return "Pemilik";
+    case "manager":
+      return "Manager";
+    case "cashier":
+      return "Kasir";
+    case "kitchen":
+      return "Dapur";
+  }
+}
+
+export function paymentStatusLabel(status: string): string {
+  switch (status) {
+    case "paid":
+      return "Lunas";
+    case "partial":
+      return "Sebagian";
+    case "unpaid":
+      return "Belum Bayar";
+    default:
+      return status;
+  }
+}
+
+export function kitchenStatusLabel(status: string): string {
+  switch (status) {
+    case "queued":
+      return "Antre";
+    case "cooking":
+      return "Sedang Dimasak";
+    case "done":
+      return "Selesai Dimasak";
+    default:
+      return status;
+  }
+}
+
+export function orderStatusLabel(status: string): string {
+  switch (status) {
+    case "open":
+      return "Terbuka";
+    case "paid":
+      return "Terbayar";
+    case "completed":
+      return "Selesai";
+    case "void":
+      return "Dibatalkan";
+    default:
+      return status;
+  }
+}
+
+export function orderTypeLabel(type: string): string {
+  switch (type) {
+    case "dine_in":
+      return "Makan di Tempat";
+    case "takeaway":
+      return "Bawa Pulang";
+    case "online":
+      return "Online";
+    default:
+      return type;
+  }
+}
+
+export function paymentMethodLabel(method: string): string {
+  switch (method) {
+    case "cash":
+      return "Tunai";
+    case "qris":
+      return "QRIS";
+    case "edc":
+      return "Kartu (EDC)";
+    case "transfer":
+      return "Transfer";
+    default:
+      return method;
+  }
+}
+
+export function paymentStateLabel(status: string): string {
+  switch (status) {
+    case "settled":
+      return "Terkonfirmasi";
+    case "pending":
+      return "Menunggu Konfirmasi";
+    case "void":
+      return "Dibatalkan";
+    default:
+      return status;
+  }
+}
+
+export function shiftStatusLabel(status: string): string {
+  switch (status) {
+    case "open":
+      return "Terbuka";
+    case "closed":
+      return "Ditutup";
+    default:
+      return status;
+  }
+}
+
+export function stockMovementTypeLabel(type: string): string {
+  switch (type) {
+    case "purchase":
+      return "Pembelian";
+    case "sale":
+      return "Penjualan";
+    case "adjustment":
+      return "Penyesuaian";
+    case "waste":
+      return "Terbuang/Rusak";
+    case "return":
+      return "Retur";
+    default:
+      return type;
+  }
+}
+
+export function promotionTypeLabel(type: string): string {
+  switch (type) {
+    case "percent":
+      return "Diskon Persen";
+    case "nominal":
+      return "Potongan Nominal";
+    case "bogo":
+      return "Beli X Gratis Y";
+    case "free_item":
+      return "Item Gratis";
+    case "bundle":
+      return "Paket (Bundle)";
+    default:
+      return type;
+  }
+}
+
+const timeFormatter = new Intl.DateTimeFormat("id-ID", {
+  hour: "2-digit",
+  minute: "2-digit",
+});
+
+const dateTimeFormatter = new Intl.DateTimeFormat("id-ID", {
+  day: "numeric",
+  month: "short",
+  hour: "2-digit",
+  minute: "2-digit",
+});
+
+export function formatTime(epochMs: number): string {
+  return timeFormatter.format(new Date(epochMs));
+}
+
+export function formatDateTime(epochMs: number): string {
+  return dateTimeFormatter.format(new Date(epochMs));
+}
+
+/** "12 mnt" / "1 j 5 mnt" sejak epochMs — untuk kartu antrean dapur. */
+export function formatElapsed(epochMs: number, nowMs: number = Date.now()): string {
+  const diffMin = Math.max(0, Math.floor((nowMs - epochMs) / 60000));
+  if (diffMin < 1) return "baru saja";
+  if (diffMin < 60) return `${diffMin} mnt`;
+  const hours = Math.floor(diffMin / 60);
+  const mins = diffMin % 60;
+  return mins > 0 ? `${hours} j ${mins} mnt` : `${hours} j`;
+}
+
+/** Pesan error manusiawi dari ApiError: utamakan pesan server (sudah Bahasa
+ * Indonesia), dengan cadangan per kode kontrak G1b. */
+const ERROR_FALLBACK: Record<string, string> = {
+  VALIDATION_ERROR: "Ada isian yang belum benar. Periksa kembali formulirnya.",
+  UNAUTHORIZED: "Sesi berakhir atau belum login. Silakan masuk lagi.",
+  FORBIDDEN: "Peran Anda tidak berhak melakukan aksi ini.",
+  NOT_FOUND: "Data tidak ditemukan.",
+  CONFLICT: "Data berubah atau bentrok. Muat ulang lalu coba lagi.",
+  INSUFFICIENT_STOCK: "Stok bahan tidak cukup untuk pesanan ini.",
+  SHIFT_NOT_OPEN: "Shift belum dibuka. Buka shift dulu untuk mulai berjualan.",
+  PAYMENT_MISMATCH: "Jumlah pembayaran tidak sesuai dengan sisa tagihan.",
+  RATE_LIMITED: "Terlalu banyak permintaan. Tunggu sebentar lalu coba lagi.",
+  INTERNAL_ERROR: "Terjadi kesalahan pada server. Coba lagi nanti.",
+  NETWORK_ERROR: "Tidak dapat terhubung ke server. Periksa koneksi lalu coba lagi.",
+};
+
+export function humanError(err: unknown): string {
+  if (err instanceof ApiError) {
+    if (err.message && err.code !== "INTERNAL_ERROR") return err.message;
+    return ERROR_FALLBACK[err.code] ?? err.message;
+  }
+  return "Terjadi kesalahan yang tidak diketahui.";
+}
+
+/** Ambil pesan per-field dari details envelope (mis. { email: "..." }). */
+export function fieldError(err: unknown, field: string): string | null {
+  if (err instanceof ApiError && err.details && typeof err.details === "object") {
+    const value = (err.details as Record<string, unknown>)[field];
+    if (typeof value === "string") return value;
+  }
+  return null;
+}
