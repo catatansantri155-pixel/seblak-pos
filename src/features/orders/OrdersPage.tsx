@@ -117,7 +117,7 @@ function OrderDetailPanel({
   if (!detail) return <p className="text-sm text-muted">Memuat detail pesanan…</p>;
 
   return (
-    <div className="grid gap-4 md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-4 break-words md:grid-cols-2">
       <div>
         <h4 className="mb-2 text-sm font-semibold text-ink">Item</h4>
         <ul className="space-y-1.5 text-sm">
@@ -269,16 +269,16 @@ export default function OrdersPage() {
         </div>
       ) : (
         <div className="overflow-hidden rounded-lg border border-line bg-surface">
-          <table className="w-full text-sm">
+          <table className="w-full table-fixed text-sm sm:table-auto">
             <thead>
               <tr className="border-b border-line bg-subtle text-left">
-                <th scope="col" className="px-4 py-3 font-semibold text-secondary">No. Order</th>
+                <th scope="col" className="px-2 py-3 font-semibold text-secondary sm:px-4">No. Order</th>
                 <th scope="col" className="hidden px-4 py-3 font-semibold text-secondary sm:table-cell">Waktu</th>
                 <th scope="col" className="hidden px-4 py-3 font-semibold text-secondary md:table-cell">Status</th>
-                <th scope="col" className="px-4 py-3 font-semibold text-secondary">Pembayaran</th>
+                <th scope="col" className="break-words px-2 py-3 font-semibold text-secondary sm:px-4">Pembayaran</th>
                 <th scope="col" className="hidden px-4 py-3 font-semibold text-secondary md:table-cell">Dapur</th>
-                <th scope="col" className="px-4 py-3 text-right font-semibold text-secondary">Total</th>
-                <th scope="col" className="px-4 py-3"><span className="sr-only">Detail</span></th>
+                <th scope="col" className="px-2 py-3 text-right font-semibold text-secondary sm:px-4">Total</th>
+                <th scope="col" className="w-[52px] px-1 py-3 sm:w-auto sm:px-4"><span className="sr-only">Detail</span></th>
               </tr>
             </thead>
             <tbody>
@@ -286,7 +286,7 @@ export default function OrdersPage() {
                 const expanded = expandedId === o.id;
                 return [
                   <tr key={o.id} className="border-b border-line last:border-0 hover:bg-canvas">
-                    <td className="numeric px-4 py-3 font-display font-bold text-ink">{o.order_no}</td>
+                    <td className="numeric break-words px-2 py-3 font-display font-bold text-ink sm:px-4">{o.order_no}</td>
                     <td className="numeric hidden px-4 py-3 text-secondary sm:table-cell">{formatTime(o.created_at)}</td>
                     <td className="hidden px-4 py-3 md:table-cell">
                       {o.status === "void" ? (
@@ -297,10 +297,10 @@ export default function OrdersPage() {
                         <span className="text-secondary">{orderStatusLabel(o.status)}</span>
                       )}
                     </td>
-                    <td className="px-4 py-3"><PaymentBadge status={o.payment_status} /></td>
+                    <td className="px-2 py-3 sm:px-4"><PaymentBadge status={o.payment_status} /></td>
                     <td className="hidden px-4 py-3 md:table-cell"><KitchenBadge status={o.kitchen_status} /></td>
-                    <td className="numeric px-4 py-3 text-right font-display font-bold text-ink">{formatRp(o.grand_total)}</td>
-                    <td className="px-2 py-3 text-right">
+                    <td className="numeric break-words px-2 py-3 text-right font-display font-bold text-ink sm:px-4">{formatRp(o.grand_total)}</td>
+                    <td className="px-1 py-3 text-right sm:px-2">
                       <button
                         type="button"
                         onClick={() => setExpandedId(expanded ? null : o.id)}
